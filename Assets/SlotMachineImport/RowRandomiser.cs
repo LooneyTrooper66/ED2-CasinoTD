@@ -185,9 +185,9 @@ public class RowRandomiser : MonoBehaviour
         //  6 -= speed = n
         //  n/6 = % 
         //  speed = normspeed * %
-        placehold -= Time.deltaTime;
-        placehold = Mathf.Clamp(placehold, 0,1);
-        placeholdper = placehold + 0.5f / 4.5f;
+        placehold -= Time.deltaTime / 2;
+        placehold = Mathf.Clamp(placehold, 0.2f,1);
+        placeholdper = (placehold + 0.5f) / 3.5f;
         //placeholdper = Mathf.Clamp((placeholdper), 0.1f, 1);
         //placehold/6
 
