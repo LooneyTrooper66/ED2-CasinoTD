@@ -33,7 +33,7 @@ public class TileMove : MonoBehaviour
             Host.Stop();
             stopSpin = false;
             //rowHost = false;
-           // Debug.Log(gameObject);
+            //Debug.Log(gameObject);
         }
 
         if (transform.position.y <= exit.transform.position.y)
