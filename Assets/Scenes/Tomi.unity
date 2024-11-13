@@ -504,9 +504,9 @@ MonoBehaviour:
   - {fileID: 1664346370}
   - {fileID: 1923937201}
   tester: {fileID: 103802522}
+  timer: 0
   lineRenderer: {fileID: 697352418}
   reseloution: 0
-  timer: 0
   gencurve: 0
 --- !u!1 &1664346369
 GameObject:
@@ -534,7 +534,7 @@ Transform:
   m_GameObject: {fileID: 1664346369}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 2.9999998, z: 0}
+  m_LocalPosition: {x: -0.9, y: 1.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
