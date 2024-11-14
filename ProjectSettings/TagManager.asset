@@ -7,6 +7,8 @@ TagManager:
   - card
   - horse
   - roulette
+  - DropValid
+  - DropInvalid
   layers:
   - Default
   - TransparentFX
@@ -16,7 +18,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - ignoreOverlapPoint
   - 
   - 
   - 
