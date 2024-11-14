@@ -1,6 +1,11 @@
-using UnityEngine;
+/*
+ 
+    NOTES:
+ 
+    - make towers attacks work through states, change for all at once
 
-public class Notes
-{
-    
-}
+    To Do:
+
+    - :p
+
+ */
