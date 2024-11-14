@@ -12,8 +12,8 @@ public class StartButton : MonoBehaviour
         startButton.onClick.AddListener(startPressed);
     }
 
-    void startPressed()
+    public void startPressed()
     {
-        SceneManager.LoadScene("gameScene");
+        SceneManager.LoadScene("GameScene");
     }
 }
