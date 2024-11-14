@@ -2,45 +2,28 @@ using UnityEngine;
 
 public class Draggable : MonoBehaviour
 {
-    /*public Vector3 spawnPoint;
-    private float movementTime = 15f;
-    private System.Nullable<Vector3> movementDestination;
+
+    private float duration = 6f;
+    private float elapsedTime;
+    public Vector3 returnTo;
     public CardIconBehaviour cardController;
 
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (movementDestination.HasValue)
-        {
-            // if has been dropped in invalid area, lerp to starting pos
+        elapsedTime += Time.deltaTime;
 
-            if (transform.position == movementDestination)
+        if (cardController.isInPlace == false)
+        {
+            if (transform.position != returnTo)
             {
-                movementDestination = null;
+                float percentComp = elapsedTime / duration;
+                transform.position = Vector3.Lerp(cardController.startPos, returnTo, percentComp);
             }
             else
             {
-                transform.position = Vector3.Lerp(transform.position, movementDestination.Value, movementTime * Time.deltaTime);
+                cardController.isInPlace = true;
             }
         }
     }
-
-    private void OnMouseUp()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(Input.mousePosition, Vector2.zero);
-        if (hit.collider.CompareTag("DropInvalid"))
-        {
-            Debug.Log("Invalid");
-            movementDestination = spawnPoint;
-        }
-    }*/
-
-    /*private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "DropInvalid")
-        {
-            Debug.Log("Invalid");
-            movementDestination = spawnPoint;
-        }
-    }*/
 }

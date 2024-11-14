@@ -3,12 +3,13 @@ using UnityEngine;
 public class CardIconBehaviour : MonoBehaviour
 {
     private bool isDragActive = false;
+    public bool isInPlace = true;
     private Vector3 screenPos;
     private Vector3 worldPos;
     private Vector3 mousePos;
     private Draggable lastDragged;
     private Camera mainCam;
-    private float duration = 15f;
+    public Vector3 startPos;
 
     public LayerMask overlapThing;
     public GameObject cardPrefab;
@@ -75,6 +76,7 @@ public class CardIconBehaviour : MonoBehaviour
     void InitDrag()
     {
         isDragActive = true;
+        isInPlace = true;
     }
 
     void Drag()
@@ -124,27 +126,7 @@ public class CardIconBehaviour : MonoBehaviour
 
     void MovePlacerBack()
     {
-        float elapsedTime = 0;
-        Vector3 spawnPoint;
-
-        if (lastDragged.tag == "card")
-        {
-            spawnPoint = new Vector3(8.25f, 4, -3);
-        }
-        else if (lastDragged.tag == "roulette")
-        {
-            spawnPoint = new Vector3(8.25f, 3, -3);
-        }
-        else
-        {
-            spawnPoint = new Vector3(8.25f, 2, -3);
-        }
-
-        while (lastDragged.transform.position != spawnPoint)
-        {
-            elapsedTime += Time.deltaTime;
-            float percentComp = elapsedTime / duration;
-            lastDragged.transform.position = Vector3.Lerp(lastDragged.transform.position, spawnPoint, percentComp);
-        }
+        startPos = lastDragged.transform.position;
+        isInPlace = false;
     }
 }
