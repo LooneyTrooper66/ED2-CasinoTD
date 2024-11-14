@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 103802523}
   - component: {fileID: 103802524}
   m_Layer: 0
-  m_Name: OffSett
+  m_Name: Dot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -496,16 +496,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 697352416}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71937c581eb40eb4aa2a0363b54a0146, type: 3}
+  m_Script: {fileID: 11500000, guid: fe5976e0de73a5f4da449696b60abdbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   p:
   - {fileID: 1787112585}
   - {fileID: 1664346370}
   - {fileID: 1923937201}
-  tester: {fileID: 103802522}
+  tester: {fileID: 0}
   timer: 0
-  lineRenderer: {fileID: 697352418}
+  lineRenderer: {fileID: 0}
   reseloution: 0
   gencurve: 0
 --- !u!1 &1664346369
@@ -2761,7 +2761,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &9064313100341433511
 Transform:
   m_ObjectHideFlags: 0
