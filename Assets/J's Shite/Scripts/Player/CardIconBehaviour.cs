@@ -3,7 +3,9 @@ using UnityEngine;
 public class CardIconBehaviour : MonoBehaviour
 {
     private bool isDragActive = false;
-    public bool isInPlace = true;
+    public bool cardInPlace = true;
+    public bool rouletteInPlace = true;
+    public bool horseInPlace = true;
     private Vector3 screenPos;
     private Vector3 worldPos;
     private Vector3 mousePos;
@@ -15,6 +17,7 @@ public class CardIconBehaviour : MonoBehaviour
     public GameObject cardPrefab;
     public GameObject roulettePrefab;
     public GameObject horsePrefab;
+    public MoneyManager money;
 
 
     private void Awake()
@@ -76,7 +79,6 @@ public class CardIconBehaviour : MonoBehaviour
     void InitDrag()
     {
         isDragActive = true;
-        isInPlace = true;
     }
 
     void Drag()
@@ -86,21 +88,25 @@ public class CardIconBehaviour : MonoBehaviour
 
     void PlaceTower()
     {
+        Vector3 placeSpot = new Vector3(lastDragged.gameObject.transform.position.x, lastDragged.gameObject.transform.position.y, -2.5f);
         isDragActive = false;
         if (lastDragged.tag == "card")
         {
-            Instantiate(cardPrefab, lastDragged.gameObject.transform.position, transform.rotation);
-            lastDragged.transform.position = new Vector3(8.25f, 4, -3);
+            Instantiate(cardPrefab, placeSpot, transform.rotation);
+            lastDragged.transform.position = new Vector3(8.25f, 3, -3);
+            // money =- some money
         }
         else if (lastDragged.tag == "roulette")
         {
-            Instantiate(roulettePrefab, lastDragged.gameObject.transform.position, transform.rotation);
-            lastDragged.transform.position = new Vector3(8.25f, 3, -3);
+            Instantiate(roulettePrefab, placeSpot, transform.rotation);
+            lastDragged.transform.position = new Vector3(8.25f, 2, -3);
+            // money =- some money
         }
         else if (lastDragged.tag == "horse")
         {
-            Instantiate(horsePrefab, lastDragged.gameObject.transform.position, transform.rotation);
-            lastDragged.transform.position = new Vector3(8.25f, 2, -3);
+            Instantiate(horsePrefab, placeSpot, transform.rotation);
+            lastDragged.transform.position = new Vector3(8.25f, 1, -3);
+            // money =- some money
         }
         else
         {
@@ -114,12 +120,10 @@ public class CardIconBehaviour : MonoBehaviour
         Collider2D col = Physics2D.OverlapPoint(worldPos, overlapThing);
         if (col.gameObject.tag == "DropValid")
         {
-            Debug.Log("ye");
             PlaceTower();
         }
         else
         {
-            Debug.Log("na");
             MovePlacerBack();
         }
     }
@@ -127,6 +131,17 @@ public class CardIconBehaviour : MonoBehaviour
     void MovePlacerBack()
     {
         startPos = lastDragged.transform.position;
-        isInPlace = false;
+        if (lastDragged.tag == "card")
+        {
+            cardInPlace = false;
+        }
+        else if (lastDragged.tag == "roulette")
+        {
+            rouletteInPlace = false;
+        }
+        else if (lastDragged.tag == "horse")
+        {
+            horseInPlace = false;
+        }
     }
 }
