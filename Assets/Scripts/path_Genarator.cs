@@ -6,6 +6,7 @@ public class path_Genarator : MonoBehaviour
     [Header("Position")]
     public List<Transform> p;
     private List<Vector3> pList;
+    public List<Transform> RowConnectors;
     //private Position P1 = p[0].position;
     //public Transform[]
     [Header("")]
@@ -17,16 +18,16 @@ public class path_Genarator : MonoBehaviour
     [Range(0, 20)] public int reseloution;
     private Vector2[] lines;
 
-    Vector3 a;
-    Vector3 b;
-    Vector3 A;
+    List <Vector3> a;
+    List <Vector3> b;
+
 
     public bool gencurve;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is 
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -35,12 +36,12 @@ public class path_Genarator : MonoBehaviour
         if (gencurve)
         {
             gencurve = false;
+            PathCreation();
             timer = 0;
         }
 
         if (timer <= 1)
         {
-            GeneratePosOnCurve();
             timer += Time.deltaTime;
         }
         else
@@ -48,38 +49,35 @@ public class path_Genarator : MonoBehaviour
             timer = 0;
         }
     }
-
-    public void GenerateCurve()
+    /// <summary>
+    /// this will go on the slot host and connect every row together hopefully
+    /// </summary>
+    public void PathCreation()
     {
-        Debug.Log("meow");
-        Vector3 a;
-        Vector3 b;
-        Vector3 A;
-        for (int i = 0; i / reseloution <= 1; i += i)
+        //get the postions of every single 
+        //row 1 start to row one end to row 2 start to end to row three start to row 3 end 
+        for (int i = 0 ; i <= RowConnectors.Count - 1 ; i++)
         {
-            //do the bezia curve equation :3
-            //i = timerr  resloution = the number of lines used 
-            //for i in range of p (number of points)
-            //for i of range of the number of cubait lines inbatween the 2 points 
-            //the final loop (might mkae this a funcion so i can make this loop as far as a 
-            //Mathf.Lerp(p[o].transform.position.x, p[o+1].transform.position.x, i);
-            //three point curve is just 2 lerps to give a and b then a lerp between a + b = 
-            //4 point would be a + b =1 , b + c  =2 c + d =3 then useing the 3 numbers you l
-            a = Vector3.Lerp(p[0].position, p[1].position, i / reseloution);
-            b = Vector3.Lerp(p[1].position, p[2].position, i / reseloution);
-            A = Vector3.Lerp(a, b, i / reseloution);
+            lineRenderer.SetPosition(i, RowConnectors[i].position);
         }
     }
 
-
-    public void GeneratePosOnCurve()
+    /// <summary>
+    /// this wont give the effect we want and we wont be able to make the curves smooth as it will mess with the speed of the enemys so this will be scrapped but i will keep the funcion beacuse its cool and i wann make it itartable soon 
+    /// </summary>
+    void GeneratePosOnCurve()
     {
+        a.Clear();
+        a.Add(Vector3.Lerp(p[0].position, p[1].position, timer));
+        a.Add(Vector3.Lerp(p[1].position, p[2].position, timer));
+        a.Add(Vector3.Lerp(p[2].position, p[3].position, timer));
 
-        for (int o = 0; o > p.Count - 1; o++)
-        {
-            a = Vector3.Lerp(p[o].position, p[o + 1].position, timer);
-            pList.Add(a);
-        }
+
+        b.Clear();
+        b.Add(Vector3.Lerp(a[0], a[1], timer));
+        b.Add(Vector3.Lerp(a[1], a[2], timer));
+
+        tester.transform.position = Vector3.Lerp(b[0], b[1], timer);
     }
 
 }

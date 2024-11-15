@@ -7,6 +7,7 @@ public class Slot_Manager : MonoBehaviour
     public RowRandomiser r1;
     public RowRandomiser r2;
     public RowRandomiser r3;
+    public path_Genarator pG;
 
     public bool reset;
     public bool stop;
@@ -37,6 +38,7 @@ public class Slot_Manager : MonoBehaviour
 
     public void JackpotCheck()
     {
+        pG.PathCreation();
         if (r1.rowhostint == r2.rowhostint && r2.rowhostint == r3.rowhostint)
         {
             //JackPot
