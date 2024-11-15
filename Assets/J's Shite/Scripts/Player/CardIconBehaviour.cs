@@ -90,27 +90,23 @@ public class CardIconBehaviour : MonoBehaviour
     {
         Vector3 placeSpot = new Vector3(lastDragged.gameObject.transform.position.x, lastDragged.gameObject.transform.position.y, -2.5f);
         isDragActive = false;
-        if (lastDragged.tag == "card")
+        switch (lastDragged.gameObject.tag)
         {
-            Instantiate(cardPrefab, placeSpot, transform.rotation);
-            lastDragged.transform.position = new Vector3(8.25f, 3, -3);
-            // money =- some money
-        }
-        else if (lastDragged.tag == "roulette")
-        {
-            Instantiate(roulettePrefab, placeSpot, transform.rotation);
-            lastDragged.transform.position = new Vector3(8.25f, 2, -3);
-            // money =- some money
-        }
-        else if (lastDragged.tag == "horse")
-        {
-            Instantiate(horsePrefab, placeSpot, transform.rotation);
-            lastDragged.transform.position = new Vector3(8.25f, 1, -3);
-            // money =- some money
-        }
-        else
-        {
-            return;
+            case "card":
+                Instantiate(cardPrefab, placeSpot, transform.rotation);
+                lastDragged.transform.position = new Vector3(8.25f, 3, -3);
+                money.playerMoney = money.playerMoney - 5;
+                return;
+            case "roulette":
+                Instantiate(roulettePrefab, placeSpot, transform.rotation);
+                lastDragged.transform.position = new Vector3(8.25f, 2, -3);
+                money.playerMoney = money.playerMoney - 10;
+                return;
+            case "horse":
+                Instantiate(horsePrefab, placeSpot, transform.rotation);
+                lastDragged.transform.position = new Vector3(8.25f, 1, -3);
+                money.playerMoney = money.playerMoney - 15;
+                return;
         }
     }
 

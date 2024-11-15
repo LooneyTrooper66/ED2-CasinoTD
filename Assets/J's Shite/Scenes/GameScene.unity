@@ -989,7 +989,7 @@ MonoBehaviour:
   cardPrefab: {fileID: 1951732843240796354, guid: d36e376da88afb04e8d591edc1d403e6, type: 3}
   roulettePrefab: {fileID: 5438805906938283518, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
   horsePrefab: {fileID: 5267994902332593694, guid: ba75a337e7e23f646a27ad241a40439e, type: 3}
-  money: {fileID: 0}
+  money: {fileID: 356858756}
 --- !u!1 &960541265
 GameObject:
   m_ObjectHideFlags: 0
