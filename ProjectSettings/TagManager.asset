@@ -9,6 +9,8 @@ TagManager:
   - roulette
   - DropValid
   - DropInvalid
+  - chip
+  - chipSlot
   layers:
   - Default
   - TransparentFX

@@ -6,6 +6,7 @@ public class CardIconBehaviour : MonoBehaviour
     public bool cardInPlace = true;
     public bool rouletteInPlace = true;
     public bool horseInPlace = true;
+    public bool chipInPlace = true;
     private Vector3 screenPos;
     private Vector3 worldPos;
     private Vector3 mousePos;
@@ -23,12 +24,6 @@ public class CardIconBehaviour : MonoBehaviour
     private void Awake()
     {
         mainCam = Camera.main;
-
-        /*CardIconBehaviour[] controllers = FindObjectsOfType<CardIconBehaviour>();
-        if (controllers.Length > 1)
-        {
-            Destroy(gameObject);
-        }*/
     }
 
     private void Update()
@@ -114,7 +109,11 @@ public class CardIconBehaviour : MonoBehaviour
     {
         isDragActive = false;
         Collider2D col = Physics2D.OverlapPoint(worldPos, overlapThing);
-        if (col.gameObject.tag == "DropValid")
+        if (col.gameObject.tag == "chipSlot")
+        {
+            PlaceChipInSlot();
+        }
+        else if (col.gameObject.tag == "DropValid")
         {
             PlaceTower();
         }
@@ -127,17 +126,27 @@ public class CardIconBehaviour : MonoBehaviour
     void MovePlacerBack()
     {
         startPos = lastDragged.transform.position;
-        if (lastDragged.tag == "card")
+        switch (lastDragged.gameObject.tag)
         {
-            cardInPlace = false;
+            case "card":
+                cardInPlace = false;
+                return;
+            case "roulette":
+                rouletteInPlace = false;
+                return;
+            case "horse":
+                horseInPlace = false;
+                return;
+            case "chip":
+                chipInPlace = false;
+                return;
         }
-        else if (lastDragged.tag == "roulette")
-        {
-            rouletteInPlace = false;
-        }
-        else if (lastDragged.tag == "horse")
-        {
-            horseInPlace = false;
-        }
+    }
+
+    void PlaceChipInSlot()
+    {
+        // move the chip thingy to the thingy to make it look like its going in
+        lastDragged.transform.position = new Vector3(8.25f, -4, -3);
+        money.playerMoney = money.playerMoney - 5;
     }
 }
