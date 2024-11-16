@@ -3,6 +3,7 @@
     NOTES:
  
     - make towers attacks work through states, change for all at once
+    - money starts at 5 on start of first round, get +x at the end of each round and +y every kill depending on enemy strength
 
     To Do:
 
