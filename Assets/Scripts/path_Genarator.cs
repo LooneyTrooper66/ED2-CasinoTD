@@ -1,4 +1,8 @@
+using JetBrains.Annotations;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class path_Genarator : MonoBehaviour
@@ -10,17 +14,20 @@ public class path_Genarator : MonoBehaviour
     //private Position P1 = p[0].position;
     //public Transform[]
     [Header("")]
-    public GameObject tester;
     public Slot_Manager sM;
-   // [Range(0, 1)] public float timer;
+    // [Range(0, 1)] public float timer;
 
     [Header("")]
     public LineRenderer lineRenderer;
+    public bool drawPath;
+    public GameObject drawLine;
+    public float timer;
+    private int pathPoint;
+    public float DrawSpeed;
     //[Range(0, 20)] public int reseloution;
-
+    private Vector3 rCDueRemove;
     //List <Vector3> a;
     //List <Vector3> b;
-    public List<RowRandomiser> meow;
 
     public bool gencurve;
 
@@ -31,7 +38,7 @@ public class path_Genarator : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (gencurve)
         {
@@ -40,14 +47,12 @@ public class path_Genarator : MonoBehaviour
             //timer = 0;
         }
 
-/*        if (timer <= 1)
+        if (drawPath)
         {
-            timer += Time.deltaTime;
+            PathDraw();
+
         }
-        else
-        {
-            timer = 0;
-        }*/
+      
     }
     /// <summary>
     /// this will go on the slot host and connect every row together hopefully
@@ -60,18 +65,60 @@ public class path_Genarator : MonoBehaviour
         RowConnectors.Clear();
         foreach (RowRandomiser tr in sM.r)
         {
-            RowConnectors.Add(tr.rowEntrance.transform.position);
+            if ((tr.rowEntrance.transform.position) != rCDueRemove)
+            {
+                RowConnectors.Add(tr.rowEntrance.transform.position);
+                
+            }
             RowConnectors.Add(tr.rowExit.transform.position);
+            rCDueRemove = tr.rowExit.transform.position;
             //Debug.Log(tr.position);
         }
-        lineRenderer.positionCount = RowConnectors.Count;
-
-        for (int i = 0 ; i <= RowConnectors.Count - 1 ; i++)
+        lineRenderer.positionCount = 2;
+        drawPath = true;
+        drawLine.transform.position = RowConnectors[0];
+        pathPoint = 1;
+        lineRenderer.SetPosition(0, RowConnectors[0]);
+        //lineRenderer.Simplify(0.4f);
+        //replace this with a move pos to rowconnect.i and repeat that function untill all points have been reach its gonna be the same move script that the enenmys will follow 
+        /*for (int i = 0; i <= RowConnectors.Count - 1; i++)
         {
-                lineRenderer.SetPosition(i , RowConnectors[i]);
+            lineRenderer.SetPosition(i, RowConnectors[i]);
 
-        }
+        }*/
     }
+
+    public void PathDraw() //<-- i equals 
+    {
+        if (pathPoint == RowConnectors.Count) // ifits reached the final point
+        {
+            drawPath = false;
+            lineRenderer.positionCount = (RowConnectors.Count);
+            return;
+        }
+
+
+        //drawLine.transform.
+        if (timer <=1)
+        {
+            drawLine.transform.position = Vector3.Lerp(RowConnectors[pathPoint-1], RowConnectors[pathPoint], timer); //move the postion of 
+            lineRenderer.SetPosition(pathPoint,drawLine.transform.position);
+            timer += DrawSpeed;
+        }
+        else
+        {
+            lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]);
+            pathPoint += 1;
+            lineRenderer.positionCount++;
+            lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
+            timer = 0;
+        }
+        //move drawline to pathpoint and move linerender[pathpoint]
+    }
+
+
+
+
    /* void GeneratePosOnCurve()
     {
         a.Clear();

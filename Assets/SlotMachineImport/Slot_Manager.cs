@@ -28,10 +28,14 @@ public class Slot_Manager : MonoBehaviour
         //r.Add(GetComponentInChildren<RowRandomiser>());
         foreach (Transform child in transform)
         { 
-            r.Add(child.GetComponent<RowRandomiser>());
-           // t.Add(r[wow].rowEntrance);
-           // t.Add(r[wow].rowExit);
-            wow++;
+            if(child.GetComponent<RowRandomiser>() != null)
+            {
+                r.Add(child.GetComponent<RowRandomiser>());
+                // t.Add(r[wow].rowEntrance);
+                // t.Add(r[wow].rowExit);
+                wow++;
+            }
+
         }
         
     }
