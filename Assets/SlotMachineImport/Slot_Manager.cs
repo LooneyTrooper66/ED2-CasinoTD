@@ -11,6 +11,7 @@ public class Slot_Manager : MonoBehaviour
     //public RowRandomiser r3;
 
     public List<RowRandomiser> r; // <-- the hip new list method thats so much cooler (i have been using to many lists in this code please god help me)
+   // public List<Transform> t;
     [HideInInspector] public int rowNumb;
     public path_Genarator pG;
 
@@ -23,17 +24,18 @@ public class Slot_Manager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        int wow = 0;
         //r.Add(GetComponentInChildren<RowRandomiser>());
         foreach (Transform child in transform)
         { 
-                r.Add(child.GetComponent<RowRandomiser>());
+            r.Add(child.GetComponent<RowRandomiser>());
+           // t.Add(r[wow].rowEntrance);
+           // t.Add(r[wow].rowExit);
+            wow++;
         }
         
     }
-    private void Start()
-    {
-        //pG.getEnE();
-    }
+
 
     // Update is called once per frame
     void Update()

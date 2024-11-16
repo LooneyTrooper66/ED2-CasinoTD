@@ -6,7 +6,7 @@ public class path_Genarator : MonoBehaviour
     [Header("Position")]
     //public List<Transform> p;
     //private List<Vector3> pList;
-    public List<Transform> RowConnectors;
+    public List<Vector3> RowConnectors;
     //private Position P1 = p[0].position;
     //public Transform[]
     [Header("")]
@@ -20,14 +20,14 @@ public class path_Genarator : MonoBehaviour
 
     //List <Vector3> a;
     //List <Vector3> b;
-
+    public List<RowRandomiser> meow;
 
     public bool gencurve;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is 
     void Start()
     {
-
+        //getEnE();
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class path_Genarator : MonoBehaviour
         if (gencurve)
         {
             gencurve = false;
-            PathCreation();
+            //PathCreation();
             //timer = 0;
         }
 
@@ -56,9 +56,20 @@ public class path_Genarator : MonoBehaviour
     {
         //get the postions of every single 
         //row 1 start to row one end to row 2 start to end to row three start to row 3 end 
+        //RowConnectors = sM.t;
+        RowConnectors.Clear();
+        foreach (RowRandomiser tr in sM.r)
+        {
+            RowConnectors.Add(tr.rowEntrance.transform.position);
+            RowConnectors.Add(tr.rowExit.transform.position);
+            //Debug.Log(tr.position);
+        }
+        lineRenderer.positionCount = RowConnectors.Count;
+
         for (int i = 0 ; i <= RowConnectors.Count - 1 ; i++)
         {
-                lineRenderer.SetPosition(i, RowConnectors[i].position);
+                lineRenderer.SetPosition(i , RowConnectors[i]);
+
         }
     }
    /* void GeneratePosOnCurve()
@@ -75,15 +86,16 @@ public class path_Genarator : MonoBehaviour
 
         tester.transform.position = Vector3.Lerp(b[0], b[1], timer);
     }*/
-     public void getEnE()
+    /* public void getEnE(List<RowRandomiser> lp)
      {
-        RowConnectors.Clear();
         for (int k = 0; k < sM.r.Count; k++)
         {
-            RowConnectors.Add(sM.r[k].rowEntrance);
-            RowConnectors.Add(sM.r[k].rowExit);
+            RowConnectors.Add(lp[k].rowEntrance);
+            RowConnectors.Add(lp[k].rowExit);
         }
+        meow = lp;
+        Debug.Log(meow[1]);
         lineRenderer.positionCount = RowConnectors.Count;
 
-   }
+   }*/
 }

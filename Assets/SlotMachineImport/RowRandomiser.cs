@@ -32,8 +32,8 @@ public class RowRandomiser : MonoBehaviour
     public int rowhostint;
     //private TileMove tilemovesample;
     public bool reset;
-    public Transform rowEntrance;
-    public Transform rowExit;
+    public GameObject rowEntrance;
+    public GameObject rowExit;
 
     // Start is called before the first frame update
     void Awake()
@@ -104,9 +104,9 @@ public class RowRandomiser : MonoBehaviour
     /// </summary>
     public void RandomiseTileOrder()
     {
-        int i = Random.Range(0, 3);
+        //int i = Random.Range(0, 3);
         //Debug.Log(i);
-        switch (i)
+        switch (Random.Range(0, 3))
         {
             case 0: //w c m y
                 //tiles[0].transform.position = tilePos0;
