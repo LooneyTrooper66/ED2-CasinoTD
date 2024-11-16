@@ -30,8 +30,11 @@ public class RowRandomiser : MonoBehaviour
     public bool stop;
 
     public int rowhostint;
-    private TileMove tilemovesample;
+    //private TileMove tilemovesample;
     public bool reset;
+    public Transform rowEntrance;
+    public Transform rowExit;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -168,15 +171,19 @@ public class RowRandomiser : MonoBehaviour
             tileMoves[o].transform.position = tileMoves[o].slotPos;
         }
 
-        if (nextRow == null)
+        if (sM.r.Count - 1 == sM.rowNumb)
         {
             GeneratePath();
+            sM.rowOutPut.Add(rowhostint);
             sM.JackpotCheck();
+            
         }
         else
         {
             //nextRow.StartRolls();
-            nextRow.lastRoll = true;
+            //nextRow.lastRoll = true; // need to change this so get the next row
+            sM.nextRow(rowhostint);
+           // sM.rowOutPut.Add(rowhostint);  <--- we gonna add this to the next row funcion beacuse we are so cool
         }
     }
 
@@ -196,11 +203,11 @@ public class RowRandomiser : MonoBehaviour
         {
             tileMoves[o].speed = rowSpeed * placeholdper;
         }
-
+        //all this code will need to be organised also prob made better
     }
 
     //
-    void GeneratePath()
+    void GeneratePath() //oh lol i forgot about this function i just gonna keep thios here
     {
         Debug.Log(":3");
     }
