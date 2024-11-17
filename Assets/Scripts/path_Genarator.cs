@@ -26,10 +26,12 @@ public class path_Genarator : MonoBehaviour
     public float DrawSpeed;
     //[Range(0, 20)] public int reseloution;
     private Vector3 rCDueRemove;
+    public enemy_Manager eM;
     //List <Vector3> a;
     //List <Vector3> b;
 
-    public bool gencurve;
+   // public bool gencurve;
+    public bool clearCurve;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is 
     void Start()
@@ -40,9 +42,10 @@ public class path_Genarator : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (gencurve)
+        if (clearCurve)
         {
-            gencurve = false;
+            clearCurve = false;
+            ClearPath();
             //PathCreation();
             //timer = 0;
         }
@@ -52,7 +55,7 @@ public class path_Genarator : MonoBehaviour
             PathDraw();
 
         }
-      
+
     }
     /// <summary>
     /// this will go on the slot host and connect every row together hopefully
@@ -68,7 +71,7 @@ public class path_Genarator : MonoBehaviour
             if ((tr.rowEntrance.transform.position) != rCDueRemove)
             {
                 RowConnectors.Add(tr.rowEntrance.transform.position);
-                
+
             }
             RowConnectors.Add(tr.rowExit.transform.position);
             rCDueRemove = tr.rowExit.transform.position;
@@ -99,7 +102,7 @@ public class path_Genarator : MonoBehaviour
 
 
         //drawLine.transform.
-        if (timer >=1)
+        if (timer >= 1)
         {
             lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]);
             pathPoint += 1;
@@ -116,7 +119,10 @@ public class path_Genarator : MonoBehaviour
         //move drawline to pathpoint and move linerender[pathpoint]
     }
 
-
+    public void ClearPath()
+    {
+        lineRenderer.positionCount = 0;
+    }
 
 
    /* void GeneratePosOnCurve()
