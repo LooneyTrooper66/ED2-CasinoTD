@@ -13,7 +13,7 @@ public class HealthManager : MonoBehaviour
         playerChips = 100;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         string chipsStr = playerChips.ToString();
         chipsText.text = $"chips - {chipsStr}";
