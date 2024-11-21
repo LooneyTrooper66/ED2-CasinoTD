@@ -51,19 +51,6 @@ public class Draggable : MonoBehaviour
                     }
                 }
                 return;
-            case "chip":
-                if (cardController.chipInPlace == false)
-                {
-                    if (thisGO.position != returnTo)
-                    {
-                        thisGO.position = Vector3.MoveTowards(thisGO.position, returnTo, speed * Time.deltaTime);
-                    }
-                    else
-                    {
-                        cardController.chipInPlace = true;
-                    }
-                }
-                return;
         }
     }
 }

@@ -19,7 +19,6 @@ public class CardIconBehaviour : MonoBehaviour
     public GameObject cardPrefab;
     public GameObject roulettePrefab;
     public GameObject horsePrefab;
-    public GameObject sidewaysChip;
     public MoneyManager money;
 
 
@@ -111,18 +110,7 @@ public class CardIconBehaviour : MonoBehaviour
     {
         isDragActive = false;
         Collider2D col = Physics2D.OverlapPoint(worldPos, overlapThing);
-        if (col.gameObject.tag == "chipSlot")
-        {
-            if (lastDragged.gameObject.tag == "chip")
-            {
-                PlaceChipInSlot();
-            }
-            else
-            {
-                MovePlacerBack();
-            }
-        }
-        else if (col.gameObject.tag == "DropValid")
+        if (col.gameObject.tag == "DropValid")
         {
             PlaceTower();
         }
@@ -146,16 +134,6 @@ public class CardIconBehaviour : MonoBehaviour
             case "horse":
                 horseInPlace = false;
                 return;
-            case "chip":
-                chipInPlace = false;
-                return;
         }
-    }
-
-    void PlaceChipInSlot()
-    {
-        sidewaysChip.transform.position = new Vector3(6, -3, -3);
-        lastDragged.transform.position = new Vector3(8.25f, -4, -3);
-        chipInSlot = true;
     }
 }
