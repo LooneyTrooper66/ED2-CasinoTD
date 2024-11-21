@@ -14,6 +14,8 @@ public class NextWave : MonoBehaviour
 
     void ToNextWave()
     {
+        // this wont be a button in the real thing, this is just here to simulate completing a wave to reset the amount of chips you can spend
+
         chipTrade.tradableChipsThisRound = 5;
     }
 }
