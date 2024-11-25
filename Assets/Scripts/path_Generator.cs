@@ -85,4 +85,10 @@ public class path_Generator : MonoBehaviour
         }
     }
 
+
+    public void clear()
+    {
+
+    }
+
 }

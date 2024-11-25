@@ -52,6 +52,7 @@ public class Slot_Manager : MonoBehaviour
            /* r1.VauleRest();
             r2.VauleRest();
             r3.VauleRest();*/
+            pG.ClearPath();
             foreach (RowRandomiser o in r)
             {
                 o.VauleRest();

@@ -113,7 +113,11 @@ public class path_Genarator : MonoBehaviour
         else
         {
             drawLine.transform.position = Vector3.Lerp(RowConnectors[pathPoint - 1], RowConnectors[pathPoint], timer); //move the postion of 
-            lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
+            //lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
+            if (lineRenderer.positionCount >= pathPoint)
+            {
+                lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
+            }
             timer += DrawSpeed;
         }
         //move drawline to pathpoint and move linerender[pathpoint]
