@@ -11,6 +11,7 @@ TagManager:
   - DropInvalid
   - chip
   - chipSlot
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - enemy
+  - tower
   - ignoreOverlapPoint
   - 
   - 
