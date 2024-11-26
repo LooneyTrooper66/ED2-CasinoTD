@@ -11,9 +11,17 @@ public class enemy_Manager : MonoBehaviour
 
     //create a array of all enemy types <-- these will be a scriptable objec with information needed and a interface for all the diffren quirks
     //waves could be a dicionary of <enemy type> <spawn delay> <batch size> (this could be a vector 3, each one represents the data needed )
+
+
     public bool summontest;
     public enemy_Move testEnemy;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    public List<GameObject> enemyVault;
+    public Enemy_Stats[] enemyVariaints; 
+
+    
+
+
     void Start()
     {
         
