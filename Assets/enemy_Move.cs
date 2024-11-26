@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class enemy_Move : MonoBehaviour
 {
-    int i;
+    public int i;
     public path_Genarator eM;
     public Vector3 goalPos;
     public int damage;
@@ -16,7 +16,7 @@ public class enemy_Move : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(inactive) { return;}
 
@@ -25,7 +25,7 @@ public class enemy_Move : MonoBehaviour
             PosDone();
             return;
         }
-        transform.position = Vector3.MoveTowards(transform.position, goalPos, speed * Time.deltaTime);  //doing this equation on every enemy could be costly so my other idea is making each point do the direction equation and then they only need to add their speed to total
+        transform.position = Vector3.MoveTowards(transform.position, goalPos, speed /50);  //doing this equation on every enemy could be costly so my other idea is making each point do the direction equation and then they only need to add their speed to total
     }
 
     public void PosDone()
