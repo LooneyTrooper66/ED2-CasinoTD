@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2028772199253286124}
   - component: {fileID: 7947242555036551054}
   - component: {fileID: 2150768769626663182}
+  - component: {fileID: -4203968533138545652}
   m_Layer: 0
   m_Name: horse
   m_TagString: DropInvalid
@@ -124,3 +125,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 1
+--- !u!114 &-4203968533138545652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5267994902332593694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c86c098860fca4fa3793eb98d3de1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ye: []
