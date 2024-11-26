@@ -2,15 +2,13 @@ using JetBrains.Annotations;
 using UnityEditor.Rendering;
 using UnityEngine;
 
-public class MasterTowerScript : MonoBehaviour
+public interface MasterTowerScript
 {
-    // tom please help me with this -->
-
     /// <summary>
     /// shootin time
     /// </summary>
     /// <param name="target"></param>
-    public void shoot(GameObject target)
+    public void Shoot(GameObject target)
     {
         Debug.Log("shootin time");
     }
