@@ -1,23 +1,37 @@
 using JetBrains.Annotations;
+using System.Collections;
+using System.Threading;
 using UnityEngine;
 
 public class RouletteTower : MasterTowerScript
 {
-    public float Range; // <-- radius of circle cast
-    //public tower_FindTarget tft;
-    public GameObject target;
-    public GameObject[] bullets;
     public GameObject shootPoint;
-    public float fireRate;
+    public GameObject bullet;
+    public float shotInterval;
+    public Transform target;
+    int i = 0;
 
 
-    private void Update()
+    void FixedUpdate()
     {
-        base.Shoot(bullets, shootPoint, fireRate);
-
-        /*if (target) // <-- also check the upgrade level to determine the number of bullets to use
+        if (target != null)
         {
-            base.Shoot(bullets, shootPoint, fireRate);
-        }*/
+            Vector3 targ = target.transform.position;
+            targ.z = 0f;
+
+            Vector3 objectPos = transform.position;
+            targ.x = targ.x - objectPos.x;
+            targ.y = targ.y - objectPos.y;
+
+            float angle = Mathf.Atan2(targ.y, targ.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
+
+            i++;
+            if (i > shotInterval)
+            {
+                base.Shoot(bullet, shootPoint);
+                i = 0;
+            }
+        }
     }
 }
