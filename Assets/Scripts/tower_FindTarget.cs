@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -8,6 +9,7 @@ public class tower_FindTarget : MonoBehaviour
     public GameObject Target;
     public List<GameObject> potentialtargets;
 
+    int tI;
     public TargetingOrder targeting;
     public enum TargetingOrder 
     {
@@ -16,22 +18,18 @@ public class tower_FindTarget : MonoBehaviour
         Close,
         Last
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
+        Debug.Log(collision);
         //check the positon on the path the collsions is ahead of where it current target is or if its speed is higher  
-        if (collision.tag == "enemy")
+        if (collision.CompareTag("enemy"))
         {
             //check gameobjects  
             //get its current :3
@@ -40,7 +38,8 @@ public class tower_FindTarget : MonoBehaviour
             potentialtargets.Add(collision.gameObject);
         }
     }
-    private void OnTriggerExit2D(Collider2D collision)
+
+    void OnTriggerExit2D(Collider2D collision)
     {
         //find gameobject in list and removeself
         //list.remove(collision)
@@ -52,9 +51,11 @@ public class tower_FindTarget : MonoBehaviour
 
     public void sortList()
     {
+        tI = -1; // set the target to -1 so enemys at point 0 can still be hit lol
         //Dont think we will be able to add diffrent type of fireing methods
         switch (targeting)
         {
+            
             case TargetingOrder.First:
                 //sorts the list in position decending it :(
 
@@ -65,6 +66,33 @@ public class tower_FindTarget : MonoBehaviour
                 //sort list by x+y vaule who evers is grate goes infront 
 
                 //for each gameobject in list do the loop
+                foreach (GameObject gO in potentialtargets)
+                {
+                    //if (gO == null) { return; } // a just in case mesure :3
+                    if (gO.GetComponent<enemy_Move>().i > tI)
+                    {
+                        //greater then so replace
+                        Target = gO;
+                        tI = gO.GetComponent<enemy_Move>().i;
+                    }
+                    else if (gO.GetComponent<enemy_Move>().i == tI)
+                    {
+                        //do the equation check 
+                        // get the postion of their next goal
+                        //get the dist each object is from 
+                        Vector3 goal = Target.GetComponent<enemy_Move>().goalPos;
+                        float ttp = Vector2.Distance(Target.transform.position, goal); 
+                        float got = Vector2.Distance(gO.transform.position, goal);
+                        if (got <= ttp)
+                        {
+                            Target = gO;
+                            tI = gO.GetComponent<enemy_Move>().i;
+                        }
+                    }
+                        
+                }
+
+
                 break;
             case TargetingOrder.Strong: //<-- this is where i would put other sorting algorytms if i had any!!!!!!!!!!!!!!!!!
                 // sorts list by enemy class difficuly
