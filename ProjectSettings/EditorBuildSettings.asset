@@ -6,14 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/J's Shite/Scenes/MainMenu.unity
-    guid: a6358b79b71f40a4cae2d3fc6dfc0243
+    path: Assets/ACTUAL GAME/StartScreen.unity
+    guid: ae277d93559ae9c4599a04ae3dcc47ee
   - enabled: 1
-    path: Assets/J's Shite/Scenes/SettingsMenu.unity
-    guid: ad384e8b530389e42aecb2b3c5ace5d1
+    path: Assets/ACTUAL GAME/SettingsMenu.unity
+    guid: 97acc90b987c403469d01becfe035c2e
   - enabled: 1
-    path: Assets/J's Shite/Scenes/GameScene.unity
-    guid: fe93975218309894181cf32ce575bb23
+    path: Assets/ACTUAL GAME/GameScreen.unity
+    guid: 6708242924cc36d4f8ddbd88963ce8a2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
