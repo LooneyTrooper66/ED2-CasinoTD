@@ -82,24 +82,24 @@ public class CardIconBehaviour : MonoBehaviour
         lastDragged.transform.position = new Vector3(worldPos.x, worldPos.y, -3);
     }
 
-    void PlaceTower()
+    void PlaceTower(Transform placeSurface)
     {
         Vector3 placeSpot = new Vector3(lastDragged.gameObject.transform.position.x, lastDragged.gameObject.transform.position.y, -2.5f);
         isDragActive = false;
         switch (lastDragged.gameObject.tag)
         {
             case "card":
-                Instantiate(cardPrefab, placeSpot, transform.rotation);
+                Instantiate(cardPrefab, placeSpot, transform.rotation, placeSurface);
                 lastDragged.transform.position = new Vector3(8.25f, 3, -3);
                 money.playerMoney = money.playerMoney - 5;
                 return;
             case "roulette":
-                Instantiate(roulettePrefab, placeSpot, transform.rotation);
+                Instantiate(roulettePrefab, placeSpot, transform.rotation, placeSurface);
                 lastDragged.transform.position = new Vector3(8.25f, 2, -3);
                 money.playerMoney = money.playerMoney - 10;
                 return;
             case "horse":
-                Instantiate(horsePrefab, placeSpot, transform.rotation);
+                Instantiate(horsePrefab, placeSpot, transform.rotation, placeSurface);
                 lastDragged.transform.position = new Vector3(8.25f, 1, -3);
                 money.playerMoney = money.playerMoney - 15;
                 return;
@@ -112,7 +112,9 @@ public class CardIconBehaviour : MonoBehaviour
         Collider2D col = Physics2D.OverlapPoint(worldPos, overlapThing);
         if (col.gameObject.tag == "DropValid")
         {
-            PlaceTower();
+            Transform placeSurface = col.gameObject.transform;
+
+            PlaceTower(placeSurface);
         }
         else
         {
