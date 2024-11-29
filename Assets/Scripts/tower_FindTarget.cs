@@ -25,9 +25,15 @@ public class tower_FindTarget : MonoBehaviour
     }
 
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        Debug.Log(collision.gameObject);
+    }
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision);
+        potentialtargets.Add(collision.gameObject);
         //check the positon on the path the collsions is ahead of where it current target is or if its speed is higher  
         if (collision.CompareTag("enemy"))
         {

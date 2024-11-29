@@ -8,6 +8,7 @@ public class enemy_Move : MonoBehaviour
     public int damage;
     public float speed;
     public bool inactive;
+    public Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,7 +26,8 @@ public class enemy_Move : MonoBehaviour
             PosDone();
             return;
         }
-        transform.position = Vector3.MoveTowards(transform.position, goalPos, speed /50);  //doing this equation on every enemy could be costly so my other idea is making each point do the direction equation and then they only need to add their speed to total
+        rb.MovePosition(Vector3.MoveTowards(transform.position, goalPos, speed /50));
+        //transform.position = Vector3.MoveTowards(transform.position, goalPos, speed /50);  //doing this equation on every enemy could be costly so my other idea is making each point do the direction equation and then they only need to add their speed to total
     }
 
     public void PosDone()
