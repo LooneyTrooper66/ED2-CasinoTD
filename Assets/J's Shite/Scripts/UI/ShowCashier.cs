@@ -23,6 +23,6 @@ public class ShowCashier : MonoBehaviour
 
     public void cashierShow()
     {
-        goTo.position = new Vector3(7, -1.75f, -1);
+        goTo.position = new Vector3(6.95f, -1.75f, -1);
     }
 }
