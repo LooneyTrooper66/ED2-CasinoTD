@@ -21,7 +21,7 @@ public class tower_FindTarget : MonoBehaviour
 
     void Start()
     {
-        
+        Debug.Log("start");
     }
 
 
@@ -37,6 +37,12 @@ public class tower_FindTarget : MonoBehaviour
             //set tartet to
             potentialtargets.Add(collision.gameObject);
         }
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log(collision);
     }
 
     void OnTriggerExit2D(Collider2D collision)

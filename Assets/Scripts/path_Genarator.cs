@@ -27,6 +27,7 @@ public class path_Genarator : MonoBehaviour
     //[Range(0, 20)] public int reseloution;
     private Vector3 rCDueRemove;
     public enemy_Manager eM;
+    private float rowOffset = 0.2f;
     //List <Vector3> a;
     //List <Vector3> b;
 
@@ -68,7 +69,8 @@ public class path_Genarator : MonoBehaviour
         RowConnectors.Clear();
         foreach (RowRandomiser tr in sM.r)
         {
-            if ((tr.rowEntrance.transform.position) != rCDueRemove)
+            // rcdueroemove + offset < && > rcdueromve - offset  
+            if (Vector2.Distance(tr.rowEntrance.transform.position,rCDueRemove) >= rowOffset)
             {
                 RowConnectors.Add(tr.rowEntrance.transform.position);
 
