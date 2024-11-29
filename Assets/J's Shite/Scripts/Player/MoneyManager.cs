@@ -16,6 +16,6 @@ public class MoneyManager : MonoBehaviour
     private void Update()
     {
         string moneyStr = playerMoney.ToString();
-        moneyText.text = $"money - £{moneyStr}";
+        moneyText.text = $"£{moneyStr}";
     }
 }

@@ -34,7 +34,7 @@ public class ChipForCash : MonoBehaviour
             chipsToBeTraded = chipsToBeTraded + 1;
 
             string moneyStr = moneyChipsAreWorth.ToString();
-            moneyMakingFromChips.text = $"worth:  £{moneyStr}";
+            moneyMakingFromChips.text = $"£{moneyStr}";
             string chipStr = chipsToBeTraded.ToString();
             chipsUsed.text = $"chips used: {chipStr}";
 
