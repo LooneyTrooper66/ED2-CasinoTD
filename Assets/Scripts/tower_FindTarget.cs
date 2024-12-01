@@ -37,12 +37,6 @@ public class tower_FindTarget : MonoBehaviour
         }
     }
 
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log(collision);
-    }
-
     void OnTriggerExit2D(Collider2D collision)
     {
         //find gameobject in list and removeself
