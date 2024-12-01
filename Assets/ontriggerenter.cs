@@ -17,5 +17,6 @@ public class ontriggerenter : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("wejfwef");
+        Debug.Log(collision.gameObject);
     }
 }
