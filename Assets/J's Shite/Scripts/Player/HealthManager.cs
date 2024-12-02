@@ -7,12 +7,6 @@ public class HealthManager : MonoBehaviour
     public int playerChips;
 
 
-    private void Start()
-    {
-        chipsText = GetComponent<Text>();
-        playerChips = 100;
-    }
-
     private void FixedUpdate()
     {
         string chipsStr = playerChips.ToString();

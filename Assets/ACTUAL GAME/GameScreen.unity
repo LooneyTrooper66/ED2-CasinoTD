@@ -515,7 +515,7 @@ MonoBehaviour:
   unavailable: {r: 0.2901961, g: 0.30588236, b: 0.40784314, a: 1}
   price: 5
   upgradePrice: 20
-  moneyM: {fileID: 415696529}
+  moneyM: {fileID: 1208676895}
 --- !u!114 &75316877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1958,7 +1958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 345b67f199be29340a1998791249be4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chips: {fileID: 534035130}
+  chips: {fileID: 1208676898}
   r: []
   rowNumb: 0
   pG: {fileID: 378141337}
@@ -2191,7 +2191,6 @@ GameObject:
   m_Component:
   - component: {fileID: 415696532}
   - component: {fileID: 415696531}
-  - component: {fileID: 415696529}
   - component: {fileID: 415696530}
   m_Layer: 0
   m_Name: money
@@ -2200,20 +2199,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &415696529
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 415696528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1825001eb2d8d384488f877d87f6cc4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moneyText: {fileID: 415696530}
-  playerMoney: 5
 --- !u!114 &415696530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2615,7 +2600,6 @@ GameObject:
   - component: {fileID: 534035133}
   - component: {fileID: 534035132}
   - component: {fileID: 534035131}
-  - component: {fileID: 534035130}
   m_Layer: 0
   m_Name: cashier
   m_TagString: Untagged
@@ -2623,27 +2607,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &534035130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 534035129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9acfb54f67cd374595baedbd6c296e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chipForCash: {fileID: 1239321055}
-  addChip: {fileID: 1113299834}
-  takeAwayChip: {fileID: 825300806}
-  chipsUsed: {fileID: 1890076079}
-  moneyMakingFromChips: {fileID: 1242775336}
-  tradableChipsThisRound: 5
-  moneyM: {fileID: 415696529}
-  healthM: {fileID: 536593515}
-  cashierGoTo: {fileID: 62526654}
 --- !u!114 &534035131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2862,7 +2825,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
 --- !u!1 &536593514
 GameObject:
@@ -2874,7 +2837,6 @@ GameObject:
   m_Component:
   - component: {fileID: 536593518}
   - component: {fileID: 536593517}
-  - component: {fileID: 536593515}
   - component: {fileID: 536593516}
   m_Layer: 0
   m_Name: chips
@@ -2883,20 +2845,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &536593515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 536593514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05466dec0bf4e074589fdf5a855743c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chipsText: {fileID: 536593516}
-  playerChips: 100
 --- !u!114 &536593516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3084,7 +3032,7 @@ MonoBehaviour:
   cardPrefab: {fileID: 1951732843240796354, guid: d36e376da88afb04e8d591edc1d403e6, type: 3}
   roulettePrefab: {fileID: 5438805906938283518, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
   horsePrefab: {fileID: 5267994902332593694, guid: ba75a337e7e23f646a27ad241a40439e, type: 3}
-  money: {fileID: 415696529}
+  money: {fileID: 1208676895}
 --- !u!114 &592698237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3529,7 +3477,7 @@ MonoBehaviour:
   unavailable: {r: 0.3962264, g: 0.3009078, b: 0.3009078, a: 1}
   price: 10
   upgradePrice: 35
-  moneyM: {fileID: 415696529}
+  moneyM: {fileID: 1208676895}
 --- !u!114 &721219958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4023,7 +3971,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
 --- !u!1 &840619264
 GameObject:
@@ -4670,7 +4618,7 @@ MonoBehaviour:
   unavailable: {r: 0.3982734, g: 0.4716981, b: 0.3982734, a: 1}
   price: 15
   upgradePrice: 50
-  moneyM: {fileID: 415696529}
+  moneyM: {fileID: 1208676895}
 --- !u!61 &961067733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5327,7 +5275,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
 --- !u!1 &1125939887
 GameObject:
@@ -6213,6 +6161,89 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1208676894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1208676896}
+  - component: {fileID: 1208676895}
+  - component: {fileID: 1208676897}
+  - component: {fileID: 1208676898}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: playerManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1208676895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208676894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1825001eb2d8d384488f877d87f6cc4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moneyText: {fileID: 415696530}
+  playerMoney: 5
+--- !u!4 &1208676896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208676894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1208676897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208676894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05466dec0bf4e074589fdf5a855743c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chipsText: {fileID: 536593516}
+  playerChips: 100
+--- !u!114 &1208676898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208676894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9acfb54f67cd374595baedbd6c296e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chipForCash: {fileID: 1239321055}
+  addChip: {fileID: 1113299834}
+  takeAwayChip: {fileID: 825300806}
+  chipsUsed: {fileID: 1890076079}
+  moneyMakingFromChips: {fileID: 1242775336}
+  tradableChipsThisRound: 5
+  moneyM: {fileID: 1208676895}
+  healthM: {fileID: 1208676897}
+  cashierGoTo: {fileID: 62526654}
 --- !u!1 &1231014357
 GameObject:
   m_ObjectHideFlags: 0
@@ -9254,7 +9285,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
 --- !u!1 &1920431659
 GameObject:
@@ -10133,7 +10164,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -10149,3 +10180,4 @@ SceneRoots:
   - {fileID: 62526654}
   - {fileID: 925951002}
   - {fileID: 201993987}
+  - {fileID: 1208676896}

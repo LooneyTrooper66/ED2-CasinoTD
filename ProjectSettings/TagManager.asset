@@ -13,6 +13,7 @@ TagManager:
   - chipSlot
   - enemy
   - tower
+  - playerManager
   layers:
   - Default
   - TransparentFX
