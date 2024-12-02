@@ -22,11 +22,6 @@ public class tower_FindTarget : MasterTowerScript
         Last
     }
 
-    void Start()
-    {
-        Debug.Log("start");
-    }
-
     void OnTriggerEnter2D(Collider2D collision)
     {
         //check the positon on the path the collsions is ahead of where it current target is or if its speed is higher  

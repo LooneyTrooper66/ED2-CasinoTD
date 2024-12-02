@@ -7,12 +7,6 @@ public class MoneyManager : MonoBehaviour
     public int playerMoney;
 
 
-    private void Start()
-    {
-        moneyText = GetComponent<Text>();
-        playerMoney = 5;
-    }
-
     private void Update()
     {
         string moneyStr = playerMoney.ToString();
