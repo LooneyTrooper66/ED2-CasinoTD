@@ -4,10 +4,13 @@ using UnityEditor;
 using UnityEngine;
 
 
-public class tower_FindTarget : MonoBehaviour
+public class tower_FindTarget : MasterTowerScript
 {
     public GameObject Target;
-    public List<GameObject> potentialtargets;
+    public List<GameObject> potentialTargets;
+
+    public GameObject shootPoint;
+    public GameObject bullet;
 
     int tI;
     public TargetingOrder targeting;
@@ -27,13 +30,13 @@ public class tower_FindTarget : MonoBehaviour
     void OnTriggerEnter2D(Collider2D collision)
     {
         //check the positon on the path the collsions is ahead of where it current target is or if its speed is higher  
-        if (collision.CompareTag("enemy") && !potentialtargets.Contains(collision.gameObject))
+        if (collision.CompareTag("enemy") && !potentialTargets.Contains(collision.gameObject))
         {
             //check gameobjects  
             //get its current :3
             // sort the lift by position,-position,distance,targetpower+ 
             //set tartet to
-            potentialtargets.Add(collision.gameObject);
+            potentialTargets.Add(collision.gameObject);
         }
     }
 
@@ -41,9 +44,9 @@ public class tower_FindTarget : MonoBehaviour
     {
         //find gameobject in list and removeself
         //list.remove(collision)
-        if (potentialtargets.Contains(collision.gameObject))
+        if (potentialTargets.Contains(collision.gameObject))
         {
-            potentialtargets.Remove(collision.gameObject);
+            potentialTargets.Remove(collision.gameObject);
         }
     }
 
@@ -64,7 +67,7 @@ public class tower_FindTarget : MonoBehaviour
                 //sort list by x+y vaule who evers is grate goes infront 
 
                 //for each gameobject in list do the loop
-                foreach (GameObject gO in potentialtargets)
+                foreach (GameObject gO in potentialTargets)
                 {
                     //if (gO == null) { return; } // a just in case mesure :3
                     if (gO.GetComponent<enemy_Move>().i > tI)
@@ -108,11 +111,11 @@ public class tower_FindTarget : MonoBehaviour
                 sortList();
                 break;
         }
-        Target = potentialtargets[0];
+        Target = potentialTargets[0];
     }
 
     public void callAttack()
     {
-        //shoot(target) do we add attack cooldown here or later?
+        base.Shoot(bullet, shootPoint);
     }
 }
