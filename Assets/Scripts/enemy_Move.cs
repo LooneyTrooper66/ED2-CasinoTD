@@ -32,7 +32,7 @@ public class enemy_Move : MonoBehaviour
 
     public void PosDone()
     {
-        if (i == eM.RowConnectors.Count - 1)
+        if (i >= eM.RowConnectors.Count - 1)
         {
             //doeal damage to the players health
             //playerhealth.takedamage(damage);  <--- example code
