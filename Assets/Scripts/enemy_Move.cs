@@ -38,6 +38,7 @@ public class enemy_Move : MonoBehaviour
             //playerhealth.takedamage(damage);  <--- example code
             inactive = true;
             Debug.Log("die");
+            GameObject.FindWithTag("playerManager").GetComponent<HealthManager>().TakeDamage(damage);
             //call a enemy manager function to disable this and add it back into the enemy que
             //teleport the enemy offscreen and into storage
         }
