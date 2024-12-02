@@ -1958,6 +1958,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 345b67f199be29340a1998791249be4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  chips: {fileID: 534035130}
   r: []
   rowNumb: 0
   pG: {fileID: 378141337}

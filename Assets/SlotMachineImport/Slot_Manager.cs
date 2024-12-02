@@ -10,6 +10,7 @@ public class Slot_Manager : MonoBehaviour
     //public RowRandomiser r2;
     //public RowRandomiser r3;
 
+    public ChipForCash chips;
     public List<RowRandomiser> r; // <-- the hip new list method thats so much cooler (i have been using to many lists in this code please god help me)
    // public List<Transform> t;
     [HideInInspector] public int rowNumb;
@@ -47,6 +48,7 @@ public class Slot_Manager : MonoBehaviour
         if (reset)
         {
             reset = false;
+            chips.tradableChipsThisRound = 5;
             rowOutPut.Clear();
             rowNumb = 0;
            /* r1.VauleRest();
