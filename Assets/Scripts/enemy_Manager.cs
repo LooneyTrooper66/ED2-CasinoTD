@@ -16,14 +16,12 @@ public class enemy_Manager : MonoBehaviour
     public bool summontest;
     public enemy_Move testEnemy;
 
-
-    public GameObject[] enemyVariaints;
-    public enemy_Move[] enemyTypes; // this is better version as it only stores new data in each and as everything else is :3
+    public enemy_S_Obj[] enemyTypes; // this is better version as it only stores new data in each and as everything else is :3
     //public List<GameObject> enemyVault; replace this with parenting the object under the wave manager
     public path_Genarator pG;
-
-    
-
+    public Transform active_Enemy;
+    private GameObject selectedEnemy;
+    private enemy_Move SEM;
 
     void Start()
     {
@@ -37,20 +35,34 @@ public class enemy_Manager : MonoBehaviour
         {
             summontest = false;
             //summonTest();
-            testEnemy.spawn();
+            //testEnemy.spawn();
+            SummonTest();
         }
     }
     /// <summary>
     /// spawn a single enemy or not 
     /// </summary
-    void summonTest()
+    void SummonTest()
     {
         ////...,.,//../...,.kljhniouhijoiyguhob uyog.
-        if (transform.childCount != 0)
+        if (transform.childCount < 0)
         {
-            transform.GetChild(0).gameObject.SetActive(true);
-            //example child 
+            //spawn new enemy
+            //selectedEnemy = Instantiate
         }
+        else
+        {
+            selectedEnemy = transform.GetChild(0).gameObject;  // <-- get the first child
+        }
+
+        //set the gameObject Needed Information
+        //change the enemy transfrom into the active zone
+        selectedEnemy.transform.parent = active_Enemy;
+        SEM = selectedEnemy.GetComponent<enemy_Move>();
+        //set the Enemy Move 
+        SEM.Health = enemyTypes[1].health;
+        SEM.speed = enemyTypes[1].speed;
+        SEM.damage = enemyTypes[1].damage;
     }
 
     public void SummonWave()
