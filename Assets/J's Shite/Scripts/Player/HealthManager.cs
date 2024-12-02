@@ -18,4 +18,9 @@ public class HealthManager : MonoBehaviour
         string chipsStr = playerChips.ToString();
         chipsText.text = $"chips - {chipsStr}";
     }
+
+    public void TakeDamage(int damage)
+    {
+        playerChips -= damage;
+    }
 }

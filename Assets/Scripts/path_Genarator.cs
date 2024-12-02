@@ -127,7 +127,9 @@ public class path_Genarator : MonoBehaviour
 
     public void ClearPath()
     {
-        lineRenderer.positionCount = 0;
+        lineRenderer.positionCount = 2;
+        lineRenderer.SetPosition(0, new(-10, -10, 0));
+        lineRenderer.SetPosition(1, new(-10, -10, 0));
     }
 
 
