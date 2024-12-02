@@ -3454,6 +3454,7 @@ GameObject:
   - component: {fileID: 721219959}
   - component: {fileID: 721219958}
   - component: {fileID: 721219957}
+  - component: {fileID: 721219962}
   m_Layer: 8
   m_Name: rouletteT
   m_TagString: roulette
@@ -3473,8 +3474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca4d51b6c0d7ebd4d8bb6d7e494cf8a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  available: {r: 0.6509804, g: 0.2901961, b: 0.2901961, a: 1}
-  unavailable: {r: 0.3962264, g: 0.3009078, b: 0.3009078, a: 1}
+  available: {r: 1, g: 1, b: 1, a: 1}
+  unavailable: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
   price: 10
   upgradePrice: 35
   moneyM: {fileID: 1208676895}
@@ -3491,7 +3492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisGO: {fileID: 721219961}
-  returnTo: {x: 8.25, y: 2, z: -3}
+  returnTo: {x: 8.25, y: 2.25, z: -3}
   cardController: {fileID: 592698236}
 --- !u!61 &721219959
 BoxCollider2D:
@@ -3527,17 +3528,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.777778, y: 2.7832031}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.75}
   m_EdgeRadius: 0
 --- !u!212 &721219960
 SpriteRenderer:
@@ -3583,8 +3584,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.6509804, g: 0.2901961, b: 0.2901961, a: 1}
+  m_Sprite: {fileID: -4652820213325367016, guid: 6ca1b5a2d53012946ab53886b10446fe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3603,12 +3604,34 @@ Transform:
   m_GameObject: {fileID: 721219956}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.25, y: 2, z: -3}
-  m_LocalScale: {x: 0.3, y: 0.6, z: 0.6}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 8.25, y: 2.25, z: -3}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &721219962
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721219956}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0710c7d144751964084d98140d0651ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &761803787
 GameObject:
   m_ObjectHideFlags: 0
@@ -4157,6 +4180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872495838}
   - component: {fileID: 872495839}
+  - component: {fileID: 872495840}
   m_Layer: 0
   m_Name: rouletteT (1)
   m_TagString: roulette
@@ -4173,9 +4197,9 @@ Transform:
   m_GameObject: {fileID: 872495837}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.25, y: 2, z: -2}
-  m_LocalScale: {x: 0.3, y: 0.6, z: 0.6}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 8.25, y: 2.25, z: -2}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 925951002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4223,8 +4247,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 9
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.6509804, g: 0.2901961, b: 0.2901961, a: 1}
+  m_Sprite: {fileID: -4652820213325367016, guid: 6ca1b5a2d53012946ab53886b10446fe, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4234,6 +4258,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &872495840
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872495837}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0710c7d144751964084d98140d0651ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &877261664
 GameObject:
   m_ObjectHideFlags: 0
@@ -6814,7 +6860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "roulette \xA310"
+  m_Text: "\xA310"
 --- !u!222 &1273514459
 CanvasRenderer:
   m_ObjectHideFlags: 0

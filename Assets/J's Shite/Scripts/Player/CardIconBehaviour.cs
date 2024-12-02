@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class CardIconBehaviour : MonoBehaviour
 {
@@ -95,7 +97,7 @@ public class CardIconBehaviour : MonoBehaviour
                 return;
             case "roulette":
                 Instantiate(roulettePrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(8.25f, 2, -3);
+                lastDragged.transform.position = new Vector3(8.25f, 2.25f, -3);
                 money.playerMoney = money.playerMoney - 10;
                 return;
             case "horse":

@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 709d29ac8a478ef4fb81cc967afe2752
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7493784647861455004
+    second: spinning roullette top down_0
+  - first:
+      213: 1394059481228448069
+    second: spinning roullette top down_1
+  - first:
+      213: -3204162971676843506
+    second: spinning roullette top down_2
+  - first:
+      213: -2495639838230476975
+    second: spinning roullette top down_3
+  - first:
+      213: 3980210004366868033
+    second: spinning roullette top down_4
+  - first:
+      213: 7919863388345525644
+    second: spinning roullette top down_5
+  - first:
+      213: 8074507969453075226
+    second: spinning roullette top down_6
+  - first:
+      213: 6320557890676123482
+    second: spinning roullette top down_7
+  - first:
+      213: -5619850279690900653
+    second: spinning roullette top down_8
+  - first:
+      213: -138308570556219377
+    second: spinning roullette top down_9
+  - first:
+      213: 4055365781944820963
+    second: spinning roullette top down_10
+  - first:
+      213: -3404556900691669164
+    second: spinning roullette top down_11
+  - first:
+      213: 3137760297909446547
+    second: spinning roullette top down_12
+  - first:
+      213: 6091125560355842171
+    second: spinning roullette top down_13
+  - first:
+      213: 6670748332571004476
+    second: spinning roullette top down_14
+  - first:
+      213: -578176911411288802
+    second: spinning roullette top down_15
+  - first:
+      213: -8822926887595117859
+    second: spinning roullette top down_16
+  - first:
+      213: 4206181454933694616
+    second: spinning roullette top down_17
+  - first:
+      213: -5035764531068691109
+    second: spinning roullette top down_18
+  - first:
+      213: -4162788370278647599
+    second: spinning roullette top down_19
+  - first:
+      213: -4004484690894202491
+    second: spinning roullette top down_20
+  - first:
+      213: -81768799560333776
+    second: spinning roullette top down_21
+  - first:
+      213: 2706570227933141622
+    second: spinning roullette top down_22
+  - first:
+      213: 2327392383106395515
+    second: spinning roullette top down_23
+  - first:
+      213: 7219479562507839741
+    second: spinning roullette top down_24
+  - first:
+      213: 8547461563551558461
+    second: spinning roullette top down_25
+  - first:
+      213: 6348238128249100442
+    second: spinning roullette top down_26
+  - first:
+      213: -3452252501783049750
+    second: spinning roullette top down_27
+  - first:
+      213: 1194900941421484728
+    second: spinning roullette top down_28
+  - first:
+      213: -922037899442609650
+    second: spinning roullette top down_29
+  - first:
+      213: -8085274521504616444
+    second: spinning roullette top down_30
+  - first:
+      213: -3744829804015613117
+    second: spinning roullette top down_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spinning roullette top down_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46731f8019ab00890800000000000000
+      internalID: -7493784647861455004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_1
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541136e46b1b85310800000000000000
+      internalID: 1394059481228448069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02edbee0c68883d0800000000000000
+      internalID: -3204162971676843506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_3
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15785f22ac4bd5dd0800000000000000
+      internalID: -2495639838230476975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_4
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e3eb139eb8c3730800000000000000
+      internalID: 3980210004366868033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_5
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85e4fb5ac109ed60800000000000000
+      internalID: 7919863388345525644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_6
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1baf47b73a6e0070800000000000000
+      internalID: 8074507969453075226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_7
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57ea00f9e127b750800000000000000
+      internalID: 6320557890676123482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_8
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35be42422f74202b0800000000000000
+      internalID: -5619850279690900653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_9
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00ca9e7611a41ef0800000000000000
+      internalID: -138308570556219377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_10
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4681341bd874830800000000000000
+      internalID: 4055365781944820963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_11
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f0ba4798590c0d0800000000000000
+      internalID: -3404556900691669164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_12
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397673bcd509b8b20800000000000000
+      internalID: 3137760297909446547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_13
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78ef4bcc66088450800000000000000
+      internalID: 6091125560355842171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_14
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e8cece342439c50800000000000000
+      internalID: 6670748332571004476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_15
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e156ff19927e9f7f0800000000000000
+      internalID: -578176911411288802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_16
+      rect:
+        serializedVersion: 2
+        x: 4133
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd276a9ddbaae8580800000000000000
+      internalID: -8822926887595117859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_17
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898982a7fbb5f5a30800000000000000
+      internalID: 4206181454933694616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_18
+      rect:
+        serializedVersion: 2
+        x: 4645
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d9321f6de5d1ab0800000000000000
+      internalID: -5035764531068691109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_19
+      rect:
+        serializedVersion: 2
+        x: 4901
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8f96a580eca36c0800000000000000
+      internalID: -4162788370278647599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_20
+      rect:
+        serializedVersion: 2
+        x: 5157
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589d2cae3663d68c0800000000000000
+      internalID: -4004484690894202491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_21
+      rect:
+        serializedVersion: 2
+        x: 5413
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0360f74c5bf7ddef0800000000000000
+      internalID: -81768799560333776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_22
+      rect:
+        serializedVersion: 2
+        x: 5669
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a5a93484baf8520800000000000000
+      internalID: 2706570227933141622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_23
+      rect:
+        serializedVersion: 2
+        x: 5925
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7da1089a0f8c4020800000000000000
+      internalID: 2327392383106395515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_24
+      rect:
+        serializedVersion: 2
+        x: 6181
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8e872696eb03460800000000000000
+      internalID: 7219479562507839741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_25
+      rect:
+        serializedVersion: 2
+        x: 6437
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3babc2710fae9670800000000000000
+      internalID: 8547461563551558461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_26
+      rect:
+        serializedVersion: 2
+        x: 6693
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98d0e771f8791850800000000000000
+      internalID: 6348238128249100442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_27
+      rect:
+        serializedVersion: 2
+        x: 6949
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae98444f3a22710d0800000000000000
+      internalID: -3452252501783049750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_28
+      rect:
+        serializedVersion: 2
+        x: 7205
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba153b4314259010800000000000000
+      internalID: 1194900941421484728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_29
+      rect:
+        serializedVersion: 2
+        x: 7461
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02a6466a634433f0800000000000000
+      internalID: -922037899442609650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_30
+      rect:
+        serializedVersion: 2
+        x: 7717
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400733a09a55bcf80800000000000000
+      internalID: -8085274521504616444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spinning roullette top down_31
+      rect:
+        serializedVersion: 2
+        x: 7973
+        y: 27
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b8a5b5221b70cc0800000000000000
+      internalID: -3744829804015613117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spinning roullette top down_0: -7493784647861455004
+      spinning roullette top down_1: 1394059481228448069
+      spinning roullette top down_10: 4055365781944820963
+      spinning roullette top down_11: -3404556900691669164
+      spinning roullette top down_12: 3137760297909446547
+      spinning roullette top down_13: 6091125560355842171
+      spinning roullette top down_14: 6670748332571004476
+      spinning roullette top down_15: -578176911411288802
+      spinning roullette top down_16: -8822926887595117859
+      spinning roullette top down_17: 4206181454933694616
+      spinning roullette top down_18: -5035764531068691109
+      spinning roullette top down_19: -4162788370278647599
+      spinning roullette top down_2: -3204162971676843506
+      spinning roullette top down_20: -4004484690894202491
+      spinning roullette top down_21: -81768799560333776
+      spinning roullette top down_22: 2706570227933141622
+      spinning roullette top down_23: 2327392383106395515
+      spinning roullette top down_24: 7219479562507839741
+      spinning roullette top down_25: 8547461563551558461
+      spinning roullette top down_26: 6348238128249100442
+      spinning roullette top down_27: -3452252501783049750
+      spinning roullette top down_28: 1194900941421484728
+      spinning roullette top down_29: -922037899442609650
+      spinning roullette top down_3: -2495639838230476975
+      spinning roullette top down_30: -8085274521504616444
+      spinning roullette top down_31: -3744829804015613117
+      spinning roullette top down_4: 3980210004366868033
+      spinning roullette top down_5: 7919863388345525644
+      spinning roullette top down_6: 8074507969453075226
+      spinning roullette top down_7: 6320557890676123482
+      spinning roullette top down_8: -5619850279690900653
+      spinning roullette top down_9: -138308570556219377
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

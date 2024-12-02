@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 02a3647682f749d4c91689f596db4a7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6780921073692176441
+    second: rectangle spinning lights_0
+  - first:
+      213: 4514298458482423542
+    second: rectangle spinning lights_1
+  - first:
+      213: 1512022959934202645
+    second: rectangle spinning lights_2
+  - first:
+      213: 2357524281174412332
+    second: rectangle spinning lights_3
+  - first:
+      213: -1267913708777891138
+    second: rectangle spinning lights_4
+  - first:
+      213: -8974420197317376529
+    second: rectangle spinning lights_5
+  - first:
+      213: 9134512382133025004
+    second: rectangle spinning lights_6
+  - first:
+      213: 8252531840163140682
+    second: rectangle spinning lights_7
+  - first:
+      213: -2850595977465900450
+    second: rectangle spinning lights_8
+  - first:
+      213: 8796124633063289256
+    second: rectangle spinning lights_9
+  - first:
+      213: 2012536387931178651
+    second: rectangle spinning lights_10
+  - first:
+      213: 6140809590364005727
+    second: rectangle spinning lights_11
+  - first:
+      213: -8256365283257859953
+    second: rectangle spinning lights_12
+  - first:
+      213: -3615177552844228522
+    second: rectangle spinning lights_13
+  - first:
+      213: 4940787970650157841
+    second: rectangle spinning lights_14
+  - first:
+      213: -1383004994003672406
+    second: rectangle spinning lights_15
+  - first:
+      213: 5643556356596798699
+    second: rectangle spinning lights_16
+  - first:
+      213: 4678542287760993655
+    second: rectangle spinning lights_17
+  - first:
+      213: 833058670651317459
+    second: rectangle spinning lights_18
+  - first:
+      213: 3045672102545750562
+    second: rectangle spinning lights_19
+  - first:
+      213: -1799530313315832365
+    second: rectangle spinning lights_20
+  - first:
+      213: -1036531798092466270
+    second: rectangle spinning lights_21
+  - first:
+      213: 8766692423184102004
+    second: rectangle spinning lights_22
+  - first:
+      213: -1801498416903928422
+    second: rectangle spinning lights_23
+  - first:
+      213: -7781532032109471383
+    second: rectangle spinning lights_24
+  - first:
+      213: 4601557269761563352
+    second: rectangle spinning lights_25
+  - first:
+      213: -8996525463857707735
+    second: rectangle spinning lights_26
+  - first:
+      213: 6089837101982360239
+    second: rectangle spinning lights_27
+  - first:
+      213: -9056232991784188155
+    second: rectangle spinning lights_28
+  - first:
+      213: 8954743178120622798
+    second: rectangle spinning lights_29
+  - first:
+      213: 1176174235431583355
+    second: rectangle spinning lights_30
+  - first:
+      213: -3135151442165008563
+    second: rectangle spinning lights_31
+  - first:
+      213: 8593415738395810942
+    second: rectangle spinning lights_32
+  - first:
+      213: 7074877686285833713
+    second: rectangle spinning lights_33
+  - first:
+      213: 4613788264505324232
+    second: rectangle spinning lights_34
+  - first:
+      213: -7357626267327196262
+    second: rectangle spinning lights_35
+  - first:
+      213: 2593002148486338756
+    second: rectangle spinning lights_36
+  - first:
+      213: -6940399281094993201
+    second: rectangle spinning lights_37
+  - first:
+      213: 4918931123737534745
+    second: rectangle spinning lights_38
+  - first:
+      213: -3778963851247989042
+    second: rectangle spinning lights_39
+  - first:
+      213: -4491644071244478538
+    second: rectangle spinning lights_40
+  - first:
+      213: 3243467598684257780
+    second: rectangle spinning lights_41
+  - first:
+      213: 189950849514591185
+    second: rectangle spinning lights_42
+  - first:
+      213: 837694193831579126
+    second: rectangle spinning lights_43
+  - first:
+      213: 2319702405417535509
+    second: rectangle spinning lights_44
+  - first:
+      213: -3615826244938126683
+    second: rectangle spinning lights_45
+  - first:
+      213: 2039131285400921452
+    second: rectangle spinning lights_46
+  - first:
+      213: 4271497538238782302
+    second: rectangle spinning lights_47
+  - first:
+      213: -8202860529204732528
+    second: rectangle spinning lights_48
+  - first:
+      213: -6905856475292764812
+    second: rectangle spinning lights_49
+  - first:
+      213: 8332989044333477151
+    second: rectangle spinning lights_50
+  - first:
+      213: 2802277569867389281
+    second: rectangle spinning lights_51
+  - first:
+      213: -6120224170156201008
+    second: rectangle spinning lights_52
+  - first:
+      213: -3715753500175797638
+    second: rectangle spinning lights_53
+  - first:
+      213: 5089165425211322319
+    second: rectangle spinning lights_54
+  - first:
+      213: 6250340818426974719
+    second: rectangle spinning lights_55
+  - first:
+      213: -1323846754093450233
+    second: rectangle spinning lights_56
+  - first:
+      213: -1566616076877956031
+    second: rectangle spinning lights_57
+  - first:
+      213: -5441350268106445370
+    second: rectangle spinning lights_58
+  - first:
+      213: 8836232761988042621
+    second: rectangle spinning lights_59
+  - first:
+      213: -1118861864805734690
+    second: rectangle spinning lights_60
+  - first:
+      213: -2400563059179199476
+    second: rectangle spinning lights_61
+  - first:
+      213: -4341046677140567830
+    second: rectangle spinning lights_62
+  - first:
+      213: 1194903454569215600
+    second: rectangle spinning lights_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rectangle spinning lights_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf0e98d53455e1a0800000000000000
+      internalID: -6780921073692176441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f630fbb78206ae30800000000000000
+      internalID: 4514298458482423542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513ec1bfed8cbf410800000000000000
+      internalID: 1512022959934202645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_3
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c42c0d7db97b020800000000000000
+      internalID: 2357524281174412332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_4
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba12761337776ee0800000000000000
+      internalID: -1267913708777891138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_5
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe58ec90164747380800000000000000
+      internalID: -8974420197317376529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_6
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce832756d9e44ce70800000000000000
+      internalID: 9134512382133025004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_7
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44568e1cf1e68270800000000000000
+      internalID: 8252531840163140682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_8
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52dcf4cf06a078d0800000000000000
+      internalID: -2850595977465900450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_9
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1fcc9ffbc121a70800000000000000
+      internalID: 8796124633063289256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_10
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b968f249e27fdeb10800000000000000
+      internalID: 2012536387931178651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_11
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5565fa79c9883550800000000000000
+      internalID: 6140809590364005727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_12
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f804c8bd48f7b6d80800000000000000
+      internalID: -8256365283257859953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_13
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658f0c27b2f44ddc0800000000000000
+      internalID: -3615177552844228522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_14
+      rect:
+        serializedVersion: 2
+        x: 2451
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113302d5b74319440800000000000000
+      internalID: 4940787970650157841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_15
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2e1d119449ecce0800000000000000
+      internalID: -1383004994003672406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_16
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be499d00b90f15e40800000000000000
+      internalID: 5643556356596798699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_17
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d23a83c658de040800000000000000
+      internalID: 4678542287760993655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_18
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc1b3d727e9f8b00800000000000000
+      internalID: 833058670651317459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_19
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a7e8ef3a6644a20800000000000000
+      internalID: 3045672102545750562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_20
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd2340e6b8c607e0800000000000000
+      internalID: -1799530313315832365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_21
+      rect:
+        serializedVersion: 2
+        x: 3676
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a73d4842df7d91f0800000000000000
+      internalID: -1036531798092466270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_22
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4723ffa9f4c89a970800000000000000
+      internalID: 8766692423184102004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_23
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95430d0cbacff6e0800000000000000
+      internalID: -1801498416903928422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_24
+      rect:
+        serializedVersion: 2
+        x: 4201
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9699ac958d1720490800000000000000
+      internalID: -7781532032109471383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_25
+      rect:
+        serializedVersion: 2
+        x: 4376
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da11cde4f30cdf30800000000000000
+      internalID: 4601557269761563352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_26
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925410a91cbe52380800000000000000
+      internalID: -8996525463857707735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_27
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa227a33492738450800000000000000
+      internalID: 6089837101982360239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_28
+      rect:
+        serializedVersion: 2
+        x: 4901
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507c781731cc15280800000000000000
+      internalID: -9056232991784188155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_29
+      rect:
+        serializedVersion: 2
+        x: 5076
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec27bbae973a54c70800000000000000
+      internalID: 8954743178120622798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_30
+      rect:
+        serializedVersion: 2
+        x: 5251
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ebdd84c3c925010800000000000000
+      internalID: 1176174235431583355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_31
+      rect:
+        serializedVersion: 2
+        x: 5426
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4773b4cf54bd74d0800000000000000
+      internalID: -3135151442165008563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_32
+      rect:
+        serializedVersion: 2
+        x: 5601
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c555e8512f14770800000000000000
+      internalID: 8593415738395810942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_33
+      rect:
+        serializedVersion: 2
+        x: 5776
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5976875c30f2260800000000000000
+      internalID: 7074877686285833713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_34
+      rect:
+        serializedVersion: 2
+        x: 5951
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2b4be4bf7770040800000000000000
+      internalID: 4613788264505324232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_35
+      rect:
+        serializedVersion: 2
+        x: 6126
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9311e964e574e990800000000000000
+      internalID: -7357626267327196262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_36
+      rect:
+        serializedVersion: 2
+        x: 6301
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c85a5a37b13cf320800000000000000
+      internalID: 2593002148486338756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_37
+      rect:
+        serializedVersion: 2
+        x: 6476
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcad4fa20afbeaf90800000000000000
+      internalID: -6940399281094993201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_38
+      rect:
+        serializedVersion: 2
+        x: 6651
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9112df0abcd834440800000000000000
+      internalID: 4918931123737534745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_39
+      rect:
+        serializedVersion: 2
+        x: 6826
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece425b266c6e8bc0800000000000000
+      internalID: -3778963851247989042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_40
+      rect:
+        serializedVersion: 2
+        x: 7001
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7cbf3d3897aa1c0800000000000000
+      internalID: -4491644071244478538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_41
+      rect:
+        serializedVersion: 2
+        x: 7176
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd701ca89c130d20800000000000000
+      internalID: 3243467598684257780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_42
+      rect:
+        serializedVersion: 2
+        x: 7351
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3d91e8a47d2a200800000000000000
+      internalID: 189950849514591185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_43
+      rect:
+        serializedVersion: 2
+        x: 7526
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd0db55e6610ab00800000000000000
+      internalID: 837694193831579126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_44
+      rect:
+        serializedVersion: 2
+        x: 7701
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51808832c0d313020800000000000000
+      internalID: 2319702405417535509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_45
+      rect:
+        serializedVersion: 2
+        x: 7876
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaadec003102ddc0800000000000000
+      internalID: -3615826244938126683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_46
+      rect:
+        serializedVersion: 2
+        x: 8051
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6525bca9137c4c10800000000000000
+      internalID: 2039131285400921452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_47
+      rect:
+        serializedVersion: 2
+        x: 8226
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b9da13168674b30800000000000000
+      internalID: 4271497538238782302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_48
+      rect:
+        serializedVersion: 2
+        x: 8401
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dddae2fc5992e80800000000000000
+      internalID: -8202860529204732528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_49
+      rect:
+        serializedVersion: 2
+        x: 8576
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475f750ef187920a0800000000000000
+      internalID: -6905856475292764812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_50
+      rect:
+        serializedVersion: 2
+        x: 8751
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1df7b0c269b4a370800000000000000
+      internalID: 8332989044333477151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_51
+      rect:
+        serializedVersion: 2
+        x: 8926
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1699df94a90b3e620800000000000000
+      internalID: 2802277569867389281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_52
+      rect:
+        serializedVersion: 2
+        x: 9101
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db64182b88901ba0800000000000000
+      internalID: -6120224170156201008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_53
+      rect:
+        serializedVersion: 2
+        x: 9276
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a727b15e0edfe6cc0800000000000000
+      internalID: -3715753500175797638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_54
+      rect:
+        serializedVersion: 2
+        x: 9451
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfabec9df850a640800000000000000
+      internalID: 5089165425211322319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_55
+      rect:
+        serializedVersion: 2
+        x: 9626
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1d67fcbdbadb650800000000000000
+      internalID: 6250340818426974719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_56
+      rect:
+        serializedVersion: 2
+        x: 9801
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70cb4352460c0ade0800000000000000
+      internalID: -1323846754093450233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_57
+      rect:
+        serializedVersion: 2
+        x: 9976
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cf5467af2424ae0800000000000000
+      internalID: -1566616076877956031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_58
+      rect:
+        serializedVersion: 2
+        x: 10151
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cde90bb2c07c74b0800000000000000
+      internalID: -5441350268106445370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_59
+      rect:
+        serializedVersion: 2
+        x: 10326
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f47f271ea90aa70800000000000000
+      internalID: 8836232761988042621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_60
+      rect:
+        serializedVersion: 2
+        x: 10501
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6e58bdf010970f0800000000000000
+      internalID: -1118861864805734690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_61
+      rect:
+        serializedVersion: 2
+        x: 10676
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04e2bccd9c7faed0800000000000000
+      internalID: -2400563059179199476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_62
+      rect:
+        serializedVersion: 2
+        x: 10851
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae885a70c0181c3c0800000000000000
+      internalID: -4341046677140567830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rectangle spinning lights_63
+      rect:
+        serializedVersion: 2
+        x: 11026
+        y: 0
+        width: 174
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0763c7e6c56259010800000000000000
+      internalID: 1194903454569215600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rectangle spinning lights_0: -6780921073692176441
+      rectangle spinning lights_1: 4514298458482423542
+      rectangle spinning lights_10: 2012536387931178651
+      rectangle spinning lights_11: 6140809590364005727
+      rectangle spinning lights_12: -8256365283257859953
+      rectangle spinning lights_13: -3615177552844228522
+      rectangle spinning lights_14: 4940787970650157841
+      rectangle spinning lights_15: -1383004994003672406
+      rectangle spinning lights_16: 5643556356596798699
+      rectangle spinning lights_17: 4678542287760993655
+      rectangle spinning lights_18: 833058670651317459
+      rectangle spinning lights_19: 3045672102545750562
+      rectangle spinning lights_2: 1512022959934202645
+      rectangle spinning lights_20: -1799530313315832365
+      rectangle spinning lights_21: -1036531798092466270
+      rectangle spinning lights_22: 8766692423184102004
+      rectangle spinning lights_23: -1801498416903928422
+      rectangle spinning lights_24: -7781532032109471383
+      rectangle spinning lights_25: 4601557269761563352
+      rectangle spinning lights_26: -8996525463857707735
+      rectangle spinning lights_27: 6089837101982360239
+      rectangle spinning lights_28: -9056232991784188155
+      rectangle spinning lights_29: 8954743178120622798
+      rectangle spinning lights_3: 2357524281174412332
+      rectangle spinning lights_30: 1176174235431583355
+      rectangle spinning lights_31: -3135151442165008563
+      rectangle spinning lights_32: 8593415738395810942
+      rectangle spinning lights_33: 7074877686285833713
+      rectangle spinning lights_34: 4613788264505324232
+      rectangle spinning lights_35: -7357626267327196262
+      rectangle spinning lights_36: 2593002148486338756
+      rectangle spinning lights_37: -6940399281094993201
+      rectangle spinning lights_38: 4918931123737534745
+      rectangle spinning lights_39: -3778963851247989042
+      rectangle spinning lights_4: -1267913708777891138
+      rectangle spinning lights_40: -4491644071244478538
+      rectangle spinning lights_41: 3243467598684257780
+      rectangle spinning lights_42: 189950849514591185
+      rectangle spinning lights_43: 837694193831579126
+      rectangle spinning lights_44: 2319702405417535509
+      rectangle spinning lights_45: -3615826244938126683
+      rectangle spinning lights_46: 2039131285400921452
+      rectangle spinning lights_47: 4271497538238782302
+      rectangle spinning lights_48: -8202860529204732528
+      rectangle spinning lights_49: -6905856475292764812
+      rectangle spinning lights_5: -8974420197317376529
+      rectangle spinning lights_50: 8332989044333477151
+      rectangle spinning lights_51: 2802277569867389281
+      rectangle spinning lights_52: -6120224170156201008
+      rectangle spinning lights_53: -3715753500175797638
+      rectangle spinning lights_54: 5089165425211322319
+      rectangle spinning lights_55: 6250340818426974719
+      rectangle spinning lights_56: -1323846754093450233
+      rectangle spinning lights_57: -1566616076877956031
+      rectangle spinning lights_58: -5441350268106445370
+      rectangle spinning lights_59: 8836232761988042621
+      rectangle spinning lights_6: 9134512382133025004
+      rectangle spinning lights_60: -1118861864805734690
+      rectangle spinning lights_61: -2400563059179199476
+      rectangle spinning lights_62: -4341046677140567830
+      rectangle spinning lights_63: 1194903454569215600
+      rectangle spinning lights_7: 8252531840163140682
+      rectangle spinning lights_8: -2850595977465900450
+      rectangle spinning lights_9: 8796124633063289256
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
