@@ -16,8 +16,11 @@ public class enemy_Manager : MonoBehaviour
     public bool summontest;
     public enemy_Move testEnemy;
 
-    public List<GameObject> enemyVault;
-    public Enemy_Stats[] enemyVariaints; 
+
+    public GameObject[] enemyVariaints;
+    public enemy_Move[] enemyTypes; // this is better version as it only stores new data in each and as everything else is :3
+    //public List<GameObject> enemyVault; replace this with parenting the object under the wave manager
+    public path_Genarator pG;
 
     
 
@@ -38,20 +41,30 @@ public class enemy_Manager : MonoBehaviour
         }
     }
     /// <summary>
-    /// spawn a single enemy
+    /// spawn a single enemy or not 
     /// </summary
     void summonTest()
     {
-
+        ////...,.,//../...,.kljhniouhijoiyguhob uyog.
+        if (transform.childCount != 0)
+        {
+            transform.GetChild(0).gameObject.SetActive(true);
+            //example child 
+        }
     }
 
     public void SummonWave()
     {
-
+        //grab any enemy in the vault
+        //if vault is empty create a new base
+        //set the base enemy to the correct enemy type
+        // enemy_move.em = pg;
+        //
     }
 
     public void WaveClear()
     {
-
+        // once the number of enemys in the vault = spawned enemys the wave should be cleared
+        // set all the enemys to disable and all that jazz so they cant fuck it up
     }
 }
