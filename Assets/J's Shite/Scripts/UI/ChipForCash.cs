@@ -10,7 +10,7 @@ public class ChipForCash : MonoBehaviour
     [SerializeField] Text moneyMakingFromChips;
     private int chipsToBeTraded;
     private int moneyChipsAreWorth;
-    public int tradableChipsThisRound = 5;
+    public int tradableChipsThisRound = 3;
     public MoneyManager moneyM;
     public HealthManager healthM;
     public Transform cashierGoTo;
