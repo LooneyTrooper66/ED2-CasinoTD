@@ -24,15 +24,6 @@ public class enemy_Manager : MonoBehaviour
     private enemy_Move SEM;
 
 
-    [System.Serializable]
-    public class Wave
-    {
-        public Enemy[] enemies;
-        public float timeToNextEnemy;
-        public float timeToNextWave;
-
-        [HideInInspector] public int enemiesLeft;
-    }
 
     void Start()
     {
