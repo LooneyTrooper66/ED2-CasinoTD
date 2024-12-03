@@ -571,7 +571,7 @@ MonoBehaviour:
   speed: 1
   i: 0
   eM: {fileID: 8777318331127321469}
-  goalPos: {x: 0, y: 0, z: 0}
+  goalPos: {x: 0, y: 0}
   inactive: 0
   rb: {fileID: 237416946}
 --- !u!212 &237416949
@@ -642,7 +642,7 @@ Transform:
   m_LocalScale: {x: 0.29289, y: 0.29289, z: 0.29289}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 356933199}
+  m_Father: {fileID: 802376757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &320516307
 GameObject:
@@ -716,12 +716,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320516307}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -425, y: -239, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1047914539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &356933198
 GameObject:
@@ -749,16 +749,10 @@ Transform:
   m_GameObject: {fileID: 356933198}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6344914, y: 0.1503013, z: 6.5450644}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3972067678488920900}
-  - {fileID: 237416950}
-  - {fileID: 1046506536}
-  - {fileID: 1449517839}
-  - {fileID: 626125804}
-  - {fileID: 7684932554026956638}
+  m_Children: []
   m_Father: {fileID: 2134264281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &356933200
@@ -774,7 +768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   summontest: 0
-  testEnemy: {fileID: 72271488007881835}
+  EnemyBaseforInstanciating: {fileID: 5157642825976381380}
   enemyTypes:
   - {fileID: 11400000, guid: cff74d44049f1d04aa8de7901347a5ab, type: 2}
   - {fileID: 11400000, guid: a29f46af1e14ac64c8566c6b2e286a67, type: 2}
@@ -881,7 +875,7 @@ MonoBehaviour:
   speed: 1
   i: 0
   eM: {fileID: 8777318331127321469}
-  goalPos: {x: 0, y: 0, z: 0}
+  goalPos: {x: 0, y: 0}
   inactive: 0
   rb: {fileID: 626125800}
 --- !u!212 &626125803
@@ -952,7 +946,7 @@ Transform:
   m_LocalScale: {x: 0.29289, y: 0.29289, z: 0.29289}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 356933199}
+  m_Father: {fileID: 802376757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &633314704
 GameObject:
@@ -1400,7 +1394,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3972067678488920900}
+  - {fileID: 237416950}
+  - {fileID: 1046506536}
+  - {fileID: 1449517839}
+  - {fileID: 626125804}
+  - {fileID: 7684932554026956638}
   m_Father: {fileID: 2134264281}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &932284212
@@ -1732,7 +1732,7 @@ MonoBehaviour:
   speed: 1
   i: 0
   eM: {fileID: 8777318331127321469}
-  goalPos: {x: 0, y: 0, z: 0}
+  goalPos: {x: 0, y: 0}
   inactive: 0
   rb: {fileID: 1046506532}
 --- !u!212 &1046506535
@@ -1803,7 +1803,7 @@ Transform:
   m_LocalScale: {x: 0.29289, y: 0.29289, z: 0.29289}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 356933199}
+  m_Father: {fileID: 802376757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1047914535
 GameObject:
@@ -1900,6 +1900,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1636348539}
+  - {fileID: 320516310}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2148,7 +2149,7 @@ MonoBehaviour:
   speed: 1
   i: 0
   eM: {fileID: 8777318331127321469}
-  goalPos: {x: 0, y: 0, z: 0}
+  goalPos: {x: 0, y: 0}
   inactive: 0
   rb: {fileID: 1449517835}
 --- !u!212 &1449517838
@@ -2219,7 +2220,7 @@ Transform:
   m_LocalScale: {x: 0.29289, y: 0.29289, z: 0.29289}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 356933199}
+  m_Father: {fileID: 802376757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1541539079
 GameObject:
@@ -3168,7 +3169,7 @@ Transform:
   m_GameObject: {fileID: 2134264280}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6344914, y: -0.1503013, z: -6.5450644}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3213,7 +3214,7 @@ MonoBehaviour:
   speed: 1
   i: 0
   eM: {fileID: 8777318331127321469}
-  goalPos: {x: 0, y: 0, z: 0}
+  goalPos: {x: 0, y: 0}
   inactive: 0
   rb: {fileID: 3074070956438573664}
 --- !u!114 &141009326473578174
@@ -3508,7 +3509,7 @@ GameObject:
   - component: {fileID: 3680520950933815586}
   - component: {fileID: 8579507707032495738}
   m_Layer: 6
-  m_Name: 03-Card_Shark
+  m_Name: Enemy
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3946,7 +3947,7 @@ Transform:
   m_LocalScale: {x: 0.29289, y: 0.29289, z: 0.29289}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 356933199}
+  m_Father: {fileID: 802376757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4075503633275770388
 Transform:
@@ -4499,7 +4500,7 @@ MonoBehaviour:
   speed: 2
   i: 0
   eM: {fileID: 0}
-  goalPos: {x: 0, y: 0, z: 0}
+  goalPos: {x: 0, y: 0}
   inactive: 0
   rb: {fileID: 8579507707032495738}
 --- !u!114 &6731812451391148658
@@ -4692,7 +4693,7 @@ Transform:
   m_LocalScale: {x: 0.29289, y: 0.29289, z: 0.29289}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 356933199}
+  m_Father: {fileID: 802376757}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7810969681946029670
 Transform:
@@ -5018,7 +5019,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   summontest: 0
-  testEnemy: {fileID: 72271488007881835}
+  EnemyBaseforInstanciating: {fileID: 0}
   enemyTypes: []
   pG: {fileID: 0}
   active_Enemy: {fileID: 0}
@@ -5085,5 +5086,4 @@ SceneRoots:
   - {fileID: 1771195398}
   - {fileID: 1621478289}
   - {fileID: 1047914539}
-  - {fileID: 320516310}
   - {fileID: 2134264281}
