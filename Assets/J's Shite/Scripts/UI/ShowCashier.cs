@@ -6,6 +6,8 @@ public class ShowCashier : MonoBehaviour
     [SerializeField] Button showCashier;
     public GameObject cashier;
     public Transform goTo;
+    public Vector3 onScreenCashier;
+    public Vector3 offScreenCashier;
 
 
     private void Start()
@@ -23,6 +25,13 @@ public class ShowCashier : MonoBehaviour
 
     public void cashierShow()
     {
-        goTo.position = new Vector3(6.95f, -1.75f, -1);
+        if (goTo.position == offScreenCashier) 
+        {
+            goTo.position = onScreenCashier;
+        }
+        else
+        {
+            goTo.position = offScreenCashier;
+        }
     }
 }

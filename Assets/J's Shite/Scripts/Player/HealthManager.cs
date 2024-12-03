@@ -10,7 +10,7 @@ public class HealthManager : MonoBehaviour
     private void FixedUpdate()
     {
         string chipsStr = playerChips.ToString();
-        chipsText.text = $"chips - {chipsStr}";
+        chipsText.text = $"{chipsStr}";
     }
 
     public void TakeDamage(int damage)

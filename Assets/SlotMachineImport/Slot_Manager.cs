@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Slot_Manager : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class Slot_Manager : MonoBehaviour
 
     public List<int> rowOutPut;
 
+    public Button pullToStart;
     public bool reset;
     public bool stop;
     public bool rigged; //this can be used for forced results no use yet
@@ -38,7 +40,8 @@ public class Slot_Manager : MonoBehaviour
             }
 
         }
-        
+
+        pullToStart.onClick.AddListener(PullToStart);
     }
 
 
@@ -59,6 +62,8 @@ public class Slot_Manager : MonoBehaviour
             {
                 o.VauleRest();
             }
+
+            StartCoroutine(TimerForStop());
         }
         if(stop)
         {
@@ -84,5 +89,17 @@ public class Slot_Manager : MonoBehaviour
         rowNumb++;
         r[rowNumb].lastRoll = true;
         rowOutPut.Add(me);
+    }
+
+    public void PullToStart()
+    {
+        reset = true;
+    }
+
+    IEnumerator TimerForStop()
+    {
+        yield return new WaitForSecondsRealtime(2);
+        stop = true;
+        StopCoroutine(TimerForStop());
     }
 }
