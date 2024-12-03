@@ -10,7 +10,7 @@ public class ChipForCash : MonoBehaviour
     [SerializeField] Text moneyMakingFromChips;
     private int chipsToBeTraded;
     private int moneyChipsAreWorth;
-    public int tradableChipsThisRound = 5;
+    public int tradableChipsThisRound = 3;
     public MoneyManager moneyM;
     public HealthManager healthM;
     public Transform cashierGoTo;
@@ -66,6 +66,6 @@ public class ChipForCash : MonoBehaviour
         chipsUsed.text = "chips used: 0";
         moneyChipsAreWorth = 0;
         chipsToBeTraded = 0;
-        cashierGoTo.position = new Vector3(12, -1.75f, -1);
+        cashierGoTo.position = new Vector3(12, 1.08f, -1);
     }
 }
