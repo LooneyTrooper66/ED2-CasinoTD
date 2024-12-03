@@ -27,7 +27,7 @@ public class TileMove : MonoBehaviour
         {
             //transform.Translate(Vector3.down * (speed * Time.deltaTime));
            // transform.position = Vector3.MoveTowards(transform.position, exit.transform.position, speed * Time.deltaTime);
-            transform.position += Vector3.down * speed * Time.deltaTime;
+            transform.position += speed * Time.deltaTime * Vector3.down;
         }
 
         if (stop && transform.position.y <= slotPos.y && rowHost)

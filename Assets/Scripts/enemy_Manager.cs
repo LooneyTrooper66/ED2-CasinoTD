@@ -14,7 +14,7 @@ public class enemy_Manager : MonoBehaviour
 
 
     public bool summontest;
-    public enemy_Move testEnemy;
+    public GameObject EnemyBaseforInstanciating;
 
     public enemy_S_Obj[] enemyTypes; // this is better version as it only stores new data in each and as everything else is :3
     //public List<GameObject> enemyVault; replace this with parenting the object under the wave manager
@@ -45,10 +45,11 @@ public class enemy_Manager : MonoBehaviour
     void SummonTest()
     {
         ////...,.,//../...,.kljhniouhijoiyguhob uyog.
-        if (transform.childCount < 0)
+        if (transform.childCount <= 0)
         {
             //spawn new enemy
             //selectedEnemy = Instantiate
+            selectedEnemy = Instantiate(EnemyBaseforInstanciating);
         }
         else
         {
@@ -57,12 +58,17 @@ public class enemy_Manager : MonoBehaviour
 
         //set the gameObject Needed Information
         //change the enemy transfrom into the active zone
+        selectedEnemy.SetActive(true);
         selectedEnemy.transform.parent = active_Enemy;
         SEM = selectedEnemy.GetComponent<enemy_Move>();
         //set the Enemy Move 
         SEM.Health = enemyTypes[1].health;
         SEM.speed = enemyTypes[1].speed;
         SEM.damage = enemyTypes[1].damage;
+        SEM.goalPos = SEM.eM.RowConnectors[0]; 
+        SEM.inactive = false;
+
+        selectedEnemy.transform.position = SEM.eM.RowConnectors[0] + Vector3.left;
     }
 
     public void SummonWave()
