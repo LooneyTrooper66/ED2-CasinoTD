@@ -51,7 +51,7 @@ public class Slot_Manager : MonoBehaviour
         if (reset)
         {
             reset = false;
-            chips.tradableChipsThisRound = 5;
+            chips.tradableChipsThisRound = 3;
             rowOutPut.Clear();
             rowNumb = 0;
            /* r1.VauleRest();
