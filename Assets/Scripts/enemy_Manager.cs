@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -12,16 +11,28 @@ public class enemy_Manager : MonoBehaviour
     //create a array of all enemy types <-- these will be a scriptable objec with information needed and a interface for all the diffren quirks
     //waves could be a dicionary of <enemy type> <spawn delay> <batch size> (this could be a vector 3, each one represents the data needed )
 
-
+    [Range(0, 3)] public int etp;
     public bool summontest;
     public GameObject EnemyBaseforInstanciating;
 
     public enemy_S_Obj[] enemyTypes; // this is better version as it only stores new data in each and as everything else is :3
     //public List<GameObject> enemyVault; replace this with parenting the object under the wave manager
+
     public path_Genarator pG;
     public Transform active_Enemy;
     private GameObject selectedEnemy;
     private enemy_Move SEM;
+
+
+    [System.Serializable]
+    public class Wave
+    {
+        public Enemy[] enemies;
+        public float timeToNextEnemy;
+        public float timeToNextWave;
+
+        [HideInInspector] public int enemiesLeft;
+    }
 
     void Start()
     {
@@ -60,11 +71,12 @@ public class enemy_Manager : MonoBehaviour
         //change the enemy transfrom into the active zone
         selectedEnemy.SetActive(true);
         selectedEnemy.transform.parent = active_Enemy;
+        selectedEnemy.name = enemyTypes[etp].name;
         SEM = selectedEnemy.GetComponent<enemy_Move>();
         //set the Enemy Move 
-        SEM.Health = enemyTypes[1].health;
-        SEM.speed = enemyTypes[1].speed;
-        SEM.damage = enemyTypes[1].damage;
+        SEM.Health = enemyTypes[etp].health;
+        SEM.speed = enemyTypes[etp].speed;
+        SEM.damage = enemyTypes[etp].damage;
         SEM.goalPos = SEM.eM.RowConnectors[0]; 
         SEM.inactive = false;
 

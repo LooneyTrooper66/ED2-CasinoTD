@@ -30,7 +30,7 @@ public class enemy_Move : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if(inactive) { return;}
 
@@ -39,7 +39,8 @@ public class enemy_Move : MonoBehaviour
             PosDone();
             return;
         }
-        rb.MovePosition(Vector3.MoveTowards(transform.position, goalPos, speed / 50));
+        rb.MovePosition(Vector3.MoveTowards(transform.position, goalPos, speed / 100));
+        //Vector3 dir = new Vector3(goalPos.x,goalPos.y,transform.position.z) - transform.position;
         //transform.position = Vector3.MoveTowards(transform.position, goalPos, speed /50);  //doing this equation on every enemy could be costly so my other idea is making each point do the direction equation and then they only need to add their speed to total
     }
 
