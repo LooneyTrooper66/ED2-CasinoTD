@@ -12,12 +12,12 @@ public class RouletteTower : MasterTowerScript
     //public Transform target;
     int i = 0;
     public float ballDistFromCener;
-    public Vector3 ballPos;
+    public Vector3 ballpos;
 
     private void Start()
     {
         findTarget = GetComponent<tower_FindTarget>();
-        ballDistFromCener = Vector3.Distance(transform.position, ballPos);
+        ballDistFromCener = Vector3.Distance(transform.position, bullet.transform.position);
     }
 
     void FixedUpdate()
@@ -42,10 +42,10 @@ public class RouletteTower : MasterTowerScript
                 i = 0;
 
                 Vector3 dir = findTarget.Target.transform.position - transform.position;
-                Vector2 ballpos = new(dir.y, -dir.x);
+                ballpos = new(dir.y, -dir.x);
                 ballpos.Normalize();
-                ballpos = new (ballpos.x * ballDistFromCener, ballpos.y * ballDistFromCener);
-                Vector2 ballDir = findTarget.Target.transform.position - ballPos;
+                ballpos = new (ballpos.x + transform.position.x, ballpos.y + transform.position.y);
+                Vector2 ballDir = findTarget.Target.transform.position - ballpos;
                 //instanciate ball and give it direction
                 GameObject bt =Instantiate(bullet);
                 bt.transform.localPosition = ballpos;
