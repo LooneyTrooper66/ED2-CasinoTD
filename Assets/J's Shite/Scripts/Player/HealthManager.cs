@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class HealthManager : MonoBehaviour
     {
         string chipsStr = playerChips.ToString();
         chipsText.text = $"{chipsStr}";
+
+        if (playerChips >= 0)
+        {
+            SceneManager.LoadScene("DeathScreen");
+        }
     }
 
     public void TakeDamage(int damage)
