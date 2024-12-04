@@ -13,7 +13,7 @@ public class HealthManager : MonoBehaviour
         string chipsStr = playerChips.ToString();
         chipsText.text = $"{chipsStr}";
 
-        if (playerChips >= 0)
+        if (playerChips <= 0)
         {
             SceneManager.LoadScene("DeathScreen");
         }
