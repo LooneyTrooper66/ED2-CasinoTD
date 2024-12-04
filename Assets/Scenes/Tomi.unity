@@ -961,6 +961,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4254145309419700825, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254145309419700825, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254145309419700825, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254145309419700825, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4775593
       objectReference: {fileID: 0}
@@ -1009,6 +1021,10 @@ PrefabInstance:
       value: roulette
       objectReference: {fileID: 0}
     - target: {fileID: 5726996601258235601, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726996601258235601, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -1016,6 +1032,14 @@ PrefabInstance:
       propertyPath: bullet
       value: 
       objectReference: {fileID: 745355439}
+    - target: {fileID: 5780258431719096158, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
+      propertyPath: shotInterval
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5780258431719096158, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
+      propertyPath: ballDistFromCener
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3496,7 +3520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e71096fa779cb52488b5488f06907b0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 1
+  Health: 100
   damage: 0
   speed: 1
   i: 0
@@ -3636,7 +3660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chipsText: {fileID: 1636348540}
-  playerChips: 0
+  playerChips: 100
 --- !u!4 &1621478289
 Transform:
   m_ObjectHideFlags: 0
