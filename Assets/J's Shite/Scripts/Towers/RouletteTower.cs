@@ -17,7 +17,7 @@ public class RouletteTower : MasterTowerScript
     private void Start()
     {
         findTarget = GetComponent<tower_FindTarget>();
-        ballDistFromCener = Vector3.Distance(transform.position, bullet.transform.position);
+      //  ballDistFromCener = Vector3.Distance(transform.position, bullet.transform.position);
     }
 
     void FixedUpdate()
@@ -48,8 +48,10 @@ public class RouletteTower : MasterTowerScript
                 Vector2 ballDir = findTarget.Target.transform.position - ballpos;
                 //instanciate ball and give it direction
                 GameObject bt =Instantiate(bullet);
+                bt.SetActive(true);
                 bt.transform.localPosition = ballpos;
                 bt.GetComponent<ProjectileBehaviour>().Spawn(ballDir);
+                
             }
 
 
