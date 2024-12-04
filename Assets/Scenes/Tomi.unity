@@ -974,6 +974,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 11d67afa809ac0343b6822e514ff1b7b, type: 2}
   pG: {fileID: 8777318331127321469}
   active_Enemy: {fileID: 802376757}
+  waves: []
+  waveTraker: 0
+  waveInProgress: 0
+  wildCardWave: []
 --- !u!1 &378240959
 GameObject:
   m_ObjectHideFlags: 0
