@@ -75,7 +75,7 @@ public class enemy_Move : MonoBehaviour
 
     public void Hit(float Damage)
     {
-        Health -= damage;
+        Health -= Damage;
         //death check
         if (Health <= 0)
         {

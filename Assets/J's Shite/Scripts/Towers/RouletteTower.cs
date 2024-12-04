@@ -5,17 +5,19 @@ using UnityEngine;
 
 public class RouletteTower : MasterTowerScript
 {
-    /*public GameObject shootPoint;
-    public GameObject bullet;*/
+    //public GameObject shootPoint;
+    public GameObject bullet;
     public float shotInterval;
     private tower_FindTarget findTarget;
     //public Transform target;
     int i = 0;
-
+    public float ballDistFromCener;
+    public Vector3 ballPos;
 
     private void Start()
     {
         findTarget = GetComponent<tower_FindTarget>();
+        ballDistFromCener = Vector3.Distance(transform.position, ballPos);
     }
 
     void FixedUpdate()
@@ -38,7 +40,19 @@ public class RouletteTower : MasterTowerScript
             {
                 findTarget.sortList();
                 i = 0;
+
+                Vector3 dir = findTarget.Target.transform.position - transform.position;
+                Vector2 ballpos = new(dir.y, -dir.x);
+                ballpos.Normalize();
+                ballpos = new (ballpos.x * ballDistFromCener, ballpos.y * ballDistFromCener);
+                Vector2 ballDir = findTarget.Target.transform.position - ballPos;
+                //instanciate ball and give it direction
+                GameObject bt =Instantiate(bullet);
+                bt.transform.localPosition = ballpos;
+                bt.GetComponent<ProjectileBehaviour>().Spawn(ballDir);
             }
+
+
 
 
         }
