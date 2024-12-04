@@ -55,8 +55,7 @@ public class enemy_Move : MonoBehaviour
             Debug.Log("die");
             GameObject.FindWithTag("playerManager").GetComponent<HealthManager>().TakeDamage(damage);
             //parent it to wave manager :3 please
-            transform.SetParent(transform.parent.parent.GetChild(0));
-            gameObject.SetActive(false);
+            Death();
             //call a enemy manager function to disable this and add it back into the enemy que
             //teleport the enemy offscreen and into storage
         }
@@ -87,6 +86,8 @@ public class enemy_Move : MonoBehaviour
     public void Death()
     {
         //send to the shadow realm :3
+        transform.SetParent(transform.parent.parent.GetChild(0));
+        gameObject.SetActive(false);
     }
 
 

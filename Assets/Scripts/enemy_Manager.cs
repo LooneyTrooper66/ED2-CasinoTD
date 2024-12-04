@@ -23,12 +23,11 @@ public class enemy_Manager : MonoBehaviour
     private GameObject selectedEnemy;
     private enemy_Move SEM;
 
+    public Wave[] waves;
+    public int waveTraker;
+    public bool waveInProgress;
 
-
-    void Start()
-    {
-        
-    }
+    public Wave[] wildCardWave;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -87,5 +86,14 @@ public class enemy_Manager : MonoBehaviour
     {
         // once the number of enemys in the vault = spawned enemys the wave should be cleared
         // set all the enemys to disable and all that jazz so they cant fuck it up
+
+        //bag randomiser shite
     }
+}
+
+[System.Serializable]
+public class Wave
+{
+    public Vector2[] enemies;
+
 }
