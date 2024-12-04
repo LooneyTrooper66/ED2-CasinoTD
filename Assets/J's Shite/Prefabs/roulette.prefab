@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22701c70ae6a52c4e8c2a035fb663afb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotInterval: 10
+  shotInterval: 5
 --- !u!58 &5726996601258235601
 CircleCollider2D:
   m_ObjectHideFlags: 0

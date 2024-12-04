@@ -22,7 +22,7 @@ public class RouletteTower : MasterTowerScript
     {
         i++;
 
-        if (findTarget.Target != null)
+        if (findTarget.potentialTargets.Count > 0)
         {
             Vector3 targ = findTarget.Target.transform.position;
             targ.z = 0f;
