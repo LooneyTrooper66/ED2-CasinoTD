@@ -7,6 +7,7 @@ public class CardTower : MasterTowerScript
     public Sprite[] cards;
     private SpriteRenderer sR;
     public GameObject bullet;
+    public GameObject shootPoint;
     private SpriteRenderer bulletSr;
     public int currentCard;
     int i = 0;
@@ -28,16 +29,29 @@ public class CardTower : MasterTowerScript
 
         if (findTarget.potentialTargets.Count > 0)
         {
-            transform.LookAt(findTarget.Target.transform);
-
-            if (i > shotInterval)
+            findTarget.sortList();
+            if (findTarget.Target != null)
             {
-                bulletSr.sprite = cards[currentCard];
-                currentCard = Random.Range(0, cards.Length);
-                sR.sprite = cards[currentCard];
+                Vector3 targ = findTarget.Target.transform.position;
+                targ.z = 0f;
 
-                findTarget.sortList();
-                i = 0;
+                Vector3 objectPos = transform.position;
+                targ.x = targ.x - objectPos.x;
+                targ.y = targ.y - objectPos.y;
+
+                float angle = Mathf.Atan2(targ.y, targ.x) * Mathf.Rad2Deg;
+                transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
+
+                if (i > shotInterval)
+                {
+                    bulletSr.sprite = cards[currentCard];
+                    currentCard = Random.Range(0, cards.Length);
+                    sR.sprite = cards[currentCard];
+                    base.Shoot(bullet, shootPoint);
+
+                    findTarget.sortList();
+                    i = 0;
+                }
             }
         }
     }
