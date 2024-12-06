@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7875615449895541980}
   m_Layer: 0
-  m_Name: card
+  m_Name: cardPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -214,7 +214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6c86c098860fca4fa3793eb98d3de1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tF: {fileID: 9035283960143077836}
 --- !u!58 &2804556596928504215
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -263,7 +262,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a2a1cd15495be4ca24537807f71e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tF: {fileID: 0}
   Target: {fileID: 0}
   potentialTargets: []
   shootPoint: {fileID: 6428093246452542052}
@@ -281,7 +279,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71953165fa973b24db9ec763b431872d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tF: {fileID: 0}
   shotInterval: 10
   cards:
   - {fileID: 7024648501981196136, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
@@ -312,6 +309,6 @@ MonoBehaviour:
   - {fileID: 6063370347128411930, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   - {fileID: 7028969208027117126, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   - {fileID: 4814097024476456207, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
-  bullet: {fileID: 589190930324683761, guid: cecebbfaf498fcd41aedd5136897fecf, type: 3}
-  shootPoint: {fileID: 6428093246452542052}
+  bulletC: {fileID: 589190930324683761, guid: cecebbfaf498fcd41aedd5136897fecf, type: 3}
+  shootPointC: {fileID: 6428093246452542052}
   currentCard: 0

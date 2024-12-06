@@ -6,8 +6,8 @@ public class CardTower : MasterTowerScript
     private tower_FindTarget findTarget;
     public Sprite[] cards;
     private SpriteRenderer sR;
-    public GameObject bullet;
-    public GameObject shootPoint;
+    public GameObject bulletC;
+    public GameObject shootPointC;
     private SpriteRenderer bulletSr;
     public int currentCard;
     int i = 0;
@@ -17,7 +17,7 @@ public class CardTower : MasterTowerScript
     {
         findTarget = GetComponent<tower_FindTarget>();
         sR = GetComponent<SpriteRenderer>();
-        bulletSr = bullet.GetComponent<SpriteRenderer>();
+        bulletSr = bulletC.GetComponent<SpriteRenderer>();
 
         currentCard = Random.Range(0, cards.Length);
         sR.sprite = cards[currentCard];
@@ -47,7 +47,7 @@ public class CardTower : MasterTowerScript
                     bulletSr.sprite = cards[currentCard];
                     currentCard = Random.Range(0, cards.Length);
                     sR.sprite = cards[currentCard];
-                    base.Shoot(bullet, shootPoint);
+                    base.Shoot(bulletC, shootPointC);
 
                     findTarget.sortList();
                     i = 0;
