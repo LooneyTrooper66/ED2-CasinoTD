@@ -310,4 +310,5 @@ MonoBehaviour:
   - {fileID: 7028969208027117126, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   - {fileID: 4814097024476456207, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   bullet: {fileID: 589190930324683761, guid: cecebbfaf498fcd41aedd5136897fecf, type: 3}
+  shootPoint: {fileID: 6428093246452542052}
   currentCard: 0
