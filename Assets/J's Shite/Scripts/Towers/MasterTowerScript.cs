@@ -18,8 +18,10 @@ public class MasterTowerScript : MonoBehaviour
     /// </summary>
     /// <param name="bullet, shootpoint"></param>
     public virtual void Shoot(GameObject bullet, GameObject shootPoint)
-    {
+    {        
         Instantiate(bullet, shootPoint.transform.position, shootPoint.transform.rotation);
-        tF.sortList();
+        Debug.Log("run instans");
+        tF.sortList(); // program crashes out before can run next debug, so assuming this line is the issue
+        Debug.Log("run sortList");
     }
 }
