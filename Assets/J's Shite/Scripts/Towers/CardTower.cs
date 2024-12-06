@@ -28,7 +28,15 @@ public class CardTower : MasterTowerScript
 
         if (findTarget.potentialTargets.Count > 0)
         {
-            transform.LookAt(findTarget.Target.transform);
+            Vector3 targ = findTarget.Target.transform.position;
+            targ.z = 0f;
+
+            Vector3 objectPos = transform.position;
+            targ.x = targ.x - objectPos.x;
+            targ.y = targ.y - objectPos.y;
+
+            float angle = Mathf.Atan2(targ.y, targ.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
 
             if (i > shotInterval)
             {
