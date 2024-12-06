@@ -44,7 +44,7 @@ public class RouletteTower : MasterTowerScript
                 Vector3 dir = findTarget.Target.transform.position - transform.position;
                 ballpos = new(dir.y, -dir.x);
                 ballpos.Normalize();
-                ballpos = (ballpos * 0.7f) + transform.position;
+                ballpos = (ballpos * 0.5f) + transform.position;
                 Vector2 ballDir = findTarget.Target.transform.position - ballpos;
                 //instanciate ball and give it direction
                 GameObject bt =Instantiate(bullet);
