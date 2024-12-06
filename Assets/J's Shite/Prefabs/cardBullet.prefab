@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3915099941355191712}
   - component: {fileID: 7364642230217458736}
   - component: {fileID: 8138010805975620570}
+  - component: {fileID: 2787714028353311522}
   m_Layer: 0
   m_Name: cardBullet
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalScale: {x: 1.15, y: 1.15, z: 1.15}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,8 +78,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
-  m_Sprite: {fileID: -5167807243808128219, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
+  m_SortingOrder: 25
+  m_Sprite: {fileID: -16766654373697830, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -142,7 +143,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589190930324683761}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d05d8bd8a8854f4ab61872540a1a71c, type: 3}
   m_Name: 
@@ -150,3 +151,15 @@ MonoBehaviour:
   damage: 0
   speed: 7
   deathTimer: 2
+--- !u!114 &2787714028353311522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589190930324683761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c701759860aa51644aab5d7c6395858e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

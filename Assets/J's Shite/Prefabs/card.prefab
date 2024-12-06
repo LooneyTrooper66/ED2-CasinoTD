@@ -214,6 +214,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6c86c098860fca4fa3793eb98d3de1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tF: {fileID: 9035283960143077836}
 --- !u!58 &2804556596928504215
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -262,6 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a2a1cd15495be4ca24537807f71e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tF: {fileID: 0}
   Target: {fileID: 0}
   potentialTargets: []
   shootPoint: {fileID: 6428093246452542052}
@@ -279,6 +281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71953165fa973b24db9ec763b431872d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tF: {fileID: 0}
   shotInterval: 10
   cards:
   - {fileID: 7024648501981196136, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}

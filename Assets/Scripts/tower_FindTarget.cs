@@ -111,6 +111,6 @@ public class tower_FindTarget : MasterTowerScript
 
     public void callAttack()
     {
-        base.Shoot(bullet, shootPoint);
+        //base.Shoot(bullet, shootPoint);
     }
 }

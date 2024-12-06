@@ -9,5 +9,6 @@
     To Do:
 
     - figure out a way to stop towers from being dropped ontop of eachother, auto moves to nearest available space
+    - in polish i need to make it so you can't place towers while the board is spinning or while enemies are on the board
 
  */
