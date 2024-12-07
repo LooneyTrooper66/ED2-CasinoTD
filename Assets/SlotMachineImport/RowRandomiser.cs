@@ -109,44 +109,76 @@ public class RowRandomiser : MonoBehaviour
         switch (Random.Range(0, 3))
         {
             case 0: //w c m y
-                //tiles[0].transform.position = tilePos0;
-                //tiles[1].transform.position = tilePos1;
-                //tiles[2].transform.position = tilePos2;
                 RollTile(0, 1, 2, 3);
                 tileMoves[3].rowHost = true;
                 rowhostint = 3;
                 break;
             case 1://y w c m
-                //tiles[2].transform.position = tilePos0;
-                //tiles[0].transform.position = tilePos1;
-                //tiles[1].transform.position = tilePos2;
                 RollTile(3, 0, 1, 2);
                 tileMoves[2].rowHost = true;
                 rowhostint = 2;
                 break;
             case 2://m y w c
-                //tiles[1].transform.position = tilePos0;
-                //tiles[2].transform.position = tilePos1;
-                //tiles[0].transform.position = tilePos2;
-                /*  RollTile(2, 3, 0, 1);
-                  tileMoves[1].rowHost = true;
-                  rowhostint = 1;*/
                 RollTile(1, 2, 3, 0);
                 tileMoves[0].rowHost = true;
                 rowhostint = 0;
                 break;
-           /* case 3://c m y w
-                RollTile(1, 2, 3, 0);
-                tileMoves[0].rowHost = true;
-                rowhostint = 0;
-                break;*/
             default:
                 Debug.Log("ERROR");
                 break;
         }
         stop = false;
         //run function to begin lerp
+
+  
     }
+
+    /// <summary>
+    /// this code is just so we can see what it used to look like souldnt ever run
+    /// </summary>
+    public void oldcode()
+    {
+        switch (Random.Range(0, 3))
+        {
+            case 0: //w c m y
+                /*//tiles[0].transform.position = tilePos0;
+                //tiles[1].transform.position = tilePos1;
+                //tiles[2].transform.position = tilePos2;*/
+                RollTile(0, 1, 2, 3);
+                tileMoves[3].rowHost = true;
+                rowhostint = 3;
+                break;
+            case 1://y w c m
+                /*  //tiles[2].transform.position = tilePos0;
+                  //tiles[0].transform.position = tilePos1;
+                  //tiles[1].transform.position = tilePos2;*/
+                RollTile(3, 0, 1, 2);
+                tileMoves[2].rowHost = true;
+                rowhostint = 2;
+                break;
+            case 2://m y w c
+                /*  //tiles[1].transform.position = tilePos0;
+                  //tiles[2].transform.position = tilePos1;
+                  //tiles[0].transform.position = tilePos2;*
+                  /*  RollTile(2, 3, 0, 1);
+                    tileMoves[1].rowHost = true;
+                    rowhostint = 1;*/
+                RollTile(1, 2, 3, 0);
+                tileMoves[0].rowHost = true;
+                rowhostint = 0;
+                break;
+            /* case 3://c m y w
+                 RollTile(1, 2, 3, 0);
+                 tileMoves[0].rowHost = true;
+                 rowhostint = 0;
+                 break;*/
+            default:
+                Debug.Log("ERROR");
+                break;
+        }
+    }
+
+
 
     /// <summary>
     /// lerp every tile in a row to the exit then back to the entrance. once enough loops of that are done the next time the move back to the entracnce they will loop to the position defined in the RandomiseTileOrder()
