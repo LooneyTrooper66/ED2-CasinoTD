@@ -52,6 +52,16 @@ public class path_Generator : MonoBehaviour
         }
     }
 
+
+    /*//do the bezia curve equation :3
+        //i = timerr  resloution = the number of lines used 
+        //for i in range of p (number of points)
+        //for i of range of the number of cubait lines inbatween the 2 points 
+        //the final loop (might mkae this a funcion so i can make this loop as far as a i need 
+        //Mathf.Lerp(p[o].transform.position.x, p[o+1].transform.position.x, i);
+        //three point curve is just 2 lerps to give a and b then a lerp between a + b = c
+        //4 point would be a + b =1 , b + c  =2 c + d =3 then useing the 3 numbers you lerp lerp 1,2 = a1 2 3 a2 then finnaly lerping a1 to a2 :3 */
+
     public void GenerateCurve()
     {
         Debug.Log("meow");
@@ -60,14 +70,6 @@ public class path_Generator : MonoBehaviour
         Vector3 A;
         for (int i = 0; i/reseloution <= 1; i+= i)
         {
-            //do the bezia curve equation :3
-            //i = timerr  resloution = the number of lines used 
-            //for i in range of p (number of points)
-            //for i of range of the number of cubait lines inbatween the 2 points 
-            //the final loop (might mkae this a funcion so i can make this loop as far as a i need 
-            //Mathf.Lerp(p[o].transform.position.x, p[o+1].transform.position.x, i);
-            //three point curve is just 2 lerps to give a and b then a lerp between a + b = c
-            //4 point would be a + b =1 , b + c  =2 c + d =3 then useing the 3 numbers you lerp lerp 1,2 = a1 2 3 a2 then finnaly lerping a1 to a2 :3 
             a = Vector3.Lerp(p[0].position, p[1].position, i/reseloution);
             b = Vector3.Lerp(p[1].position, p[2].position, i/reseloution);
             A = Vector3.Lerp(a, b, i / reseloution);
