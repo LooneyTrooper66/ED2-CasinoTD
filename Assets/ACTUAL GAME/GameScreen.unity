@@ -1453,7 +1453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: -1
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2142,7 +2142,6 @@ GameObject:
   - component: {fileID: 378141339}
   - component: {fileID: 378141338}
   - component: {fileID: 378141337}
-  - component: {fileID: 378141336}
   m_Layer: 0
   m_Name: Rows
   m_TagString: Untagged
@@ -2150,28 +2149,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &378141336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378141335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dac4d6c1c052004c9920e250d176740, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  etp: 0
-  summontest: 0
-  EnemyBaseforInstanciating: {fileID: 0}
-  enemyTypes: []
-  pG: {fileID: 0}
-  active_Enemy: {fileID: 0}
-  waves: []
-  waveTraker: 0
-  waveInProgress: 0
-  wildCardWave: []
 --- !u!114 &378141337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2191,7 +2168,7 @@ MonoBehaviour:
   drawLine: {fileID: 25950388}
   timer: 0
   DrawSpeed: 0.02
-  eM: {fileID: 378141336}
+  eM: {fileID: 4614135032750126966}
   clearCurve: 0
 --- !u!114 &378141338
 MonoBehaviour:
@@ -2214,6 +2191,7 @@ MonoBehaviour:
   reset: 0
   stop: 0
   rigged: 0
+  eM: {fileID: 4614135032750126966}
 --- !u!120 &378141339
 LineRenderer:
   serializedVersion: 2
@@ -11011,7 +10989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &2056911315
 Rigidbody2D:
   serializedVersion: 5
@@ -11637,6 +11615,161 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!4 &1142533995574446070
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831518949276808943}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2937472806378266564}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1831518949276808943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1142533995574446070}
+  m_Layer: 0
+  m_Name: Active_Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2937472806378266564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3766975556813907581}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5698026876262176121}
+  - {fileID: 1142533995574446070}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3766975556813907581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2937472806378266564}
+  m_Layer: 0
+  m_Name: Enemy Management
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &4614135032750126966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7163614210979446740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dac4d6c1c052004c9920e250d176740, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  summontest: 0
+  EnemyBaseforInstanciating: {fileID: 1885428385137797091, guid: 8ad3954583b19864fa00d16fda6196fd, type: 3}
+  enemyTypes:
+  - {fileID: 11400000, guid: cff74d44049f1d04aa8de7901347a5ab, type: 2}
+  - {fileID: 11400000, guid: a29f46af1e14ac64c8566c6b2e286a67, type: 2}
+  - {fileID: 11400000, guid: b95ac8b92f33411489d477c52e2eab29, type: 2}
+  - {fileID: 11400000, guid: 11d67afa809ac0343b6822e514ff1b7b, type: 2}
+  pG: {fileID: 378141337}
+  active_Enemy: {fileID: 1142533995574446070}
+  waves:
+  - enemies:
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+    - {x: 1, y: 1}
+  - enemies:
+    - {x: 1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+    - {x: 0, y: 0}
+  waveTracker: 0
+  waveInProgress: 0
+  wildCardWave: []
+  activeWave: []
+  waveState: 2
+--- !u!4 &5698026876262176121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7163614210979446740}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2937472806378266564}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7163614210979446740
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5698026876262176121}
+  - component: {fileID: 4614135032750126966}
+  m_Layer: 0
+  m_Name: Wave_Control
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -11655,3 +11788,4 @@ SceneRoots:
   - {fileID: 1208676896}
   - {fileID: 1580993269}
   - {fileID: 2056911319}
+  - {fileID: 2937472806378266564}
