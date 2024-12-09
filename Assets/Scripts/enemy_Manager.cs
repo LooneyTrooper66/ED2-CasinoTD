@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ public class enemy_Manager : MonoBehaviour
     //create a array of all enemy types <-- these will be a scriptable objec with information needed and a interface for all the diffren quirks
     //waves could be a dicionary of <enemy type> <spawn delay> <batch size> (this could be a vector 3, each one represents the data needed )
 
-    [Range(0, 3)] public int etp;
+    //private int etp;
     public bool summontest;
     public GameObject EnemyBaseforInstanciating;
 
@@ -24,26 +25,59 @@ public class enemy_Manager : MonoBehaviour
     private enemy_Move SEM;
 
     public Wave[] waves;
-    public int waveTraker;
+    public int waveTracker;
     public bool waveInProgress;
 
     public Wave[] wildCardWave;
 
-    // Update is called once per frame
-    void FixedUpdate()
+    [SerializeField] private List<Vector2> activeWave;
+    private float timer;
+    private float delay;
+
+    [SerializeField] private WaveState waveState;
+
+    public enum WaveState
     {
-        if (summontest)
+        WaveSpawning,
+        WaveActive,
+        WaveClear
+    }
+    // Update is called once per frame
+    void Update()
+    {
+        timer += Time.deltaTime;
+
+        if (summontest && waveState == WaveState.WaveClear)
         {
             summontest = false;
             //summonTest();
             //testEnemy.spawn();
-            SummonTest();
+            SummonWave();
+        }
+
+        if (activeWave != null && activeWave.Count() > 0 && timer >= delay)
+        {
+            //activeWave[0]
+            SummonTest(Mathf.FloorToInt(activeWave[0].x));
+            delay = (activeWave[0] == null)?  0 :  activeWave[0].y; 
+           // waveState = (activeWave[0] == null)? WaveState.WaveActive : WaveState.WaveSpawning ;  // more enemys to spawn : no more enemeys to spawn
+            timer = 0;
+
+            activeWave.RemoveAt(0);
+            waveState = (activeWave.Count() == 0) ? WaveState.WaveActive : WaveState.WaveSpawning;
+        }
+        else if (active_Enemy.transform.childCount <= 0 && waveState == WaveState.WaveActive)
+        {
+            // is not spawning a wave check if the their are any enemts in the active enemy 
+            //
+            waveState = WaveState.WaveClear;
         }
     }
     /// <summary>
-    /// spawn a single enemy or not 
+    /// spawn a single enemy based on the etp vaule 
+    /// i forgot what etp means but sounds cool so i kept it
     /// </summary
-    void SummonTest()
+    void SummonTest(int etp)
     {
         ////...,.,//../...,.kljhniouhijoiyguhob uyog.
         if (transform.childCount <= 0)
@@ -69,6 +103,7 @@ public class enemy_Manager : MonoBehaviour
         SEM.damage = enemyTypes[etp].damage;
         SEM.goalPos = SEM.eM.RowConnectors[0]; 
         SEM.inactive = false;
+        SEM.i = 0;
 
         selectedEnemy.transform.position = SEM.eM.RowConnectors[0] + Vector3.left;
     }
@@ -80,6 +115,17 @@ public class enemy_Manager : MonoBehaviour
         //set the base enemy to the correct enemy type
         // enemy_move.em = pg;
         //
+        //
+        if (waves[waveTracker] !=  null)
+        {
+            activeWave = waves[waveTracker].enemies.ToList();
+            waveTracker++;
+            delay = 3; // wave countdown
+        }
+        else
+        {
+            // you won!!!!!!! maybe change the lever to a cash out button? 
+        }
     }
 
     public void WaveClear()
@@ -88,6 +134,7 @@ public class enemy_Manager : MonoBehaviour
         // set all the enemys to disable and all that jazz so they cant fuck it up
 
         //bag randomiser shite
+       
     }
 }
 
@@ -95,5 +142,4 @@ public class enemy_Manager : MonoBehaviour
 public class Wave
 {
     public Vector2[] enemies;
-
 }
