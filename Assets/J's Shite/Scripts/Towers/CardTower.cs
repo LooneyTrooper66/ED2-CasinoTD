@@ -10,7 +10,7 @@ public class CardTower : MasterTowerScript
     public GameObject shootPointC;
     private SpriteRenderer bulletSr;
     public int currentCard;
-    int i = 0;
+    float i = 0;
 
 
     private void Start()
@@ -25,7 +25,7 @@ public class CardTower : MasterTowerScript
 
     private void FixedUpdate()
     {
-        i++;
+        i += 1 * Time.deltaTime;
 
         if (findTarget.potentialTargets.Count > 0)
         {

@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 7a93342c272a7b245a3f0f4c0cc880b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5918532358170486391
+    second: sprie sheet spinning_0
+  - first:
+      213: 2399416280203072194
+    second: sprie sheet spinning_1
+  - first:
+      213: 6929820582948860540
+    second: sprie sheet spinning_2
+  - first:
+      213: -1087954920779857977
+    second: sprie sheet spinning_3
+  - first:
+      213: -3076609924311961986
+    second: sprie sheet spinning_4
+  - first:
+      213: 4060512969391559891
+    second: sprie sheet spinning_5
+  - first:
+      213: 3990666882986954919
+    second: sprie sheet spinning_6
+  - first:
+      213: -4153348688071145982
+    second: sprie sheet spinning_7
+  - first:
+      213: -994961080164041766
+    second: sprie sheet spinning_8
+  - first:
+      213: 649940239294665504
+    second: sprie sheet spinning_9
+  - first:
+      213: -3935330325627246724
+    second: sprie sheet spinning_10
+  - first:
+      213: -1923876702285530541
+    second: sprie sheet spinning_11
+  - first:
+      213: 7957433072092666393
+    second: sprie sheet spinning_12
+  - first:
+      213: -2796108073312155532
+    second: sprie sheet spinning_13
+  - first:
+      213: 737033209088583262
+    second: sprie sheet spinning_14
+  - first:
+      213: 3804530512968414939
+    second: sprie sheet spinning_15
+  - first:
+      213: -277775368925380513
+    second: sprie sheet spinning_16
+  - first:
+      213: -5564516950165219828
+    second: sprie sheet spinning_17
+  - first:
+      213: 3434495685102079039
+    second: sprie sheet spinning_18
+  - first:
+      213: -8317650247984694121
+    second: sprie sheet spinning_19
+  - first:
+      213: 3129046352886193040
+    second: sprie sheet spinning_20
+  - first:
+      213: -7373883259170738472
+    second: sprie sheet spinning_21
+  - first:
+      213: 339103523028031229
+    second: sprie sheet spinning_22
+  - first:
+      213: 2335425490340081497
+    second: sprie sheet spinning_23
+  - first:
+      213: 4512564883296878520
+    second: sprie sheet spinning_24
+  - first:
+      213: 4916765097549191612
+    second: sprie sheet spinning_25
+  - first:
+      213: -1142492180603492482
+    second: sprie sheet spinning_26
+  - first:
+      213: -4650063139550616728
+    second: sprie sheet spinning_27
+  - first:
+      213: 413093365481929997
+    second: sprie sheet spinning_28
+  - first:
+      213: 7342235615817007870
+    second: sprie sheet spinning_29
+  - first:
+      213: -4544115462311865480
+    second: sprie sheet spinning_30
+  - first:
+      213: 2822894218526689638
+    second: sprie sheet spinning_31
+  - first:
+      213: -4890743242391770419
+    second: sprie sheet spinning_32
+  - first:
+      213: 4187325415345389120
+    second: sprie sheet spinning_33
+  - first:
+      213: 7334994631395115459
+    second: sprie sheet spinning_34
+  - first:
+      213: -172930839494541485
+    second: sprie sheet spinning_35
+  - first:
+      213: 4596442880300218896
+    second: sprie sheet spinning_36
+  - first:
+      213: 7874868933182490206
+    second: sprie sheet spinning_37
+  - first:
+      213: 2709520865117211291
+    second: sprie sheet spinning_38
+  - first:
+      213: 4353268049472591195
+    second: sprie sheet spinning_39
+  - first:
+      213: 4970810078531266500
+    second: sprie sheet spinning_40
+  - first:
+      213: -2410982132267470012
+    second: sprie sheet spinning_41
+  - first:
+      213: 47071221200923723
+    second: sprie sheet spinning_42
+  - first:
+      213: -8374067542746452444
+    second: sprie sheet spinning_43
+  - first:
+      213: -2147669707343740962
+    second: sprie sheet spinning_44
+  - first:
+      213: -4896151323473840396
+    second: sprie sheet spinning_45
+  - first:
+      213: 991970913018962201
+    second: sprie sheet spinning_46
+  - first:
+      213: 1818736095593089123
+    second: sprie sheet spinning_47
+  - first:
+      213: 5259074095820625035
+    second: sprie sheet spinning_48
+  - first:
+      213: 7077581493036277362
+    second: sprie sheet spinning_49
+  - first:
+      213: 217660907211285735
+    second: sprie sheet spinning_50
+  - first:
+      213: 7535616391662394231
+    second: sprie sheet spinning_51
+  - first:
+      213: -4729578935585955940
+    second: sprie sheet spinning_52
+  - first:
+      213: -7098905741444936745
+    second: sprie sheet spinning_53
+  - first:
+      213: -6255249970536275997
+    second: sprie sheet spinning_54
+  - first:
+      213: -2622824858173314584
+    second: sprie sheet spinning_55
+  - first:
+      213: 5675105421676712542
+    second: sprie sheet spinning_56
+  - first:
+      213: -5277084933402874696
+    second: sprie sheet spinning_57
+  - first:
+      213: 2770822403830199023
+    second: sprie sheet spinning_58
+  - first:
+      213: -8980448266248431125
+    second: sprie sheet spinning_59
+  - first:
+      213: 4278142833376532894
+    second: sprie sheet spinning_60
+  - first:
+      213: -9183410173902665453
+    second: sprie sheet spinning_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprie sheet spinning_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989d79f8d262ddda0800000000000000
+      internalID: -5918532358170486391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c21bc9e4607c4120800000000000000
+      internalID: 2399416280203072194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c727bdbba1bab2060800000000000000
+      internalID: 6929820582948860540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf374783cec6e0f0800000000000000
+      internalID: -1087954920779857977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ea1fc039fad45d0800000000000000
+      internalID: -3076609924311961986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4537a3807d95830800000000000000
+      internalID: 4060512969391559891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_6
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a05a59f262b16730800000000000000
+      internalID: 3990666882986954919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_7
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2064f23af575c56c0800000000000000
+      internalID: -4153348688071145982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_8
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbbb7b4b203132f0800000000000000
+      internalID: -994961080164041766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_9
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0231460443d050900800000000000000
+      internalID: 649940239294665504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_10
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c776a2b4be5e269c0800000000000000
+      internalID: -3935330325627246724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_11
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35afe9815540d45e0800000000000000
+      internalID: -1923876702285530541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_12
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a5702083b7e6e60800000000000000
+      internalID: 7957433072092666393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_13
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47880a0958a3239d0800000000000000
+      internalID: -2796108073312155532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_14
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5624677cc77a3a00800000000000000
+      internalID: 737033209088583262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_15
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6fd9228586cc430800000000000000
+      internalID: 3804530512968414939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_16
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5089df06c4252cf0800000000000000
+      internalID: -277775368925380513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_17
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0613ced05dd6c2b0800000000000000
+      internalID: -5564516950165219828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_18
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c0f1df0a7c9af20800000000000000
+      internalID: 3434495685102079039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_19
+      rect:
+        serializedVersion: 2
+        x: 3154
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79cbee21b25c19c80800000000000000
+      internalID: -8317650247984694121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_20
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b538d541b9c6b20800000000000000
+      internalID: 3129046352886193040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_21
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8deade98e34baa990800000000000000
+      internalID: -7373883259170738472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_22
+      rect:
+        serializedVersion: 2
+        x: 3652
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df65b288bdcb4b400800000000000000
+      internalID: 339103523028031229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_23
+      rect:
+        serializedVersion: 2
+        x: 3818
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fec1f1c19196020800000000000000
+      internalID: 2335425490340081497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_24
+      rect:
+        serializedVersion: 2
+        x: 3984
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfffce4ad9df9e30800000000000000
+      internalID: 4512564883296878520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_25
+      rect:
+        serializedVersion: 2
+        x: 4150
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9557b5ecbdb3440800000000000000
+      internalID: 4916765097549191612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_26
+      rect:
+        serializedVersion: 2
+        x: 4316
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77a7783a6d0520f0800000000000000
+      internalID: -1142492180603492482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_27
+      rect:
+        serializedVersion: 2
+        x: 4482
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863a2ff2638a77fb0800000000000000
+      internalID: -4650063139550616728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_28
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dfe9c2a3a9bb500800000000000000
+      internalID: 413093365481929997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_29
+      rect:
+        serializedVersion: 2
+        x: 4814
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef28ef9446cd4e560800000000000000
+      internalID: 7342235615817007870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_30
+      rect:
+        serializedVersion: 2
+        x: 4980
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8739a82101f00f0c0800000000000000
+      internalID: -4544115462311865480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_31
+      rect:
+        serializedVersion: 2
+        x: 5146
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66989cdd55fec2720800000000000000
+      internalID: 2822894218526689638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_32
+      rect:
+        serializedVersion: 2
+        x: 5312
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaa89deee6902cb0800000000000000
+      internalID: -4890743242391770419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_33
+      rect:
+        serializedVersion: 2
+        x: 5478
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e70a4a74e5c1a30800000000000000
+      internalID: 4187325415345389120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_34
+      rect:
+        serializedVersion: 2
+        x: 5644
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c104b931c22bc560800000000000000
+      internalID: 7334994631395115459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_35
+      rect:
+        serializedVersion: 2
+        x: 5810
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fb7355150a99df0800000000000000
+      internalID: -172930839494541485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_36
+      rect:
+        serializedVersion: 2
+        x: 5976
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01afaa65278d9cf30800000000000000
+      internalID: 4596442880300218896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_37
+      rect:
+        serializedVersion: 2
+        x: 6142
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e560a176297294d60800000000000000
+      internalID: 7874868933182490206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_38
+      rect:
+        serializedVersion: 2
+        x: 6308
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a02d40fd62a9520800000000000000
+      internalID: 2709520865117211291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_39
+      rect:
+        serializedVersion: 2
+        x: 6474
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b551fd4f93ae96c30800000000000000
+      internalID: 4353268049472591195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_40
+      rect:
+        serializedVersion: 2
+        x: 6640
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7a9c01e6ddbf440800000000000000
+      internalID: 4970810078531266500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_41
+      rect:
+        serializedVersion: 2
+        x: 6806
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443326e46887a8ed0800000000000000
+      internalID: -2410982132267470012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_42
+      rect:
+        serializedVersion: 2
+        x: 6972
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c23dab60b37a000800000000000000
+      internalID: 47071221200923723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_43
+      rect:
+        serializedVersion: 2
+        x: 7138
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e287500f559cb80800000000000000
+      internalID: -8374067542746452444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_44
+      rect:
+        serializedVersion: 2
+        x: 7304
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfb8eea7c1f132e0800000000000000
+      internalID: -2147669707343740962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_45
+      rect:
+        serializedVersion: 2
+        x: 7470
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f678cdef406d0cb0800000000000000
+      internalID: -4896151323473840396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_46
+      rect:
+        serializedVersion: 2
+        x: 7636
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911e30a2a4034cd00800000000000000
+      internalID: 991970913018962201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_47
+      rect:
+        serializedVersion: 2
+        x: 7802
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368c106c7d27d3910800000000000000
+      internalID: 1818736095593089123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_48
+      rect:
+        serializedVersion: 2
+        x: 7968
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84d8d0c60cfbf840800000000000000
+      internalID: 5259074095820625035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_49
+      rect:
+        serializedVersion: 2
+        x: 8134
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e5e498ede983260800000000000000
+      internalID: 7077581493036277362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_50
+      rect:
+        serializedVersion: 2
+        x: 8300
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e461df1179450300800000000000000
+      internalID: 217660907211285735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_51
+      rect:
+        serializedVersion: 2
+        x: 8466
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bd5acce23e39860800000000000000
+      internalID: 7535616391662394231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_52
+      rect:
+        serializedVersion: 2
+        x: 8632
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f9a3734092d5eb0800000000000000
+      internalID: -4729578935585955940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_53
+      rect:
+        serializedVersion: 2
+        x: 8798
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db813bf6de9b7d90800000000000000
+      internalID: -7098905741444936745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_54
+      rect:
+        serializedVersion: 2
+        x: 8964
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef99e42b43e039a0800000000000000
+      internalID: -6255249970536275997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_55
+      rect:
+        serializedVersion: 2
+        x: 9130
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9e38410bad99bd0800000000000000
+      internalID: -2622824858173314584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_56
+      rect:
+        serializedVersion: 2
+        x: 9296
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e521fe1205602ce40800000000000000
+      internalID: 5675105421676712542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_57
+      rect:
+        serializedVersion: 2
+        x: 9462
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bca4f6563704c6b0800000000000000
+      internalID: -5277084933402874696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_58
+      rect:
+        serializedVersion: 2
+        x: 9628
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe23efbbb40f37620800000000000000
+      internalID: 2770822403830199023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_59
+      rect:
+        serializedVersion: 2
+        x: 9794
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be95d7ed1e90f5380800000000000000
+      internalID: -8980448266248431125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_60
+      rect:
+        serializedVersion: 2
+        x: 9960
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e999ac98d340f5b30800000000000000
+      internalID: 4278142833376532894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprie sheet spinning_61
+      rect:
+        serializedVersion: 2
+        x: 10126
+        y: 0
+        width: 166
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319c2d54a19fd8080800000000000000
+      internalID: -9183410173902665453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sprie sheet spinning_0: -5918532358170486391
+      sprie sheet spinning_1: 2399416280203072194
+      sprie sheet spinning_10: -3935330325627246724
+      sprie sheet spinning_11: -1923876702285530541
+      sprie sheet spinning_12: 7957433072092666393
+      sprie sheet spinning_13: -2796108073312155532
+      sprie sheet spinning_14: 737033209088583262
+      sprie sheet spinning_15: 3804530512968414939
+      sprie sheet spinning_16: -277775368925380513
+      sprie sheet spinning_17: -5564516950165219828
+      sprie sheet spinning_18: 3434495685102079039
+      sprie sheet spinning_19: -8317650247984694121
+      sprie sheet spinning_2: 6929820582948860540
+      sprie sheet spinning_20: 3129046352886193040
+      sprie sheet spinning_21: -7373883259170738472
+      sprie sheet spinning_22: 339103523028031229
+      sprie sheet spinning_23: 2335425490340081497
+      sprie sheet spinning_24: 4512564883296878520
+      sprie sheet spinning_25: 4916765097549191612
+      sprie sheet spinning_26: -1142492180603492482
+      sprie sheet spinning_27: -4650063139550616728
+      sprie sheet spinning_28: 413093365481929997
+      sprie sheet spinning_29: 7342235615817007870
+      sprie sheet spinning_3: -1087954920779857977
+      sprie sheet spinning_30: -4544115462311865480
+      sprie sheet spinning_31: 2822894218526689638
+      sprie sheet spinning_32: -4890743242391770419
+      sprie sheet spinning_33: 4187325415345389120
+      sprie sheet spinning_34: 7334994631395115459
+      sprie sheet spinning_35: -172930839494541485
+      sprie sheet spinning_36: 4596442880300218896
+      sprie sheet spinning_37: 7874868933182490206
+      sprie sheet spinning_38: 2709520865117211291
+      sprie sheet spinning_39: 4353268049472591195
+      sprie sheet spinning_4: -3076609924311961986
+      sprie sheet spinning_40: 4970810078531266500
+      sprie sheet spinning_41: -2410982132267470012
+      sprie sheet spinning_42: 47071221200923723
+      sprie sheet spinning_43: -8374067542746452444
+      sprie sheet spinning_44: -2147669707343740962
+      sprie sheet spinning_45: -4896151323473840396
+      sprie sheet spinning_46: 991970913018962201
+      sprie sheet spinning_47: 1818736095593089123
+      sprie sheet spinning_48: 5259074095820625035
+      sprie sheet spinning_49: 7077581493036277362
+      sprie sheet spinning_5: 4060512969391559891
+      sprie sheet spinning_50: 217660907211285735
+      sprie sheet spinning_51: 7535616391662394231
+      sprie sheet spinning_52: -4729578935585955940
+      sprie sheet spinning_53: -7098905741444936745
+      sprie sheet spinning_54: -6255249970536275997
+      sprie sheet spinning_55: -2622824858173314584
+      sprie sheet spinning_56: 5675105421676712542
+      sprie sheet spinning_57: -5277084933402874696
+      sprie sheet spinning_58: 2770822403830199023
+      sprie sheet spinning_59: -8980448266248431125
+      sprie sheet spinning_6: 3990666882986954919
+      sprie sheet spinning_60: 4278142833376532894
+      sprie sheet spinning_61: -9183410173902665453
+      sprie sheet spinning_7: -4153348688071145982
+      sprie sheet spinning_8: -994961080164041766
+      sprie sheet spinning_9: 649940239294665504
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
