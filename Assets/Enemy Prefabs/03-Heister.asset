@@ -15,5 +15,6 @@ MonoBehaviour:
   health: 5
   speed: 10
   damage: 1
+  Vaule: 20
   sprite: {fileID: 0}
   anim: {fileID: 0}

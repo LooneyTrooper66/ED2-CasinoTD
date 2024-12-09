@@ -43,6 +43,7 @@ public class enemy_Manager : MonoBehaviour
         WaveClear,
         WaveStart
     }
+
     // Update is called once per frame
     void Update()
     {
@@ -102,7 +103,8 @@ public class enemy_Manager : MonoBehaviour
         SEM.Health = enemyTypes[etp].health;
         SEM.speed = enemyTypes[etp].speed;
         SEM.damage = enemyTypes[etp].damage;
-        SEM.goalPos = SEM.eM.RowConnectors[0]; 
+        SEM.Vaule = enemyTypes[etp].Vaule;
+        SEM.goalPos = SEM.eM.RowConnectors[0];
         SEM.inactive = false;
         SEM.i = 0;
 

@@ -8,6 +8,8 @@ public class enemy_S_Obj : ScriptableObject
     public float speed;
     public int damage;
 
+    public int Vaule;
+
     [Header("Animations")]
     public Sprite sprite;
     public Animation anim;

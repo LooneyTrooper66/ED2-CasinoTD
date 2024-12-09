@@ -8,6 +8,7 @@ public class enemy_Move : MonoBehaviour
     [Header("")]
     public int damage;
     public float speed;
+    public int Vaule;
 
     [HideInInspector]public int i; //needs to be public so it can use other scripts :3 but its ugly so we hide it :3
     [Header("Extras")] 
@@ -16,13 +17,16 @@ public class enemy_Move : MonoBehaviour
 
     public bool inactive;
     public Rigidbody2D rb;
+
+    private MoneyManager moneyManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         // eM.NextPos(GetComponent<enemy_Move>());
         i = 0;
         eM = FindFirstObjectByType<path_Genarator>(); // this could be done during the spawning of the object instead of finding its much faster, very mindfull , very demure , in my lane thriving
-        
+        moneyManager = FindFirstObjectByType<MoneyManager>();
+
         if (GameObject.FindGameObjectsWithTag("playerManager").Length > 1)
         {
             Debug.LogWarning("multiple playerManagers please remove one :3 , thank you");
@@ -80,6 +84,8 @@ public class enemy_Move : MonoBehaviour
         if (Health <= 0)
         {
             Death();
+            //give the player its hard erned money
+            moneyManager.playerMoney += Vaule;
         }
     }
 
