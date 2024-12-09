@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 7364642230217458736}
   - component: {fileID: 8138010805975620570}
   - component: {fileID: 2787714028353311522}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cardBullet
-  m_TagString: bullet
+  m_TagString: tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 25
-  m_Sprite: {fileID: -1145144668836272637, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
+  m_Sprite: {fileID: -7182693308199855722, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -164,3 +164,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 10
+  damage: 1

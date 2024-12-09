@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cashout lever_0: 4326010316352785896
+      cashout lever_1: -1983149603457982638
+      cashout lever_2: -6447870228380289071
+      cashout lever_3: -1880337058389308677
+      cashout lever_4: 6305440176792817333
+      cashout lever_5: 2115350047600497103
+      cashout lever_6: -7918866644667255438
+      cashout lever_7: 5359619023204752599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
