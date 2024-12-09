@@ -99,6 +99,7 @@ public class path_Genarator : MonoBehaviour
         {
             drawPath = false;
             lineRenderer.positionCount = (RowConnectors.Count);
+            eM.summontest = true; // just for scott
             return;
         }
 

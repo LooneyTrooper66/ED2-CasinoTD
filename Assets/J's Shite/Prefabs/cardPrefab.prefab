@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71953165fa973b24db9ec763b431872d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotInterval: 20
+  shotInterval: 0.2
   cards:
   - {fileID: 7024648501981196136, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   - {fileID: -1145144668836272637, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}

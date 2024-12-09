@@ -34,20 +34,21 @@ public class enemy_Manager : MonoBehaviour
     private float timer;
     private float delay;
 
-    [SerializeField] private WaveState waveState;
+    public WaveState waveState;
 
     public enum WaveState
     {
         WaveSpawning,
         WaveActive,
-        WaveClear
+        WaveClear,
+        WaveStart
     }
     // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
 
-        if (summontest && waveState == WaveState.WaveClear)
+        if (summontest && waveState == WaveState.WaveStart)
         {
             summontest = false;
             //summonTest();

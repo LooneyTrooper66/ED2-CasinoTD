@@ -1,17 +1,16 @@
 using JetBrains.Annotations;
 using System.Collections;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class MasterTowerScript : MonoBehaviour
 {
-    private tower_FindTarget tF;
+  //  [SerializeField ]private tower_FindTarget tF;
 
 
-    private void Start()
+    /*private void Start()
     {
         tF = GetComponent<tower_FindTarget>();
-    }
+    }*/
 
     /// <summary>
     /// shootin time
@@ -20,8 +19,8 @@ public class MasterTowerScript : MonoBehaviour
     public virtual void Shoot(GameObject bullet, GameObject shootPoint)
     {        
         Instantiate(bullet, shootPoint.transform.position, shootPoint.transform.rotation);
-        Debug.Log("run instans");
-        tF.sortList(); // program crashes out before can run next debug, so assuming this line is the issue
-        Debug.Log("run sortList");
+       // Debug.Log("run instans");
+        //tF.sortList(); // program crashes out before can run next debug, so assuming this line is the issue
+        //Debug.Log("run sortList");
     }
 }

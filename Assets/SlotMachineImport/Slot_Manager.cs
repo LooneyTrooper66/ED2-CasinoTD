@@ -24,6 +24,7 @@ public class Slot_Manager : MonoBehaviour
     public bool stop;
     public bool rigged; //this can be used for forced results no use yet
 
+    [SerializeField] private enemy_Manager eM;
     // Start is called before the first frame update
     void Awake()
     {
@@ -93,7 +94,11 @@ public class Slot_Manager : MonoBehaviour
 
     public void PullToStart()
     {
-        reset = true;
+        if (eM.waveState == enemy_Manager.WaveState.WaveClear)
+        {
+            reset = true;
+            eM.waveState = enemy_Manager.WaveState.WaveStart;
+        }
     }
 
     IEnumerator TimerForStop()
@@ -101,5 +106,6 @@ public class Slot_Manager : MonoBehaviour
         yield return new WaitForSecondsRealtime(2);
         stop = true;
         StopCoroutine(TimerForStop());
+
     }
 }

@@ -44,13 +44,14 @@ public class CardTower : MasterTowerScript
 
                 if (i > shotInterval)
                 {
+                    i = 0;
                     bulletSr.sprite = cards[currentCard];
                     currentCard = Random.Range(0, cards.Length);
                     sR.sprite = cards[currentCard];
                     base.Shoot(bulletC, shootPointC);
+                    //Instantiate(bulletC, shootPointC.transform.position, shootPointC.transform.rotation);
 
                     findTarget.sortList();
-                    i = 0;
                 }
             }
         }
