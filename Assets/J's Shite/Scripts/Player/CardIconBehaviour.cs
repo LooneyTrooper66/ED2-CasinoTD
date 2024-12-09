@@ -102,7 +102,7 @@ public class CardIconBehaviour : MonoBehaviour
                 return;
             case "horse":
                 Instantiate(horsePrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(6.5f, -0.7f, -3);
+                lastDragged.transform.position = new Vector3(6, -0.97f, -3);
                 money.playerMoney = money.playerMoney - 50;
                 return;
         }
