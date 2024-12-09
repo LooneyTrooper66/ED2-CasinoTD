@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 
 
-public class tower_FindTarget : MasterTowerScript
+public class tower_FindTarget : MonoBehaviour
 {
     public GameObject Target;
     public List<GameObject> potentialTargets;
