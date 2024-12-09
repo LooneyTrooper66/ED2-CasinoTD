@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: f1644a3debb9fbb448dac831af1d78ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6879393901427720731
+    second: luxury lights sprite sheet_0
+  - first:
+      213: -6932971230299930696
+    second: luxury lights sprite sheet_1
+  - first:
+      213: 1256111910597863870
+    second: luxury lights sprite sheet_2
+  - first:
+      213: -3105340141142299289
+    second: luxury lights sprite sheet_3
+  - first:
+      213: 8531190788317107885
+    second: luxury lights sprite sheet_4
+  - first:
+      213: -3999958703216002432
+    second: luxury lights sprite sheet_5
+  - first:
+      213: 8993118715166292139
+    second: luxury lights sprite sheet_6
+  - first:
+      213: -430239735448116616
+    second: luxury lights sprite sheet_7
+  - first:
+      213: 6278126951992310343
+    second: luxury lights sprite sheet_8
+  - first:
+      213: -5340964659250442554
+    second: luxury lights sprite sheet_9
+  - first:
+      213: -425781882401236492
+    second: luxury lights sprite sheet_10
+  - first:
+      213: -1946039432964419539
+    second: luxury lights sprite sheet_11
+  - first:
+      213: 6393640736226672590
+    second: luxury lights sprite sheet_12
+  - first:
+      213: 1331567766602250407
+    second: luxury lights sprite sheet_13
+  - first:
+      213: -8286262554158206094
+    second: luxury lights sprite sheet_14
+  - first:
+      213: 7606628731444255335
+    second: luxury lights sprite sheet_15
+  - first:
+      213: 9009919792715994749
+    second: luxury lights sprite sheet_16
+  - first:
+      213: -696440702372546450
+    second: luxury lights sprite sheet_17
+  - first:
+      213: -1657577186595787211
+    second: luxury lights sprite sheet_18
+  - first:
+      213: 1522782111904664506
+    second: luxury lights sprite sheet_19
+  - first:
+      213: -716141744407384326
+    second: luxury lights sprite sheet_20
+  - first:
+      213: -7070102813676258925
+    second: luxury lights sprite sheet_21
+  - first:
+      213: 8566957215618003053
+    second: luxury lights sprite sheet_22
+  - first:
+      213: 4879209049793784792
+    second: luxury lights sprite sheet_23
+  - first:
+      213: 5709368011790713421
+    second: luxury lights sprite sheet_24
+  - first:
+      213: -2919120999297382405
+    second: luxury lights sprite sheet_25
+  - first:
+      213: 8712043109219289660
+    second: luxury lights sprite sheet_26
+  - first:
+      213: -71457522604886309
+    second: luxury lights sprite sheet_27
+  - first:
+      213: 7113315997813510315
+    second: luxury lights sprite sheet_28
+  - first:
+      213: 2690006570918190035
+    second: luxury lights sprite sheet_29
+  - first:
+      213: 3853615653618562064
+    second: luxury lights sprite sheet_30
+  - first:
+      213: 7400774633843098235
+    second: luxury lights sprite sheet_31
+  - first:
+      213: 5454062655779720402
+    second: luxury lights sprite sheet_32
+  - first:
+      213: -4092789009706756751
+    second: luxury lights sprite sheet_33
+  - first:
+      213: -8651409450689955357
+    second: luxury lights sprite sheet_34
+  - first:
+      213: -6458645667372648905
+    second: luxury lights sprite sheet_35
+  - first:
+      213: -2518632579519147657
+    second: luxury lights sprite sheet_36
+  - first:
+      213: -7193849114061587194
+    second: luxury lights sprite sheet_37
+  - first:
+      213: 5709439175327606968
+    second: luxury lights sprite sheet_38
+  - first:
+      213: -2177248139796254589
+    second: luxury lights sprite sheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1286940e44887f50800000000000000
+      internalID: 6879393901427720731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf38f3066329cf90800000000000000
+      internalID: -6932971230299930696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9a255a02b9e6110800000000000000
+      internalID: 1256111910597863870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76da37c289d97e4d0800000000000000
+      internalID: -3105340141142299289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6d9b062d0e46670800000000000000
+      internalID: 8531190788317107885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08af39a80ca4d78c0800000000000000
+      internalID: -3999958703216002432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba87768e2d9fdcc70800000000000000
+      internalID: 8993118715166292139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8726b587d3b770af0800000000000000
+      internalID: -430239735448116616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_8
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74abe4c2333602750800000000000000
+      internalID: 6278126951992310343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce4677a0f411e5b0800000000000000
+      internalID: -5340964659250442554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f95da342a1571af0800000000000000
+      internalID: -425781882401236492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20d04f32774ef4e0800000000000000
+      internalID: -1946039432964419539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecff148ef56cab850800000000000000
+      internalID: 6393640736226672590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8ffaa24ddaa7210800000000000000
+      internalID: 1331567766602250407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27377c70c18410d80800000000000000
+      internalID: -8286262554158206094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ad304978c209960800000000000000
+      internalID: 7606628731444255335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76199b905aa90d70800000000000000
+      internalID: 9009919792715994749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68f5fffedeb556f0800000000000000
+      internalID: -696440702372546450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eaa2db45a1ff8e0800000000000000
+      internalID: -1657577186595787211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb85624342022510800000000000000
+      internalID: 1522782111904664506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afee4c3b0e0cf06f0800000000000000
+      internalID: -716141744407384326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399365133f2f1ed90800000000000000
+      internalID: -7070102813676258925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6071eaa232f3e670800000000000000
+      internalID: 8566957215618003053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db64d597ce66b340800000000000000
+      internalID: 4879209049793784792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4283ca05ffbb3f40800000000000000
+      internalID: 5709368011790713421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf70f74dae23d77d0800000000000000
+      internalID: -2919120999297382405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ac7e8ac0567e870800000000000000
+      internalID: 8712043109219289660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd63b9403c1220ff0800000000000000
+      internalID: -71457522604886309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba017c8463397b260800000000000000
+      internalID: 7113315997813510315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db9b0759b2d45520800000000000000
+      internalID: 2690006570918190035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014b1d6050bca7530800000000000000
+      internalID: 3853615653618562064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7280f88155d4b660800000000000000
+      internalID: 7400774633843098235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc497ca619b0bb40800000000000000
+      internalID: 5454062655779720402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_33
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1755ec7841e7337c0800000000000000
+      internalID: -4092789009706756751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9fa2511f400f780800000000000000
+      internalID: -8651409450689955357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73633222cf74e56a0800000000000000
+      internalID: -6458645667372648905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_36
+      rect:
+        serializedVersion: 2
+        x: 3650
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771190263050c0dd0800000000000000
+      internalID: -2518632579519147657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60db99c68505a2c90800000000000000
+      internalID: -7193849114061587194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8e9181ea00c3f40800000000000000
+      internalID: 5709439175327606968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luxury lights sprite sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3953
+        y: 11
+        width: 73
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38070973a5cd8c1e0800000000000000
+      internalID: -2177248139796254589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
