@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      setting-button-pixilart_0: -8579521241996329058
+      setting-button-pixilart_1: 4900130437533871639
+      setting-button-pixilart_2: 4222798149548131181
+      setting-button-pixilart_3: -6051846640721168799
+      setting-button-pixilart_4: 1803730349524859790
+      setting-button-pixilart_5: 4891953017353027988
+      setting-button-pixilart_6: 5805527023262015426
+      setting-button-pixilart_7: -1599022969413816599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
