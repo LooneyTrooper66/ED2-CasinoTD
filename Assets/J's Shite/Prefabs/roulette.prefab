@@ -379,7 +379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2984794587069964496}
   - component: {fileID: 1176263731618181335}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: placeCol
   m_TagString: DropInvalid
   m_Icon: {fileID: 0}
@@ -436,7 +436,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Radius: 0.6
 --- !u!1 &5438805906938283518
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +546,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 25
+  m_SortingOrder: 21
   m_Sprite: {fileID: -2217941832208703394, guid: cb46ca86f15dec141849c53b1b11455e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
