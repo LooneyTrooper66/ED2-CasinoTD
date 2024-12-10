@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class CardTower : MasterTowerScript
 {
@@ -17,7 +19,7 @@ public class CardTower : MasterTowerScript
     {
         findTarget = GetComponent<tower_FindTarget>();
         sR = GetComponent<SpriteRenderer>();
-        bulletSr = bulletC.GetComponent<SpriteRenderer>();
+        //bulletSr = bulletC.GetComponent<SpriteRenderer>();
 
         currentCard = Random.Range(0, cards.Length);
         sR.sprite = cards[currentCard];
@@ -45,11 +47,14 @@ public class CardTower : MasterTowerScript
                 if (i > shotInterval)
                 {
                     i = 0;
-                    bulletSr.sprite = cards[currentCard];
+                    /*bulletSr.sprite = cards[currentCard];
+                    currentCard = Random.Range(0, cards.Length);
+                    sR.sprite = cards[currentCard];*/
+                    //base.Shoot(bulletC, shootPointC);
+                    GameObject temp = Instantiate(bulletC, shootPointC.transform.position, shootPointC.transform.rotation);
+                    temp.GetComponent<SpriteRenderer>().sprite = cards[currentCard];
                     currentCard = Random.Range(0, cards.Length);
                     sR.sprite = cards[currentCard];
-                    base.Shoot(bulletC, shootPointC);
-                    //Instantiate(bulletC, shootPointC.transform.position, shootPointC.transform.rotation);
 
                     findTarget.sortList();
                 }
