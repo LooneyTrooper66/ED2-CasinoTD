@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3680520949516037407}
   - component: {fileID: 8579507708450277959}
   m_Layer: 6
-  m_Name: 03-Card_Shark
+  m_Name: heisters
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,11 +102,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e71096fa779cb52488b5488f06907b0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 0
-  eM: {fileID: 0}
-  goalPos: {x: 0, y: 0, z: 0}
+  Health: 15
   damage: 5
   speed: 2
+  Vaule: 0
+  i: 0
+  eM: {fileID: 0}
+  goalPos: {x: 0, y: 0}
   inactive: 0
   rb: {fileID: 8579507708450277959}
 --- !u!58 &3680520949516037407
