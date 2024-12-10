@@ -4,14 +4,6 @@ using UnityEngine;
 
 public class MasterTowerScript : MonoBehaviour
 {
-  //  [SerializeField ]private tower_FindTarget tF;
-
-
-    /*private void Start()
-    {
-        tF = GetComponent<tower_FindTarget>();
-    }*/
-
     /// <summary>
     /// shootin time
     /// </summary>
