@@ -9,8 +9,9 @@ public class ProjectileBehaviour : MonoBehaviour
     public float speed;
     [SerializeField] private float deathTimer;
     //private bool deathStart;
+    [SerializeField] private int peirce;
     private Vector2 startPos;
-
+    
     private void Start()
     {
         startPos = new Vector2(transform.position.x, transform.position.y);
@@ -44,6 +45,7 @@ public class ProjectileBehaviour : MonoBehaviour
         {
             Debug.Log(1);
             collision.gameObject.GetComponent<enemy_Move>().Hit(damage);
+            peirce--;
             Destroy(gameObject);
         }
 
