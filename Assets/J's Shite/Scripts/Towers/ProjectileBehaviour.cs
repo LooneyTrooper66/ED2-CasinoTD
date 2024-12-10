@@ -9,10 +9,11 @@ public class ProjectileBehaviour : MonoBehaviour
     public float speed;
     [SerializeField] private float deathTimer;
     private bool deathStart;
+    private Vector2 startPos;
 
     private void Start()
     {
-       // startPos = transform.position;
+        startPos = new Vector2(transform.position.x, transform.position.y);
     }
 
     private void FixedUpdate()
@@ -20,13 +21,9 @@ public class ProjectileBehaviour : MonoBehaviour
         transform.position += dir * speed / 50;
         transform.Rotate(Vector3.forward,1);
 
-        if (deathStart) //auto kill the projectile if it dosnt hit its target
+        if (Vector2.Distance(transform.position, startPos) >= 4)
         {
-            deathTimer -= 1 / 50;
-            if (deathTimer <= 0)
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
         }
     }
 
