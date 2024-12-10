@@ -1,0 +1,3471 @@
+fileFormatVersion: 2
+guid: 0dfc3c5f6dbb72146bf2a5f1119574fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1913093082774322626
+    second: disclaimer_0
+  - first:
+      213: -5316598623423910607
+    second: disclaimer_1
+  - first:
+      213: 3243492187344138999
+    second: disclaimer_2
+  - first:
+      213: 3636333309803364784
+    second: disclaimer_3
+  - first:
+      213: 2654983038381305875
+    second: disclaimer_4
+  - first:
+      213: 7985763178771689679
+    second: disclaimer_5
+  - first:
+      213: 4851161107903385058
+    second: disclaimer_6
+  - first:
+      213: -2937122473373930794
+    second: disclaimer_7
+  - first:
+      213: -5543915812735777241
+    second: disclaimer_8
+  - first:
+      213: 2232392927960055237
+    second: disclaimer_9
+  - first:
+      213: -4290961772943387900
+    second: disclaimer_10
+  - first:
+      213: 3436306123997776818
+    second: disclaimer_11
+  - first:
+      213: 5325746112417311625
+    second: disclaimer_12
+  - first:
+      213: -4459053287818105305
+    second: disclaimer_13
+  - first:
+      213: 692164420320778232
+    second: disclaimer_14
+  - first:
+      213: 1388020547715197051
+    second: disclaimer_15
+  - first:
+      213: -4294090779643649586
+    second: disclaimer_16
+  - first:
+      213: 7017266666770885004
+    second: disclaimer_17
+  - first:
+      213: 2777149809017677625
+    second: disclaimer_18
+  - first:
+      213: 724135455055144192
+    second: disclaimer_19
+  - first:
+      213: 8796222649884975683
+    second: disclaimer_20
+  - first:
+      213: -8583467802502745834
+    second: disclaimer_21
+  - first:
+      213: 1132517739453630530
+    second: disclaimer_22
+  - first:
+      213: -1471789956853408832
+    second: disclaimer_23
+  - first:
+      213: 3806808362579838408
+    second: disclaimer_24
+  - first:
+      213: -8164222868701760205
+    second: disclaimer_25
+  - first:
+      213: 674151483261557850
+    second: disclaimer_26
+  - first:
+      213: -4753663425680414485
+    second: disclaimer_27
+  - first:
+      213: -8474082431487584439
+    second: disclaimer_28
+  - first:
+      213: -2066053858794264504
+    second: disclaimer_29
+  - first:
+      213: 3787777518357817201
+    second: disclaimer_30
+  - first:
+      213: 4723628553171606723
+    second: disclaimer_31
+  - first:
+      213: 5899432476083819370
+    second: disclaimer_32
+  - first:
+      213: -2321961669091896508
+    second: disclaimer_33
+  - first:
+      213: 3339609584965194142
+    second: disclaimer_34
+  - first:
+      213: -1165705163561408009
+    second: disclaimer_35
+  - first:
+      213: -7037592633804135557
+    second: disclaimer_36
+  - first:
+      213: 8994382548707403810
+    second: disclaimer_37
+  - first:
+      213: -1830938700876608847
+    second: disclaimer_38
+  - first:
+      213: 2204745617369776310
+    second: disclaimer_39
+  - first:
+      213: 8027008622390675617
+    second: disclaimer_40
+  - first:
+      213: -3482930084156317605
+    second: disclaimer_41
+  - first:
+      213: -2029715027092040504
+    second: disclaimer_42
+  - first:
+      213: 1645126817577970846
+    second: disclaimer_43
+  - first:
+      213: 4045990145884884382
+    second: disclaimer_44
+  - first:
+      213: -378875461872965887
+    second: disclaimer_45
+  - first:
+      213: -2051771387062622923
+    second: disclaimer_46
+  - first:
+      213: 12941781727271189
+    second: disclaimer_47
+  - first:
+      213: 9143536143300767710
+    second: disclaimer_48
+  - first:
+      213: -7153786678878445681
+    second: disclaimer_49
+  - first:
+      213: -603404086114724797
+    second: disclaimer_50
+  - first:
+      213: 7301399747021203882
+    second: disclaimer_51
+  - first:
+      213: 6092855606766934332
+    second: disclaimer_52
+  - first:
+      213: 4898530072358941634
+    second: disclaimer_53
+  - first:
+      213: -3258559459740683248
+    second: disclaimer_54
+  - first:
+      213: -4107409515040806931
+    second: disclaimer_55
+  - first:
+      213: -738083460671097909
+    second: disclaimer_56
+  - first:
+      213: 7721792517869562070
+    second: disclaimer_57
+  - first:
+      213: -2227111658402327492
+    second: disclaimer_58
+  - first:
+      213: -274752634312056999
+    second: disclaimer_59
+  - first:
+      213: -6022389918043784951
+    second: disclaimer_60
+  - first:
+      213: 5009211590823749508
+    second: disclaimer_61
+  - first:
+      213: 3566874167033938295
+    second: disclaimer_62
+  - first:
+      213: -7292932717361062388
+    second: disclaimer_63
+  - first:
+      213: 2518943104168457038
+    second: disclaimer_64
+  - first:
+      213: -562055626603027539
+    second: disclaimer_65
+  - first:
+      213: -7242192746202098914
+    second: disclaimer_66
+  - first:
+      213: -8440216534330906858
+    second: disclaimer_67
+  - first:
+      213: 2214851625593342301
+    second: disclaimer_68
+  - first:
+      213: -6396946558486303771
+    second: disclaimer_69
+  - first:
+      213: 3896099028237646073
+    second: disclaimer_70
+  - first:
+      213: -1918446686922705593
+    second: disclaimer_71
+  - first:
+      213: 7396625826618971878
+    second: disclaimer_72
+  - first:
+      213: -4105595668334629873
+    second: disclaimer_73
+  - first:
+      213: -5537084704413261303
+    second: disclaimer_74
+  - first:
+      213: 1573366002365019150
+    second: disclaimer_75
+  - first:
+      213: -5973898379152166714
+    second: disclaimer_76
+  - first:
+      213: 111252965294844928
+    second: disclaimer_77
+  - first:
+      213: -8246840652240921433
+    second: disclaimer_78
+  - first:
+      213: 6253397342117781778
+    second: disclaimer_79
+  - first:
+      213: -1626908645435389522
+    second: disclaimer_80
+  - first:
+      213: -735033777811700571
+    second: disclaimer_81
+  - first:
+      213: -6476115815928280546
+    second: disclaimer_82
+  - first:
+      213: -2341993752816004195
+    second: disclaimer_83
+  - first:
+      213: -9204879501037156331
+    second: disclaimer_84
+  - first:
+      213: 8601612432880168076
+    second: disclaimer_85
+  - first:
+      213: -3437328955862608084
+    second: disclaimer_86
+  - first:
+      213: -8953418049004497042
+    second: disclaimer_87
+  - first:
+      213: -5781743536870344416
+    second: disclaimer_88
+  - first:
+      213: -4307040099590571073
+    second: disclaimer_89
+  - first:
+      213: -7379499518328033990
+    second: disclaimer_90
+  - first:
+      213: 5955554420490703539
+    second: disclaimer_91
+  - first:
+      213: 6297839463758420551
+    second: disclaimer_92
+  - first:
+      213: -4217133210030162790
+    second: disclaimer_93
+  - first:
+      213: 5930592916793022633
+    second: disclaimer_94
+  - first:
+      213: 1711734939769874302
+    second: disclaimer_95
+  - first:
+      213: -9043050360041477068
+    second: disclaimer_96
+  - first:
+      213: -2975648854354194124
+    second: disclaimer_97
+  - first:
+      213: -8932955956105094400
+    second: disclaimer_98
+  - first:
+      213: -4516740783327789869
+    second: disclaimer_99
+  - first:
+      213: 3730464146600505349
+    second: disclaimer_100
+  - first:
+      213: 4879164308380305703
+    second: disclaimer_101
+  - first:
+      213: -1841779589463445003
+    second: disclaimer_102
+  - first:
+      213: 4650996791836724469
+    second: disclaimer_103
+  - first:
+      213: 3920791426906699125
+    second: disclaimer_104
+  - first:
+      213: -2048006814084463082
+    second: disclaimer_105
+  - first:
+      213: 6079714514940198826
+    second: disclaimer_106
+  - first:
+      213: 642795640844732799
+    second: disclaimer_107
+  - first:
+      213: 6418608455017233735
+    second: disclaimer_108
+  - first:
+      213: -6221622097618972341
+    second: disclaimer_109
+  - first:
+      213: 458791921468858155
+    second: disclaimer_110
+  - first:
+      213: -1723449773612098394
+    second: disclaimer_111
+  - first:
+      213: 203450277050718568
+    second: disclaimer_112
+  - first:
+      213: -6014450274978923749
+    second: disclaimer_113
+  - first:
+      213: 2073873957741383863
+    second: disclaimer_114
+  - first:
+      213: 3765497714207608716
+    second: disclaimer_115
+  - first:
+      213: 6276924711575046241
+    second: disclaimer_116
+  - first:
+      213: 5732358759179958145
+    second: disclaimer_117
+  - first:
+      213: 731411499342538794
+    second: disclaimer_118
+  - first:
+      213: -2520601962744670604
+    second: disclaimer_119
+  - first:
+      213: -1154358935109880491
+    second: disclaimer_120
+  - first:
+      213: 6146890099088936005
+    second: disclaimer_121
+  - first:
+      213: 4677098520175741367
+    second: disclaimer_122
+  - first:
+      213: -1323244706452947662
+    second: disclaimer_123
+  - first:
+      213: 3222186252016904183
+    second: disclaimer_124
+  - first:
+      213: 9089033593622703094
+    second: disclaimer_125
+  - first:
+      213: -3898663074781904966
+    second: disclaimer_126
+  - first:
+      213: -9132100784056641254
+    second: disclaimer_127
+  - first:
+      213: -933273593366632033
+    second: disclaimer_128
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: disclaimer_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 641
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd3505d50cac8a10800000000000000
+      internalID: 1913093082774322626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_1
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 641
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dac7578b5a736b0800000000000000
+      internalID: -5316598623423910607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_2
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 641
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2f66aa5f2330d20800000000000000
+      internalID: 3243492187344138999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 677
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b100cf01e9d67230800000000000000
+      internalID: 3636333309803364784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_4
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 640
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310b767b10568d420800000000000000
+      internalID: 2654983038381305875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_5
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 677
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b41bfc4123de60800000000000000
+      internalID: 7985763178771689679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_6
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 640
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed85c83359c25340800000000000000
+      internalID: 4851161107903385058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_7
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 641
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6daeab80cae3d37d0800000000000000
+      internalID: -2937122473373930794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_8
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 677
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7268635f0fd0013b0800000000000000
+      internalID: -5543915812735777241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_9
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 677
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd372e4a8d0bfe10800000000000000
+      internalID: 2232392927960055237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 640
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403dde280017374c0800000000000000
+      internalID: -4290961772943387900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_11
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 640
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb0364a63630bf20800000000000000
+      internalID: 3436306123997776818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 641
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b2d8a4fd9d8e940800000000000000
+      internalID: 5325746112417311625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 640
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e6019e8a24e12c0800000000000000
+      internalID: -4459053287818105305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 641
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7526f7fdf0b9900800000000000000
+      internalID: 692164420320778232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_15
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 640
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78e187855d334310800000000000000
+      internalID: 1388020547715197051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_16
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 629
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec16f0edf235864c0800000000000000
+      internalID: -4294090779643649586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_17
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 641
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c896117bad6526160800000000000000
+      internalID: 7017266666770885004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_18
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 640
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937ea8e890b6a8620800000000000000
+      internalID: 2777149809017677625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_19
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 641
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005e3d71c55ac0a00800000000000000
+      internalID: 724135455055144192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_20
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 640
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342a3ab45e5721a70800000000000000
+      internalID: 8796222649884975683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_21
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 641
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61132d2c28561e880800000000000000
+      internalID: -8583467802502745834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 641
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24846f932e287bf00800000000000000
+      internalID: 1132517739453630530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_23
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 629
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbd3c505d6239be0800000000000000
+      internalID: -1471789956853408832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_24
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 640
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5ce83590084d430800000000000000
+      internalID: 3806808362579838408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_25
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 641
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33539eb8e8ad2be80800000000000000
+      internalID: -8164222868701760205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_26
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 640
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c9b94c3311b5900800000000000000
+      internalID: 674151483261557850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 640
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be86d82ec48970eb0800000000000000
+      internalID: -4753663425680414485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_28
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 641
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947ddc91de2066a80800000000000000
+      internalID: -8474082431487584439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_29
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 640
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8482ebb36f6e353e0800000000000000
+      internalID: -2066053858794264504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_30
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 641
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177aded9593e09430800000000000000
+      internalID: 3787777518357817201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_31
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 641
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc9faa6423bd8140800000000000000
+      internalID: 4723628553171606723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_32
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 641
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a631169949efed150800000000000000
+      internalID: 5899432476083819370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_33
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 629
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44354bb0a2cb6cfd0800000000000000
+      internalID: -2321961669091896508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_34
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 629
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e911758393da85e20800000000000000
+      internalID: 3339609584965194142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_35
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 640
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f96515745592dfe0800000000000000
+      internalID: -1165705163561408009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_36
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 641
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73e23c49c2755e90800000000000000
+      internalID: -7037592633804135557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_37
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 641
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2286da5164772dc70800000000000000
+      internalID: 8994382548707403810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_38
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 641
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba0cb8c3f23796e0800000000000000
+      internalID: -1830938700876608847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_39
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 629
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0cc6f2574d89e10800000000000000
+      internalID: 2204745617369776310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_40
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 641
+        width: 9
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8089a20d9a56f60800000000000000
+      internalID: 8027008622390675617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_41
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 641
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b506754ba852aafc0800000000000000
+      internalID: -3482930084156317605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_42
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 640
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c418eecfe005d3e0800000000000000
+      internalID: -2029715027092040504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_43
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 641
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c2434df1aa4d610800000000000000
+      internalID: 1645126817577970846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_44
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 629
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d0332e99e362830800000000000000
+      internalID: 4045990145884884382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_45
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 641
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10723f856c6fdbaf0800000000000000
+      internalID: -378875461872965887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_46
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 640
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53562d15bc4a683e0800000000000000
+      internalID: -2051771387062622923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_47
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 629
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5195d9e5b7afd2000800000000000000
+      internalID: 12941781727271189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_48
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 641
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf23648dad54ee70800000000000000
+      internalID: 9143536143300767710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_49
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 504
+        width: 9
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f578efae4a8bc90800000000000000
+      internalID: -7153786678878445681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_50
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 504
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344dc1f3e2740a7f0800000000000000
+      internalID: -603404086114724797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_51
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 503
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9635ca268c35560800000000000000
+      internalID: 7301399747021203882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_52
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 504
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39171d94eb2e8450800000000000000
+      internalID: 6092855606766934332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_53
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 503
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3f584b5231bf340800000000000000
+      internalID: 4898530072358941634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_54
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 504
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014faaa9f6547c2d0800000000000000
+      internalID: -3258559459740683248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_55
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 504
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7eeecdecc8ff6c0800000000000000
+      internalID: -4107409515040806931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_56
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 503
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3bb18c00dc1c5f0800000000000000
+      internalID: -738083460671097909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_57
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 539
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d862e81261592b60800000000000000
+      internalID: 7721792517869562070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_58
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 503
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c345cc51fb5b711e0800000000000000
+      internalID: -2227111658402327492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_59
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 504
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f1abe4fe1ef2cf0800000000000000
+      internalID: -274752634312056999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_60
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 491
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9093b1c074c2c6ca0800000000000000
+      internalID: -6022389918043784951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_61
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487a1d3e66b448540800000000000000
+      internalID: 5009211590823749508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_62
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 503
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77143942825108130800000000000000
+      internalID: 3566874167033938295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_63
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 503
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e9eda455c4aca90800000000000000
+      internalID: -7292932717361062388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_64
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 503
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e437165486515f220800000000000000
+      internalID: 2518943104168457038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_65
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 504
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da32150b26d2338f0800000000000000
+      internalID: -562055626603027539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_66
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 504
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1396bf61109e7b90800000000000000
+      internalID: -7242192746202098914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_67
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617e3dbb7c35eda80800000000000000
+      internalID: -8440216534330906858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_68
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 504
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5900b591dbbcbe10800000000000000
+      internalID: 2214851625593342301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_69
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 491
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb244e5ffa7937a0800000000000000
+      internalID: -6396946558486303771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_70
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 491
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f879db7c69b11630800000000000000
+      internalID: 3896099028237646073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_71
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745727117ee4065e0800000000000000
+      internalID: -1918446686922705593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_72
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 504
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e69a14100816a660800000000000000
+      internalID: 7396625826618971878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_73
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c2885fd7ef507c0800000000000000
+      internalID: -4105595668334629873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_74
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 495
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902e23e4cc25823b0800000000000000
+      internalID: -5537084704413261303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_75
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 492
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04b4a80b08b5d510800000000000000
+      internalID: 1573366002365019150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_76
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c07a524313781da0800000000000000
+      internalID: -5973898379152166714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_77
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00cab948bff3b8100800000000000000
+      internalID: 111252965294844928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_78
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 503
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7acdde3de165d8d80800000000000000
+      internalID: -8246840652240921433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_79
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2116d4030c788c650800000000000000
+      internalID: 6253397342117781778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_80
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9cfcae43f0c69e0800000000000000
+      internalID: -1626908645435389522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_81
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 503
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4ce976ca2acc5f0800000000000000
+      internalID: -735033777811700571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_82
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a4e433af63026a0800000000000000
+      internalID: -6476115815928280546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_83
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 504
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93d73917119f7fd0800000000000000
+      internalID: -2341993752816004195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_84
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518c7640dd2b14080800000000000000
+      internalID: -9204879501037156331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_85
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 503
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ce7653fe01f5770800000000000000
+      internalID: 8601612432880168076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_86
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 492
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2715a1c6872c40d0800000000000000
+      internalID: -3437328955862608084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_87
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 503
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67148fb8b11fb380800000000000000
+      internalID: -8953418049004497042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_88
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 504
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029be6ed2ee13cfa0800000000000000
+      internalID: -5781743536870344416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_89
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 503
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb7a8e59d15a34c0800000000000000
+      internalID: -4307040099590571073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_90
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 504
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d24ed4940c69990800000000000000
+      internalID: -7379499518328033990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_91
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 491
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b21bd9013166a250800000000000000
+      internalID: 5955554420490703539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_92
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 504
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ad1c9ff9b666750800000000000000
+      internalID: 6297839463758420551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_93
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 435
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c36a550bbb975c0800000000000000
+      internalID: -4217133210030162790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_94
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 435
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a855e016d2bd4250800000000000000
+      internalID: 5930592916793022633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_95
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 434
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77ab9acbdd41c710800000000000000
+      internalID: 1711734939769874302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_96
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 434
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c62c31c91a08280800000000000000
+      internalID: -9043050360041477068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_97
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 435
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4319be3f12f54b6d0800000000000000
+      internalID: -2975648854354194124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_98
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 435
+        width: 8
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b552203e3c70480800000000000000
+      internalID: -8932955956105094400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_99
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 471
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc3a3330305151c0800000000000000
+      internalID: -4516740783327789869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_100
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 434
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5003471606545c330800000000000000
+      internalID: 3730464146600505349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_101
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 434
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729c5c9661646b340800000000000000
+      internalID: 4879164308380305703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_102
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 423
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f17777b83fa076e0800000000000000
+      internalID: -1841779589463445003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_103
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 434
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcc8eca0f8ab8040800000000000000
+      internalID: 4650996791836724469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_104
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 434
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575bb2f8703796630800000000000000
+      internalID: 3920791426906699125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_105
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6168ae447a40493e0800000000000000
+      internalID: -2048006814084463082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_106
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 435
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaffbceb32c7f5450800000000000000
+      internalID: 6079714514940198826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_107
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 427
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7948bbca3babe800800000000000000
+      internalID: 642795640844732799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_108
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 423
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dfe91f16a731950800000000000000
+      internalID: 6418608455017233735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_109
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4153b07aab58a9a0800000000000000
+      internalID: -6221622097618972341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_110
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f58f062d4fd5600800000000000000
+      internalID: 458791921468858155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_111
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 434
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac9f97ef831518e0800000000000000
+      internalID: -1723449773612098394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_112
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8691015f2fcc2d200800000000000000
+      internalID: 203450277050718568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_113
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 423
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b71a04751688ca0800000000000000
+      internalID: -6014450274978923749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_114
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0db107061e7cc10800000000000000
+      internalID: 2073873957741383863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_115
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 423
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fc3e9783cb14430800000000000000
+      internalID: 3765497714207608716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_116
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1684d43c4cd1c1750800000000000000
+      internalID: 6276924711575046241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_117
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 434
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187350e8bed6d8f40800000000000000
+      internalID: 5732358759179958145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_118
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 435
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28a2fa22ee762a00800000000000000
+      internalID: 731411499342538794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_119
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 423
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476937e9ed5050dd0800000000000000
+      internalID: -2520601962744670604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_120
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5553a712aa4eaffe0800000000000000
+      internalID: -1154358935109880491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_121
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 435
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ccf8d3af32e4550800000000000000
+      internalID: 6146890099088936005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_122
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b98492e25468e040800000000000000
+      internalID: 4677098520175741367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_123
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 435
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23db4f843f3e2ade0800000000000000
+      internalID: -1323244706452947662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_124
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 435
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f76d97035187bc20800000000000000
+      internalID: 3222186252016904183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_125
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 434
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb297bc5ebb22e70800000000000000
+      internalID: 9089033593622703094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_126
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 434
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf31b8e69a25e9c0800000000000000
+      internalID: -3898663074781904966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_127
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 434
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19dc3988b2444180800000000000000
+      internalID: -9132100784056641254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: disclaimer_128
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 435
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99212d8c985c03f0800000000000000
+      internalID: -933273593366632033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      disclaimer_0: 1913093082774322626
+      disclaimer_1: -5316598623423910607
+      disclaimer_10: -4290961772943387900
+      disclaimer_100: 3730464146600505349
+      disclaimer_101: 4879164308380305703
+      disclaimer_102: -1841779589463445003
+      disclaimer_103: 4650996791836724469
+      disclaimer_104: 3920791426906699125
+      disclaimer_105: -2048006814084463082
+      disclaimer_106: 6079714514940198826
+      disclaimer_107: 642795640844732799
+      disclaimer_108: 6418608455017233735
+      disclaimer_109: -6221622097618972341
+      disclaimer_11: 3436306123997776818
+      disclaimer_110: 458791921468858155
+      disclaimer_111: -1723449773612098394
+      disclaimer_112: 203450277050718568
+      disclaimer_113: -6014450274978923749
+      disclaimer_114: 2073873957741383863
+      disclaimer_115: 3765497714207608716
+      disclaimer_116: 6276924711575046241
+      disclaimer_117: 5732358759179958145
+      disclaimer_118: 731411499342538794
+      disclaimer_119: -2520601962744670604
+      disclaimer_12: 5325746112417311625
+      disclaimer_120: -1154358935109880491
+      disclaimer_121: 6146890099088936005
+      disclaimer_122: 4677098520175741367
+      disclaimer_123: -1323244706452947662
+      disclaimer_124: 3222186252016904183
+      disclaimer_125: 9089033593622703094
+      disclaimer_126: -3898663074781904966
+      disclaimer_127: -9132100784056641254
+      disclaimer_128: -933273593366632033
+      disclaimer_13: -4459053287818105305
+      disclaimer_14: 692164420320778232
+      disclaimer_15: 1388020547715197051
+      disclaimer_16: -4294090779643649586
+      disclaimer_17: 7017266666770885004
+      disclaimer_18: 2777149809017677625
+      disclaimer_19: 724135455055144192
+      disclaimer_2: 3243492187344138999
+      disclaimer_20: 8796222649884975683
+      disclaimer_21: -8583467802502745834
+      disclaimer_22: 1132517739453630530
+      disclaimer_23: -1471789956853408832
+      disclaimer_24: 3806808362579838408
+      disclaimer_25: -8164222868701760205
+      disclaimer_26: 674151483261557850
+      disclaimer_27: -4753663425680414485
+      disclaimer_28: -8474082431487584439
+      disclaimer_29: -2066053858794264504
+      disclaimer_3: 3636333309803364784
+      disclaimer_30: 3787777518357817201
+      disclaimer_31: 4723628553171606723
+      disclaimer_32: 5899432476083819370
+      disclaimer_33: -2321961669091896508
+      disclaimer_34: 3339609584965194142
+      disclaimer_35: -1165705163561408009
+      disclaimer_36: -7037592633804135557
+      disclaimer_37: 8994382548707403810
+      disclaimer_38: -1830938700876608847
+      disclaimer_39: 2204745617369776310
+      disclaimer_4: 2654983038381305875
+      disclaimer_40: 8027008622390675617
+      disclaimer_41: -3482930084156317605
+      disclaimer_42: -2029715027092040504
+      disclaimer_43: 1645126817577970846
+      disclaimer_44: 4045990145884884382
+      disclaimer_45: -378875461872965887
+      disclaimer_46: -2051771387062622923
+      disclaimer_47: 12941781727271189
+      disclaimer_48: 9143536143300767710
+      disclaimer_49: -7153786678878445681
+      disclaimer_5: 7985763178771689679
+      disclaimer_50: -603404086114724797
+      disclaimer_51: 7301399747021203882
+      disclaimer_52: 6092855606766934332
+      disclaimer_53: 4898530072358941634
+      disclaimer_54: -3258559459740683248
+      disclaimer_55: -4107409515040806931
+      disclaimer_56: -738083460671097909
+      disclaimer_57: 7721792517869562070
+      disclaimer_58: -2227111658402327492
+      disclaimer_59: -274752634312056999
+      disclaimer_6: 4851161107903385058
+      disclaimer_60: -6022389918043784951
+      disclaimer_61: 5009211590823749508
+      disclaimer_62: 3566874167033938295
+      disclaimer_63: -7292932717361062388
+      disclaimer_64: 2518943104168457038
+      disclaimer_65: -562055626603027539
+      disclaimer_66: -7242192746202098914
+      disclaimer_67: -8440216534330906858
+      disclaimer_68: 2214851625593342301
+      disclaimer_69: -6396946558486303771
+      disclaimer_7: -2937122473373930794
+      disclaimer_70: 3896099028237646073
+      disclaimer_71: -1918446686922705593
+      disclaimer_72: 7396625826618971878
+      disclaimer_73: -4105595668334629873
+      disclaimer_74: -5537084704413261303
+      disclaimer_75: 1573366002365019150
+      disclaimer_76: -5973898379152166714
+      disclaimer_77: 111252965294844928
+      disclaimer_78: -8246840652240921433
+      disclaimer_79: 6253397342117781778
+      disclaimer_8: -5543915812735777241
+      disclaimer_80: -1626908645435389522
+      disclaimer_81: -735033777811700571
+      disclaimer_82: -6476115815928280546
+      disclaimer_83: -2341993752816004195
+      disclaimer_84: -9204879501037156331
+      disclaimer_85: 8601612432880168076
+      disclaimer_86: -3437328955862608084
+      disclaimer_87: -8953418049004497042
+      disclaimer_88: -5781743536870344416
+      disclaimer_89: -4307040099590571073
+      disclaimer_9: 2232392927960055237
+      disclaimer_90: -7379499518328033990
+      disclaimer_91: 5955554420490703539
+      disclaimer_92: 6297839463758420551
+      disclaimer_93: -4217133210030162790
+      disclaimer_94: 5930592916793022633
+      disclaimer_95: 1711734939769874302
+      disclaimer_96: -9043050360041477068
+      disclaimer_97: -2975648854354194124
+      disclaimer_98: -8932955956105094400
+      disclaimer_99: -4516740783327789869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
