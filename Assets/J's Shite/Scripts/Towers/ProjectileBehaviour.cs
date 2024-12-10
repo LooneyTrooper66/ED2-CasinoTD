@@ -8,7 +8,7 @@ public class ProjectileBehaviour : MonoBehaviour
     [SerializeField] private float damage;
     public float speed;
     [SerializeField] private float deathTimer;
-    private bool deathStart;
+    //private bool deathStart;
     private Vector2 startPos;
 
     private void Start()
@@ -32,7 +32,7 @@ public class ProjectileBehaviour : MonoBehaviour
          //set the direction and shite 
          //pendist
          dir = dirt;
-        deathStart = true;
+        //deathStart = true;
         // transform.LookAt(dirt);
         transform.rotation = Quaternion.FromToRotation(Vector3.up, dirt);
     }
