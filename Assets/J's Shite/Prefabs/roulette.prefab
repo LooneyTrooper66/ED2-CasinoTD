@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d05d8bd8a8854f4ab61872540a1a71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 5
   speed: 3
   deathTimer: 5
 --- !u!212 &577145028761151057
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 578716260741545789}
-  shotInterval: 20
+  shotInterval: 120
   ballDistFromCener: 1.8
 --- !u!58 &5726996601258235601
 CircleCollider2D:

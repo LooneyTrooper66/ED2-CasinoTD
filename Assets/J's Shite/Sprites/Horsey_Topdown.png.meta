@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Horsey_Topdown_0: 8568018239020897928
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
