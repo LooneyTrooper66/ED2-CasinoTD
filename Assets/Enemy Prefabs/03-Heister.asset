@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c194e23773b7ad9499ddaf3392366a80, type: 3}
   m_Name: 03-Heister
   m_EditorClassIdentifier: 
-  health: 5
+  health: 15
   speed: 10
-  damage: 1
+  damage: 8
   Vaule: 20
-  sprite: {fileID: 0}
+  sprite: {fileID: 686726681329798105, guid: a21cffd8e6a65b848811e1fb2c896025, type: 3}
   anim: {fileID: 0}
