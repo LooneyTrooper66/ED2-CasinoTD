@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 115354633643279011}
   m_Layer: 0
   m_Name: placeCol
-  m_TagString: Untagged
+  m_TagString: DropInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71953165fa973b24db9ec763b431872d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotInterval: 2
+  shotInterval: 1.75
   cards:
   - {fileID: 7024648501981196136, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   - {fileID: -1145144668836272637, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
