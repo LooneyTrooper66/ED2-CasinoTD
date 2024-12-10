@@ -12,5 +12,5 @@ public class enemy_S_Obj : ScriptableObject
 
     [Header("Animations")]
     public Sprite sprite;
-    public Animation anim;
+    public AnimationClip anim;
 }
