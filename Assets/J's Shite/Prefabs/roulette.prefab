@@ -49,6 +49,7 @@ MonoBehaviour:
   damage: 5
   speed: 3
   deathTimer: 5
+  peirce: 10
 --- !u!212 &577145028761151057
 SpriteRenderer:
   m_ObjectHideFlags: 0

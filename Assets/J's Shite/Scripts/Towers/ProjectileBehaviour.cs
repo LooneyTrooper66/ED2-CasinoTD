@@ -46,7 +46,7 @@ public class ProjectileBehaviour : MonoBehaviour
             Debug.Log(1);
             collision.gameObject.GetComponent<enemy_Move>().Hit(damage);
             peirce--;
-            Destroy(gameObject);
+            Destroy((peirce <= 0)? gameObject : null); 
         }
 
     }
