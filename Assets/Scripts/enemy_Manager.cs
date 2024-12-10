@@ -106,6 +106,7 @@ public class enemy_Manager : MonoBehaviour
         SEM.Vaule = enemyTypes[etp].Vaule;
         SEM.goalPos = SEM.eM.RowConnectors[0];
         SEM.GetComponent<SpriteRenderer>().sprite = enemyTypes[etp].sprite;
+        //will also need to add the objects animators
         SEM.inactive = false;
         SEM.i = 0;
 
