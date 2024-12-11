@@ -26,10 +26,10 @@ public class CardBulletBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("0");
+        //Debug.Log("0");
         if (collision.gameObject.CompareTag("enemy"))
         {
-            Debug.Log(1);
+            //Debug.Log(1);
             collision.gameObject.GetComponent<enemy_Move>().Hit(damage);
             Destroy(gameObject);
         }
