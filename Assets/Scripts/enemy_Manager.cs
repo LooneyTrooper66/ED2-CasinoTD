@@ -112,7 +112,7 @@ public class enemy_Manager : MonoBehaviour
         //set the gameObject Needed Information
         //change the enemy transfrom into the active zone
         selectedEnemy.SetActive(true);
-        selectedEnemy.transform.parent = active_Enemy;
+        selectedEnemy.transform.parent = SEM.horse?  null :active_Enemy;
         selectedEnemy.name = enemyTypes[etp].name;
         SEM = selectedEnemy.GetComponent<enemy_Move>();
         //set the Enemy Move 
