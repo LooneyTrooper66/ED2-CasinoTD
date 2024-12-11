@@ -106,9 +106,7 @@ public class enemy_Move : MonoBehaviour
        // horse? Destroy(gameObject) : transform.SetParent(transform.parent.parent.GetChild(0));
         gameObject.SetActive(false);
     }
-
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (horse && collision.gameObject.tag == "enemy")
         {
