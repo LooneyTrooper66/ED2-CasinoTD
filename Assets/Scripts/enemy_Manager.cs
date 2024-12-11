@@ -85,6 +85,10 @@ public class enemy_Manager : MonoBehaviour
             //
             waveState = WaveState.WaveClear;
             FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
+
+            // im being lazy, il fix this later
+            Debug.Log("fucking die (you won)");
+            Application.Quit();
         }
     }
     /// <summary>
@@ -143,7 +147,7 @@ public class enemy_Manager : MonoBehaviour
         else
         {
             // you won!!!!!!! maybe change the lever to a cash out button? 
-
+            
         }
     }
 

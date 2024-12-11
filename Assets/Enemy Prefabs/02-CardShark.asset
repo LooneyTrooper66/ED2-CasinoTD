@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c194e23773b7ad9499ddaf3392366a80, type: 3}
   m_Name: 02-CardShark
   m_EditorClassIdentifier: 
-  health: 8
+  health: 20
   speed: 2
-  damage: 5
-  Vaule: 3
+  damage: 10
+  Vaule: 5
   sprite: {fileID: 6709648580227652470, guid: 67d0caa80bc4af642952e592c43402be, type: 3}
   anim: {fileID: 7400000, guid: 0f562b7b56936254d979e979c8ac1110, type: 2}

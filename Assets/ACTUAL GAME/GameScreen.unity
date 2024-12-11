@@ -2159,8 +2159,6 @@ MonoBehaviour:
   rowOutPut: 
   pullToStart: {fileID: 270559631}
   buttonAnim: {fileID: 1417563173}
-  leverrr: {fileID: 1417563174}
-  leverSprite: {fileID: 4326010316352785896, guid: 26cf8c629f2dfae40acddf8ff2237512, type: 3}
   whichAnim: clicked
   reset: 0
   stop: 0
@@ -2190,7 +2188,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9a1e7978fbb6be94892e2c857f323643, type: 2}
+  - {fileID: 2100000, guid: ef965fb6ad6425540b345ddacf3a05ef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2222,7 +2220,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.31731033
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2944,7 +2942,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8, y: 1.8}
+  m_Size: {x: 1.7, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &536593514
 GameObject:
@@ -4267,7 +4265,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8, y: 1.8}
+  m_Size: {x: 1.7, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &840619264
 GameObject:
@@ -5538,7 +5536,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8, y: 1.8}
+  m_Size: {x: 1.7, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &1125939887
 GameObject:
@@ -9950,7 +9948,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8, y: 1.8}
+  m_Size: {x: 1.7, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &1920431659
 GameObject:
@@ -10754,7 +10752,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.8, y: 1.8}
+  m_Size: {x: 1.7, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &2133435201
 GameObject:
