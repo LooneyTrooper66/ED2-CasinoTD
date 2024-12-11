@@ -113,6 +113,7 @@ public class enemy_Manager : MonoBehaviour
         //change the enemy transfrom into the active zone
         selectedEnemy.SetActive(true);
         selectedEnemy.transform.parent = SEM.horse?  null :active_Enemy;
+        selectedEnemy.tag = SEM.horse ? "bullet" : "enemy";
         selectedEnemy.name = enemyTypes[etp].name;
         SEM = selectedEnemy.GetComponent<enemy_Move>();
         //set the Enemy Move 
