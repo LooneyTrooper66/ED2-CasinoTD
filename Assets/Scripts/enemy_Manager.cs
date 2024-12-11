@@ -85,7 +85,10 @@ public class enemy_Manager : MonoBehaviour
             //
             waveState = WaveState.WaveClear;
             FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
+        }
 
+        if (waveState == WaveState.WaveClear && waveTracker == waves.Length)
+        {
             // im being lazy, il fix this later
             Debug.Log("fucking die (you won)");
             Application.Quit();

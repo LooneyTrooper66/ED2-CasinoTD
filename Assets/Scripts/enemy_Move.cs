@@ -98,7 +98,12 @@ public class enemy_Move : MonoBehaviour
     public void Death()
     {
         //send to the shadow realm :3
-        transform.SetParent(transform.parent.parent.GetChild(0));
+        if (horse) { Destroy(gameObject); }
+        else
+        {
+            transform.SetParent(transform.parent.parent.GetChild(0));
+        }
+       // horse? Destroy(gameObject) : transform.SetParent(transform.parent.parent.GetChild(0));
         gameObject.SetActive(false);
     }
 
