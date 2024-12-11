@@ -98,7 +98,7 @@ public class enemy_Manager : MonoBehaviour
     /// spawn a single enemy based on the etp vaule 
     /// i forgot what etp means but sounds cool so i kept it
     /// </summary
-    void SummonTest(int etp)
+    public void SummonTest(int etp)
     {
         ////...,.,//../...,.kljhniouhijoiyguhob uyog.
         if (transform.childCount <= 0)
