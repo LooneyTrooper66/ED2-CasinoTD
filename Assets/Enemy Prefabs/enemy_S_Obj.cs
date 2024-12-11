@@ -10,8 +10,12 @@ public class enemy_S_Obj : ScriptableObject
 
     public int Vaule;
 
+    public bool horse;
+
     [Header("Animations")]
     public Sprite sprite;
     public AnimationClip anim;
     //public an an;
+
+    
 }

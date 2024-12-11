@@ -120,13 +120,15 @@ public class enemy_Manager : MonoBehaviour
         SEM.speed = enemyTypes[etp].speed;
         SEM.damage = enemyTypes[etp].damage;
         SEM.Vaule = enemyTypes[etp].Vaule;
-        SEM.goalPos = SEM.eM.RowConnectors[0];
+        SEM.goalPos = enemyTypes[etp].horse ? SEM.eM.RowConnectors.Last() : SEM.eM.RowConnectors[0];
+        SEM.horse = enemyTypes[etp].horse;
+        SEM.transform.rotation = Quaternion.Euler(0,0,enemyTypes[etp].horse? 90: SEM.transform.rotation.z);
         SEM.GetComponent<SpriteRenderer>().sprite = enemyTypes[etp].sprite;
         //will also need to add the objects animators
         SEM.inactive = false;
         SEM.i = 0;
 
-        selectedEnemy.transform.position = SEM.eM.RowConnectors[0] + Vector3.left;
+        selectedEnemy.transform.position = enemyTypes[etp].horse ? SEM.eM.RowConnectors.Last() :SEM.eM.RowConnectors[0] + Vector3.left;
     }
 
     public void SummonWave()

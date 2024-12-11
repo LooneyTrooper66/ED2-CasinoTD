@@ -9,6 +9,7 @@ public class enemy_Move : MonoBehaviour
     public int damage;
     public float speed;
     public int Vaule;
+    public bool horse;
 
     [HideInInspector]public int i; //needs to be public so it can use other scripts :3 but its ugly so we hide it :3
     [Header("Extras")] 
@@ -62,6 +63,11 @@ public class enemy_Move : MonoBehaviour
             Death();
             //call a enemy manager function to disable this and add it back into the enemy que
             //teleport the enemy offscreen and into storage
+        }
+        else if (horse)
+        {
+            i++;
+            goalPos = eM.RowConnectors[eM.RowConnectors.Count - i];
         }
         else
         {

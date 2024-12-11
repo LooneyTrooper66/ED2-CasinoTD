@@ -16,5 +16,6 @@ MonoBehaviour:
   speed: 1.5
   damage: 1
   Vaule: 1
+  horse: 0
   sprite: {fileID: 2886052365686866624, guid: d8983cce74ba70240a8cc3d6e471f76c, type: 3}
   anim: {fileID: 0}
