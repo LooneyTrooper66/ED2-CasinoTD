@@ -12045,7 +12045,7 @@ MonoBehaviour:
     - {x: 3, y: 0.2}
     - {x: 3, y: 0.2}
     - {x: 3, y: 0.2}
-  waveTracker: 12
+  waveTracker: 10
   waveInProgress: 0
   wildCardWave: []
   activeWave: []
