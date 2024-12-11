@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class enemy_Manager : MonoBehaviour
 {
@@ -34,6 +35,10 @@ public class enemy_Manager : MonoBehaviour
     private float timer;
     private float delay;
 
+    [SerializeField]private bool FinalWave;
+    [SerializeField] private Sprite leverSprite;
+    [SerializeField] private Image Lsp;  
+
     public WaveState waveState;
 
     public enum WaveState
@@ -56,6 +61,15 @@ public class enemy_Manager : MonoBehaviour
             //testEnemy.spawn();
             SummonWave();
         }
+        if (waveState == WaveState.WaveClear && FinalWave)
+        {
+            FinalWave = false;
+            //set the lever to the cash out version!!!!
+            Lsp.sprite = leverSprite;
+
+            // you only need to change the sprite, just make sure that pullFinal is called on the final round only so it doesnt look odd
+        }
+
 
         if (activeWave != null && activeWave.Count() > 0 && timer >= delay)
         {
@@ -121,15 +135,17 @@ public class enemy_Manager : MonoBehaviour
         // enemy_move.em = pg;
         //
         //
-        if (waves[waveTracker] !=  null)
+        if (waveTracker < waves.Count())
         {
             activeWave = waves[waveTracker].enemies.ToList();
             waveTracker++;
+            FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
             delay = 3; // wave countdown
         }
         else
         {
             // you won!!!!!!! maybe change the lever to a cash out button? 
+
         }
     }
 
