@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: -4203968533138545652}
   - component: {fileID: 500778444137642536}
   - component: {fileID: 5367180681794039036}
-  - component: {fileID: 3449236253494311394}
   m_Layer: 0
   m_Name: horse
   m_TagString: DropInvalid
@@ -161,21 +160,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa9925dcd819bce408e9f8e2a92ea4ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotInterval: 50
---- !u!114 &3449236253494311394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5267994902332593694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7a2a1cd15495be4ca24537807f71e95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Target: {fileID: 0}
-  potentialTargets: []
-  shootPoint: {fileID: 0}
-  bullet: {fileID: 0}
-  targeting: 0
+  manager: {fileID: 0}
+  shotInterval: 8
