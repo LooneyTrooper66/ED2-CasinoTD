@@ -21,6 +21,8 @@ public class Slot_Manager : MonoBehaviour
 
     public Button pullToStart;
     public Animator buttonAnim;
+
+    [HideInInspector] public string whichAnim = "clicked";
     public bool reset;
     public bool stop;
     public bool rigged; //this can be used for forced results no use yet
@@ -98,7 +100,7 @@ public class Slot_Manager : MonoBehaviour
         if (eM.waveState == enemy_Manager.WaveState.WaveClear)
         {
             reset = true;
-            buttonAnim.SetTrigger("clicked");
+            buttonAnim.SetTrigger(whichAnim);
             eM.waveState = enemy_Manager.WaveState.WaveStart;
         }
     }

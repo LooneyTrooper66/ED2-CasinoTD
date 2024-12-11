@@ -35,9 +35,8 @@ public class enemy_Manager : MonoBehaviour
     private float timer;
     private float delay;
 
-    [SerializeField]private bool FinalWave;
-    [SerializeField] private Sprite leverSprite;
-    [SerializeField] private Image Lsp;  
+    public bool FinalWave;
+    public Slot_Manager slot;
 
     public WaveState waveState;
 
@@ -63,10 +62,8 @@ public class enemy_Manager : MonoBehaviour
         }
         if (waveState == WaveState.WaveClear && FinalWave)
         {
+            slot.whichAnim = "pullFinal"; //set the lever to the cash out version!!!!            
             FinalWave = false;
-            //set the lever to the cash out version!!!!
-            Lsp.sprite = leverSprite;
-
             // you only need to change the sprite, just make sure that pullFinal is called on the final round only so it doesnt look odd
         }
 
@@ -87,6 +84,7 @@ public class enemy_Manager : MonoBehaviour
             // is not spawning a wave check if the their are any enemts in the active enemy 
             //
             waveState = WaveState.WaveClear;
+            FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
         }
     }
     /// <summary>
@@ -139,7 +137,7 @@ public class enemy_Manager : MonoBehaviour
         {
             activeWave = waves[waveTracker].enemies.ToList();
             waveTracker++;
-            FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
+            //FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
             delay = 3; // wave countdown
         }
         else

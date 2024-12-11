@@ -2159,6 +2159,9 @@ MonoBehaviour:
   rowOutPut: 
   pullToStart: {fileID: 270559631}
   buttonAnim: {fileID: 1417563173}
+  leverrr: {fileID: 1417563174}
+  leverSprite: {fileID: 4326010316352785896, guid: 26cf8c629f2dfae40acddf8ff2237512, type: 3}
+  whichAnim: clicked
   reset: 0
   stop: 0
   rigged: 0
@@ -11300,6 +11303,8 @@ MonoBehaviour:
   waveInProgress: 0
   wildCardWave: []
   activeWave: []
+  FinalWave: 0
+  slot: {fileID: 378141338}
   waveState: 2
 --- !u!4 &5698026876262176121
 Transform:
