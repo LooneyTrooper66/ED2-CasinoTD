@@ -117,8 +117,8 @@ public class enemy_Manager : MonoBehaviour
         selectedEnemy.SetActive(true);
         SEM = selectedEnemy.GetComponent<enemy_Move>();
         //set the Enemy Move 
-        selectedEnemy.transform.parent = SEM.horse ? null : active_Enemy;
-        selectedEnemy.tag = SEM.horse ? "tower" : "enemy";
+        selectedEnemy.transform.parent = enemyTypes[etp].horse ? null : active_Enemy;
+        selectedEnemy.tag = enemyTypes[etp].horse ? "tower" : "enemy";
         selectedEnemy.name = enemyTypes[etp].name;
 
 
