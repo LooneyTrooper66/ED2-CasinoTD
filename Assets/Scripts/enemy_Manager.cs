@@ -120,7 +120,7 @@ public class enemy_Manager : MonoBehaviour
         selectedEnemy.transform.parent = enemyTypes[etp].horse ? null : active_Enemy;
         selectedEnemy.tag = enemyTypes[etp].horse ? "tower" : "enemy";
         selectedEnemy.name = enemyTypes[etp].name;
-
+        selectedEnemy.layer = enemyTypes[etp].horse ? 8 : 6;
 
         SEM.Health = enemyTypes[etp].health;
         SEM.speed = enemyTypes[etp].speed;

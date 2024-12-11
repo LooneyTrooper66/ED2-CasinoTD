@@ -108,4 +108,13 @@ public class enemy_Move : MonoBehaviour
     }
 
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (horse && collision.gameObject.tag == "enemy")
+        {
+            collision.gameObject.GetComponent<enemy_Move>().Hit(damage);
+            Health -= 1;
+        }
+    }
+
 }
