@@ -110,8 +110,14 @@ public class enemy_Move : MonoBehaviour
     {
         if (horse && collision.gameObject.tag == "enemy")
         {
-            collision.gameObject.GetComponent<enemy_Move>().Hit(damage);
-            Health -= 1;
+            enemy_Move eM = collision.gameObject.GetComponent<enemy_Move>();
+            eM.Hit(Health);
+            Health -= eM.Health;
+        }
+
+        if (Health <= 0)
+        {
+            Death();
         }
     }
 
