@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -101,6 +102,13 @@ public class Slot_Manager : MonoBehaviour
         {
             reset = true;
             buttonAnim.SetTrigger(whichAnim);
+
+            enemy_Move[] gmObj = FindObjectsOfType<enemy_Move>();
+            foreach (var enOBJ in gmObj)
+            {
+                Destroy(enOBJ.gameObject);
+            }
+
             eM.waveState = enemy_Manager.WaveState.WaveStart;
         }
     }

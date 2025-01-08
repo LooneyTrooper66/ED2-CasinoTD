@@ -52,3 +52,10 @@ public class TileMove : MonoBehaviour
 
 
 }
+
+/*
+ if (transform.y >= 2.5f)
+{
+    // deactivate this tiles children until lever pulled again
+}
+ */

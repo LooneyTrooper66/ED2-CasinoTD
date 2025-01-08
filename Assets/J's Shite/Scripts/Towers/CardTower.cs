@@ -32,7 +32,7 @@ public class CardTower : MasterTowerScript
         if (findTarget.potentialTargets.Count > 0)
         {
             findTarget.sortList();
-            if (findTarget.Target != null)
+            if (findTarget.Target != null && findTarget.Target == isActiveAndEnabled)
             {
                 Vector3 targ = findTarget.Target.transform.position;
                 targ.z = 0f;

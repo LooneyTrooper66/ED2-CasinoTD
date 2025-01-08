@@ -28,6 +28,7 @@ public class RowRandomiser : MonoBehaviour
     public float rowSpeed;
     public bool slowing;
     public bool stop;
+    public int tileAtTop;
 
     public int rowhostint;
     //private TileMove tilemovesample;
@@ -77,6 +78,7 @@ public class RowRandomiser : MonoBehaviour
 
     public void StartRolls()
     {
+        ReactivateTiles();
         //currentdecl = 0;
         placehold = 4.5f;
         slowing = false;
@@ -93,7 +95,7 @@ public class RowRandomiser : MonoBehaviour
             tileMoves[i].speed = rowSpeed;
             tileMoves[i].stopSpin = false;
             tileMoves[i].stop = false;
-
+            tileMoves[i].gameObject.SetActive(true);
         }
         StartRolls();
     }
@@ -112,16 +114,19 @@ public class RowRandomiser : MonoBehaviour
                 RollTile(0, 1, 2, 3);
                 tileMoves[3].rowHost = true;
                 rowhostint = 3;
+                tileAtTop = 0;
                 break;
             case 1://y w c m
                 RollTile(3, 0, 1, 2);
                 tileMoves[2].rowHost = true;
                 rowhostint = 2;
+                tileAtTop = 1;
                 break;
             case 2://m y w c
                 RollTile(1, 2, 3, 0);
                 tileMoves[0].rowHost = true;
                 rowhostint = 0;
+                tileAtTop = 3;
                 break;
             default:
                 Debug.Log("ERROR");
@@ -129,7 +134,7 @@ public class RowRandomiser : MonoBehaviour
         }
         stop = false;
         //run function to begin lerp
-
+        
   
     }
 
@@ -197,11 +202,13 @@ public class RowRandomiser : MonoBehaviour
     {
         stop = true;
         // VauleRest();
+        tileMoves[tileAtTop].gameObject.SetActive(false);
         tileMoves[rowhostint].rowHost = false;
         for (int o = 0; o < tileMoves.Count; o++)
         {
             tileMoves[o].transform.position = tileMoves[o].slotPos;
         }
+
 
         if (sM.r.Count - 1 == sM.rowNumb)
         {
@@ -241,7 +248,11 @@ public class RowRandomiser : MonoBehaviour
     //
     void GeneratePath() //oh lol i forgot about this function i just gonna keep thios here
     {
-        Debug.Log(":3");
+        //Debug.Log(":3");
     }
 
+    public void ReactivateTiles()
+    {
+        tileMoves[rowhostint].rowHost = false;
+    }
 }

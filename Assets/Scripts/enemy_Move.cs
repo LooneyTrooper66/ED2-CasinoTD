@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 //using UnityEngine.WSA;
+using UnityEngine.UI;
 
 public class enemy_Move : MonoBehaviour
 {
@@ -11,8 +12,8 @@ public class enemy_Move : MonoBehaviour
     public int Vaule;
     public bool horse;
 
-    [HideInInspector]public int i; //needs to be public so it can use other scripts :3 but its ugly so we hide it :3
-    [Header("Extras")] 
+    [HideInInspector] public int i; //needs to be public so it can use other scripts :3 but its ugly so we hide it :3
+    [Header("Extras")]
     public path_Genarator eM;
     public Vector2 goalPos;
 
@@ -37,9 +38,9 @@ public class enemy_Move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(inactive) { return;}
+        if (inactive) { return; }
 
-        if (transform.position == new Vector3(goalPos.x,goalPos.y,transform.position.z))
+        if (transform.position == new Vector3(goalPos.x, goalPos.y, transform.position.z))
         {
             PosDone();
             return;
@@ -57,7 +58,7 @@ public class enemy_Move : MonoBehaviour
             //playerhealth.takedamage(damage);  <--- example code
             i= 0;
             inactive = true;
-            Debug.Log("die");
+            //Debug.Log("die");
             GameObject.FindWithTag("playerManager").GetComponent<HealthManager>().TakeDamage(damage);
             //parent it to wave manager :3 please
             Death();
@@ -110,9 +111,12 @@ public class enemy_Move : MonoBehaviour
     {
         if (horse && collision.gameObject.tag == "enemy")
         {
+
             enemy_Move eM = collision.gameObject.GetComponent<enemy_Move>();
-            eM.Hit(Health);
+            float quickhp = Health;
             Health -= eM.Health;
+            eM.Hit(quickhp);
+
         }
 
         if (Health <= 0)

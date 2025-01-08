@@ -39,6 +39,8 @@ public class enemy_Manager : MonoBehaviour
     public Slot_Manager slot;
 
     public WaveState waveState;
+    private int waveCount = 1;
+    public Text waveText;
 
     public enum WaveState
     {
@@ -84,6 +86,11 @@ public class enemy_Manager : MonoBehaviour
             // is not spawning a wave check if the their are any enemts in the active enemy 
             //
             waveState = WaveState.WaveClear;
+
+            waveCount++;
+            string waveStr = waveCount.ToString();
+            waveText.text = $"Wave: {waveStr}";
+
             FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
         }
 
