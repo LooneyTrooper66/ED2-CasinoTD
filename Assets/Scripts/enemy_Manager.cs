@@ -1,7 +1,8 @@
+using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
-using UnityEngine;
 using UnityEngine.UI;
 
 public class enemy_Manager : MonoBehaviour
@@ -38,7 +39,7 @@ public class enemy_Manager : MonoBehaviour
     public bool FinalWave;
     public Slot_Manager slot;
 
-    public Image waveClearPopup;
+    public GameObject waveClearPopup;
     public WaveState waveState;
     private int waveCount = 1;
     public Text waveText;
@@ -49,6 +50,11 @@ public class enemy_Manager : MonoBehaviour
         WaveActive,
         WaveClear,
         WaveStart
+    }
+
+    private void Start()
+    {
+        waveClearPopup.SetActive(false);
     }
 
     // Update is called once per frame
@@ -87,7 +93,7 @@ public class enemy_Manager : MonoBehaviour
             // is not spawning a wave check if the their are any enemts in the active enemy 
             //
             waveState = WaveState.WaveClear;
-            StartCoroutine(UIPopUp(2));
+            StartCoroutine(UIPopUp(3));
 
             waveCount++;
             string waveStr = waveCount.ToString();
@@ -170,9 +176,9 @@ public class enemy_Manager : MonoBehaviour
 
     IEnumerator UIPopUp(int waitSecs)
     {
-        waveClearPopup.enabled = true;
+        waveClearPopup.SetActive(true);
         yield return new WaitForSecondsRealtime(waitSecs);
-        waveClearPopup.enabled = false;
+        waveClearPopup.SetActive(false);
     }
 
     public void WaveClear()

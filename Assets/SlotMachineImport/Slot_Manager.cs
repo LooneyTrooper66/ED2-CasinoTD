@@ -21,6 +21,7 @@ public class Slot_Manager : MonoBehaviour
 
     public Button pullToStart;
     public Animator buttonAnim;
+    public ChipForCash cfc;
 
     [HideInInspector] public string whichAnim = "clicked";
     public bool reset;
@@ -108,6 +109,7 @@ public class Slot_Manager : MonoBehaviour
             {
                 Destroy(enOBJ.gameObject);
             }
+            cfc.tradableChipsThisRound = 3;
 
             eM.waveState = enemy_Manager.WaveState.WaveStart;
         }

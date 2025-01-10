@@ -2161,6 +2161,7 @@ MonoBehaviour:
   rowOutPut: 
   pullToStart: {fileID: 270559631}
   buttonAnim: {fileID: 1417563173}
+  cfc: {fileID: 1208676898}
   whichAnim: clicked
   reset: 0
   stop: 0
@@ -6046,7 +6047,7 @@ RectTransform:
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2049487324}
+  - {fileID: 1358301325}
   - {fileID: 1936781861}
   - {fileID: 1125939888}
   - {fileID: 1273514457}
@@ -7508,6 +7509,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2133064127}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1358301324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1358301325}
+  m_Layer: 0
+  m_Name: wave clear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1358301325
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358301324}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2049487324}
+  m_Father: {fileID: 1134703752}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -115.44, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1400715791
 GameObject:
   m_ObjectHideFlags: 0
@@ -10693,7 +10730,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2049487324
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10701,18 +10738,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049487323}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1076306165}
   - {fileID: 1845215176}
-  m_Father: {fileID: 1134703752}
+  m_Father: {fileID: 1358301325}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 418.56, y: 0}
+  m_AnchoredPosition: {x: 50.00003, y: 0}
   m_SizeDelta: {x: 734.03, y: 540}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2049487325
@@ -11700,7 +11737,7 @@ MonoBehaviour:
   activeWave: []
   FinalWave: 0
   slot: {fileID: 378141338}
-  waveClearPopup: {fileID: 2049487325}
+  waveClearPopup: {fileID: 1358301324}
   waveState: 2
   waveText: {fileID: 476643463}
 --- !u!4 &5698026876262176121
