@@ -38,6 +38,7 @@ public class enemy_Manager : MonoBehaviour
     public bool FinalWave;
     public Slot_Manager slot;
 
+    public Image waveClearPopup;
     public WaveState waveState;
     private int waveCount = 1;
     public Text waveText;
@@ -86,6 +87,7 @@ public class enemy_Manager : MonoBehaviour
             // is not spawning a wave check if the their are any enemts in the active enemy 
             //
             waveState = WaveState.WaveClear;
+            StartCoroutine(UIPopUp(2));
 
             waveCount++;
             string waveStr = waveCount.ToString();
@@ -164,6 +166,13 @@ public class enemy_Manager : MonoBehaviour
             // you won!!!!!!! maybe change the lever to a cash out button? 
             
         }
+    }
+
+    IEnumerator UIPopUp(int waitSecs)
+    {
+        waveClearPopup.enabled = true;
+        yield return new WaitForSecondsRealtime(waitSecs);
+        waveClearPopup.enabled = false;
     }
 
     public void WaveClear()

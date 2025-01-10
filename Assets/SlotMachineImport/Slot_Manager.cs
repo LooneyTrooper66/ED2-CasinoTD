@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -103,6 +102,7 @@ public class Slot_Manager : MonoBehaviour
             reset = true;
             buttonAnim.SetTrigger(whichAnim);
 
+            // will flag an error, just ignore it coz unity is being a pain in the ass \\
             enemy_Move[] gmObj = FindObjectsOfType<enemy_Move>();
             foreach (var enOBJ in gmObj)
             {
