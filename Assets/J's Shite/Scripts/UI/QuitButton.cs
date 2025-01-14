@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class QuitButton : MonoBehaviour
@@ -13,7 +14,6 @@ public class QuitButton : MonoBehaviour
 
     public void quitPressed()
     {
-        Application.Quit();
-        Debug.Log("application quit");
+        SceneManager.LoadScene("CreditsScene");
     }
 }
