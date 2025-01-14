@@ -138,7 +138,7 @@ public class enemy_Manager : MonoBehaviour
         selectedEnemy.layer = enemyTypes[etp].horse ? 8 : 6;
         selectedEnemy.GetComponent<Collider2D>().isTrigger = enemyTypes[etp].horse ? true : false; ;
         SEM.Health = enemyTypes[etp].health;
-        SEM.speed = enemyTypes[etp].speed;
+        SEM.speed = enemyTypes[etp].speed * 2;
         SEM.damage = enemyTypes[etp].damage;
         SEM.Vaule = enemyTypes[etp].Vaule;
         SEM.goalPos = enemyTypes[etp].horse ? SEM.eM.RowConnectors.Last() : SEM.eM.RowConnectors[0];
@@ -149,7 +149,7 @@ public class enemy_Manager : MonoBehaviour
         SEM.inactive = false;
         SEM.i = 0;
 
-        selectedEnemy.transform.position = enemyTypes[etp].horse ? SEM.eM.RowConnectors.Last() :SEM.eM.RowConnectors[0] + Vector3.left;
+        selectedEnemy.transform.position = enemyTypes[etp].horse ? SEM.eM.RowConnectors.Last() :SEM.eM.RowConnectors[0] + Vector3.left * 3;
     }
 
     public void SummonWave()

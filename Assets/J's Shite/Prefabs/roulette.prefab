@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 578716260741545789}
-  shotInterval: 120
+  shotInterval: 80
   ballDistFromCener: 1.8
 --- !u!58 &5726996601258235601
 CircleCollider2D:

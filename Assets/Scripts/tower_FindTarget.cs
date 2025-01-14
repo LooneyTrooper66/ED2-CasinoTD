@@ -49,7 +49,36 @@ public class tower_FindTarget : MonoBehaviour
     {
         tI = -1; // set the target to -1 so enemys at point 0 can still be hit lol
         //Dont think we will be able to add diffrent type of fireing methods
-        switch (targeting)
+
+        foreach (GameObject gO in potentialTargets)
+        {
+            if (gO.transform.position.x >= -8)
+            {
+                //if (gO == null) { return; } // a just in case mesure :3
+                if (gO.GetComponent<enemy_Move>().i > tI)
+                {
+                    //greater then so replace
+                    Target = gO;
+                    tI = gO.GetComponent<enemy_Move>().i;
+                }
+                else if (gO.GetComponent<enemy_Move>().i == tI)
+                {
+                    //do the equation check 
+                    // get the postion of their next goal
+                    //get the dist each object is from 
+                    Vector3 goal = Target.GetComponent<enemy_Move>().goalPos;
+                    float ttp = Vector2.Distance(Target.transform.position, goal);
+                    float got = Vector2.Distance(gO.transform.position, goal);
+                    if (got <= ttp)
+                    {
+                        Target = gO;
+                        tI = gO.GetComponent<enemy_Move>().i;
+                    }
+                }
+            }
+        }
+
+        /*switch (targeting)
         {
             
             case TargetingOrder.First:
@@ -64,28 +93,31 @@ public class tower_FindTarget : MonoBehaviour
                 //for each gameobject in list do the loop
                 foreach (GameObject gO in potentialTargets)
                 {
-                    //if (gO == null) { return; } // a just in case mesure :3
-                    if (gO.GetComponent<enemy_Move>().i > tI)
+                    if (gO.transform.position.x >= -8)
                     {
-                        //greater then so replace
-                        Target = gO;
-                        tI = gO.GetComponent<enemy_Move>().i;
-                    }
-                    else if (gO.GetComponent<enemy_Move>().i == tI)
-                    {
-                        //do the equation check 
-                        // get the postion of their next goal
-                        //get the dist each object is from 
-                        Vector3 goal = Target.GetComponent<enemy_Move>().goalPos;
-                        float ttp = Vector2.Distance(Target.transform.position, goal); 
-                        float got = Vector2.Distance(gO.transform.position, goal);
-                        if (got <= ttp)
+                        Debug.Log(gO.transform.position.x);
+                        //if (gO == null) { return; } // a just in case mesure :3
+                        if (gO.GetComponent<enemy_Move>().i > tI)
                         {
+                            //greater then so replace
                             Target = gO;
                             tI = gO.GetComponent<enemy_Move>().i;
                         }
-                    }
-                        
+                        else if (gO.GetComponent<enemy_Move>().i == tI)
+                        {
+                            //do the equation check 
+                            // get the postion of their next goal
+                            //get the dist each object is from 
+                            Vector3 goal = Target.GetComponent<enemy_Move>().goalPos;
+                            float ttp = Vector2.Distance(Target.transform.position, goal);
+                            float got = Vector2.Distance(gO.transform.position, goal);
+                            if (got <= ttp)
+                            {
+                                Target = gO;
+                                tI = gO.GetComponent<enemy_Move>().i;
+                            }
+                        }
+                    }                  
                 }
 
 
@@ -105,7 +137,7 @@ public class tower_FindTarget : MonoBehaviour
                 targeting = TargetingOrder.First;
                 sortList();
                 break;
-        }
+        }*/
         Target = potentialTargets[0];
     }
 
