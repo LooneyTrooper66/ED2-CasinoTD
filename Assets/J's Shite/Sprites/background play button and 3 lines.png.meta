@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      background play button and 3 lines_0: -8923126688909207048
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
