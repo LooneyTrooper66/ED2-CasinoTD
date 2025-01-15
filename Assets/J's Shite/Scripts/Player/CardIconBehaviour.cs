@@ -92,17 +92,17 @@ public class CardIconBehaviour : MonoBehaviour
         {
             case "card":
                 Instantiate(cardPrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(6.5f, 2.3f, -3);
+                lastDragged.transform.position = new Vector3(5.9f, 2.85f, -3);
                 money.playerMoney = money.playerMoney - 25;
                 return;
             case "roulette":
                 Instantiate(roulettePrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(6.5f, 1.05f, -3);
+                lastDragged.transform.position = new Vector3(7.5f, 3.15f, -3);
                 money.playerMoney = money.playerMoney - 35;
                 return;
             case "horse":
                 Instantiate(horsePrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(6.225f, -0.97f, -3);
+                lastDragged.transform.position = new Vector3(5.97f, 0.3f, -3);
                 money.playerMoney = money.playerMoney - 50;
                 return;
         }
