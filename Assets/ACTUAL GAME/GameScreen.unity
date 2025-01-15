@@ -1838,7 +1838,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -236, y: -30}
-  m_SizeDelta: {x: 50, y: 50}
+  m_SizeDelta: {x: 60, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &300608639
 MonoBehaviour:
@@ -1873,7 +1873,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA350"
+  m_Text: "\xA3150"
 --- !u!222 &300608640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3871,7 +3871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   available: {r: 1, g: 1, b: 1, a: 1}
   unavailable: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
-  price: 35
+  price: 60
   upgradePrice: 60
   moneyM: {fileID: 1208676895}
 --- !u!114 &721219958
@@ -4982,7 +4982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   available: {r: 1, g: 1, b: 1, a: 1}
   unavailable: {r: 0.41568628, g: 0.41568628, b: 0.41568628, a: 1}
-  price: 50
+  price: 150
   upgradePrice: 75
   moneyM: {fileID: 1208676895}
 --- !u!61 &961067733
@@ -7373,7 +7373,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA335"
+  m_Text: '@60'
 --- !u!222 &1273514459
 CanvasRenderer:
   m_ObjectHideFlags: 0
