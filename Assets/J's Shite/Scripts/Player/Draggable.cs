@@ -8,6 +8,11 @@ public class Draggable : MonoBehaviour
     public CardIconBehaviour cardController;
 
 
+    private void Start()
+    {
+        returnTo = thisGO.transform.position;
+    }
+
     private void Update()
     {
         switch (gameObject.tag)

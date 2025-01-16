@@ -5,11 +5,11 @@ using System.Collections.Generic;
 public class CardIconBehaviour : MonoBehaviour
 {
     private bool isDragActive = false;
-    public bool cardInPlace = true;
-    public bool rouletteInPlace = true;
-    public bool horseInPlace = true;
-    public bool chipInPlace = true;
-    public bool chipInSlot = false;
+    [HideInInspector] public bool cardInPlace = true;
+    [HideInInspector] public bool rouletteInPlace = true;
+    [HideInInspector] public bool horseInPlace = true;
+    [HideInInspector] public bool chipInPlace = true;
+    [HideInInspector] public bool chipInSlot = false;
     private Vector3 screenPos;
     private Vector3 worldPos;
     private Vector3 mousePos;
@@ -22,6 +22,7 @@ public class CardIconBehaviour : MonoBehaviour
     public GameObject roulettePrefab;
     public GameObject horsePrefab;
     public MoneyManager money;
+    public Transform cashierGoTo;
 
 
     private void Awake()
@@ -77,6 +78,7 @@ public class CardIconBehaviour : MonoBehaviour
     void InitDrag()
     {
         isDragActive = true;
+        cashierGoTo.position = new Vector3(-13.13f, 0, 1);
     }
 
     void Drag()
@@ -92,18 +94,18 @@ public class CardIconBehaviour : MonoBehaviour
         {
             case "card":
                 Instantiate(cardPrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(5.9f, 2.85f, -3);
+                lastDragged.transform.position = new Vector3(-14.38f, 1.7f, -3);
                 money.playerMoney = money.playerMoney - 25;
                 return;
             case "roulette":
                 Instantiate(roulettePrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(7.5f, 3.15f, -3);
-                money.playerMoney = money.playerMoney - 35;
+                lastDragged.transform.position = new Vector3(-11.88f, 2.2f, -3);
+                money.playerMoney = money.playerMoney - 60;
                 return;
             case "horse":
                 Instantiate(horsePrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(5.97f, 0.3f, -3);
-                money.playerMoney = money.playerMoney - 50;
+                lastDragged.transform.position = new Vector3(-14.23f, -2f, -3);
+                money.playerMoney = money.playerMoney - 150;
                 return;
         }
     }
@@ -120,6 +122,8 @@ public class CardIconBehaviour : MonoBehaviour
         }
         else
         {
+            Debug.Log(col.gameObject.tag);
+            Debug.Log(col.gameObject.name);
             MovePlacerBack();
         }
     }

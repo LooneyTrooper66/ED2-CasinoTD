@@ -66,6 +66,6 @@ public class ChipForCash : MonoBehaviour
         chipsUsed.text = "chips used: 0";
         moneyChipsAreWorth = 0;
         chipsToBeTraded = 0;
-        cashierGoTo.position = new Vector3(12, 1.08f, -1);
+        cashierGoTo.position = new Vector3(-13.13f, 0, 1);
     }
 }
