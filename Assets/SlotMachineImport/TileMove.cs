@@ -12,12 +12,14 @@ public class TileMove : MonoBehaviour
     public RowRandomiser Host;
     public bool stopSpin;
     public bool stop;
+    [SerializeField] private enemy_Manager eM;
+    private SpriteRenderer sR;
 
     public bool rowHost;//
     // Start is called before the first frame update
     void Start()
     {
-        
+        sR = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -48,9 +50,16 @@ public class TileMove : MonoBehaviour
             }
         }
 
+        if (eM.waveState == enemy_Manager.WaveState.WaveSpawning || eM.waveState == enemy_Manager.WaveState.WaveActive)
+        {
+
+            sR.color = Color.grey;
+        }
+        else
+        {
+            sR.color = Color.white;
+        }
     }
-
-
 }
 
 /*
