@@ -148,7 +148,7 @@ public class path_Genarator : MonoBehaviour
 
         tester.transform.position = Vector3.Lerp(b[0], b[1], timer);
     }*/
-    /* public void getEnE(List<RowRandomiser> lp)
+   /* public void getEnE(List<RowRandomiser> lp)
      {
         for (int k = 0; k < sM.r.Count; k++)
         {
@@ -160,4 +160,10 @@ public class path_Genarator : MonoBehaviour
         lineRenderer.positionCount = RowConnectors.Count;
 
    }*/
+
+    //time to start on the new draw method? :3
+    //split the path into 2 parts
+    //      - straights
+    //      - turns
+    //
 }
