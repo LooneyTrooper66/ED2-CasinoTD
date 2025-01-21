@@ -62,7 +62,7 @@ public class ChipForCash : MonoBehaviour
     {
         moneyM.playerMoney = moneyM.playerMoney + moneyChipsAreWorth;
         healthM.playerChips = healthM.playerChips - chipsToBeTraded;
-        moneyMakingFromChips.text = "worth:  £0";
+        moneyMakingFromChips.text = "£0";
         chipsUsed.text = "chips used: 0";
         moneyChipsAreWorth = 0;
         chipsToBeTraded = 0;
