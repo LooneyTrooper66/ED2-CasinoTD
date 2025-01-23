@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class CardIconBehaviour : MonoBehaviour
 {
-    private bool isDragActive = false;
+    [HideInInspector] public bool isDragActive = false;
     [HideInInspector] public bool cardInPlace = true;
     [HideInInspector] public bool rouletteInPlace = true;
     [HideInInspector] public bool horseInPlace = true;
@@ -122,8 +122,8 @@ public class CardIconBehaviour : MonoBehaviour
         }
         else
         {
-            Debug.Log(col.gameObject.tag);
-            Debug.Log(col.gameObject.name);
+            //Debug.Log(col.gameObject.tag);
+            //Debug.Log(col.gameObject.name);
             MovePlacerBack();
         }
     }

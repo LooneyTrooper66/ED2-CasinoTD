@@ -303,6 +303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37004650}
   - component: {fileID: 37004651}
+  - component: {fileID: 37004652}
   m_Layer: 0
   m_Name: shop holder
   m_TagString: DropInvalid
@@ -330,6 +331,7 @@ Transform:
   - {fileID: 872495838}
   - {fileID: 1584819711}
   - {fileID: 1171534846}
+  - {fileID: 489486211}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &37004651
@@ -349,6 +351,19 @@ MonoBehaviour:
   goTo: {fileID: 440760296}
   onScreenCashier: {x: -6.78, y: 0, z: -1}
   offScreenCashier: {x: -13.13, y: 0, z: 1}
+--- !u!114 &37004652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37004649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3746d37c688f5604f820784617b522f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cover: {fileID: 489486210}
 --- !u!1 &45985959
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +686,7 @@ GameObject:
   - component: {fileID: 75316878}
   - component: {fileID: 75316877}
   - component: {fileID: 75316876}
+  - component: {fileID: 75316881}
   m_Layer: 8
   m_Name: cardT
   m_TagString: card
@@ -826,6 +842,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 37004650}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &75316881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75316875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3297fea67df9e4cb92a1a9b8195904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignorePlacer:
+    serializedVersion: 2
+    m_Bits: 119
+  placerScript: {fileID: 592698236}
 --- !u!1 &88789613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3106,6 +3138,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476643461}
   m_CullTransparentMesh: 1
+--- !u!1 &489486210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 489486211}
+  - component: {fileID: 489486212}
+  m_Layer: 0
+  m_Name: contingency plan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &489486211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489486210}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 37004650}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &489486212
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489486210}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 7, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 20, y: 10}
+  m_EdgeRadius: 0
 --- !u!1 &500885793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3718,6 +3828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f141cf46baf29ad4093ef893edeec6b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDragActive: 0
   cardInPlace: 1
   rouletteInPlace: 1
   horseInPlace: 1
@@ -4525,6 +4636,7 @@ GameObject:
   - component: {fileID: 721219958}
   - component: {fileID: 721219957}
   - component: {fileID: 721219962}
+  - component: {fileID: 721219963}
   m_Layer: 8
   m_Name: rouletteT
   m_TagString: roulette
@@ -4702,6 +4814,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &721219963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721219956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3297fea67df9e4cb92a1a9b8195904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignorePlacer:
+    serializedVersion: 2
+    m_Bits: 119
+  placerScript: {fileID: 592698236}
 --- !u!1 &733829696
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,7 +5135,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -60, y: -80}
-  m_SizeDelta: {x: 100, y: 75}
+  m_SizeDelta: {x: 85, y: 65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &792308580
 MonoBehaviour:
@@ -5755,6 +5883,7 @@ GameObject:
   - component: {fileID: 961067734}
   - component: {fileID: 961067733}
   - component: {fileID: 961067732}
+  - component: {fileID: 961067737}
   m_Layer: 8
   m_Name: horseT
   m_TagString: horse
@@ -5910,6 +6039,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 37004650}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &961067737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961067731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3297fea67df9e4cb92a1a9b8195904, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ignorePlacer:
+    serializedVersion: 2
+    m_Bits: 119
+  placerScript: {fileID: 592698236}
 --- !u!1 &966928905
 GameObject:
   m_ObjectHideFlags: 0
@@ -7463,7 +7608,7 @@ GameObject:
   - component: {fileID: 1171534843}
   m_Layer: 0
   m_Name: shop
-  m_TagString: Untagged
+  m_TagString: DropInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
