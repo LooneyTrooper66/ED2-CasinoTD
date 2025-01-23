@@ -14,6 +14,9 @@ public class TileMove : MonoBehaviour
     public bool stop;
     [SerializeField] private enemy_Manager eM;
     private SpriteRenderer sR;
+    private float alphaVal = 225;
+    bool fadeInDone = true;
+    bool fadeOutDone = false;
 
     public bool rowHost;//
     // Start is called before the first frame update
@@ -50,15 +53,48 @@ public class TileMove : MonoBehaviour
             }
         }
 
+
+        // MAKE IT SO THE ALPHA FADES IN AND OUT INSTEAD OF CHANGING THE SPRITE COLOUR TO GREY
         if (eM.waveState == enemy_Manager.WaveState.WaveSpawning || eM.waveState == enemy_Manager.WaveState.WaveActive)
         {
 
-            sR.color = Color.grey;
+            Debug.Log(sR.color.a);
+            if (fadeOutDone == false)
+            {
+                StartCoroutine(AlphaFadeOut());
+                fadeInDone = false;
+            }
         }
         else
         {
-            sR.color = Color.white;
+            if (fadeInDone == false)
+            {
+                StartCoroutine(AlphaFadeIn());
+                fadeOutDone = false;
+            }
         }
+    }
+
+    IEnumerator AlphaFadeOut()
+    {
+        fadeOutDone = true;
+        while (sR.color.a != 50)
+        {
+            sR.color = new Color(225, 225, 225, alphaVal);
+            alphaVal = alphaVal - 5;
+        }
+        yield return null;
+    }
+
+    IEnumerator AlphaFadeIn()
+    {
+        fadeInDone = true;
+        while (sR.color.a != 225)
+        {
+            sR.color = new Color(225, 225, 225, alphaVal);
+            alphaVal++;
+        }
+        yield return null;
     }
 }
 
