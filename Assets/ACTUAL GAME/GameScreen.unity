@@ -320,7 +320,7 @@ Transform:
   m_GameObject: {fileID: 37004649}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.13, y: 0, z: 0}
+  m_LocalPosition: {x: -13.13, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -331,7 +331,6 @@ Transform:
   - {fileID: 872495838}
   - {fileID: 1584819711}
   - {fileID: 1171534846}
-  - {fileID: 489486211}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &37004651
@@ -3150,7 +3149,7 @@ GameObject:
   - component: {fileID: 489486212}
   m_Layer: 0
   m_Name: contingency plan
-  m_TagString: Untagged
+  m_TagString: DropInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3163,12 +3162,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489486210}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 37004650}
+  m_Father: {fileID: 1356918013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &489486212
 BoxCollider2D:
@@ -3204,7 +3203,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 7, y: 0}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8722,6 +8721,7 @@ Transform:
   - {fileID: 378141340}
   - {fileID: 201993987}
   - {fileID: 1580993269}
+  - {fileID: 489486211}
   - {fileID: 1732796161}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

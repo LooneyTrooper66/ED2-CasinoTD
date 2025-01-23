@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class enemy_Manager : MonoBehaviour
 {
@@ -105,8 +106,7 @@ public class enemy_Manager : MonoBehaviour
         if (waveState == WaveState.WaveClear && waveTracker == waves.Length)
         {
             // im being lazy, il fix this later
-            Debug.Log("fucking die (you won)");
-            Application.Quit();
+            SceneManager.LoadScene("WinScreen");
         }
     }
     /// <summary>
