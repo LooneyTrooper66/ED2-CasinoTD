@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 68654537}
   - component: {fileID: 68654538}
   m_Layer: 5
-  m_Name: Slider (1)
+  m_Name: musicVol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -277,13 +277,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 1699492409}
   m_HandleRect: {fileID: 390253256}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 792596926}
+        m_TargetAssemblyTypeName: VolumeManager, Assembly-CSharp
+        m_MethodName: SetMusicVol
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &76891170
 GameObject:
   m_ObjectHideFlags: 0
@@ -547,7 +559,7 @@ GameObject:
   - component: {fileID: 236109510}
   - component: {fileID: 236109511}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: mainVol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -619,13 +631,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 780636735}
   m_HandleRect: {fileID: 13548161}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 792596926}
+        m_TargetAssemblyTypeName: VolumeManager, Assembly-CSharp
+        m_MethodName: SetMasterVol
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &369756908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,6 +1118,7 @@ GameObject:
   - component: {fileID: 792596922}
   - component: {fileID: 792596921}
   - component: {fileID: 792596925}
+  - component: {fileID: 792596926}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1204,6 +1229,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMenu: {fileID: 1814449609}
+--- !u!114 &792596926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792596920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b28ff6cdd3bb8741abed67997144f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 85dd37abbf03b584eb15b07a9902c660, type: 2}
+  masterSlider: {fileID: 236109511}
+  musicSlider: {fileID: 68654538}
+  sfxSlider: {fileID: 1316815299}
 --- !u!1 &999771080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,7 +1478,7 @@ GameObject:
   - component: {fileID: 1316815298}
   - component: {fileID: 1316815299}
   m_Layer: 5
-  m_Name: Slider (2)
+  m_Name: sfxVol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1509,13 +1550,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 1996868718}
   m_HandleRect: {fileID: 516096876}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.5
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 792596926}
+        m_TargetAssemblyTypeName: VolumeManager, Assembly-CSharp
+        m_MethodName: SetSFXVol
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1421147756
 GameObject:
   m_ObjectHideFlags: 0
