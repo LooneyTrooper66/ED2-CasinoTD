@@ -14,7 +14,6 @@ public class TileMove : MonoBehaviour
     public bool stop;
     [SerializeField] private enemy_Manager eM;
     private SpriteRenderer sR;
-    private float alphaVal = 225;
     bool fadeInDone = true;
     bool fadeOutDone = false;
 
@@ -57,44 +56,38 @@ public class TileMove : MonoBehaviour
         // MAKE IT SO THE ALPHA FADES IN AND OUT INSTEAD OF CHANGING THE SPRITE COLOUR TO GREY
         if (eM.waveState == enemy_Manager.WaveState.WaveSpawning || eM.waveState == enemy_Manager.WaveState.WaveActive)
         {
-
-            Debug.Log(sR.color.a);
             if (fadeOutDone == false)
             {
-                StartCoroutine(AlphaFadeOut());
-                fadeInDone = false;
+                if (sR.color.a >= 0.3)
+                {
+                    Color sCol = sR.color;
+                    float val = sCol.a - 0.001f;
+                    sR.color = new Color(sCol.r, sCol.g, sCol.b, val);
+                }
+                else
+                {
+                    fadeOutDone = true;
+                    fadeInDone = false;
+                }
             }
         }
         else
         {
             if (fadeInDone == false)
             {
-                StartCoroutine(AlphaFadeIn());
-                fadeOutDone = false;
+                if (sR.color.a <= 1)
+                {
+                    Color sCol = sR.color;
+                    float val = sCol.a + 0.001f;
+                    sR.color = new Color(sCol.r, sCol.g, sCol.b, val);
+                }
+                else
+                {
+                    fadeInDone = true;
+                    fadeOutDone = false;
+                }
             }
         }
-    }
-
-    IEnumerator AlphaFadeOut()
-    {
-        fadeOutDone = true;
-        while (sR.color.a != 50)
-        {
-            sR.color = new Color(225, 225, 225, alphaVal);
-            alphaVal = alphaVal - 5;
-        }
-        yield return null;
-    }
-
-    IEnumerator AlphaFadeIn()
-    {
-        fadeInDone = true;
-        while (sR.color.a != 225)
-        {
-            sR.color = new Color(225, 225, 225, alphaVal);
-            alphaVal++;
-        }
-        yield return null;
     }
 }
 
