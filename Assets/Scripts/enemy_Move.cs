@@ -11,6 +11,7 @@ public class enemy_Move : MonoBehaviour
     public float speed;
     public int Vaule;
     public bool horse;
+    public ParticleSystem deathCoins;
 
     [HideInInspector] public int i; //needs to be public so it can use other scripts :3 but its ugly so we hide it :3
     [Header("Extras")]
@@ -102,6 +103,7 @@ public class enemy_Move : MonoBehaviour
         if (horse) { Destroy(gameObject); }
         else
         {
+            ParticleSystem temp = Instantiate(deathCoins, transform.position, Quaternion.identity);
             transform.SetParent(transform.parent.parent.GetChild(0));
         }
        // horse? Destroy(gameObject) : transform.SetParent(transform.parent.parent.GetChild(0));

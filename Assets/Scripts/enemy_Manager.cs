@@ -143,6 +143,7 @@ public class enemy_Manager : MonoBehaviour
         SEM.Vaule = enemyTypes[etp].Vaule;
         SEM.goalPos = enemyTypes[etp].horse ? SEM.eM.RowConnectors.Last() : SEM.eM.RowConnectors[0];
         SEM.horse = enemyTypes[etp].horse;
+        SEM.deathCoins = enemyTypes[etp].deathCoins;
         SEM.transform.rotation = Quaternion.Euler(0,0,enemyTypes[etp].horse? 90: SEM.transform.rotation.z);
         SEM.GetComponent<SpriteRenderer>().sprite = enemyTypes[etp].sprite;
         //will also need to add the objects animators
