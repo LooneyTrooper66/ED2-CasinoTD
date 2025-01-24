@@ -102,6 +102,7 @@ public class Slot_Manager : MonoBehaviour
         {
             reset = true;
             buttonAnim.SetTrigger(whichAnim);
+            Handheld.Vibrate();
 
             // will flag an error, just ignore it coz unity is being a pain in the ass \\
             enemy_Move[] gmObj = FindObjectsOfType<enemy_Move>();
