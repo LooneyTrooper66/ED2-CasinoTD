@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BatchSpawn : MonoBehaviour
@@ -23,6 +24,8 @@ public class BatchSpawn : MonoBehaviour
     public float w;
     bool waitTrue;
     float timer;
+    int chipSpawnCount;
+    bool chipSpawning;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,6 +34,7 @@ public class BatchSpawn : MonoBehaviour
         rClosePos = gateRight.transform.position;
         lClosePos = gateLeft.transform.position;
         i = 0;
+        // this.transform.GetChild(1)
     }
 
     // Update is called once per frame
@@ -66,6 +70,15 @@ public class BatchSpawn : MonoBehaviour
                 waitTrue = false;
             }
         }
+        if (chipSpawning)
+        {
+            if (chipSpawnCount >= coinCount+1) { chipSpawning = false; return; }
+            GameObject gM = transform.GetChild(chipSpawnCount).gameObject;
+            gM.transform.position = new(Random.Range(-(boundingBox.x / 2), boundingBox.x / 2) + transform.position.x, Random.Range(-(boundingBox.y / 2), boundingBox.y / 2) + transform.position.y, this.transform.position.z);
+            gM.GetComponent<Rigidbody>().isKinematic = false;
+            gM.transform.rotation = new(0, 0, 0, 0);
+            chipSpawnCount++;
+        }
     }
 
     public void coinPoolCreation()
@@ -85,12 +98,8 @@ public class BatchSpawn : MonoBehaviour
     public void coinSpawn()
     {
         //over time spawn each 
-        foreach (Transform child in transform)
-        {
-            //Vector2 pos = new(Random.Range(-(boundingBox.x/2), boundingBox.x/2) + transform.position.x, Random.Range(-(boundingBox.y / 2), boundingBox.y / 2) + transform.position.y);
-            child.transform.position = new(Random.Range(-(boundingBox.x / 2), boundingBox.x / 2) + transform.position.x, Random.Range(-(boundingBox.y / 2), boundingBox.y / 2) + transform.position.y);
-            child.GetComponent<Rigidbody>().isKinematic = false;
-        }
+        chipSpawning = true;
+        chipSpawnCount = 0;
     }
 
     public void OpenGateResetGate()
