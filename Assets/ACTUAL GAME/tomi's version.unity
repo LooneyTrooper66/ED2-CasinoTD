@@ -2975,7 +2975,6 @@ GameObject:
   - component: {fileID: 378948542}
   - component: {fileID: 378948541}
   - component: {fileID: 378948540}
-  - component: {fileID: 378948539}
   m_Layer: 0
   m_Name: Overlay1
   m_TagString: MainCamera
@@ -2983,33 +2982,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &378948539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 378948538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f141cf46baf29ad4093ef893edeec6b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDragActive: 0
-  cardInPlace: 1
-  rouletteInPlace: 1
-  horseInPlace: 1
-  chipInPlace: 1
-  chipInSlot: 0
-  startPos: {x: 0, y: 0, z: 0}
-  overlapThing:
-    serializedVersion: 2
-    m_Bits: 55
-  cardPrefab: {fileID: 1951732843240796354, guid: d36e376da88afb04e8d591edc1d403e6, type: 3}
-  roulettePrefab: {fileID: 5438805906938283518, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
-  horsePrefab: {fileID: 5267994902332593694, guid: ba75a337e7e23f646a27ad241a40439e, type: 3}
-  money: {fileID: 1208676895}
-  cashierGoTo: {fileID: 440760296}
 --- !u!114 &378948540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6776,7 +6748,7 @@ MonoBehaviour:
   gateRight: {fileID: 1293584165}
   gateLOpenPos: {fileID: 329384563}
   gateROpenPos: {fileID: 1242755889}
-  debugTrigger: 1
+  debugTrigger: 0
   debugTriggerGate: 0
   speed: 0.5
   w: 0

@@ -26,6 +26,9 @@ public class BatchSpawn : MonoBehaviour
     float timer;
     int chipSpawnCount;
     bool chipSpawning;
+    float doorWait;
+    bool OpenDoorWait;
+    float dw = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -61,6 +64,16 @@ public class BatchSpawn : MonoBehaviour
             i = i>1? 1 : i += Time.deltaTime * speed;
         }
 
+        if (OpenDoorWait)
+        {
+            dw += Time.deltaTime;
+            if (dw >= doorWait)
+            {
+                debugTriggerGate = true;
+                waitTrue = false;
+            }
+        }
+
         if (waitTrue)
         {
             w += Time.deltaTime;
@@ -93,7 +106,15 @@ public class BatchSpawn : MonoBehaviour
             peep.transform.parent = this.gameObject.transform;
         }
     }
-
+    void coinPoolReset()
+    {
+        foreach (Transform child in transform)
+        {
+            child.transform.position = new Vector3(0, -30, 0);
+            child.GetComponent<Rigidbody>().isKinematic = true;
+            child.transform.parent = this.gameObject.transform;
+        }
+    }
 
     public void coinSpawn()
     {
@@ -131,6 +152,7 @@ public class BatchSpawn : MonoBehaviour
             else
             {
                 GateInAction = false;
+                coinPoolReset();
             }
         }
     }
