@@ -88,7 +88,7 @@ public class BatchSpawn : MonoBehaviour
             if (chipSpawnCount >= coinCount+1) { chipSpawning = false; return; }
             GameObject gM = transform.GetChild(chipSpawnCount).gameObject;
             gM.transform.position = new(Random.Range(-(boundingBox.x / 2), boundingBox.x / 2) + transform.position.x, Random.Range(-(boundingBox.y / 2), boundingBox.y / 2) + transform.position.y, this.transform.position.z);
-            gM.GetComponent<Rigidbody>().isKinematic = false;
+            gM.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
             gM.transform.rotation = new(0, 0, 0, 0);
             chipSpawnCount++;
         }
@@ -96,13 +96,13 @@ public class BatchSpawn : MonoBehaviour
 
     public void coinPoolCreation()
     {
-        coinPreFab.GetComponent<Rigidbody>().isKinematic = true;
+        coinPreFab.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
         coinPreFab.transform.position = new Vector3(0, -30, 0);
-        for (int i = 0; i < coinCount-1; i++)
+        for (int i = 0; i < coinCount; i++)
         {
             GameObject peep = Instantiate(coinPreFab);
             peep.transform.position = new Vector3(0, -30, 0);
-            peep.GetComponent<Rigidbody>().isKinematic = true;
+            peep.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
             peep.transform.parent = this.gameObject.transform;
         }
     }
@@ -111,7 +111,7 @@ public class BatchSpawn : MonoBehaviour
         foreach (Transform child in transform)
         {
             child.transform.position = new Vector3(0, -30, 0);
-            child.GetComponent<Rigidbody>().isKinematic = true;
+            child.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
             child.transform.parent = this.gameObject.transform;
         }
     }
