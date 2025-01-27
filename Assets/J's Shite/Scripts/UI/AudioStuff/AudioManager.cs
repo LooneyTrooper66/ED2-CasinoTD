@@ -27,7 +27,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            mixer.SetFloat("master", 20);
+            mixer.SetFloat("master", 0);
         }
 
         if (PlayerPrefs.HasKey("musicVol"))

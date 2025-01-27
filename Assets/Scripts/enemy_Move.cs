@@ -103,7 +103,9 @@ public class enemy_Move : MonoBehaviour
         if (horse) { Destroy(gameObject); }
         else
         {
-            ParticleSystem temp = Instantiate(deathCoins, transform.position, Quaternion.identity);
+            ParticleSystem temp = deathCoins;
+            temp.emission.burstCount = Vaule;
+            Instantiate(temp, transform.position, Quaternion.identity);
             transform.SetParent(transform.parent.parent.GetChild(0));
         }
        // horse? Destroy(gameObject) : transform.SetParent(transform.parent.parent.GetChild(0));
