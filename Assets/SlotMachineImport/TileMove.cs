@@ -67,26 +67,14 @@ public class TileMove : MonoBehaviour
                 else
                 {
                     fadeOutDone = true;
-                    fadeInDone = false;
                 }
             }
         }
         else
         {
-            if (fadeInDone == false)
-            {
-                if (sR.color.a <= 1)
-                {
-                    Color sCol = sR.color;
-                    float val = sCol.a + 0.001f;
-                    sR.color = new Color(sCol.r, sCol.g, sCol.b, val);
-                }
-                else
-                {
-                    fadeInDone = true;
-                    fadeOutDone = false;
-                }
-            }
+            Color sCol = sR.color;
+            sR.color = new Color(sCol.r, sCol.g, sCol.b, 1);
+            fadeOutDone = false;
         }
     }
 }
