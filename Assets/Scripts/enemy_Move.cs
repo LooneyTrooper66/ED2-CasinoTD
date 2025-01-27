@@ -104,7 +104,7 @@ public class enemy_Move : MonoBehaviour
         else
         {
             ParticleSystem temp = deathCoins;
-            temp.emission.burstCount = Vaule;
+            //temp.emission.burstCount = Vaule;
             Instantiate(temp, transform.position, Quaternion.identity);
             transform.SetParent(transform.parent.parent.GetChild(0));
         }
