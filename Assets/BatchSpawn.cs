@@ -96,13 +96,13 @@ public class BatchSpawn : MonoBehaviour
 
     public void coinPoolCreation()
     {
-        coinPreFab.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+        coinPreFab.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         coinPreFab.transform.position = new Vector3(0, -30, 0);
         for (int i = 0; i < coinCount; i++)
         {
             GameObject peep = Instantiate(coinPreFab);
             peep.transform.position = new Vector3(0, -30, 0);
-            peep.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+            peep.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             peep.transform.parent = this.gameObject.transform;
         }
     }
@@ -111,7 +111,7 @@ public class BatchSpawn : MonoBehaviour
         foreach (Transform child in transform)
         {
             child.transform.position = new Vector3(0, -30, 0);
-            child.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+            child.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             child.transform.parent = this.gameObject.transform;
         }
     }

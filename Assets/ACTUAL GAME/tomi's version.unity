@@ -6944,7 +6944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinPreFab: {fileID: 610365648}
   boundingBox: {x: 7, y: 5}
-  coinCount: 500
+  coinCount: 333
   GateState: 0
   GateInAction: 0
   gateLeft: {fileID: 1435298054}
@@ -9022,8 +9022,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.97, y: 0}
-  m_SizeDelta: {x: 2.1789, y: 1}
+  m_AnchoredPosition: {x: -5, y: 0}
+  m_SizeDelta: {x: 3, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1208771270
 MonoBehaviour:
@@ -9049,8 +9049,8 @@ MonoBehaviour:
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 1
-  m_FillAmount: 0.911
+  m_FillMethod: 0
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
