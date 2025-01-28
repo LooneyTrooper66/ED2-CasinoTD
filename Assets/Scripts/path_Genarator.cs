@@ -30,6 +30,12 @@ public class path_Genarator : MonoBehaviour
     private float rowOffset = 0.2f;
     //List <Vector3> a;
     //List <Vector3> b;
+    public List<Sprite> lineSprites;
+    /*  0 = straight X
+        1 = straight Y
+        2 = in turn up /// flip y for down
+        3 = out turn // flip y or smt idkfc
+    */
 
    // public bool gencurve;
     public bool clearCurve;
@@ -70,11 +76,12 @@ public class path_Genarator : MonoBehaviour
         foreach (RowRandomiser tr in sM.r)
         {
             // rcdueroemove + offset < && > rcdueromve - offset  
-            if (Vector2.Distance(tr.rowEntrance.transform.position,rCDueRemove) >= rowOffset)
-            {
-                RowConnectors.Add(tr.rowEntrance.transform.position);
+            /* if (Vector2.Distance(tr.rowEntrance.transform.position,rCDueRemove) >= rowOffset)
+             {
+                 RowConnectors.Add(tr.rowEntrance.transform.position);
 
-            }
+             }*/
+            RowConnectors.Add(tr.rowEntrance.transform.position);
             RowConnectors.Add(tr.rowExit.transform.position);
             rCDueRemove = tr.rowExit.transform.position;
             //Debug.Log(tr.position);
@@ -105,17 +112,25 @@ public class path_Genarator : MonoBehaviour
 
 
         //drawLine.transform.
-        if (timer >= 1)
+        if (drawLine.transform.position == RowConnectors[pathPoint]) 
         {
-            lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]);
-            pathPoint += 1;
-            lineRenderer.positionCount++;
+            //check if its reached the end of the line and gets the next position on the list 
+            lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]); // set the postion off the point to its finalised postions
+            pathPoint += 1;//update refrance int
+            lineRenderer.positionCount++; //this makes a new postion in the list
+            Debug.Log(lineRenderer.positionCount);
             lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
-            timer = 0;
+            //timer = 0;
+            //get the type of sprite to use 
+            //
+            Vector2 v2 = RowConnectors[pathPoint - 1] - RowConnectors[pathPoint];
+
         }
         else
         {
-            drawLine.transform.position = Vector3.Lerp(RowConnectors[pathPoint - 1], RowConnectors[pathPoint], timer); //move the postion of 
+                                                        //pre point                       // current point 
+            //drawLine.transform.position = Vector3.Lerp(RowConnectors[pathPoint - 1], RowConnectors[pathPoint], timer); //move the postion of 
+            drawLine.transform.position = Vector3.MoveTowards(drawLine.transform.position, RowConnectors[pathPoint], DrawSpeed * Time.deltaTime);
             //lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
             if (lineRenderer.positionCount >= pathPoint)
             {
@@ -131,8 +146,19 @@ public class path_Genarator : MonoBehaviour
         lineRenderer.positionCount = 2;
         lineRenderer.SetPosition(0, new(-10, -10, 0));
         lineRenderer.SetPosition(1, new(-10, -10, 0));
+        //reset sprites 
     }
-
+    
+    //rowconnectors
+    void drawSprites()//get the postions of both the 
+    {
+        // each row will either be one of 6ish arrays
+        // this function will do alot of shit but howwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+        // get the state of the line 
+        //       if its a straigh create the right type and lerp its postion from 1-2
+        //       if its a curve find the last created brige piace spawn it under that and move it into the exit pos of the current row
+        //
+    }
 
    /* void GeneratePosOnCurve()
     {
