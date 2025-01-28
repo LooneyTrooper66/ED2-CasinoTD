@@ -27,7 +27,7 @@ public class ShopNoPlacey : MonoBehaviour
     IEnumerator TurnOff()
     {
         hasBeenDeactivated = true;
-        yield return new WaitForSecondsRealtime(0.8f); // needs to wait as can place roulette tower wrong otherwise which messes up placer
+        yield return new WaitForSecondsRealtime(0.5f); // needs to wait as can place roulette tower wrong otherwise which messes up placer
         cover.SetActive(false);
     }
 }
