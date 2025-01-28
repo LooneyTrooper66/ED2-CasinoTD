@@ -14,7 +14,6 @@ public class TileMove : MonoBehaviour
     public bool stop;
     [SerializeField] private enemy_Manager eM;
     private SpriteRenderer sR;
-    bool fadeInDone = true;
     bool fadeOutDone = false;
 
     public bool rowHost;//

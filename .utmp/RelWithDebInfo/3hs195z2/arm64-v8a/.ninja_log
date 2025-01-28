@@ -1,12 +1,12 @@
 # ninja log v5
-66	388	7596810381219404	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	db3a314f30b49d4f
-392	949	7596810387592627	C:/Users/ACM Student/JGames/TDCasino/ED2-CasinoTD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3hs195z2/obj/arm64-v8a/libswappywrapper.so	dffce5076e466e26
-35	1383	7596810391936653	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	537178e5af814746
-28	1447	7596810392280535	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f64b58a8a8d804f7
-13	1449	7596810392324180	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f575a007349c4899
-56	1454	7596810392339226	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	60059eaf3c07c5aa
-45	1570	7596810393420595	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	6bf27795a122e235
-1	1600	7596810394111982	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d9b8b88ca45256e4
-21	1788	7596810396023053	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a1ba6c50cefd0b05
-8	1961	7596810397513110	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	16deabeb9e5a9ece
-1962	2151	7596810399535412	C:/Users/ACM Student/JGames/TDCasino/ED2-CasinoTD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3hs195z2/obj/arm64-v8a/libgame.so	76ca5def64b41a90
+207	733	7597743382794041	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	db3a314f30b49d4f
+736	1225	7597743386910258	C:/Users/ACM Student/JGames/TDCasino/ED2-CasinoTD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3hs195z2/obj/arm64-v8a/libswappywrapper.so	dffce5076e466e26
+36	1552	7597743391356706	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	537178e5af814746
+9	1583	7597743391796728	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	f575a007349c4899
+161	1615	7597743392166558	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	60059eaf3c07c5aa
+50	1674	7597743392718125	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	f64b58a8a8d804f7
+185	1805	7597743393819060	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	6bf27795a122e235
+1	1807	7597743393969477	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	d9b8b88ca45256e4
+27	1968	7597743395533095	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	a1ba6c50cefd0b05
+18	2062	7597743396588397	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	16deabeb9e5a9ece
+2063	2237	7597743398345487	C:/Users/ACM Student/JGames/TDCasino/ED2-CasinoTD/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3hs195z2/obj/arm64-v8a/libgame.so	76ca5def64b41a90
