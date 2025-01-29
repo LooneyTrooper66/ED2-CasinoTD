@@ -76,12 +76,12 @@ public class path_Genarator : MonoBehaviour
         foreach (RowRandomiser tr in sM.r)
         {
             // rcdueroemove + offset < && > rcdueromve - offset  
-            /* if (Vector2.Distance(tr.rowEntrance.transform.position,rCDueRemove) >= rowOffset)
+             if (Vector2.Distance(tr.rowEntrance.transform.position,rCDueRemove) >= rowOffset) // removes reduntant rows 
              {
                  RowConnectors.Add(tr.rowEntrance.transform.position);
 
-             }*/
-            RowConnectors.Add(tr.rowEntrance.transform.position);
+             }
+            //RowConnectors.Add(tr.rowEntrance.transform.position);
             RowConnectors.Add(tr.rowExit.transform.position);
             rCDueRemove = tr.rowExit.transform.position;
             //Debug.Log(tr.position);
@@ -118,13 +118,27 @@ public class path_Genarator : MonoBehaviour
             lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]); // set the postion off the point to its finalised postions
             pathPoint += 1;//update refrance int
             lineRenderer.positionCount++; //this makes a new postion in the list
-            Debug.Log(lineRenderer.positionCount);
+           // Debug.Log(lineRenderer.positionCount);
             lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
             //timer = 0;
             //get the type of sprite to use 
             //
-            Vector2 v2 = RowConnectors[pathPoint - 1] - RowConnectors[pathPoint];
-
+            if (RowConnectors.Count != pathPoint)
+            {
+                Vector2 v2 = RowConnectors[pathPoint - 1] - RowConnectors[pathPoint];
+                Vector2 v1 = RowConnectors[pathPoint - 2] - RowConnectors[pathPoint - 1];
+                if (Mathf.Round(v1.x) == 0 || Mathf.Round(v2.x) == 0) // todo add the offset of 0.1 ish    this should be if the  connection is constant between 2 gates
+                {
+                    Instantiate(drawLine.gameObject).transform.position = RowConnectors[pathPoint - 1];
+                }
+                else
+                {
+                    //curve
+                    //Instantiate(drawLine.gameObject).transform.position = RowConnectors[pathPoint - 1];
+                    //set a bool to be true that makes the next straigh curved opposite to this one 
+                    //or just check the past so get current next and past? but proble woulb be if their is no past 
+                }
+            }
         }
         else
         {
@@ -138,6 +152,14 @@ public class path_Genarator : MonoBehaviour
             }
             timer += DrawSpeed;
         }
+
+        //if drawMethods
+        /*
+         Each type of gameobject will need its new method for drawing 
+         if its a straight spawn it at the postion at last with a 0,1,1 scale and then move it to the center of the object and scale the object to size
+         if its a corner piace do the same but dont scale the object instead 
+          
+         */
         //move drawline to pathpoint and move linerender[pathpoint]
     }
 
