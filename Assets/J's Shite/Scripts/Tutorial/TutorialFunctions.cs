@@ -54,7 +54,7 @@ public class TutorialFunctions : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) || Input.touchCount == 1) // i need to fix this :C
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) // i this i fixed this?
         {
             if (PannelCount <= 6)
             {
