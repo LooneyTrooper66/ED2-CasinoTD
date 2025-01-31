@@ -140,7 +140,7 @@ public class path_Genarator : MonoBehaviour
                 }
             }
         }
-        else
+        else  // make this diffrent for each peaice then do the shiggy
         {
                                                         //pre point                       // current point 
             //drawLine.transform.position = Vector3.Lerp(RowConnectors[pathPoint - 1], RowConnectors[pathPoint], timer); //move the postion of 
@@ -208,31 +208,5 @@ public class path_Genarator : MonoBehaviour
         lineRenderer.positionCount = RowConnectors.Count;
 
    }*/
-   /*
-   time to start on the new draw method? :3
-   split the path into 2 parts
-        - straights
-        - turns
-   create an array of options
-   that array is created on the original array cration of the path
-   each number would = the type of path
-        - 1 straight horozontal 
-        - 2 turn up
-        - 3 turn down
-        - 4 straight vertical
-   how do i make the sprites draw tho?
-        - sprite renders have a tool to fill smt with a radial version for the turns 
-                - this method only works on image renders so i would have to make everthing in a cavas instead?
-   
-   example fakecode
-        for i in points
-            sprite = sprite.array[i]   --sets the sprite used in the g
-            draw da sprite somehow
-            if its a bend sprite use the image render to fill at a 90dagreese anlge so it draws
-            other method just use the rotaated and use normal fill
-
-    i think i gonna use a world space overlay for this now 
-   
-   
-   */
+ 
 }
