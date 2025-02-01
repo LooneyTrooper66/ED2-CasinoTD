@@ -30,6 +30,7 @@ public class path_Genarator : MonoBehaviour
     private float rowOffset = 0.2f;
     //List <Vector3> a;
     //List <Vector3> b;
+    public GameObject LineHolder;
     public List<Sprite> lineSprites;
     /*  0 = straight X
         1 = straight Y
@@ -117,19 +118,15 @@ public class path_Genarator : MonoBehaviour
             //check if its reached the end of the line and gets the next position on the list 
             lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]); // set the postion off the point to its finalised postions
             pathPoint += 1;//update refrance int
-            lineRenderer.positionCount++; //this makes a new postion in the list
-           // Debug.Log(lineRenderer.positionCount);
+            lineRenderer.positionCount++; 
             lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
-            //timer = 0;
-            //get the type of sprite to use 
-            //
             if (RowConnectors.Count != pathPoint)
             {
-                Vector2 v2 = RowConnectors[pathPoint - 1] - RowConnectors[pathPoint];
-                Vector2 v1 = RowConnectors[pathPoint - 2] - RowConnectors[pathPoint - 1];
-                if (Mathf.Round(v1.x) == 0 || Mathf.Round(v2.x) == 0) // todo add the offset of 0.1 ish    this should be if the  connection is constant between 2 gates
+                Vector2 v2 = RowConnectors[pathPoint - 1] - RowConnectors[pathPoint]; // the connevtionm between the currnet and next
+                Vector2 v1 = RowConnectors[pathPoint - 2] - RowConnectors[pathPoint - 1]; // conntection between the current and prev 
+                if (Mathf.Round(v1.x) == 0 || Mathf.Round(v2.x) == 0) 
                 {
-                    Instantiate(drawLine.gameObject).transform.position = RowConnectors[pathPoint - 1];
+                    Draw_Turn(v1,v2);
                 }
                 else
                 {
@@ -152,16 +149,39 @@ public class path_Genarator : MonoBehaviour
             }
             timer += DrawSpeed;
         }
-
-        //if drawMethods
-        /*
-         Each type of gameobject will need its new method for drawing 
-         if its a straight spawn it at the postion at last with a 0,1,1 scale and then move it to the center of the object and scale the object to size
-         if its a corner piace do the same but dont scale the object instead 
-          
-         */
-        //move drawline to pathpoint and move linerender[pathpoint]
     }
+
+    //what information do we need? 
+    /// <summary>
+    /// fuck me i hate this code someone throw it into a fireeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+    /// </summary>
+    /// <param name="v1"></param> connetion to previous point
+    /// <param name="v2"></param> connetion to next point
+    public void Draw_Turn(Vector2 v1 , Vector2 v2) // pass in the relevent information to tell if what parts of the sprite need ot be flipped or not
+    {
+        //create the object 
+        GameObject pb = Instantiate(drawLine.gameObject);
+        pb.transform.position = RowConnectors[pathPoint - 1];
+        SpriteRenderer sp = pb.GetComponent<SpriteRenderer>();
+        pb.transform.parent = LineHolder.transform;
+        //define its action
+        if (Mathf.Round(v1.x) != 0) // the first curve
+        {
+            if (Mathf.Round(v2.y) >= 0) // down
+            {
+                sp.flipY = true;
+            }
+        }
+        else
+        {
+            sp.flipX = true;
+            if (Mathf.Round(v1.y) <= 0)
+            {
+                sp.flipY = true;
+            }
+        }
+    }
+    //
 
     public void ClearPath()
     {
