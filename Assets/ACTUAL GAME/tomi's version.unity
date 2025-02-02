@@ -230,7 +230,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25950388}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2685,7 +2685,9 @@ MonoBehaviour:
   DrawSpeed: 3
   eM: {fileID: 4614135032750126966}
   LineHolder: {fileID: 455360942}
-  lineSprites: []
+  lineSprites:
+  - {fileID: 1886036195, guid: 43c47245cf7c05347b949768a85df710, type: 3}
+  - {fileID: 4493626205056525771, guid: 43c47245cf7c05347b949768a85df710, type: 3}
   clearCurve: 0
 --- !u!114 &378141338
 MonoBehaviour:

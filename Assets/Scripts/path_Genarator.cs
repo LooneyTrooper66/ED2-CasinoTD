@@ -107,7 +107,9 @@ public class path_Genarator : MonoBehaviour
         {
             drawPath = false;
             lineRenderer.positionCount = (RowConnectors.Count);
-            eM.summontest = true; // just for scott
+            eM.summontest = true; // just for scott <-- ok!
+            //peanis - dont rememeber typing this even tho i just added this
+            Draw_Straight(RowConnectors[pathPoint - 1], drawLine.transform.position);
             return;
         }
 
@@ -127,14 +129,17 @@ public class path_Genarator : MonoBehaviour
                 if (Mathf.Round(v1.x) == 0 || Mathf.Round(v2.x) == 0) 
                 {
                     Draw_Turn(v1,v2);
+                    //Draw_Straight(v1,v2);
                 }
                 else
                 {
+                    Draw_Connection();
                     //curve
                     //Instantiate(drawLine.gameObject).transform.position = RowConnectors[pathPoint - 1];
                     //set a bool to be true that makes the next straigh curved opposite to this one 
                     //or just check the past so get current next and past? but proble woulb be if their is no past 
                 }
+                Draw_Straight(v1, v2);
             }
         }
         else  // make this diffrent for each peaice then do the shiggy
@@ -182,6 +187,29 @@ public class path_Genarator : MonoBehaviour
         }
     }
     //
+    public void Draw_Straight(Vector2 v1,Vector2 v2)
+    {
+        GameObject pb = Instantiate(drawLine.gameObject);
+        pb.transform.position = Vector2.Lerp(RowConnectors[pathPoint - 2], RowConnectors[pathPoint - 1],0.5f);//half way between both points :3
+        SpriteRenderer sp = pb.GetComponent<SpriteRenderer>();
+        pb.transform.parent = LineHolder.transform;
+        sp.sprite = lineSprites[1];
+        if (MathF.Round(RowConnectors[pathPoint - 2].y) != Mathf.Round(RowConnectors[pathPoint - 1].y)) //we round beacuse 
+        {
+            pb.transform.Rotate(0, 0, 90, Space.Self);
+        }
+        pb.transform.localScale = new Vector3(Vector3.Distance(RowConnectors[pathPoint - 2], RowConnectors[pathPoint - 1]), 1, 1);
+    }
+    public void Draw_Connection()
+    {
+        GameObject pb = Instantiate(drawLine.gameObject);
+        pb.transform.position = RowConnectors[pathPoint - 1];
+        SpriteRenderer sp = pb.GetComponent<SpriteRenderer>();
+        pb.transform.parent = LineHolder.transform;
+        sp.sprite = lineSprites[1];
+        pb.transform.localScale = new(0.3f, 1, 1);
+    }
+
 
     public void ClearPath()
     {
@@ -189,6 +217,10 @@ public class path_Genarator : MonoBehaviour
         lineRenderer.SetPosition(0, new(-10, -10, 0));
         lineRenderer.SetPosition(1, new(-10, -10, 0));
         //reset sprites 
+        foreach (Transform child in LineHolder.transform)
+        {
+            Destroy(child.gameObject);
+        }
     }
     
     //rowconnectors
