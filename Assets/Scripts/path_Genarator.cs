@@ -168,6 +168,7 @@ public class path_Genarator : MonoBehaviour
         GameObject pb = Instantiate(drawLine.gameObject);
         pb.transform.position = RowConnectors[pathPoint - 1];
         SpriteRenderer sp = pb.GetComponent<SpriteRenderer>();
+        pb.GetComponent<SpriteRenderer>().enabled = true;
         pb.transform.parent = LineHolder.transform;
         //define its action
         if (Mathf.Round(v1.x) != 0) // the first curve
@@ -185,6 +186,8 @@ public class path_Genarator : MonoBehaviour
                 sp.flipY = true;
             }
         }
+        pb.transform.localScale = new Vector3(1, 1, 1);
+        sp.sortingOrder++;
     }
     //
     public void Draw_Straight(Vector2 v1,Vector2 v2)
@@ -194,6 +197,7 @@ public class path_Genarator : MonoBehaviour
         SpriteRenderer sp = pb.GetComponent<SpriteRenderer>();
         pb.transform.parent = LineHolder.transform;
         sp.sprite = lineSprites[1];
+        pb.GetComponent<SpriteRenderer>().enabled = true;
         if (MathF.Round(RowConnectors[pathPoint - 2].y) != Mathf.Round(RowConnectors[pathPoint - 1].y)) //we round beacuse 
         {
             pb.transform.Rotate(0, 0, 90, Space.Self);
@@ -207,6 +211,7 @@ public class path_Genarator : MonoBehaviour
         SpriteRenderer sp = pb.GetComponent<SpriteRenderer>();
         pb.transform.parent = LineHolder.transform;
         sp.sprite = lineSprites[1];
+        pb.GetComponent<SpriteRenderer>().enabled = true;
         pb.transform.localScale = new(0.3f, 1, 1);
     }
 
