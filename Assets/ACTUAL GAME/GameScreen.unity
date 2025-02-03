@@ -443,7 +443,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 30
+  m_SortingOrder: 7
   m_Sprite: {fileID: 1886036195, guid: 43c47245cf7c05347b949768a85df710, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11290,7 +11290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyText: {fileID: 415696530}
-  playerMoney: 25
+  playerMoney: 150
 --- !u!4 &1208676896
 Transform:
   m_ObjectHideFlags: 0

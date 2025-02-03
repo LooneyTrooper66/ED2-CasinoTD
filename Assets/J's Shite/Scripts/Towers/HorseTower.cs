@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using UnityEngine;
 
 public class HorseTower : MonoBehaviour
@@ -5,9 +6,9 @@ public class HorseTower : MonoBehaviour
    [SerializeField] private enemy_Manager manager;
    // private tower_FindTarget findTarget;
     public float shotInterval;
-    float i = 0;
+    [SerializeField]float i = 0;
     //create a list of the 2 proptery blocks :£
-    MaterialPropertyBlock mpb;
+    MaterialPropertyBlock mpb; 
     private void Start()
     {
         //findTarget = GetComponent<tower_FindTarget>();
@@ -21,22 +22,25 @@ public class HorseTower : MonoBehaviour
         {
             // get the shader and create a property block for it :3 
             child.GetComponent<SpriteRenderer>().SetPropertyBlock(mpb);
-            mpb.SetFloat("Progress", shotInterval / i);
-            Debug.Log(child.gameObject.name);
-            //MaterialPropertyBlock mpg;
+            mpb.SetFloat("Progress", 1);
         }
     }
 
     private void FixedUpdate()
     {
-        if (manager.waveState == enemy_Manager.WaveState.WaveActive ||manager.waveState == enemy_Manager.WaveState.WaveSpawning)
+        if (manager.waveState == enemy_Manager.WaveState.WaveActive || manager.waveState == enemy_Manager.WaveState.WaveSpawning)
         {
             i += 1 * Time.deltaTime;
             //update property block :3
-            mpb.SetFloat("Progress", shotInterval/i);
+            //mpb.SetFloat("Progress", shotInterval/i);
+            
         }
-
-       if (i > shotInterval )
+        foreach (Transform child in transform)
+        {
+            // get the shader and create a property block for it :3 
+            child.gameObject.GetComponent<SpriteRenderer>().material.SetFloat("Progress",i / shotInterval);
+        }
+        if (i > shotInterval )
         {
             i = 0;
             manager.SummonTest(0);
