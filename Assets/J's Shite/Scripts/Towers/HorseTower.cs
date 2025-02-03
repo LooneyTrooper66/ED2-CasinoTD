@@ -7,8 +7,7 @@ public class HorseTower : MonoBehaviour
     public float shotInterval;
     float i = 0;
     //create a list of the 2 proptery blocks :£
-    MaterialPropertyBlock mpg;
-
+    MaterialPropertyBlock mpb;
     private void Start()
     {
         //findTarget = GetComponent<tower_FindTarget>();
@@ -16,12 +15,14 @@ public class HorseTower : MonoBehaviour
         //manager = temp.GetComponent<enemy_Manager>();
 
         manager = FindFirstObjectByType<enemy_Manager>();
-
+        mpb = new MaterialPropertyBlock();
         //get children
         foreach(Transform child in transform)
         {
             // get the shader and create a property block for it :3 
-            child.GetComponent<SpriteRenderer>().SetPropertyBlock(mpg);
+            child.GetComponent<SpriteRenderer>().SetPropertyBlock(mpb);
+            mpb.SetFloat("Progress", shotInterval / i);
+            Debug.Log(child.gameObject.name);
             //MaterialPropertyBlock mpg;
         }
     }
@@ -30,9 +31,9 @@ public class HorseTower : MonoBehaviour
     {
         if (manager.waveState == enemy_Manager.WaveState.WaveActive ||manager.waveState == enemy_Manager.WaveState.WaveSpawning)
         {
-            i += 1/50;
+            i += 1 * Time.deltaTime;
             //update property block :3
-            mpg.SetFloat("Progress", i);
+            mpb.SetFloat("Progress", shotInterval/i);
         }
 
        if (i > shotInterval )
