@@ -22,7 +22,7 @@ public class RouletteTower : MasterTowerScript
 
     void FixedUpdate()
     {
-        i++;
+        i += 1/50;
 
         if (findTarget.potentialTargets.Count > 0)
         {

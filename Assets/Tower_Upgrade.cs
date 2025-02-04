@@ -4,12 +4,13 @@ using UnityEngine;
 public class Tower_Upgrade : MonoBehaviour
 {
     [SerializeField] GameObject UpgradeBase;
-    int i;
+    [SerializeField]int i;
     SpriteRenderer UpgradeSprite;
     MoneyManager Cash;
     public Upgrade[] Upgrades;
     public tower_Type tType;
     //
+    Color col;
     public enum tower_Type
     {
         Card,
@@ -21,11 +22,13 @@ public class Tower_Upgrade : MonoBehaviour
     [System.Serializable]
     public class Upgrade
     {
-        public float UpgradeCost;
+        public int UpgradeCost;
         public float AtkSpeedFlat;
-        public float AtkSpeedMult;
+        public float AtkSpeedMult = 1;
         public float DmgFlat;
-        public float DmgMult;
+        public float DmgMult = 1;
+        public int Pierce;
+        public float VariableStat = 1; // this one will do diffrent things such as number of cards or roulet ball size
         public Color UpgradeColour;
     }
 
@@ -34,43 +37,78 @@ public class Tower_Upgrade : MonoBehaviour
     {
         Cash = FindAnyObjectByType<MoneyManager>();
         UpgradeSprite = UpgradeBase.GetComponent<SpriteRenderer>();
-        //Upgrades =
+        col = Color.white;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Cash.playerMoney > Upgrades[i].UpgradeCost)
+        if (i < Upgrades.Length && Cash.playerMoney > Upgrades[i].UpgradeCost)
         {
             //update sprite to indicate 
             UpgradeSprite.color =  new (Mathf.PingPong(1,1),0,0,1);
 
         }
+        else if (UpgradeSprite.color != col)
+        {
+            UpgradeSprite.color = col;
+        }
+
+
 
     }
-    private void Update()
+    public void Upgrade_check()//trigger upgrade check
+    {
+        Debug.Log("Upgrade");
+        if (i < Upgrades.Length && Cash.playerMoney > Upgrades[i].UpgradeCost)
+        {
+            UpgradeTower();
+        }
+    }
+
+    void UpgradeTower()
     {
         //set the upgrade vaules
         //flat upgarde then applie the mult 
-        UpgradeSprite.color = Upgrades[i].UpgradeColour;
         //get tower type to applie upgrades
+        col = Upgrades[i].UpgradeColour;
+        Cash.playerMoney -= Upgrades[i].UpgradeCost;
         switch (tType) // get the tower compoent and the extra vaules
         {
             case tower_Type.Card:
+                CardTower ct = GetComponent<CardTower>();
+                ct.shotInterval -= Upgrades[i].AtkSpeedFlat;
+                ct.shotInterval = ct.shotInterval * Upgrades[i].AtkSpeedMult;
 
-                break;
+                CardBulletBehaviour CBB = transform.GetChild(0).GetComponent<CardBulletBehaviour>();
+                CBB.damage += Upgrades[i].DmgFlat;
+                CBB.damage = CBB.damage * Upgrades[i].DmgMult;
+                break;     
             case tower_Type.Roulet:
+                RouletteTower rt = GetComponent<RouletteTower>();
+                rt.shotInterval -= Upgrades[i].AtkSpeedFlat;
+                rt.shotInterval = rt.shotInterval * Upgrades[i].AtkSpeedFlat;
 
+                GameObject ball = transform.GetChild(0).gameObject;
+                ball.transform.localScale = ball.transform.localScale * Upgrades[i].VariableStat;
+
+                ProjectileBehaviour ballPb = ball.GetComponent<ProjectileBehaviour>();
+                ballPb.peirce += Upgrades[i].Pierce;
+                ballPb.damage += Upgrades[i].DmgFlat;
+                ballPb.damage = ballPb.damage * Upgrades[i].DmgMult;
                 break;
             case tower_Type.Honse:
+                HorseTower Hrt = GetComponent<HorseTower>();
+                Hrt.shotInterval -= Upgrades[i].AtkSpeedFlat;
+                Hrt.shotInterval = Hrt.shotInterval * Upgrades[i].AtkSpeedMult;
 
+                //i dont think i can upgrade the horse with the current method! :£ i shot myself in the foot like someone who cant aim and just shot themselves in the foot 
                 break;
             default:
                 Debug.LogWarning("TYPE INVALID");
                 break;
         }
         
-
         i++; //nextupgrade level
     }
 }

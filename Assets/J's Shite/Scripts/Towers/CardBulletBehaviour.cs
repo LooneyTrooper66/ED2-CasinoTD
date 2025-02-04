@@ -4,7 +4,7 @@ public class CardBulletBehaviour : MonoBehaviour
 {
     private Vector2 startPos;
     public float bulletSpeed;
-    [SerializeField] private float damage;
+    public float damage;
 
 
     private void Start()

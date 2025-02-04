@@ -5611,7 +5611,7 @@ MonoBehaviour:
   startPos: {x: 0, y: 0, z: 0}
   overlapThing:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 1079
   cardPrefab: {fileID: 1951732843240796354, guid: d36e376da88afb04e8d591edc1d403e6, type: 3}
   roulettePrefab: {fileID: 5438805906938283518, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
   horsePrefab: {fileID: 5267994902332593694, guid: ba75a337e7e23f646a27ad241a40439e, type: 3}
@@ -11409,6 +11409,7 @@ GameObject:
   - component: {fileID: 1208676895}
   - component: {fileID: 1208676897}
   - component: {fileID: 1208676898}
+  - component: {fileID: 1208676899}
   m_Layer: 0
   m_Name: PlayerManager
   m_TagString: playerManager
@@ -11480,6 +11481,21 @@ MonoBehaviour:
   moneyM: {fileID: 1208676895}
   healthM: {fileID: 1208676897}
   cashierGoTo: {fileID: 62526654}
+--- !u!114 &1208676899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208676894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10df305f60f0cfc42a7b55737b5cd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LayerMask:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!1 &1209271287
 GameObject:
   m_ObjectHideFlags: 0

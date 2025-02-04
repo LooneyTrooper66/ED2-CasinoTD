@@ -9,8 +9,6 @@ public class tower_FindTarget : MonoBehaviour
     public GameObject Target;
     public List<GameObject> potentialTargets;
 
-    public GameObject shootPoint;
-    public GameObject bullet;
 
     int tI;
     public TargetingOrder targeting;
@@ -138,8 +136,4 @@ public class tower_FindTarget : MonoBehaviour
         Target = potentialTargets[0];
     }
 
-    public void callAttack()
-    {
-        //base.Shoot(bullet, shootPoint);
-    }
 }

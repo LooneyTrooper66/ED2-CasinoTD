@@ -52,6 +52,7 @@ public class CardTower : MasterTowerScript
                     sR.sprite = cards[currentCard];*/
                     //base.Shoot(bulletC, shootPointC);
                     GameObject temp = Instantiate(bulletC, shootPointC.transform.position, shootPointC.transform.rotation);
+                    temp.SetActive(true);
                     temp.GetComponent<SpriteRenderer>().sprite = cards[currentCard];
                     currentCard = Random.Range(0, cards.Length);
                     sR.sprite = cards[currentCard];

@@ -5,11 +5,11 @@ using static UnityEngine.GraphicsBuffer;
 public class ProjectileBehaviour : MonoBehaviour
 {
     private Vector3 dir;
-    [SerializeField] private float damage;
+    public float damage;
     public float speed;
-    [SerializeField] private float deathTimer;
+    public float deathTimer;
     //private bool deathStart;
-    [SerializeField] private int peirce;
+    public int peirce;
     private Vector2 startPos;
     
     private void Start()
