@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 2804556596928504215}
   - component: {fileID: 9035283960143077836}
   - component: {fileID: 163491804037172063}
+  - component: {fileID: 1518214939212455770}
   m_Layer: 7
   m_Name: card
   m_TagString: tower
@@ -400,3 +401,29 @@ MonoBehaviour:
   bulletC: {fileID: 589190930324683761, guid: cecebbfaf498fcd41aedd5136897fecf, type: 3}
   shootPointC: {fileID: 6428093246452542052}
   currentCard: 0
+--- !u!114 &1518214939212455770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6428093246452542052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46739084c17e6ad46bcb07e80acb1e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpgradeBase: {fileID: 5174933336405069587}
+  Upgrades:
+  - UpgradeCost: 0
+    AtkSpeedFlat: 0
+    AtkSpeedMult: 0
+    DmgFlat: 0
+    DmgMult: 0
+    UpgradeColour: {r: 0, g: 0, b: 0, a: 0}
+  - UpgradeCost: 0
+    AtkSpeedFlat: 0
+    AtkSpeedMult: 0
+    DmgFlat: 0
+    DmgMult: 0
+    UpgradeColour: {r: 0, g: 0, b: 0, a: 0}
