@@ -65,7 +65,7 @@ public class Tower_Upgrade : MonoBehaviour
     }
     public void Upgrade_check()//trigger upgrade check
     {
-        Debug.Log("Upgrade");
+        //Debug.Log("Upgrade");
         if (i < Upgrades.Length && Cash.playerMoney > Upgrades[i].UpgradeCost)
         {
             UpgradeTower();

@@ -3,6 +3,8 @@ using UnityEngine;
 public class MouseFollow : MonoBehaviour
 {
     bool onMoblie = true;
+    public ParticleSystem PS;
+    private Vector2 v2;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,12 +24,20 @@ public class MouseFollow : MonoBehaviour
         //get mouse pos
         if (onMoblie == false)
         {
-            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            v2= Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
+        else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            v2 = Input.GetTouch(0).position;
+            
+        }
+        transform.position = v2;
     }
 
     public void triggerPartical()
     {
         //trigger burst 
+        PS.Play();
+        Debug.Log("moew");
     }
 }
