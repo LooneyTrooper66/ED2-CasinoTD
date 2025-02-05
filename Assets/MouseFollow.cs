@@ -36,8 +36,6 @@ public class MouseFollow : MonoBehaviour
 
     public void triggerPartical()
     {
-        //trigger burst 
         PS.Play();
-        Debug.Log("moew");
     }
 }
