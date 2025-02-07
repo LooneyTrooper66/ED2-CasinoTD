@@ -9,6 +9,7 @@ public class Tower_Upgrade : MonoBehaviour
     MoneyManager Cash;
     public Upgrade[] Upgrades;
     public tower_Type tType;
+    MouseFollow Mf;
     //
     Color col;
     public enum tower_Type
@@ -38,6 +39,11 @@ public class Tower_Upgrade : MonoBehaviour
         Cash = FindAnyObjectByType<MoneyManager>();
         UpgradeSprite = UpgradeBase.GetComponent<SpriteRenderer>();
         col = Color.white;
+
+        if (Mf == null)
+        {
+            Mf = FindFirstObjectByType<MouseFollow>();
+        }
     }
 
     // Update is called once per frame
@@ -59,7 +65,7 @@ public class Tower_Upgrade : MonoBehaviour
     }
     public void Upgrade_check()//trigger upgrade check
     {
-        Debug.Log("Upgrade");
+        //Debug.Log("Upgrade");
         if (i < Upgrades.Length && Cash.playerMoney > Upgrades[i].UpgradeCost)
         {
             UpgradeTower();
@@ -108,7 +114,8 @@ public class Tower_Upgrade : MonoBehaviour
                 Debug.LogWarning("TYPE INVALID");
                 break;
         }
-        
+
+        Mf.triggerPartical();
         i++; //nextupgrade level
     }
 }

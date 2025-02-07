@@ -10,7 +10,7 @@ public class RouletteTower : MasterTowerScript
     public float shotInterval;
     private tower_FindTarget findTarget;
     //public Transform target;
-    int i = 0;
+    float i = 0;
     public float ballDistFromCener;
     private Vector3 ballpos;
 
@@ -22,7 +22,7 @@ public class RouletteTower : MasterTowerScript
 
     void FixedUpdate()
     {
-        i += 1/50;
+        i += 0.02f;
 
         if (findTarget.potentialTargets.Count > 0)
         {
@@ -36,7 +36,7 @@ public class RouletteTower : MasterTowerScript
             float angle = Mathf.Atan2(targ.y, targ.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));*/
 
-            if (i > shotInterval)
+            if (i >= shotInterval)
             {
                 findTarget.sortList();
                 i = 0;
