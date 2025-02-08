@@ -21,19 +21,19 @@ MonoBehaviour:
   m_OverrideGlobalSceneList: 1
   m_Scenes:
   - m_enabled: 1
-    m_path: Assets/ACTUAL GAME/Build_Mobile/MainMenu.unity
+    m_path: Assets/ACTUAL GAME/Build_PC/MainMenu.unity
   - m_enabled: 1
-    m_path: Assets/ACTUAL GAME/Build_Mobile/Instructions.unity
+    m_path: Assets/ACTUAL GAME/Build_PC/Instructions.unity
   - m_enabled: 1
-    m_path: Assets/ACTUAL GAME/Build_Mobile/SettingsMenu.unity
+    m_path: Assets/ACTUAL GAME/Build_PC/SettingsMenu.unity
   - m_enabled: 1
-    m_path: Assets/ACTUAL GAME/Build_Mobile/CreditsScene.unity
+    m_path: Assets/ACTUAL GAME/Build_PC/CreditsScene.unity
   - m_enabled: 1
-    m_path: Assets/ACTUAL GAME/Build_Mobile/Mobile_GameScreen.unity
+    m_path: Assets/ACTUAL GAME/Build_PC/PC_GameScreen.unity
   - m_enabled: 1
-    m_path: Assets/ACTUAL GAME/Build_Mobile/WinScreen.unity
+    m_path: Assets/ACTUAL GAME/Build_PC/WinScreen.unity
   - m_enabled: 1
-    m_path: Assets/ACTUAL GAME/Build_Mobile/DeathScreen.unity
+    m_path: Assets/ACTUAL GAME/Build_PC/DeathScreen.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []
