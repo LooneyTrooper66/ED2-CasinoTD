@@ -6,25 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ACTUAL GAME/MainMenu.unity
+    path: Assets/ACTUAL GAME/Build_Mobile/MainMenu.unity
     guid: ae277d93559ae9c4599a04ae3dcc47ee
   - enabled: 1
-    path: Assets/ACTUAL GAME/Instructions.unity
+    path: Assets/ACTUAL GAME/Build_Mobile/Instructions.unity
     guid: cbe601097d5868a40ac76f103dbd8518
   - enabled: 1
-    path: Assets/ACTUAL GAME/SettingsMenu.unity
+    path: Assets/ACTUAL GAME/Build_Mobile/SettingsMenu.unity
     guid: 97acc90b987c403469d01becfe035c2e
   - enabled: 1
-    path: Assets/ACTUAL GAME/CreditsScene.unity
+    path: Assets/ACTUAL GAME/Build_Mobile/CreditsScene.unity
     guid: 50f694bd92cf9fe48a317ac8eb248c9d
   - enabled: 1
-    path: Assets/ACTUAL GAME/GameScreen.unity
+    path: Assets/ACTUAL GAME/Build_Mobile/Mobile_GameScreen.unity
     guid: 6708242924cc36d4f8ddbd88963ce8a2
   - enabled: 1
-    path: Assets/ACTUAL GAME/WinScreen.unity
+    path: Assets/ACTUAL GAME/Build_Mobile/WinScreen.unity
     guid: d3705f8b4c9e7a541be82e0d21ffd4c2
   - enabled: 1
-    path: Assets/ACTUAL GAME/DeathScreen.unity
+    path: Assets/ACTUAL GAME/Build_Mobile/DeathScreen.unity
     guid: dd889504fb20835479bd7c407f63a5be
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
