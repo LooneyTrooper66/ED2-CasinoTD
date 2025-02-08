@@ -14,6 +14,6 @@ public class SettingsButton : MonoBehaviour
 
     public void settingsPressed()
     {
-        SceneManager.LoadScene("SettingsMenu");
+        SceneManager.LoadScene(2);
     }
 }

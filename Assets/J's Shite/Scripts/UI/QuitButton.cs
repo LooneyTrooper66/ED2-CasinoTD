@@ -14,6 +14,6 @@ public class QuitButton : MonoBehaviour
 
     public void quitPressed()
     {
-        SceneManager.LoadScene("CreditsScene");
+        SceneManager.LoadScene(3);
     }
 }

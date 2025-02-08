@@ -14,6 +14,6 @@ public class InstructionsButton : MonoBehaviour
 
     public void instructionsSceen()
     {
-        SceneManager.LoadScene("Instructions");
+        SceneManager.LoadScene(1);
     }
 }
