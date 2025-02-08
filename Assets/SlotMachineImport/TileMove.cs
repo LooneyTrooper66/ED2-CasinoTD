@@ -12,7 +12,7 @@ public class TileMove : MonoBehaviour
     public RowRandomiser Host;
     public bool stopSpin;
     public bool stop;
-    [SerializeField] private enemy_Manager eM;
+    private enemy_Manager eM;
     private SpriteRenderer sR;
     bool fadeOutDone = false;
 
@@ -21,6 +21,7 @@ public class TileMove : MonoBehaviour
     void Start()
     {
         sR = GetComponent<SpriteRenderer>();
+        eM = transform.parent.parent.GetComponent<path_Genarator>().eM;
     }
 
     // Update is called once per frame
