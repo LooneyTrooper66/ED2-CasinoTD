@@ -1,3 +1,4 @@
+using Mono.Cecil.Cil;
 using UnityEngine;
 
 public class MouseFollow : MonoBehaviour
@@ -21,6 +22,8 @@ public class MouseFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (PS.isPlaying) {  return; }
+
         //get mouse pos
         if (onMoblie == false)
         {
@@ -36,6 +39,8 @@ public class MouseFollow : MonoBehaviour
 
     public void triggerPartical()
     {
+        //lock pos aswell
+        transform.position = v2;
         PS.Play();
     }
 }

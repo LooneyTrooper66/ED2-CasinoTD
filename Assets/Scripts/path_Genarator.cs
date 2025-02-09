@@ -2,8 +2,10 @@ using JetBrains.Annotations;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+//using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class path_Genarator : MonoBehaviour
 {
@@ -31,12 +33,9 @@ public class path_Genarator : MonoBehaviour
     //List <Vector3> a;
     //List <Vector3> b;
     public GameObject LineHolder;
+    public GameObject LineParticalsHolder;
     public List<Sprite> lineSprites;
-    /*  0 = straight X
-        1 = straight Y
-        2 = in turn up /// flip y for down
-        3 = out turn // flip y or smt idkfc
-    */
+ 
 
    // public bool gencurve;
     public bool clearCurve;
@@ -203,6 +202,23 @@ public class path_Genarator : MonoBehaviour
             pb.transform.Rotate(0, 0, 90, Space.Self);
         }
         pb.transform.localScale = new Vector3(Vector3.Distance(RowConnectors[pathPoint - 2], RowConnectors[pathPoint - 1]), 1, 1);
+
+        //create a bounding box and summon particals in random places
+        for (int i = 1; i < 4 ;i++) //loop 3 times 
+        {
+            if (LineParticalsHolder.transform.GetChild(i).gameObject != null)
+            { 
+                // get the child then randomisdde the postion inside the gameobject 
+                GameObject gm = LineParticalsHolder.transform.GetChild(i).gameObject;
+                //randomsie postion between v1 and v2 
+                float i1 = Random.Range( (i-1f)/3f , i/3f);
+                Vector2 pos = Vector2.Lerp(RowConnectors[pathPoint - 2], RowConnectors[pathPoint - 1], i1);
+                gm.transform.position = new(pos.x + Random.Range(-0.25f, 0.25f),pos.y + Random.Range(-0.25f, 0.25f));
+                //pendis
+                gm.GetComponent<ParticleSystem>().Play();
+            }
+        }
+
     }
     public void Draw_Connection()
     {
@@ -213,6 +229,10 @@ public class path_Genarator : MonoBehaviour
         sp.sprite = lineSprites[1];
         pb.GetComponent<SpriteRenderer>().enabled = true;
         pb.transform.localScale = new(0.3f, 1, 1);
+
+        //create a partical burst in the range of the thingy
+        GameObject gm = LineParticalsHolder.transform.GetChild(0).gameObject;
+        //gm.transofrm.pos ++ randomshit
     }
 
 
