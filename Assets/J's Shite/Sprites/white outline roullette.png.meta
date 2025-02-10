@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 778d61d4332b50041ba39bc6f85dee46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1379680573280471733
+    second: white outline roullette_0
+  - first:
+      213: 5001482403784698410
+    second: white outline roullette_1
+  - first:
+      213: 3734315247447607909
+    second: white outline roullette_2
+  - first:
+      213: -777591916845870533
+    second: white outline roullette_3
+  - first:
+      213: 774462108977766077
+    second: white outline roullette_4
+  - first:
+      213: -5349026730017441244
+    second: white outline roullette_5
+  - first:
+      213: -3070391548884789970
+    second: white outline roullette_6
+  - first:
+      213: -1968565862829968772
+    second: white outline roullette_7
+  - first:
+      213: -6783531390874178969
+    second: white outline roullette_8
+  - first:
+      213: -822781139805997940
+    second: white outline roullette_9
+  - first:
+      213: -3527747302491281876
+    second: white outline roullette_10
+  - first:
+      213: -6702009143391591748
+    second: white outline roullette_11
+  - first:
+      213: -9019436606520920693
+    second: white outline roullette_12
+  - first:
+      213: -6486920000020400829
+    second: white outline roullette_13
+  - first:
+      213: 1523800068542373705
+    second: white outline roullette_14
+  - first:
+      213: 5957478938058337029
+    second: white outline roullette_15
+  - first:
+      213: 8819767508567256387
+    second: white outline roullette_16
+  - first:
+      213: 994620919842952937
+    second: white outline roullette_17
+  - first:
+      213: 3787257482506491441
+    second: white outline roullette_18
+  - first:
+      213: 2912074515474060705
+    second: white outline roullette_19
+  - first:
+      213: -8620640769661389561
+    second: white outline roullette_20
+  - first:
+      213: -5222986169725793412
+    second: white outline roullette_21
+  - first:
+      213: -7392240172323687849
+    second: white outline roullette_22
+  - first:
+      213: -2277849642376425894
+    second: white outline roullette_23
+  - first:
+      213: -8516747886363668471
+    second: white outline roullette_24
+  - first:
+      213: 1380173022067544739
+    second: white outline roullette_25
+  - first:
+      213: 3038672609629447773
+    second: white outline roullette_26
+  - first:
+      213: -2932702478198778929
+    second: white outline roullette_27
+  - first:
+      213: 8383996712562753284
+    second: white outline roullette_28
+  - first:
+      213: -4304097995792857018
+    second: white outline roullette_29
+  - first:
+      213: 3057851854519364532
+    second: white outline roullette_30
+  - first:
+      213: -1878288267332504599
+    second: white outline roullette_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: white outline roullette_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bac3e9eb2c952310800000000000000
+      internalID: 1379680573280471733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a24fb4fb5d86540800000000000000
+      internalID: 5001482403784698410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_2
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a807baee3f2d330800000000000000
+      internalID: 3734315247447607909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_3
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32df2085407535f0800000000000000
+      internalID: -777591916845870533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_4
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe9e915f217fba00800000000000000
+      internalID: 774462108977766077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_5
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42abd37878074c5b0800000000000000
+      internalID: -5349026730017441244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_6
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e255c576727c365d0800000000000000
+      internalID: -3070391548884789970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_7
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c723f0517cf3ea4e0800000000000000
+      internalID: -1968565862829968772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_8
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76aab34042e0cd1a0800000000000000
+      internalID: -6783531390874178969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_9
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84f8f1a9e4e494f0800000000000000
+      internalID: -822781139805997940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_10
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c262aa9e48cea0fc0800000000000000
+      internalID: -3527747302491281876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_11
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb269be513eadf2a0800000000000000
+      internalID: -6702009143391591748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_12
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b857a22813684d280800000000000000
+      internalID: -9019436606520920693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_13
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345386011a4d9f5a0800000000000000
+      internalID: -6486920000020400829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_14
+      rect:
+        serializedVersion: 2
+        x: 3617
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f1f22c610a52510800000000000000
+      internalID: 1523800068542373705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_15
+      rect:
+        serializedVersion: 2
+        x: 3873
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ba6d3b7873da250800000000000000
+      internalID: 5957478938058337029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_16
+      rect:
+        serializedVersion: 2
+        x: 4129
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34deea5e1db166a70800000000000000
+      internalID: 8819767508567256387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_17
+      rect:
+        serializedVersion: 2
+        x: 4385
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e65965f47a9dcd00800000000000000
+      internalID: 994620919842952937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_18
+      rect:
+        serializedVersion: 2
+        x: 4641
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1365db55d9a0f8430800000000000000
+      internalID: 3787257482506491441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_19
+      rect:
+        serializedVersion: 2
+        x: 4897
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a59c4ec754c96820800000000000000
+      internalID: 2912074515474060705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_20
+      rect:
+        serializedVersion: 2
+        x: 5153
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7053514e4e45d5880800000000000000
+      internalID: -8620640769661389561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_21
+      rect:
+        serializedVersion: 2
+        x: 5409
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b47be40c93487b0800000000000000
+      internalID: -5222986169725793412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_22
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7523642aabc796990800000000000000
+      internalID: -7392240172323687849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_23
+      rect:
+        serializedVersion: 2
+        x: 5921
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e076e91d37360e0800000000000000
+      internalID: -2277849642376425894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_24
+      rect:
+        serializedVersion: 2
+        x: 6177
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9001cb7cbee6ec980800000000000000
+      internalID: -8516747886363668471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_25
+      rect:
+        serializedVersion: 2
+        x: 6433
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2d9e41d0c572310800000000000000
+      internalID: 1380173022067544739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_26
+      rect:
+        serializedVersion: 2
+        x: 6689
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d562cad83a88b2a20800000000000000
+      internalID: 3038672609629447773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_27
+      rect:
+        serializedVersion: 2
+        x: 6945
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3dd0b52a2fc47d0800000000000000
+      internalID: -2932702478198778929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_28
+      rect:
+        serializedVersion: 2
+        x: 7201
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f785af690f95470800000000000000
+      internalID: 8383996712562753284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_29
+      rect:
+        serializedVersion: 2
+        x: 7457
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648cb4a4da5c444c0800000000000000
+      internalID: -4304097995792857018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_30
+      rect:
+        serializedVersion: 2
+        x: 7713
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb656c7f0caf6a20800000000000000
+      internalID: 3057851854519364532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: white outline roullette_31
+      rect:
+        serializedVersion: 2
+        x: 7969
+        y: 23
+        width: 200
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3bcdfb5cafee5e0800000000000000
+      internalID: -1878288267332504599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      white outline roullette_0: 1379680573280471733
+      white outline roullette_1: 5001482403784698410
+      white outline roullette_10: -3527747302491281876
+      white outline roullette_11: -6702009143391591748
+      white outline roullette_12: -9019436606520920693
+      white outline roullette_13: -6486920000020400829
+      white outline roullette_14: 1523800068542373705
+      white outline roullette_15: 5957478938058337029
+      white outline roullette_16: 8819767508567256387
+      white outline roullette_17: 994620919842952937
+      white outline roullette_18: 3787257482506491441
+      white outline roullette_19: 2912074515474060705
+      white outline roullette_2: 3734315247447607909
+      white outline roullette_20: -8620640769661389561
+      white outline roullette_21: -5222986169725793412
+      white outline roullette_22: -7392240172323687849
+      white outline roullette_23: -2277849642376425894
+      white outline roullette_24: -8516747886363668471
+      white outline roullette_25: 1380173022067544739
+      white outline roullette_26: 3038672609629447773
+      white outline roullette_27: -2932702478198778929
+      white outline roullette_28: 8383996712562753284
+      white outline roullette_29: -4304097995792857018
+      white outline roullette_3: -777591916845870533
+      white outline roullette_30: 3057851854519364532
+      white outline roullette_31: -1878288267332504599
+      white outline roullette_4: 774462108977766077
+      white outline roullette_5: -5349026730017441244
+      white outline roullette_6: -3070391548884789970
+      white outline roullette_7: -1968565862829968772
+      white outline roullette_8: -6783531390874178969
+      white outline roullette_9: -822781139805997940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

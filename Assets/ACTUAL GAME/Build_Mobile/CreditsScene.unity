@@ -229,7 +229,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -200}
-  m_SizeDelta: {x: 1000, y: 500}
+  m_SizeDelta: {x: 1100, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &248044262
 MonoBehaviour:
@@ -264,14 +264,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Art assets: Albie
-
-
-    Programming: Libby and Tom
-
-
-    Menu Music: LFC_Records
-    on Pixabay'
+  m_Text: "Art assets: Albie\n\nProgramming: Libby and Tom\n\nMusic: 'Dice' (instrumental
+    version) by Jack \u201CSevenz\u201D Lewis"
 --- !u!222 &248044263
 CanvasRenderer:
   m_ObjectHideFlags: 0

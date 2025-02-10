@@ -1779,7 +1779,7 @@ MonoBehaviour:
   mixer: {fileID: 24100000, guid: 85dd37abbf03b584eb15b07a9902c660, type: 2}
   musicSource: {fileID: 1061633168}
   sfxSource: {fileID: 838672506}
-  menuMusic: {fileID: 8300000, guid: 46e488c3bb6380b41bf0e76dc5b28960, type: 3}
+  menuMusic: {fileID: 8300000, guid: cf2d6c502b0b07e4997ebc98e33e0c7b, type: 3}
 --- !u!1 &1993592178
 GameObject:
   m_ObjectHideFlags: 0
