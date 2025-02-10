@@ -16355,7 +16355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyText: {fileID: 415696530}
-  playerMoney: 150
+  playerMoney: 25
 --- !u!4 &1208676896
 Transform:
   m_ObjectHideFlags: 0
