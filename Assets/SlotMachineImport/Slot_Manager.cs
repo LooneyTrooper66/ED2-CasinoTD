@@ -22,11 +22,15 @@ public class Slot_Manager : MonoBehaviour
     public Button pullToStart;
     public Animator buttonAnim;
     public ChipForCash cfc;
+    public AudioClip leverPull;
+    AudioManager audioM;
+    bool audioFound;
 
     [HideInInspector] public string whichAnim = "clicked";
     public bool reset;
     public bool stop;
     public bool rigged; //this can be used for forced results no use yet
+    public BatchSpawn JackPotTrigger;
 
     [SerializeField] private enemy_Manager eM;
     // Start is called before the first frame update
@@ -44,6 +48,12 @@ public class Slot_Manager : MonoBehaviour
                 wow++;
             }
 
+        }
+
+        if (GameObject.FindGameObjectWithTag("Audio") != null)
+        {
+            audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+            audioFound = true;
         }
 
         pullToStart.onClick.AddListener(PullToStart);
@@ -84,7 +94,7 @@ public class Slot_Manager : MonoBehaviour
         rowOutPut.Sort();
         if (rowOutPut.First() == rowOutPut.Last())
         {
-            Debug.Log("JackpotCheck");
+            JackPotTrigger.debugTrigger = true;
         }
 
     }
@@ -100,11 +110,13 @@ public class Slot_Manager : MonoBehaviour
     {
         if (eM.waveState == enemy_Manager.WaveState.WaveClear)
         {
+            audioM.PlaySFX(leverPull);
+
             reset = true;
             buttonAnim.SetTrigger(whichAnim);
             Handheld.Vibrate();
 
-            // will flag an error, just ignore it coz unity is being a pain in the ass \\
+            // will flag a warning, just ignore it coz unity is being a pain in the ass \\
             enemy_Move[] gmObj = FindObjectsOfType<enemy_Move>();
             foreach (var enOBJ in gmObj)
             {

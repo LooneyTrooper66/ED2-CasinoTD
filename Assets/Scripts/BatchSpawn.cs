@@ -17,7 +17,7 @@ public class BatchSpawn : MonoBehaviour
 
     private Vector3 rClosePos;
     private Vector3 lClosePos;
-    [SerializeField] bool debugTrigger;
+    public bool debugTrigger;
     [SerializeField] bool debugTriggerGate;
     float i = 0;
     public float speed;
