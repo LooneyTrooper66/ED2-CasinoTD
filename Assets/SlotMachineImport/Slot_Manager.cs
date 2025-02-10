@@ -110,7 +110,10 @@ public class Slot_Manager : MonoBehaviour
     {
         if (eM.waveState == enemy_Manager.WaveState.WaveClear)
         {
-            audioM.PlaySFX(leverPull);
+            if (audioFound)
+            {
+                audioM.PlaySFX(leverPull);
+            }
 
             reset = true;
             buttonAnim.SetTrigger(whichAnim);
