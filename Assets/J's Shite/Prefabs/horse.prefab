@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: -4203968533138545652}
   - component: {fileID: 500778444137642536}
   - component: {fileID: 5367180681794039036}
-  - component: {fileID: 338452477134243847}
   m_Layer: 10
   m_Name: horse
   m_TagString: DropInvalid
@@ -166,30 +165,6 @@ MonoBehaviour:
   manager: {fileID: 0}
   shotInterval: 8
   i: 0
---- !u!114 &338452477134243847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5267994902332593694}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46739084c17e6ad46bcb07e80acb1e08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UpgradeBase: {fileID: 5267994902332593694}
-  i: 0
-  Upgrades:
-  - UpgradeCost: 300
-    AtkSpeedFlat: 0.5
-    AtkSpeedMult: 1
-    DmgFlat: 0
-    DmgMult: 0
-    Pierce: 0
-    VariableStat: 1
-    UpgradeColour: {r: 0.6981132, g: 0.667236, b: 0.20745817, a: 1}
-  tType: 2
 --- !u!1 &6636629149498939771
 GameObject:
   m_ObjectHideFlags: 0
