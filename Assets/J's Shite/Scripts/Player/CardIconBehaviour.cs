@@ -15,14 +15,17 @@ public class CardIconBehaviour : MonoBehaviour
     private Vector3 mousePos;
     private Draggable lastDragged;
     private Camera mainCam;
-    public Vector3 startPos;
+    [HideInInspector] public Vector3 startPos;
 
     public LayerMask overlapThing;
     public GameObject cardPrefab;
+    public Vector3 cardPosition = new Vector3(-14.38f, 1.7f, -3);
     public GameObject roulettePrefab;
+    public Vector3 roulettePosition = new Vector3(-11.88f, 2.2f, -3);
     public GameObject horsePrefab;
+    public Vector3 horsePosition = new Vector3(-14.23f, -2f, -3);
     public MoneyManager money;
-    public Transform cashierGoTo;
+    public string hitTag;
 
 
     private void Awake()
@@ -68,6 +71,7 @@ public class CardIconBehaviour : MonoBehaviour
                 Draggable draggable = hit.transform.gameObject.GetComponent<Draggable>();
                 if (draggable != null)
                 {
+                    hitTag = hit.transform.gameObject.tag;
                     lastDragged = draggable;
                     InitDrag();
                 }
@@ -78,7 +82,6 @@ public class CardIconBehaviour : MonoBehaviour
     void InitDrag()
     {
         isDragActive = true;
-        cashierGoTo.position = new Vector3(-13.13f, 0, 1);
     }
 
     void Drag()
@@ -94,17 +97,17 @@ public class CardIconBehaviour : MonoBehaviour
         {
             case "card":
                 Instantiate(cardPrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(-14.38f, 1.7f, -3);
+                lastDragged.transform.position = cardPosition;
                 money.playerMoney = money.playerMoney - 25;
                 return;
             case "roulette":
                 Instantiate(roulettePrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(-11.88f, 2.2f, -3);
+                lastDragged.transform.position = roulettePosition;
                 money.playerMoney = money.playerMoney - 60;
                 return;
             case "horse":
                 Instantiate(horsePrefab, placeSpot, transform.rotation, placeSurface);
-                lastDragged.transform.position = new Vector3(-14.23f, -2f, -3);
+                lastDragged.transform.position = horsePosition;
                 money.playerMoney = money.playerMoney - 150;
                 return;
         }

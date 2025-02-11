@@ -94,7 +94,7 @@ public class enemy_Manager : MonoBehaviour
             // is not spawning a wave check if the their are any enemts in the active enemy 
             //
             waveState = WaveState.WaveClear;
-            StartCoroutine(UIPopUp(3));
+            StartCoroutine(UIPopUp(2));
 
             waveCount++;
             string waveStr = waveCount.ToString();
