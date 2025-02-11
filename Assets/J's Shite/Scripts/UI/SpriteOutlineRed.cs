@@ -13,13 +13,13 @@ public class SpriteOutlineRed : MonoBehaviour
 
     private void Start()
     {
-        sR = GetComponent<SpriteRenderer>();
+        sR = gameObject.GetComponent<SpriteRenderer>();
         mainCam = Camera.main;
     }
 
     private void Update()
     {
-        if (Input.GetMouseButton(0) && placerScript.isDragActive == true)
+        if (Input.GetMouseButton(0) && placerScript.isDragActive == true && placerScript.hitTag == gameObject.tag)
         {
             mousePos = Input.mousePosition;
             screenPos = new Vector3(mousePos.x, mousePos.y, -1);
@@ -36,7 +36,7 @@ public class SpriteOutlineRed : MonoBehaviour
                 sR.color = Color.red;
             }
         }
-        else if (Input.touchCount > 0 && placerScript.isDragActive == true)
+        else if (Input.touchCount > 0 && placerScript.isDragActive == true && placerScript.hitTag == gameObject.tag)
         {
             screenPos = Input.GetTouch(0).position;
 

@@ -228,7 +228,7 @@ public class path_Genarator : MonoBehaviour
         pb.transform.parent = LineHolder.transform;
         sp.sprite = lineSprites[1];
         pb.GetComponent<SpriteRenderer>().enabled = true;
-        pb.transform.localScale = new(0.3f, 1, 1);
+        pb.transform.localScale = new(0.5f, 1, 1);
 
         //create a partical burst in the range of the thingy
         GameObject gm = LineParticalsHolder.transform.GetChild(0).gameObject;

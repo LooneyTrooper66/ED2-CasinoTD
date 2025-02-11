@@ -10638,10 +10638,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1079
   cardPrefab: {fileID: 1951732843240796354, guid: d36e376da88afb04e8d591edc1d403e6, type: 3}
+  cardPosition: {x: -14.38, y: 1.7, z: -3}
   roulettePrefab: {fileID: 5438805906938283518, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
+  roulettePosition: {x: -11.88, y: 2.2, z: -3}
   horsePrefab: {fileID: 5267994902332593694, guid: ba75a337e7e23f646a27ad241a40439e, type: 3}
+  horsePosition: {x: -14.23, y: -2, z: -3}
   money: {fileID: 1208676895}
-  cashierGoTo: {fileID: 440760296}
 --- !u!114 &592698237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16507,6 +16509,7 @@ MonoBehaviour:
   moneyM: {fileID: 1208676895}
   healthM: {fileID: 1208676897}
   cashierGoTo: {fileID: 62526654}
+  goBack: {x: -13.13, y: 0, z: 1}
 --- !u!114 &1208676899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18422,8 +18425,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -19, y: 0}
-  m_SizeDelta: {x: 90, y: 100}
+  m_AnchoredPosition: {x: -19, y: 23}
+  m_SizeDelta: {x: 90, y: 180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1417563173
 Animator:
@@ -18467,7 +18470,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 777739186185271332, guid: 266a4d5da6294b64d8eed075b894d5c7, type: 3}
+  m_Sprite: {fileID: -1631551568, guid: c84f88be4644ae94c981ecb67d54c6bd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

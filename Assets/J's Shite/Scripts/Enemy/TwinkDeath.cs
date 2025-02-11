@@ -23,13 +23,13 @@ public class TwinkDeath : MonoBehaviour
         {
             int i = Random.Range(0, 3);
             audioM.PlaySFX(clips[i]);
-            StartCoroutine(Die());
         }
+        StartCoroutine(Die());
     }
 
     IEnumerator Die()
     {
-        yield return new WaitForSecondsRealtime(3);
+        yield return new WaitForSecondsRealtime(2.5f);
         Destroy(gameObject);
     }
 }

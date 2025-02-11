@@ -14,6 +14,7 @@ public class ChipForCash : MonoBehaviour
     public MoneyManager moneyM;
     public HealthManager healthM;
     public Transform cashierGoTo;
+    public Vector3 goBack = new Vector3(-13.13f, 0, 1);
 
 
     private void Start()
@@ -66,6 +67,6 @@ public class ChipForCash : MonoBehaviour
         chipsUsed.text = "chips used: 0";
         moneyChipsAreWorth = 0;
         chipsToBeTraded = 0;
-        cashierGoTo.position = new Vector3(-13.13f, 0, 1);
+        cashierGoTo.position = goBack;
     }
 }
