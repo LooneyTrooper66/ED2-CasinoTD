@@ -84,16 +84,16 @@ public class Tower_Upgrade : MonoBehaviour
             case tower_Type.Card:
                 CardTower ct = GetComponent<CardTower>();
                 ct.shotInterval -= Upgrades[i].AtkSpeedFlat;
-                ct.shotInterval = ct.shotInterval * Upgrades[i].AtkSpeedMult;
+                ct.shotInterval *= Upgrades[i].AtkSpeedMult;
 
-                CardBulletBehaviour CBB = transform.GetChild(0).GetComponent<CardBulletBehaviour>();
+                ProjectileBehaviour CBB = transform.GetChild(0).GetComponent<ProjectileBehaviour>();
                 CBB.damage += Upgrades[i].DmgFlat;
-                CBB.damage = CBB.damage * Upgrades[i].DmgMult;
+                CBB.damage *= Upgrades[i].DmgMult;
                 break;     
             case tower_Type.Roulet:
                 RouletteTower rt = GetComponent<RouletteTower>();
                 rt.shotInterval -= Upgrades[i].AtkSpeedFlat;
-                rt.shotInterval = rt.shotInterval * Upgrades[i].AtkSpeedFlat;
+                rt.shotInterval *= Upgrades[i].AtkSpeedMult;
 
                 GameObject ball = transform.GetChild(0).gameObject;
                 ball.transform.localScale = ball.transform.localScale * Upgrades[i].VariableStat;
@@ -106,7 +106,7 @@ public class Tower_Upgrade : MonoBehaviour
             case tower_Type.Honse:
                 HorseTower Hrt = GetComponent<HorseTower>();
                 Hrt.shotInterval -= Upgrades[i].AtkSpeedFlat;
-                Hrt.shotInterval = Hrt.shotInterval * Upgrades[i].AtkSpeedMult;
+                Hrt.shotInterval *= Upgrades[i].AtkSpeedMult;
 
                 //i dont think i can upgrade the horse with the current method! :£ i shot myself in the foot like someone who cant aim and just shot themselves in the foot 
                 break;

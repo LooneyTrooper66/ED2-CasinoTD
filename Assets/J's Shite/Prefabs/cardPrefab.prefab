@@ -143,15 +143,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364598237400019422}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d05d8bd8a8854f4ab61872540a1a71c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
-  speed: 7
+  damage: 3
+  speed: 4
   deathTimer: 2
-  peirce: 0
+  peirce: 3
 --- !u!114 &4355772462016174349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364598237400019422}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c701759860aa51644aab5d7c6395858e, type: 3}
   m_Name: 
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71953165fa973b24db9ec763b431872d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotInterval: 0.2
+  shotInterval: 1.5
   cards:
   - {fileID: 7024648501981196136, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
   - {fileID: -1145144668836272637, guid: d3eb99793fb3a5f489f4a983c6dd4bc1, type: 3}
@@ -581,20 +581,20 @@ MonoBehaviour:
   UpgradeBase: {fileID: 5174933336405069587}
   i: 0
   Upgrades:
-  - UpgradeCost: 100
-    AtkSpeedFlat: 0.1
+  - UpgradeCost: 25
+    AtkSpeedFlat: 0.5
     AtkSpeedMult: 1
-    DmgFlat: 3
+    DmgFlat: 2
     DmgMult: 1
     Pierce: 0
     VariableStat: 1
-    UpgradeColour: {r: 0, g: 1, b: 0.92019224, a: 1}
-  - UpgradeCost: 200
+    UpgradeColour: {r: 0.9254902, g: 0.43137255, b: 0.56078434, a: 1}
+  - UpgradeCost: 100
     AtkSpeedFlat: 0
-    AtkSpeedMult: 0.2
-    DmgFlat: 0
+    AtkSpeedMult: 0.3
+    DmgFlat: 3
     DmgMult: 1
     Pierce: 10
     VariableStat: 1
-    UpgradeColour: {r: 0.6415094, g: 0.55632406, b: 0.18458524, a: 1}
+    UpgradeColour: {r: 0.79607844, g: 0.6313726, b: 0.20784314, a: 1}
   tType: 0

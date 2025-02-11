@@ -56,7 +56,7 @@ public class CardTower : MasterTowerScript
                     temp.GetComponent<SpriteRenderer>().sprite = cards[currentCard];
                     currentCard = Random.Range(0, cards.Length);
                     sR.sprite = cards[currentCard];
-
+                    temp.GetComponent<ProjectileBehaviour>().Spawn(findTarget.Target.transform.position - shootPointC.transform.position);
                     findTarget.sortList();
                 }
             }
