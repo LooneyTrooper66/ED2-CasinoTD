@@ -10644,6 +10644,7 @@ MonoBehaviour:
   horsePrefab: {fileID: 5267994902332593694, guid: ba75a337e7e23f646a27ad241a40439e, type: 3}
   horsePosition: {x: -14.23, y: -2, z: -3}
   money: {fileID: 1208676895}
+  hitTag: 
 --- !u!114 &592698237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44055,8 +44056,10 @@ MonoBehaviour:
     - {x: 2, y: 1}
     - {x: 3, y: 3}
     - {x: 3, y: 1}
-  - enemies: []
-  - enemies: []
+  - enemies:
+    - {x: 1, y: 1}
+  - enemies:
+    - {x: 1, y: 1}
   waveTracker: 0
   waveInProgress: 0
   wildCardWave: []
