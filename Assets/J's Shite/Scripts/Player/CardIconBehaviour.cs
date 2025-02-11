@@ -26,6 +26,7 @@ public class CardIconBehaviour : MonoBehaviour
     public Vector3 horsePosition = new Vector3(-14.23f, -2f, -3);
     public MoneyManager money;
     public string hitTag;
+    public Transform shopLerp;
 
 
     private void Awake()
@@ -82,6 +83,10 @@ public class CardIconBehaviour : MonoBehaviour
     void InitDrag()
     {
         isDragActive = true;
+        if (shopLerp != null)
+        {
+            shopLerp.position = new Vector3(-13.13f, 0, 1);
+        }
     }
 
     void Drag()

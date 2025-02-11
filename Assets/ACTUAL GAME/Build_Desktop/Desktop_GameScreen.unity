@@ -10379,6 +10379,7 @@ MonoBehaviour:
   horsePosition: {x: 4.79, y: -0.6, z: -3}
   money: {fileID: 1208676895}
   hitTag: 
+  shopLerp: {fileID: 0}
 --- !u!114 &592698237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16938,15 +16939,15 @@ RectTransform:
   m_GameObject: {fileID: 1328033424}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 719792787}
   m_Father: {fileID: 1134703752}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 573, y: -96.6}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -150, y: -165}
   m_SizeDelta: {x: 50, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1328033426
@@ -38495,19 +38496,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb720579d4cb164593eb3645451be6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinPreFab: {fileID: 1274682566064890776}
-  boundingBox: {x: 10, y: 5}
-  coinCount: 100
-  GateState: 0
-  GateInAction: 0
-  gateLeft: {fileID: 5283464466633120549}
-  gateRight: {fileID: 24235093033001337}
-  gateLOpenPos: {fileID: 6093187375371036405}
-  gateROpenPos: {fileID: 294727111503367137}
-  debugTrigger: 0
-  debugTriggerGate: 0
-  speed: 0.5
-  w: 0
 --- !u!1 &4256378583619975376
 GameObject:
   m_ObjectHideFlags: 0
