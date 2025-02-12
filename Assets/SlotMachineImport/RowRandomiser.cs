@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 
 using UnityEngine;
-
 public class RowRandomiser : MonoBehaviour
 {
     public GameObject tile0;
@@ -35,6 +34,7 @@ public class RowRandomiser : MonoBehaviour
     public bool reset;
     public GameObject rowEntrance;
     public GameObject rowExit;
+    [SerializeField] AudioSource As;
 
     // Start is called before the first frame update
     void Awake()
@@ -210,6 +210,9 @@ public class RowRandomiser : MonoBehaviour
             tileMoves[o].transform.position = tileMoves[o].slotPos;
         }
 
+        //check for audio and play audio :3
+
+        As.Play();
 
         if (sM.r.Count - 1 == sM.rowNumb)
         {

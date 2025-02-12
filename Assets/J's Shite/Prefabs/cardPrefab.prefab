@@ -151,7 +151,7 @@ MonoBehaviour:
   damage: 3
   speed: 4
   deathTimer: 2
-  peirce: 3
+  peirce: 1
 --- !u!114 &4355772462016174349
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -117,10 +117,10 @@ public class path_Genarator : MonoBehaviour
         if (drawLine.transform.position == RowConnectors[pathPoint]) 
         {
             //check if its reached the end of the line and gets the next position on the list 
-            lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]); // set the postion off the point to its finalised postions
+           // lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]); // set the postion off the point to its finalised postions
             pathPoint += 1;//update refrance int
-            lineRenderer.positionCount++; 
-            lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
+          //  lineRenderer.positionCount++; 
+           // lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
             if (RowConnectors.Count != pathPoint)
             {
                 Vector2 v2 = RowConnectors[pathPoint - 1] - RowConnectors[pathPoint]; // the connevtionm between the currnet and next
@@ -147,10 +147,10 @@ public class path_Genarator : MonoBehaviour
             //drawLine.transform.position = Vector3.Lerp(RowConnectors[pathPoint - 1], RowConnectors[pathPoint], timer); //move the postion of 
             drawLine.transform.position = Vector3.MoveTowards(drawLine.transform.position, RowConnectors[pathPoint], DrawSpeed * Time.deltaTime);
             //lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
-            if (lineRenderer.positionCount >= pathPoint)
-            {
-                lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
-            }
+           // if (lineRenderer.positionCount >= pathPoint)
+           // {
+           //     lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
+           // }
             timer += DrawSpeed;
         }
     }
@@ -215,9 +215,11 @@ public class path_Genarator : MonoBehaviour
                 Vector2 pos = Vector2.Lerp(RowConnectors[pathPoint - 2], RowConnectors[pathPoint - 1], i1);
                 gm.transform.position = new(pos.x + Random.Range(-0.25f, 0.25f),pos.y + Random.Range(-0.25f, 0.25f));
                 //pendis
+                gm.GetComponent<ParticleSystem>().Stop();
                 gm.GetComponent<ParticleSystem>().Play();
             }
         }
+        LineParticalsHolder.GetComponent<AudioSource>().Play();
 
     }
     public void Draw_Connection()
