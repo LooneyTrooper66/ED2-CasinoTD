@@ -24,11 +24,11 @@ public class Upgrade_SelectTower : MonoBehaviour
         }
     }
 
-    void CheckUpgrade(Vector2 pos)
+    void CheckUpgrade(Vector3 pos)
     {
         //shoot raycast at postion
-        //Debug.Log(pos);
-        RaycastHit2D hit = Physics2D.Raycast(pos,Vector3.forward,10,LayerMask);
+        RaycastHit2D hit;
+        hit = Physics2D.Raycast(pos ,Vector3.forward,10,LayerMask);
         if (hit)
         {
             Debug.Log(hit);

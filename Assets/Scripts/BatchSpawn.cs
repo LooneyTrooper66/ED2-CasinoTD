@@ -29,6 +29,8 @@ public class BatchSpawn : MonoBehaviour
     float doorWait;
     bool OpenDoorWait;
     float dw = 0;
+    bool openWait;
+    float coinTimer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -46,6 +48,7 @@ public class BatchSpawn : MonoBehaviour
         if (debugTrigger)
         {
             debugTrigger = false;
+            coinTimer = -2;
             coinSpawn();
         }
 
@@ -83,13 +86,36 @@ public class BatchSpawn : MonoBehaviour
                 waitTrue = false;
             }
         }
+
+        if (openWait)
+        {
+            w += Time.deltaTime;
+            if (w >= timer)
+            {
+                debugTriggerGate = true;
+                openWait = false;
+            }
+        }
+    }
+    private void FixedUpdate()
+    {
         if (chipSpawning)
         {
-            if (chipSpawnCount >= coinCount+1) { chipSpawning = false; return; }
+            if (chipSpawnCount >= coinCount + 1) 
+            {
+                chipSpawning = false;
+                GateInAction = false;
+                openWait = true;
+                w = 0;
+                timer = 3f;
+                return; 
+            }
+            if (coinTimer <= (10 / coinCount)) { coinTimer += Time.deltaTime; return; }
+            coinTimer = 0;
             GameObject gM = transform.GetChild(chipSpawnCount).gameObject;
-            gM.transform.position = new(Random.Range(-(boundingBox.x / 2), boundingBox.x / 2) + transform.position.x, Random.Range(-(boundingBox.y / 2), boundingBox.y / 2) + transform.position.y, this.transform.position.z);
+            gM.transform.position = new((Random.Range(-(boundingBox.x / 2), boundingBox.x / 2) * 2) + transform.position.x, Random.Range(-(boundingBox.y / 2), boundingBox.y / 2) + transform.position.y, this.transform.position.z);
             gM.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-            gM.transform.rotation = new(0, 0, 0, 0);
+            gM.transform.rotation = new(0, 0, Random.Range(-180,180), 1);
             chipSpawnCount++;
         }
     }

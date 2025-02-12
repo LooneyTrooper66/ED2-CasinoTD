@@ -108,7 +108,8 @@ public class RowRandomiser : MonoBehaviour
     {
         //int i = Random.Range(0, 3);
         //Debug.Log(i);
-        switch (Random.Range(0, 3))
+        int i = Random.Range(0, 3);
+        switch (i)
         {
             case 0: //w c m y
                 RollTile(0, 1, 2, 3);
