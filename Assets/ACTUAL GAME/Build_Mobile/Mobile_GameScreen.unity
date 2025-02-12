@@ -24858,7 +24858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!64 &1391879379616711300
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39858,18 +39858,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb720579d4cb164593eb3645451be6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinPreFab: {fileID: 0}
-  boundingBox: {x: 0, y: 0}
-  coinCount: 0
+  coinPreFab: {fileID: 1274682566064890776}
+  boundingBox: {x: 10, y: 1}
+  coinCount: 200
   GateState: 0
   GateInAction: 0
-  gateLeft: {fileID: 0}
-  gateRight: {fileID: 0}
-  gateLOpenPos: {fileID: 0}
-  gateROpenPos: {fileID: 0}
+  gateLeft: {fileID: 5283464466633120549}
+  gateRight: {fileID: 24235093033001337}
+  gateLOpenPos: {fileID: 6093187375371036405}
+  gateROpenPos: {fileID: 294727111503367137}
   debugTrigger: 0
   debugTriggerGate: 0
-  speed: 0
+  speed: 0.5
   w: 0
 --- !u!1 &4256378583619975376
 GameObject:
