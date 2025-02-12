@@ -44142,8 +44142,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a29f46af1e14ac64c8566c6b2e286a67, type: 2}
   - {fileID: 11400000, guid: b95ac8b92f33411489d477c52e2eab29, type: 2}
   - {fileID: 11400000, guid: 11d67afa809ac0343b6822e514ff1b7b, type: 2}
-  pG: {fileID: 0}
-  active_Enemy: {fileID: 0}
+  pG: {fileID: 378141337}
+  active_Enemy: {fileID: 1142533995574446070}
   waves:
   - enemies:
     - {x: 1, y: 1}
