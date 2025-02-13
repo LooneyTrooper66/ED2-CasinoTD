@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 500778444137642536}
   - component: {fileID: 5367180681794039036}
   - component: {fileID: 8089496695157004592}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: horse
   m_TagString: DropInvalid
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8211123039621628992}
   - component: {fileID: 7161392814323111172}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Square (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8191485742923390110}
   - component: {fileID: 1952634585314972866}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: whiteoutline horse stables_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2545357845072052178}
   - component: {fileID: 943346362892607647}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}

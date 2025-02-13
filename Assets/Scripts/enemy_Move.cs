@@ -1,7 +1,9 @@
 using System;
+using TreeEditor;
 using UnityEngine;
 //using UnityEngine.WSA;
 using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
 
 public class enemy_Move : MonoBehaviour
 {
@@ -47,6 +49,7 @@ public class enemy_Move : MonoBehaviour
             return;
         }
         rb.MovePosition(Vector3.MoveTowards(transform.position, goalPos, speed / 100));
+        
         //Vector3 dir = new Vector3(goalPos.x,goalPos.y,transform.position.z) - transform.position;
         //transform.position = Vector3.MoveTowards(transform.position, goalPos, speed /50);  //doing this equation on every enemy could be costly so my other idea is making each point do the direction equation and then they only need to add their speed to total 
     }
@@ -70,6 +73,7 @@ public class enemy_Move : MonoBehaviour
         {
             i++;
             goalPos = eM.RowConnectors[eM.RowConnectors.Count - i];
+           // transform.rotation = new(0, 0, 90, 0);
         }
         else
         {
@@ -83,6 +87,11 @@ public class enemy_Move : MonoBehaviour
         i=0;
         transform.position = eM.RowConnectors[i];
         goalPos = eM.RowConnectors[i];
+
+        if (horse)
+        {
+            transform.Rotate(transform.position, 270);
+        }
     }
 
     public void Hit(float Damage)
