@@ -117,10 +117,10 @@ public class Slot_Manager : MonoBehaviour
 
             reset = true;
             buttonAnim.SetTrigger(whichAnim);
-            Handheld.Vibrate();
+            Handheld.Vibrate(); 
 
             // will flag a warning, just ignore it coz unity is being a pain in the ass \\
-            enemy_Move[] gmObj = FindObjectsOfType<enemy_Move>();
+            enemy_Move[] gmObj = FindObjectsByType<enemy_Move>(FindObjectsSortMode.None);
             foreach (var enOBJ in gmObj)
             {
                 Destroy(enOBJ.gameObject);
