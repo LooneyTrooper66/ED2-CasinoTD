@@ -100,14 +100,13 @@ public class path_Genarator : MonoBehaviour
         }*/
     }
 
-    public void PathDraw() //<-- i equals 
+    public void PathDraw() 
     {
-        if (pathPoint == RowConnectors.Count) // ifits reached the final point
+        if (pathPoint == RowConnectors.Count)
         {
             drawPath = false;
             lineRenderer.positionCount = (RowConnectors.Count);
             eM.summontest = true; // just for scott <-- ok!
-            //peanis - dont rememeber typing this even tho i just added this
             Draw_Straight(RowConnectors[pathPoint - 1], drawLine.transform.position);
             return;
         }
@@ -116,11 +115,9 @@ public class path_Genarator : MonoBehaviour
         //drawLine.transform.
         if (drawLine.transform.position == RowConnectors[pathPoint]) 
         {
-            //check if its reached the end of the line and gets the next position on the list 
-           // lineRenderer.SetPosition(pathPoint, RowConnectors[pathPoint]); // set the postion off the point to its finalised postions
+     
             pathPoint += 1;//update refrance int
-          //  lineRenderer.positionCount++; 
-           // lineRenderer.SetPosition(pathPoint, drawLine.transform.position);
+        
             if (RowConnectors.Count != pathPoint)
             {
                 Vector2 v2 = RowConnectors[pathPoint - 1] - RowConnectors[pathPoint]; // the connevtionm between the currnet and next
@@ -128,15 +125,12 @@ public class path_Genarator : MonoBehaviour
                 if (Mathf.Round(v1.x) == 0 || Mathf.Round(v2.x) == 0) 
                 {
                     Draw_Turn(v1,v2);
-                    //Draw_Straight(v1,v2);
+                
                 }
                 else
                 {
                     Draw_Connection();
-                    //curve
-                    //Instantiate(drawLine.gameObject).transform.position = RowConnectors[pathPoint - 1];
-                    //set a bool to be true that makes the next straigh curved opposite to this one 
-                    //or just check the past so get current next and past? but proble woulb be if their is no past 
+                    
                 }
                 Draw_Straight(v1, v2);
             }
