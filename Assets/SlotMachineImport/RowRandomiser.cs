@@ -108,30 +108,11 @@ public class RowRandomiser : MonoBehaviour
     {
         //int i = Random.Range(0, 3);
         //Debug.Log(i);
-        switch (Random.Range(0, 3))
-        {
-            case 0: //w c m y
-                RollTile(0, 1, 2, 3);
-                tileMoves[3].rowHost = true;
-                rowhostint = 3;
-                tileAtTop = 0;
-                break;
-            case 1://y w c m
-                RollTile(3, 0, 1, 2);
-                tileMoves[2].rowHost = true;
-                rowhostint = 2;
-                tileAtTop = 1;
-                break;
-            case 2://m y w c
-                RollTile(1, 2, 3, 0);
-                tileMoves[0].rowHost = true;
-                rowhostint = 0;
-                tileAtTop = 3;
-                break;
-            default:
-                Debug.Log("ERROR");
-                break;
-        }
+        RollTile(0, 1, 2, 3);
+        tileMoves[3].rowHost = true;
+        rowhostint = 3;
+        tileAtTop = 0;
+
         stop = false;
         //run function to begin lerp
         

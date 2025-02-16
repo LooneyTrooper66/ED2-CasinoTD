@@ -28,6 +28,7 @@ public class Slot_Manager : MonoBehaviour
     public bool stop;
     public bool rigged; //this can be used for forced results no use yet
 
+    public ParticalManaher pm;
     [SerializeField] private enemy_Manager eM;
     // Start is called before the first frame update
     void Awake()
@@ -70,7 +71,7 @@ public class Slot_Manager : MonoBehaviour
 
             StartCoroutine(TimerForStop());
         }
-        if(stop)
+        if(stop || Input.GetKeyDown(KeyCode.Space))
         {
             stop = false;
             //r1.lastRoll = true;
@@ -84,7 +85,7 @@ public class Slot_Manager : MonoBehaviour
         rowOutPut.Sort();
         if (rowOutPut.First() == rowOutPut.Last())
         {
-            Debug.Log("JackpotCheck");
+            pm.startP();
         }
 
     }
@@ -102,17 +103,21 @@ public class Slot_Manager : MonoBehaviour
         {
             reset = true;
             buttonAnim.SetTrigger(whichAnim);
-            Handheld.Vibrate();
+            //Handheld.Vibrate();
 
             // will flag an error, just ignore it coz unity is being a pain in the ass \\
-            enemy_Move[] gmObj = FindObjectsOfType<enemy_Move>();
-            foreach (var enOBJ in gmObj)
+            if (FindAnyObjectByType<enemy_Move>())
             {
-                Destroy(enOBJ.gameObject);
-            }
-            cfc.tradableChipsThisRound = 3;
+                enemy_Move[] gmObj = FindObjectsOfType<enemy_Move>();
+                foreach (var enOBJ in gmObj)
+                {
+                    Destroy(enOBJ.gameObject);
+                }
+                cfc.tradableChipsThisRound = 3;
 
-            eM.waveState = enemy_Manager.WaveState.WaveStart;
+                eM.waveState = enemy_Manager.WaveState.WaveStart;
+            }
+         
         }
     }
 
