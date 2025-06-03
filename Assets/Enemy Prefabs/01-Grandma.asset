@@ -17,6 +17,6 @@ MonoBehaviour:
   damage: 1
   Vaule: 1
   horse: 0
-  sprite: {fileID: 2886052365686866624, guid: d8983cce74ba70240a8cc3d6e471f76c, type: 3}
+  sprite: {fileID: 21300000, guid: 9cac4248ac3bec342abd8785cfed8442, type: 3}
   anim: {fileID: 0}
   deathCoins: {fileID: 2068692897321508264, guid: 5b3335e4d0153b9409a2c5af02fcfef1, type: 3}
