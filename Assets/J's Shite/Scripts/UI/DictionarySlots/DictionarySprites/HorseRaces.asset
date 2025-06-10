@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 426be9b6a6c974a49a85903907e3389e, type: 3}
   m_Name: HorseRaces
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: b902eb88ce21677498eb9823b41a1d84, type: 3}
   thingName: Horse Racing
   description: The rich love nothing more than to bet their expendable income on
     horse races, now you can use that to your advantage! Send out cavelry across

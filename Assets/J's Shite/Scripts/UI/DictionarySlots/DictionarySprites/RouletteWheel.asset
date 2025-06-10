@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 426be9b6a6c974a49a85903907e3389e, type: 3}
   m_Name: RouletteWheel
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: e38a68de8a1c497418c76e048c69434d, type: 3}
   thingName: Roulette Wheel
-  description: 
+  description: Have you ever wanted to pummel someone with high speed projectile
+    metal balls? Well now you can!

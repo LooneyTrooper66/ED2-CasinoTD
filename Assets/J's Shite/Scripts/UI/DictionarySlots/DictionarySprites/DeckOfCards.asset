@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 426be9b6a6c974a49a85903907e3389e, type: 3}
   m_Name: DeckOfCards
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 37f45303135847545bfae6580ca8dcf7, type: 3}
   thingName: Deck Of Cards
   description: Whats a casino without cards? Low in damage but cheap and reliable,
     these decks will help you start out your career and protect your casino from
