@@ -108,12 +108,12 @@ public class CardIconBehaviour : MonoBehaviour
             case "roulette":
                 Instantiate(roulettePrefab, placeSpot, transform.rotation, placeSurface);
                 lastDragged.transform.position = roulettePosition;
-                money.playerMoney = money.playerMoney - 60;
+                money.playerMoney = money.playerMoney - 150;
                 return;
             case "horse":
                 Instantiate(horsePrefab, placeSpot, transform.rotation, placeSurface);
                 lastDragged.transform.position = horsePosition;
-                money.playerMoney = money.playerMoney - 150;
+                money.playerMoney = money.playerMoney - 80;
                 return;
         }
     }

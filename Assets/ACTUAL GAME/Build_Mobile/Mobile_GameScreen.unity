@@ -3080,7 +3080,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60, y: -185}
+  m_AnchoredPosition: {x: 0, y: -185}
   m_SizeDelta: {x: 100, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &300608639
@@ -3116,7 +3116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA3150"
+  m_Text: "\xA380"
 --- !u!222 &300608640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10842,7 +10842,7 @@ MonoBehaviour:
   roulettePrefab: {fileID: 5438805906938283518, guid: 78792092637890448ba8d78ff7a07fd3, type: 3}
   roulettePosition: {x: -11.88, y: 2.2, z: -3}
   horsePrefab: {fileID: 5267994902332593694, guid: ba75a337e7e23f646a27ad241a40439e, type: 3}
-  horsePosition: {x: -14.23, y: -2, z: -3}
+  horsePosition: {x: -13.13, y: -1.82, z: -3}
   money: {fileID: 1208676895}
   hitTag: 
   shopLerp: {fileID: 440760296}
@@ -12261,8 +12261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   available: {r: 1, g: 1, b: 1, a: 1}
   unavailable: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
-  price: 60
-  upgradePrice: 100
+  price: 150
+  upgradePrice: 250
   moneyM: {fileID: 1208676895}
 --- !u!114 &721219958
 MonoBehaviour:
@@ -14002,8 +14002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   available: {r: 1, g: 1, b: 1, a: 1}
   unavailable: {r: 0.41568628, g: 0.41568628, b: 0.41568628, a: 1}
-  price: 150
-  upgradePrice: 300
+  price: 60
+  upgradePrice: 100
   moneyM: {fileID: 1208676895}
 --- !u!61 &961067733
 BoxCollider2D:
@@ -14039,17 +14039,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.06}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.47, y: 1.37}
+    oldSize: {x: 0.64, y: 0.64}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 1.5}
+  m_Size: {x: 0.6, y: 0.4}
   m_EdgeRadius: 0
 --- !u!114 &961067734
 MonoBehaviour:
@@ -14064,7 +14064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thisGO: {fileID: 961067736}
-  returnTo: {x: -14.23, y: -2, z: -3}
+  returnTo: {x: -13.13, y: -1.82, z: -3}
   cardController: {fileID: 592698236}
 --- !u!212 &961067735
 SpriteRenderer:
@@ -14110,7 +14110,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 73
-  m_Sprite: {fileID: -5830310285142630720, guid: 5538a96ea66d35347b9596e7d5ed6e84, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b902eb88ce21677498eb9823b41a1d84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14130,8 +14130,8 @@ Transform:
   m_GameObject: {fileID: 961067731}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1000004, y: -2, z: -3}
-  m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
+  m_LocalPosition: {x: 0, y: -1.82, z: -3}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 37004650}
@@ -17308,7 +17308,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 60, y: 0}
-  m_SizeDelta: {x: 80, y: 60}
+  m_SizeDelta: {x: 100, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273514458
 MonoBehaviour:
@@ -17343,7 +17343,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA360"
+  m_Text: "\xA3150"
 --- !u!222 &1273514459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20086,8 +20086,8 @@ Transform:
   m_GameObject: {fileID: 1584819710}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1, y: -2, z: -2}
-  m_LocalScale: {x: 1.6, y: 1.6, z: 1.6}
+  m_LocalPosition: {x: 0, y: -1.82, z: -2}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 37004650}
@@ -20136,7 +20136,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 72
-  m_Sprite: {fileID: -5830310285142630720, guid: 5538a96ea66d35347b9596e7d5ed6e84, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b902eb88ce21677498eb9823b41a1d84, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22219,7 +22219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1883761371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23665,7 +23665,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2049487324
 RectTransform:
   m_ObjectHideFlags: 0
