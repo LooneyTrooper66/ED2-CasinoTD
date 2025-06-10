@@ -8,6 +8,14 @@ public class DictionaryButtons : MonoBehaviour
     public Canvas evemiesCanv;
 
 
+    private void Start()
+    {
+        towersCanv.enabled = false;
+        evemiesCanv.enabled = false;
+
+        mainCanv.enabled = true;
+    }
+
     public void BackButton()
     {
         towersCanv.enabled = false;
