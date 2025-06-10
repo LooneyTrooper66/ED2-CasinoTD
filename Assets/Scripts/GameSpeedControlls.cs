@@ -27,6 +27,12 @@ public class GameSpeedControlls : MonoBehaviour
             case 2:
                 Time.timeScale = 3f;
                 break;
+            case 3:
+                Time.timeScale = 4f;
+                break ;
+            case 4:
+                Time.timeScale = 5f;
+                break;
             default:
                 i = 0;
                 Time.timeScale = 1f;

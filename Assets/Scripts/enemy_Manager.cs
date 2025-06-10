@@ -63,38 +63,32 @@ public class enemy_Manager : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if (summontest && waveState == WaveState.WaveStart)
+        if (summontest && waveState == WaveState.WaveStart) //debug
         {
             summontest = false;
-            //summonTest();
-            //testEnemy.spawn();
             SummonWave();
         }
         if (waveState == WaveState.WaveClear && FinalWave)
         {
             slot.whichAnim = "pullFinal"; //set the lever to the cash out version!!!!            
             FinalWave = false;
-            // you only need to change the sprite, just make sure that pullFinal is called on the final round only so it doesnt look odd
         }
 
-
+        //if active wave exisist and is empty and the timer is over the delay 
         if (activeWave != null && activeWave.Count() > 0 && timer >= delay)
         {
-            //activeWave[0]
-            SummonTest(Mathf.FloorToInt(activeWave[0].x));
+            SummonTest(Mathf.FloorToInt(activeWave[0].x));//floor to int so i make sure the vector is an int (could have used vector 2 ints )
             delay = (activeWave[0] == null)?  0 :  activeWave[0].y; 
-           // waveState = (activeWave[0] == null)? WaveState.WaveActive : WaveState.WaveSpawning ;  // more enemys to spawn : no more enemeys to spawn
             timer = 0;
-
             activeWave.RemoveAt(0);
             waveState = (activeWave.Count() == 0) ? WaveState.WaveActive : WaveState.WaveSpawning;
         }
-        else if (active_Enemy.transform.childCount <= 0 && waveState == WaveState.WaveActive)
+        else if (active_Enemy.transform.childCount <= 0 && waveState == WaveState.WaveActive) // if the wave is active and no enemy are left alive
         {
             // is not spawning a wave check if the their are any enemts in the active enemy 
             //
             waveState = WaveState.WaveClear;
-            StartCoroutine(UIPopUp(2));
+            StartCoroutine(UIPopUp(2)); //wave clear
 
             waveCount++;
             string waveStr = waveCount.ToString();
@@ -106,7 +100,8 @@ public class enemy_Manager : MonoBehaviour
         if (waveState == WaveState.WaveClear && waveTracker == waves.Length)
         {
             // im being lazy, il fix this later
-            SceneManager.LoadScene("WinScreen");
+            SceneManager.LoadScene("WinScreen");  // UPDATE THIS FOR ENDLESS
+            //activate endless mode
         }
     }
     /// <summary>
@@ -115,16 +110,13 @@ public class enemy_Manager : MonoBehaviour
     /// </summary
     public void SummonTest(int etp)
     {
-        ////...,.,//../...,.kljhniouhijoiyguhob uyog.
         if (transform.childCount <= 0)
         {
-            //spawn new enemy
-            //selectedEnemy = Instantiate
             selectedEnemy = Instantiate(EnemyBaseforInstanciating);
         }
         else
         {
-            selectedEnemy = transform.GetChild(0).gameObject;  // <-- get the first child
+            selectedEnemy = transform.GetChild(0).gameObject;
         }
 
         //set the gameObject Needed Information
@@ -155,23 +147,12 @@ public class enemy_Manager : MonoBehaviour
 
     public void SummonWave()
     {
-        //grab any enemy in the vault
-        //if vault is empty create a new base
-        //set the base enemy to the correct enemy type
-        // enemy_move.em = pg;
-        //
-        //
         if (waveTracker < waves.Count())
         {
             activeWave = waves[waveTracker].enemies.ToList();
             waveTracker++;
             //FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
-            delay = 3; // wave countdown
-        }
-        else
-        {
-            // you won!!!!!!! maybe change the lever to a cash out button? 
-            
+            delay = 3 * Time.timeScale; // wave countdown
         }
     }
 
