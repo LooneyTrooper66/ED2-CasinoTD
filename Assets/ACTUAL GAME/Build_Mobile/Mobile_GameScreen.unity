@@ -2431,7 +2431,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pull this lever to start each round - and be wary of the 'Red Ace' card
+  m_Text: Pull this lever to start each wave - and be wary of the 'Red Ace' card
     sharks, they can be troublesome. To read about all towers and enemies, access
     the dictionary from the main menu.
 --- !u!222 &263775529
@@ -14532,7 +14532,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Thats all the advice I have for you, now good luck. '
+  m_Text: "Thats all the advice I have for you, now good luck. \nPull the lever and
+    have fun!"
 --- !u!222 &988456851
 CanvasRenderer:
   m_ObjectHideFlags: 0
