@@ -6,7 +6,7 @@ public class HorseTower : MonoBehaviour
    [SerializeField] private enemy_Manager manager;
    // private tower_FindTarget findTarget;
     public float shotInterval;
-    [SerializeField]float i = 0;
+    [SerializeField]float i = 6;
     //create a list of the 2 proptery blocks :£
     MaterialPropertyBlock mpb; 
     private void Start()
