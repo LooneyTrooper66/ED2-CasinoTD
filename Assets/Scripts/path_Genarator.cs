@@ -106,7 +106,7 @@ public class path_Genarator : MonoBehaviour
         {
             drawPath = false;
             lineRenderer.positionCount = (RowConnectors.Count);
-            eM.summontest = true; // just for scott <-- ok!
+            eM.summontest = true; // just for scott <-- ok! // THIS STARTS THE WAVE!!!!!!!!!!!!!!!!!! I FUCKKING FOUND IT
             Draw_Straight(RowConnectors[pathPoint - 1], drawLine.transform.position);
             return;
         }
