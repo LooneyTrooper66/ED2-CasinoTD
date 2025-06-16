@@ -296,7 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4006262093518046058}
   - component: {fileID: 115354633643279011}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: placeCol
   m_TagString: DropInvalid
   m_Icon: {fileID: 0}

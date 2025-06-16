@@ -17,7 +17,7 @@ public class Upgrade_SelectTower : MonoBehaviour
             //set postion 
             CheckUpgrade(Camera.main.ScreenToWorldPoint(Input.mousePosition)); //
         }
-        else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended) // had bug in tutorial script where TouchPhase.Began called twice when clicked once, changing to Ended fixed this so doing it here too to be safe
         {
             //set postion
             CheckUpgrade(Input.GetTouch(0).position);

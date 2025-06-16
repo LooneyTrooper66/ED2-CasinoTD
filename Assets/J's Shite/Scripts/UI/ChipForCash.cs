@@ -19,6 +19,11 @@ public class ChipForCash : MonoBehaviour
     AudioManager audioM;
 
 
+    private void Awake()
+    {
+        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     private void Start()
     {
         chipForCash.onClick.AddListener(Exchange);
@@ -27,7 +32,6 @@ public class ChipForCash : MonoBehaviour
 
         moneyChipsAreWorth = 0;
         chipsToBeTraded = 0;
-        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void AddButton()
@@ -66,8 +70,10 @@ public class ChipForCash : MonoBehaviour
     {
         moneyM.playerMoney = moneyM.playerMoney + moneyChipsAreWorth;
         healthM.playerChips = healthM.playerChips - chipsToBeTraded;
+
         int i = Random.Range(0, 3);
         audioM.PlaySFX(clips[i]);
+
         moneyMakingFromChips.text = "£0";
         chipsUsed.text = "chips used: 0";
         moneyChipsAreWorth = 0;
