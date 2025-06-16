@@ -11148,6 +11148,7 @@ MonoBehaviour:
   money: {fileID: 1208676895}
   hitTag: 
   shopLerp: {fileID: 440760296}
+  cannotPlaceSound: {fileID: 8300000, guid: 6f4eeb9e5430c4943860360a77236825, type: 3}
 --- !u!114 &592698237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12683,7 +12684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &740371465
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21920,7 +21921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1883761371
 MonoBehaviour:
   m_ObjectHideFlags: 0

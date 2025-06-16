@@ -27,11 +27,14 @@ public class CardIconBehaviour : MonoBehaviour
     public MoneyManager money;
     public string hitTag;
     public Transform shopLerp;
+    public AudioClip cannotPlaceSound;
+    AudioManager audioM;
 
 
     private void Awake()
     {
         mainCam = Camera.main;
+        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void Update()
@@ -130,8 +133,7 @@ public class CardIconBehaviour : MonoBehaviour
         }
         else
         {
-            //Debug.Log(col.gameObject.tag);
-            //Debug.Log(col.gameObject.name);
+            audioM.PlaySFX(cannotPlaceSound);
             MovePlacerBack();
         }
     }
