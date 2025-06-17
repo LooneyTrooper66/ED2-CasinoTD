@@ -4,6 +4,7 @@ using UnityEngine;
 public class HorseTower : MonoBehaviour
 {
    [SerializeField] private enemy_Manager manager;
+    public Transform childHolder;
    // private tower_FindTarget findTarget;
     public float shotInterval;
     [SerializeField]float i = 6;
@@ -18,7 +19,7 @@ public class HorseTower : MonoBehaviour
         manager = FindFirstObjectByType<enemy_Manager>();
         mpb = new MaterialPropertyBlock();
         //get children
-        foreach(Transform child in transform)
+        foreach(Transform child in childHolder)
         {
             // get the shader and create a property block for it :3 
             child.GetComponent<SpriteRenderer>().SetPropertyBlock(mpb);
@@ -35,7 +36,7 @@ public class HorseTower : MonoBehaviour
             //mpb.SetFloat("Progress", shotInterval/i);
             
         }
-        foreach (Transform child in transform)
+        foreach (Transform child in childHolder)
         {
             // get the shader and create a property block for it :3 
             child.gameObject.GetComponent<SpriteRenderer>().material.SetFloat("Progress",i / shotInterval);

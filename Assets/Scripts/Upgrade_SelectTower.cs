@@ -17,6 +17,7 @@ public class Upgrade_SelectTower : MonoBehaviour
         upgradePrice = upgradeInfoTab.GetComponentInChildren<Text>();
         upgradeInfoTab.SetActive(false);
         upgradeButton.onClick.AddListener(ButtonClicked);
+        lastTap = new Vector3(30, 1, 30);
     }
 
     void Update()
@@ -48,9 +49,8 @@ public class Upgrade_SelectTower : MonoBehaviour
         hit = Physics2D.Raycast(pos ,Vector3.forward,10,LayerMask);
         if (hit)
         {
-            //Debug.Log(hit);
             // get the information from that tower and call the right functions 
-            if (hit.collider.gameObject.GetComponent<Tower_Upgrade>())
+            if (hit.collider.gameObject.transform.parent.GetComponent<Tower_Upgrade>())
             {
                 hit.collider.gameObject.GetComponent<Tower_Upgrade>().Upgrade_check(pos);
             }

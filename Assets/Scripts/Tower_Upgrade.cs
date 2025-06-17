@@ -80,6 +80,7 @@ public class Tower_Upgrade : MonoBehaviour
 
     public void UpgradeTower()
     {
+        Debug.Log("upgrade called");
         //set the upgrade vaules
         //flat upgarde then applie the mult 
         //get tower type to applie upgrades
@@ -110,6 +111,7 @@ public class Tower_Upgrade : MonoBehaviour
                 ballPb.damage = ballPb.damage * Upgrades[i].DmgMult;
                 break;
             case tower_Type.Honse:
+                Debug.Log("upgrading horse stats");
                 HorseTower Hrt = GetComponent<HorseTower>();
                 Hrt.shotInterval -= Upgrades[i].AtkSpeedFlat;
                 Hrt.shotInterval *= Upgrades[i].AtkSpeedMult;
