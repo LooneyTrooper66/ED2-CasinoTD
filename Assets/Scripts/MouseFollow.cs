@@ -22,7 +22,7 @@ public class MouseFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PS.isPlaying) {  return; }
+        //if (PS.isPlaying) {  return; }
 
         //get mouse pos
         if (onMoblie == false)
@@ -31,14 +31,14 @@ public class MouseFollow : MonoBehaviour
         }
         else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            v2 = Input.GetTouch(0).position;
-            
+            v2 = Input.GetTouch(0).position;            
         }
-        transform.position = v2;
+        //transform.position = v2;
     }
 
     public void triggerPartical()
     {
+        PS.Clear();
         //lock pos aswell
         transform.position = v2;
         PS.Play();

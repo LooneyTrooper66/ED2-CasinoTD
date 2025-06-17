@@ -9,7 +9,9 @@ public class Tower_Upgrade : MonoBehaviour
     MoneyManager Cash;
     public Upgrade[] Upgrades;
     public tower_Type tType;
+    public ParticleSystem upgradeAvailableParticles;
     MouseFollow Mf;
+    Upgrade_SelectTower upgradeSelect;
     //
     Color col;
     public enum tower_Type
@@ -37,8 +39,11 @@ public class Tower_Upgrade : MonoBehaviour
     void Start()
     {
         Cash = FindAnyObjectByType<MoneyManager>();
+        upgradeSelect = FindAnyObjectByType<Upgrade_SelectTower>();
         UpgradeSprite = UpgradeBase.GetComponent<SpriteRenderer>();
         col = Color.white;
+        upgradeAvailableParticles.Stop();
+        upgradeAvailableParticles.Clear();
 
         if (Mf == null)
         {
@@ -53,26 +58,27 @@ public class Tower_Upgrade : MonoBehaviour
         {
             //update sprite to indicate 
             UpgradeSprite.color =  new (Mathf.PingPong(1,1),0,0,1);
-
+            upgradeAvailableParticles.Play();
         }
         else if (UpgradeSprite.color != col)
         {
             UpgradeSprite.color = col;
+            upgradeAvailableParticles.Stop();
+            upgradeAvailableParticles.Clear();
         }
 
 
 
     }
-    public void Upgrade_check()//trigger upgrade check
+    public void Upgrade_check(Vector3 pos)//trigger upgrade check
     {
-        //Debug.Log("Upgrade");
         if (i < Upgrades.Length && Cash.playerMoney > Upgrades[i].UpgradeCost)
         {
-            UpgradeTower();
+            upgradeSelect.MoveUpgradeTab(pos, gameObject.GetComponent<Tower_Upgrade>(), Upgrades[i].UpgradeCost);
         }
     }
 
-    void UpgradeTower()
+    public void UpgradeTower()
     {
         //set the upgrade vaules
         //flat upgarde then applie the mult 
