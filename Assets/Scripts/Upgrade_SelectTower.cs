@@ -29,7 +29,10 @@ public class Upgrade_SelectTower : MonoBehaviour
                 currentTower = null;
                 upgradeInfoTab.SetActive(false);
             }
-            else CheckUpgrade(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            else
+            {
+                CheckUpgrade(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+            }
         }
         else if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
@@ -52,7 +55,7 @@ public class Upgrade_SelectTower : MonoBehaviour
             // get the information from that tower and call the right functions 
             if (hit.collider.gameObject.transform.parent.GetComponent<Tower_Upgrade>())
             {
-                hit.collider.gameObject.GetComponent<Tower_Upgrade>().Upgrade_check(pos);
+                hit.collider.gameObject.transform.parent.GetComponent<Tower_Upgrade>().Upgrade_check(pos);
             }
             else if (hit.collider.gameObject.transform.parent && hit.collider.gameObject.transform.parent.GetChild(0) && hit.collider.gameObject.transform.parent.GetChild(0).GetComponent<Tower_Upgrade>()) //use for the card and roulet as the compoent is on the first child not the gameobejct 
             {

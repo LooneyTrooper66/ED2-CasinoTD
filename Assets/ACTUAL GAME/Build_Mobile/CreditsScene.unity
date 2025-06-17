@@ -265,7 +265,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Art assets: Albie\n\nProgramming: Libby and Tom\n\nMusic: 'Dice' (instrumental
-    version) by Jack \u201CSevenz\u201D Lewis"
+    version) by Jack \u201CSevenz\u201D Lewis\n\nSound Effects: Libby and Reece"
 --- !u!222 &248044263
 CanvasRenderer:
   m_ObjectHideFlags: 0
