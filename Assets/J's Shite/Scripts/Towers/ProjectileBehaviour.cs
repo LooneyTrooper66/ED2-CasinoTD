@@ -11,10 +11,13 @@ public class ProjectileBehaviour : MonoBehaviour
     //private bool deathStart;
     public int peirce;
     private Vector2 startPos;
-    
+    public AudioClip clip;
+    AudioManager audioM;
+
     private void Start()
     {
         startPos = new Vector2(transform.position.x, transform.position.y);
+        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void FixedUpdate()
@@ -43,7 +46,7 @@ public class ProjectileBehaviour : MonoBehaviour
         //Debug.Log("0");
         if (collision.gameObject.CompareTag("enemy"))
         {
-            //Debug.Log(1);
+            audioM.PlaySFX(clip);
             collision.gameObject.GetComponent<enemy_Move>().Hit(damage);
             peirce--;
             if (peirce <= 0)

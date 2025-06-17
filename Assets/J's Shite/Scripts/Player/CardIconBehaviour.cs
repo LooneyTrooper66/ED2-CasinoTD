@@ -28,6 +28,7 @@ public class CardIconBehaviour : MonoBehaviour
     public string hitTag;
     public Transform shopLerp;
     public AudioClip cannotPlaceSound;
+    public AudioClip placeSound;
     AudioManager audioM;
 
 
@@ -106,16 +107,19 @@ public class CardIconBehaviour : MonoBehaviour
             case "card":
                 Instantiate(cardPrefab, placeSpot, transform.rotation, placeSurface);
                 lastDragged.transform.position = cardPosition;
+                audioM.PlaySFX(placeSound);
                 money.playerMoney = money.playerMoney - 25;
                 return;
             case "roulette":
                 Instantiate(roulettePrefab, placeSpot, transform.rotation, placeSurface);
                 lastDragged.transform.position = roulettePosition;
+                audioM.PlaySFX(placeSound);
                 money.playerMoney = money.playerMoney - 150;
                 return;
             case "horse":
                 Instantiate(horsePrefab, placeSpot, transform.rotation, placeSurface);
                 lastDragged.transform.position = horsePosition;
+                audioM.PlaySFX(placeSound);
                 money.playerMoney = money.playerMoney - 80;
                 return;
         }

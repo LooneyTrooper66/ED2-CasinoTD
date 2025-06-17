@@ -15,7 +15,7 @@ public class ChipForCash : MonoBehaviour
     public HealthManager healthM;
     public Transform cashierGoTo;
     public Vector3 goBack = new Vector3(-13.13f, 0, 1);
-    [SerializeField] private AudioClip[] clips;
+    [SerializeField] private AudioClip clip;
     AudioManager audioM;
 
 
@@ -68,16 +68,18 @@ public class ChipForCash : MonoBehaviour
 
     void Exchange()
     {
-        moneyM.playerMoney = moneyM.playerMoney + moneyChipsAreWorth;
-        healthM.playerChips = healthM.playerChips - chipsToBeTraded;
+        if (chipsToBeTraded >= 1)
+        {
+            moneyM.playerMoney = moneyM.playerMoney + moneyChipsAreWorth;
+            healthM.playerChips = healthM.playerChips - chipsToBeTraded;
 
-        int i = Random.Range(0, 3);
-        audioM.PlaySFX(clips[i]);
+            audioM.PlaySFX(clip);
 
-        moneyMakingFromChips.text = "£0";
-        chipsUsed.text = "chips used: 0";
-        moneyChipsAreWorth = 0;
-        chipsToBeTraded = 0;
-        cashierGoTo.position = goBack;
+            moneyMakingFromChips.text = "£0";
+            chipsUsed.text = "chips used: 0";
+            moneyChipsAreWorth = 0;
+            chipsToBeTraded = 0;
+            cashierGoTo.position = goBack;
+        }
     }
 }

@@ -9,6 +9,8 @@ public class Upgrade_SelectTower : MonoBehaviour
     Text upgradePrice;
     Tower_Upgrade currentTower = null;
     Vector3 lastTap;
+    [SerializeField] private AudioClip clip;
+    AudioManager audioM;
 
 
     void Start()
@@ -18,6 +20,7 @@ public class Upgrade_SelectTower : MonoBehaviour
         upgradeInfoTab.SetActive(false);
         upgradeButton.onClick.AddListener(ButtonClicked);
         lastTap = new Vector3(30, 1, 30);
+        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void Update()
@@ -77,6 +80,7 @@ public class Upgrade_SelectTower : MonoBehaviour
 
     void ButtonClicked()
     {
+        audioM.PlaySFX(clip);
         currentTower.UpgradeTower();
         currentTower = null;
         upgradeInfoTab.SetActive(false);

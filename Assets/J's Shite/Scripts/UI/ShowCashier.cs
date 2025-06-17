@@ -8,11 +8,14 @@ public class ShowCashier : MonoBehaviour
     public Transform goTo;
     public Vector3 onScreenCashier;
     public Vector3 offScreenCashier;
+    [SerializeField] private AudioClip clip;
+    AudioManager audioM;
 
 
     private void Start()
     {
         showCashier.onClick.AddListener(cashierShow);
+        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     private void FixedUpdate()
@@ -25,8 +28,9 @@ public class ShowCashier : MonoBehaviour
 
     public void cashierShow()
     {
-        if (goTo.position == offScreenCashier) 
+        if (goTo.position == offScreenCashier)
         {
+            audioM.PlaySFX(clip);
             goTo.position = onScreenCashier;
         }
         else

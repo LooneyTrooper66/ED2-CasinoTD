@@ -13,6 +13,7 @@ public class RouletteTower : MasterTowerScript
     float i = 0;
     public float ballDistFromCener;
     private Vector3 ballpos;
+    [SerializeField] private AudioClip clip;
 
     private void Start()
     {
@@ -48,6 +49,7 @@ public class RouletteTower : MasterTowerScript
                 Vector2 ballDir = findTarget.Target.transform.position - ballpos;
                 //instanciate ball and give it direction
                 GameObject bt =Instantiate(bullet);
+                bt.GetComponent<ProjectileBehaviour>().clip = clip;
                 bt.SetActive(true);
                 bt.transform.localPosition = ballpos;
                 bt.GetComponent<ProjectileBehaviour>().Spawn(ballDir);

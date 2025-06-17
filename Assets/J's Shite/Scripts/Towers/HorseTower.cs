@@ -9,7 +9,10 @@ public class HorseTower : MonoBehaviour
     public float shotInterval;
     [SerializeField]float i = 6;
     //create a list of the 2 proptery blocks :£
-    MaterialPropertyBlock mpb; 
+    MaterialPropertyBlock mpb;
+    AudioSource audioM;
+
+
     private void Start()
     {
         //findTarget = GetComponent<tower_FindTarget>();
@@ -25,6 +28,8 @@ public class HorseTower : MonoBehaviour
             child.GetComponent<SpriteRenderer>().SetPropertyBlock(mpb);
             mpb.SetFloat("Progress", 1);
         }
+
+        audioM = GameObject.Find("PlayerManager").GetComponent<AudioSource>();
     }
 
     private void FixedUpdate()
@@ -45,8 +50,14 @@ public class HorseTower : MonoBehaviour
         {
             i = 0;
             manager.SummonTest(0);
+            audioM.Play();
 
             //findTarget.sortList();
+        }
+
+        if (manager.waveState == enemy_Manager.WaveState.WaveClear)
+        {
+            audioM.Stop();
         }
     }
         

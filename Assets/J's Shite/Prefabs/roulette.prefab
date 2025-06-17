@@ -50,6 +50,7 @@ MonoBehaviour:
   speed: 2
   deathTimer: 5
   peirce: 10
+  clip: {fileID: 0}
 --- !u!212 &577145028761151057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -265,6 +266,7 @@ MonoBehaviour:
   bullet: {fileID: 578716260741545789}
   shotInterval: 1.5
   ballDistFromCener: 1.8
+  clip: {fileID: 8300000, guid: 6e426a5c818858244a91954bc9989bd0, type: 3}
 --- !u!58 &5726996601258235601
 CircleCollider2D:
   m_ObjectHideFlags: 0

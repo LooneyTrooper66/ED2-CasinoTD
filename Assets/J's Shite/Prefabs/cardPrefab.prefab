@@ -5385,6 +5385,7 @@ MonoBehaviour:
   bulletC: {fileID: 1364598237400019422}
   shootPointC: {fileID: 6428093246452542052}
   currentCard: 0
+  clip: {fileID: 8300000, guid: 58cc92a6076642d4f83002bfa9b7aa15, type: 3}
 --- !u!114 &1518214939212455770
 MonoBehaviour:
   m_ObjectHideFlags: 0

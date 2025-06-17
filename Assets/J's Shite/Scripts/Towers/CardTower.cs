@@ -13,10 +13,13 @@ public class CardTower : MasterTowerScript
     private SpriteRenderer bulletSr;
     public int currentCard;
     float i = 0;
+    [SerializeField] private AudioClip clip;
+    AudioManager audioM;
 
 
     private void Start()
     {
+        audioM = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
         findTarget = GetComponent<tower_FindTarget>();
         sR = GetComponent<SpriteRenderer>();
         //bulletSr = bulletC.GetComponent<SpriteRenderer>();
@@ -52,6 +55,7 @@ public class CardTower : MasterTowerScript
                     sR.sprite = cards[currentCard];*/
                     //base.Shoot(bulletC, shootPointC);
                     GameObject temp = Instantiate(bulletC, shootPointC.transform.position, shootPointC.transform.rotation);
+                    audioM.PlaySFX(clip);
                     temp.SetActive(true);
                     temp.GetComponent<SpriteRenderer>().sprite = cards[currentCard];
                     currentCard = Random.Range(0, cards.Length);

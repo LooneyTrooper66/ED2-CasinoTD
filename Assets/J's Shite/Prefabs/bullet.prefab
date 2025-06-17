@@ -104,3 +104,4 @@ MonoBehaviour:
   speed: 0
   deathTimer: 0
   peirce: 0
+  clip: {fileID: 8300000, guid: 6e426a5c818858244a91954bc9989bd0, type: 3}
