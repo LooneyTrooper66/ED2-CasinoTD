@@ -16,6 +16,7 @@ public class enemy_Manager : MonoBehaviour
     //waves could be a dicionary of <enemy type> <spawn delay> <batch size> (this could be a vector 3, each one represents the data needed )
 
     //private int etp;
+    public bool EndlessDeactite; //true off  
     public bool summontest;
     public GameObject EnemyBaseforInstanciating;
 
@@ -101,7 +102,10 @@ public class enemy_Manager : MonoBehaviour
         {
             // im being lazy, il fix this later
             Debug.Log("ACTIVATE ENDLESS MODE");
-            SceneManager.LoadScene("WinScreen");  // UPDATE THIS FOR ENDLESS
+            if (EndlessDeactite)
+            {
+                SceneManager.LoadScene("WinScreen");
+            }     // UPDATE THIS FOR ENDLESS
             //activate endless mode
         }
     }
@@ -155,104 +159,115 @@ public class enemy_Manager : MonoBehaviour
             //FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
             delay = 3 * Time.timeScale; // wave countdown
         }
+        else
+        {
+            Debug.Log("ACTIVATE ENDLESS MODE");
+            if (EndlessDeactite)
+            {
+                SceneManager.LoadScene("WinScreen");
+            }     // UPDATE THIS FOR ENDLESS
+            else
+            {
+                endlessStuff();
+                waveTracker++;
+                //FinalWave = (waveTracker + 1 == waves.Length) ? true : false;
+                delay = 3 * Time.timeScale; // wave countdown
+            }
+            //activate endless mode
+        }
     }
 
-    [System.Obsolete]
+    public struct EnemyBatch
+    {
+        public int Count;//how many spawns before selecing the next batch
+        public int Volume; //how many spaws in a batch such has a horse of 5
+        public float countGap; // time betwwen batches
+        public float VolumGap; // each volumes spacing 
+        public int enemyType; // the spawning enemy 
+    }
+
     void endlessStuff()
     {
-        activeWave = EndlessWave(waveCount).enemies.ToList();
+        //activeWave
+        List<Vector2> wave = new();
         float baseDifficultyPerWave = 1;
         float Aev = waveCount * baseDifficultyPerWave; ///Aev abiitary EnemeyValue
 
-        //spawning speeds
-        float Count = 0; //how many enemey untill endlesswavetype will change
-        float enemyType = 0;// the current type the batchspawn will spawn
-        KeyValuePair<float, float> batchType; //for batchspawning 
-        EndlessWaveType SpawnType = new();
+        EnemyBatch Batch;
 
-
-
-        for (int i = 0; i < Aev; i++)
+        for (int i = 0; i < Aev;)
         {
-            if (Count <= 0)
-            {
-                //SpawnType = Random.RandomRange(0, 1); //randomisde the 
-                int type = Random.RandomRange(0, 5);
-                //depending n the selected tyoe
-                int batchcount = 0;
-                int batchVolume = 0;
-                float spacing = 0;//time between spawns
+           
+                int type = Random.RandomRange(0, 5); //batch type
+                int EnemyType = Random.RandomRange(1, 3); //enemey
+                float typecost = 0;
+                //get a fracion of the Aev left in the wave
+                //aslo get the time the wave currently is 
+              //  aev
 
+                //Aev - i  = reming Aev in the wave
+
+                Batch.Count = Random.RandomRange(2, 4);
+                Batch.countGap = 0.5f;
                 switch (type)
                 {
                     case 0: //constant
-                        //SpawnType = EndlessWaveType.Constant;
-                        batchVolume = 1;// each spawn will be just one 
-                        batchcount = 1; //randomise number
-                        spacing = 0.4f; //evenly spaced out
-
-                        batchType = new KeyValuePair<float, float>(batchVolume, batchcount); // every time it spawns it will spawn 1 enemy of type 1 and only 1 batch
+                        Batch.Volume = 1;
+                        Batch.VolumGap = 0.6f; //low count gap 2
+                        Batch.enemyType = EnemyType;
+                    typecost = 1;
                         break;
                     case 1: //rapid burst 
-                        batchVolume = 1;// each spawn will be just one 
-                        batchcount = 1; //randomise number
-                        spacing = 0.4f; //evenly spaced out
-
-                        batchType = new KeyValuePair<float, float>(batchVolume, batchcount); // every time it spawns it will spawn 1 enemy of type 1 and only 1 batch
-                        break;
+                        Batch.Volume = 3;
+                        Batch.VolumGap = 0.1f;
+                        Batch.enemyType = EnemyType;
+                        Batch.Count *= 10;
+                    typecost = 5;
+                    break;
                     case 2: //spaced burst
-                        batchVolume = 1;// each spawn will be just one 
-                        batchcount = 1; //randomise number
-                        spacing = 0.4f; //evenly spaced out
-
-                        batchType = new KeyValuePair<float, float>(batchVolume, batchcount); // every time it spawns it will spawn 1 enemy of type 1 and only 1 batch
-                        break;
+                        Batch.Volume = 6 ;
+                        Batch.VolumGap = 0.2f;
+                        Batch.enemyType = EnemyType;
+                        Batch.Count *= 3;
+                    typecost = 3;
+                    break;
                     case 3: //hord  //larg spaced birst
-                        batchVolume = 1;// each spawn will be just one 
-                        batchcount = 1; //randomise number
-                        spacing = 0.4f; //evenly spaced out
-
-                        batchType = new KeyValuePair<float, float>(batchVolume, batchcount); // every time it spawns it will spawn 1 enemy of type 1 and only 1 batch
-                        break;
+                        Batch.Volume = 12;
+                        Batch.VolumGap = 0.3f;
+                        Batch.enemyType = EnemyType;
+                    typecost = 6;
+                    break;
                     case 4: //spaced //large amounts of spaced
-                        batchVolume = 1;// each spawn will be just one 
-                        batchcount = 1; //randomise number
-                        spacing = 0.4f; //evenly spaced out
-
-                        batchType = new KeyValuePair<float, float>(batchVolume, batchcount); // every time it spawns it will spawn 1 enemy of type 1 and only 1 batch
-                        break;
+                        Batch.Volume = 2;
+                        Batch.VolumGap = 0.2f;
+                        Batch.enemyType = EnemyType;
+                    typecost = 1;
+                    break;
                     default:
-                        spacing = 0.5f;
-                        batchType = new KeyValuePair<float, float>(1, 1);
-                        break;
+                        Batch.Volume = 1;
+                        Batch.VolumGap = 0.6f; //low count gap 2
+                        Batch.enemyType = type;
+                    typecost = 1;
+                    break;
+                }
+            //now we have the batch we just create a new wave and loop through the batch
+
+                i += (int)((typecost + EnemyType -1) * Batch.Count); 
+
+
+                for (int o = 0; o < Batch.Count; o++)
+                {
+                    //add one batch of creatures
+                    //wave.Add()
+                    wave.Add(new Vector2(EnemyType, Batch.countGap));
+                    for (int b = 0; b < Batch.Volume; b++)
+                    {
+                        wave.Add(new Vector2(EnemyType, Batch.VolumGap));
+                    }
                 }
 
-            }
-
-
-
-            //add enemy to list 
-            //randomisde the endlesswavetpe its batch type and vaule
-            //subtrace the vaule of the count of enemys to spawn + enemy type * endlesswavetype from the Aev 
-            // the endless wave tyoe will be the timeing betwwen enemey spawns
-
         }
-
-    }
-
-    public enum EndlessWaveType
-    {
-        Constant = 10,
-        RapidBurst = 20,
-        IntamitanBurst = 15,
-        Horde = 40,
-        Spaced = 5
-    }
-
-
-    public Wave EndlessWave(int WavecNumber)
-    {
-        return null;
+        activeWave = wave;
     }
 
     IEnumerator UIPopUp(int waitSecs)
