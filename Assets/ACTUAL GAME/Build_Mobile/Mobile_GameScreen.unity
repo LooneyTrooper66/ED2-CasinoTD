@@ -14159,7 +14159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   available: {r: 1, g: 1, b: 1, a: 1}
   unavailable: {r: 0.41568628, g: 0.41568628, b: 0.41568628, a: 1}
-  price: 60
+  price: 80
   upgradePrice: 100
   moneyM: {fileID: 1208676895}
 --- !u!61 &961067733
