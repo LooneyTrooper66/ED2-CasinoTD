@@ -51,13 +51,13 @@ public class tower_FindTarget : MonoBehaviour
         foreach (GameObject gO in potentialTargets)
         {
             //if (gO == null) { return; } // a just in case mesure :3
-            if (gO.GetComponent<enemy_Move>().i > tI)
+            if (gO.activeSelf && gO.GetComponent<enemy_Move>().i > tI)
             {
                 //greater then so replace
                 Target = gO;
                 tI = gO.GetComponent<enemy_Move>().i;
             }
-            else if (gO.GetComponent<enemy_Move>().i == tI)
+            else if (gO.activeSelf && gO.GetComponent<enemy_Move>().i == tI)
             {
                 //do the equation check 
                 // get the postion of their next goal
