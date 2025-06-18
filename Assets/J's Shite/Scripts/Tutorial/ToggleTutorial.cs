@@ -6,7 +6,7 @@ public class ToggleTutorial : MonoBehaviour
     public Toggle toggleTutorial;
 
 
-    private void Start() // sets the toggle to active by default when gaem installed/loaded unless player has already disabled it
+    private void Awake() // sets the toggle to active by default when gaem installed/loaded unless player has already disabled it
     {
         // this should make it so the tutorial is automatically on when you first load up the game
         if (!PlayerPrefs.HasKey("tutorialToggle"))

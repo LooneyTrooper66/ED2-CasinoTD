@@ -190,7 +190,7 @@ public class enemy_Manager : MonoBehaviour
     {
         //activeWave
         List<Vector2> wave = new();
-        float baseDifficultyPerWave = 1;
+        float baseDifficultyPerWave = 50;
         float Aev = waveCount * baseDifficultyPerWave; ///Aev abiitary EnemeyValue
 
         EnemyBatch Batch;
@@ -198,8 +198,8 @@ public class enemy_Manager : MonoBehaviour
         for (int i = 0; i < Aev;)
         {
            
-                int type = Random.RandomRange(0, 5); //batch type
-                int EnemyType = Random.RandomRange(1, 3); //enemey
+                int type = Random.Range(0, 5); //batch type
+                int EnemyType = Random.Range(1, 3); //enemey
                 float typecost = 0;
                 //get a fracion of the Aev left in the wave
                 //aslo get the time the wave currently is 
@@ -207,8 +207,8 @@ public class enemy_Manager : MonoBehaviour
 
                 //Aev - i  = reming Aev in the wave
 
-                Batch.Count = Random.RandomRange(2, 4);
-                Batch.countGap = 0.5f;
+                Batch.Count = Random.Range(2, 4);
+                Batch.countGap = 1f;
                 switch (type)
                 {
                     case 0: //constant
