@@ -264,19 +264,19 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'To place towers: drag and drop the placer from the UI at the side.
+  m_Text: 'To start the round: click the big red lever.
 
 
-    To
-    gain money: kill enemies or trade in your chips for money by clicking the cashier
-    button.
+    To place towers: drag
+    and drop the placer from the shop at the side.
 
 
-    You can only trade three chips per round. Chips are also your health.
-    Use them as a last resort.
+    To gain money: kill enemies
+    or trade in your chips for money with the cashier.
 
 
-    To start the round: click the big red lever.'
+    You can only trade three
+    chips per round. Chips are also your health. Use them as a last resort.'
 --- !u!222 &903508182
 CanvasRenderer:
   m_ObjectHideFlags: 0
