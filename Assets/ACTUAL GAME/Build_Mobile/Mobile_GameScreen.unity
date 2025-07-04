@@ -12846,7 +12846,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &740371465
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18278,7 +18278,7 @@ GameObject:
   - component: {fileID: 1328033427}
   - component: {fileID: 1328033426}
   m_Layer: 0
-  m_Name: Button
+  m_Name: SpeedButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22461,7 +22461,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1883761371
 MonoBehaviour:
   m_ObjectHideFlags: 0

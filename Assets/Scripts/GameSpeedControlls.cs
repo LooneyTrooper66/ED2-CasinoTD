@@ -8,14 +8,13 @@ public class GameSpeedControlls : MonoBehaviour
     private float i;
     void Start()
     {
-        
+        Time.timeScale = 1;
+        i = 0;
+        text.text = new string((i + 1) + "X");
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
     public void gameSpeedUpdate()
     {
         i++;
@@ -39,5 +38,12 @@ public class GameSpeedControlls : MonoBehaviour
                 break;
         }
         text.text = new string((i + 1) + "X");
+    }
+
+
+    private void OnDisable()
+    {
+        Debug.Log("Disabled");
+        Time.timeScale = 1;
     }
 }
