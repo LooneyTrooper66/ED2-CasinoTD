@@ -20,6 +20,7 @@ public class Slot_Manager : MonoBehaviour
     public List<int> rowOutPut;
 
     public Button pullToStart;
+    public ShopNoPlacey cover;
     public Animator buttonAnim;
     public ChipForCash cfc;
     public AudioClip leverPull;
@@ -116,6 +117,7 @@ public class Slot_Manager : MonoBehaviour
             }
 
             reset = true;
+            cover.ActivateStopper();
             buttonAnim.SetTrigger(whichAnim);
             Handheld.Vibrate(); 
 
@@ -136,6 +138,5 @@ public class Slot_Manager : MonoBehaviour
         yield return new WaitForSecondsRealtime(2);
         stop = true;
         StopCoroutine(TimerForStop());
-
     }
 }

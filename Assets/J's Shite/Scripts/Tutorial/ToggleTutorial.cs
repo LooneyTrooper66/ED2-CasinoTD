@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class ToggleTutorial : MonoBehaviour
 {
     public Toggle toggleTutorial;
+    public UIButtonNoise noise;
 
 
     private void Awake() // sets the toggle to active by default when gaem installed/loaded unless player has already disabled it
@@ -27,6 +28,7 @@ public class ToggleTutorial : MonoBehaviour
 
     public void OnToggleClick()
     {
+        noise.OnClick();
         if (toggleTutorial.isOn == true)
         {
             PlayerPrefs.SetInt("tutorialToggle", 1);

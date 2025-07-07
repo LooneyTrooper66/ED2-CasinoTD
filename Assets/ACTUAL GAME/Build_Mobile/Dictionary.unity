@@ -280,7 +280,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1188698663}
   m_HandleRect: {fileID: 1188698662}
   m_Direction: 2
-  m_Value: 1.0000002
+  m_Value: 1
   m_Size: 0.5466667
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -486,6 +486,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1181779948}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1181779945}
         m_TargetAssemblyTypeName: DictionaryButtons, Assembly-CSharp
         m_MethodName: EnemiesButton
@@ -1451,7 +1463,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1990017184}
   m_HandleRect: {fileID: 1990017183}
   m_Direction: 2
-  m_Value: 1.0000002
+  m_Value: 1
   m_Size: 0.5466667
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1636,6 +1648,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1181779948}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1181779945}
         m_TargetAssemblyTypeName: DictionaryButtons, Assembly-CSharp
         m_MethodName: BackButton
@@ -1822,6 +1846,7 @@ GameObject:
   - component: {fileID: 1181779945}
   - component: {fileID: 1181779946}
   - component: {fileID: 1181779947}
+  - component: {fileID: 1181779948}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -1943,6 +1968,19 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 52f3a1a77921bcb469be5cf3ecb80872, type: 2}
   - {fileID: 11400000, guid: ec229a29b1eecbd4c85f23d9bffb7b1f, type: 2}
   - {fileID: 11400000, guid: 1771dcae4a475114b82e3f8311ad6fe0, type: 2}
+--- !u!114 &1181779948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181779941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80526ace25af2c41a856f7c2b781ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 0a365d6fcd4e01b4096f2de2a29d54bd, type: 3}
 --- !u!1 &1188698661
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,6 +2293,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1181779948}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1181779945}
         m_TargetAssemblyTypeName: DictionaryButtons, Assembly-CSharp
         m_MethodName: BackButton
@@ -2541,6 +2591,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1181779948}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1181779945}
         m_TargetAssemblyTypeName: DictionaryButtons, Assembly-CSharp
         m_MethodName: TowersButton
@@ -3074,7 +3136,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2046027836}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1181779948}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2046027836
 MonoBehaviour:
   m_ObjectHideFlags: 0

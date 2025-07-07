@@ -20,6 +20,7 @@ public class RowRandomiser : MonoBehaviour
 
     public RowRandomiser nextRow;
     public Slot_Manager sM;
+    ShopNoPlacey cover;
 
     private float placehold = 4.5f;
     private float placeholdper;
@@ -50,8 +51,11 @@ public class RowRandomiser : MonoBehaviour
         tileMoves.Add(tile3.GetComponent<TileMove>());
 
         StartRolls();
+    }
 
-
+    private void Start()
+    {
+        cover = GameObject.Find("shop holder").GetComponent<ShopNoPlacey>();
     }
 
     // Update is called once per frame
@@ -62,7 +66,6 @@ public class RowRandomiser : MonoBehaviour
         {
             lastRoll = false;
             tileMoves[rowhostint].stopSpin = true;
-              
         }
         if (reset)
         {
@@ -214,12 +217,13 @@ public class RowRandomiser : MonoBehaviour
 
         As.Play();
 
-        if (sM.r.Count - 1 == sM.rowNumb)
+        if (sM.r.Count - 1 == sM.rowNumb) // if true means its the last row
         {
             GeneratePath();
             sM.rowOutPut.Add(rowhostint);
             sM.JackpotCheck();
-            
+            //Debug.Log("turn blocker off");
+            cover.DeactivateStopper();
         }
         else
         {

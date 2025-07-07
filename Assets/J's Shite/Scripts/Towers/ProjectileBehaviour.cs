@@ -46,7 +46,7 @@ public class ProjectileBehaviour : MonoBehaviour
         //Debug.Log("0");
         if (collision.gameObject.CompareTag("enemy"))
         {
-            audioM.PlaySFX(clip);
+            if (clip != null) audioM.PlaySFX(clip);
             collision.gameObject.GetComponent<enemy_Move>().Hit(damage);
             peirce--;
             if (peirce <= 0)

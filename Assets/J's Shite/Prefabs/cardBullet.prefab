@@ -152,6 +152,7 @@ MonoBehaviour:
   speed: 7
   deathTimer: 2
   peirce: 0
+  clip: {fileID: 0}
 --- !u!114 &2787714028353311522
 MonoBehaviour:
   m_ObjectHideFlags: 0

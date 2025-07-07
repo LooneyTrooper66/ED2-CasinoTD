@@ -260,7 +260,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 173281784}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1240116535}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &173281784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,7 +414,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 406467043}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1240116535}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &406467043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,7 +606,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 565854529}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1240116535}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &565854529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1344,7 +1380,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1165339816}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1240116535}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1165339816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1421,6 +1469,7 @@ GameObject:
   - component: {fileID: 1240116527}
   - component: {fileID: 1240116526}
   - component: {fileID: 1240116534}
+  - component: {fileID: 1240116535}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1581,6 +1630,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dictButton: {fileID: 406467042}
+--- !u!114 &1240116535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240116525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a80526ace25af2c41a856f7c2b781ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 0a365d6fcd4e01b4096f2de2a29d54bd, type: 3}
 --- !u!1 &1481169152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,7 +1726,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1481169155}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1240116535}
+        m_TargetAssemblyTypeName: UIButtonNoise, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1481169155
 MonoBehaviour:
   m_ObjectHideFlags: 0

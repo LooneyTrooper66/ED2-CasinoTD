@@ -43,7 +43,7 @@ public class GameSpeedControlls : MonoBehaviour
 
     private void OnDisable()
     {
-        Debug.Log("Disabled");
+        //Debug.Log("Disabled");
         Time.timeScale = 1;
     }
 }

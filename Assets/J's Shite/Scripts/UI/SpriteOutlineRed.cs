@@ -19,10 +19,9 @@ public class SpriteOutlineRed : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButton(0) && placerScript.isDragActive == true && placerScript.hitTag == gameObject.tag)
+        if (Input.touchCount > 0 && placerScript.isDragActive == true && placerScript.hitTag == gameObject.tag)
         {
-            mousePos = Input.mousePosition;
-            screenPos = new Vector3(mousePos.x, mousePos.y, -1);
+            screenPos = Input.GetTouch(0).position;
 
             worldPos = mainCam.ScreenToWorldPoint(screenPos);
 
@@ -35,10 +34,13 @@ public class SpriteOutlineRed : MonoBehaviour
             {
                 sR.color = Color.red;
             }
+            return;
         }
-        else if (Input.touchCount > 0 && placerScript.isDragActive == true && placerScript.hitTag == gameObject.tag)
+        
+        if (Input.GetMouseButton(0) && placerScript.isDragActive == true && placerScript.hitTag == gameObject.tag)
         {
-            screenPos = Input.GetTouch(0).position;
+            mousePos = Input.mousePosition;
+            screenPos = new Vector3(mousePos.x, mousePos.y, -1);
 
             worldPos = mainCam.ScreenToWorldPoint(screenPos);
 
