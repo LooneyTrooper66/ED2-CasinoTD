@@ -107,6 +107,7 @@ MonoBehaviour:
   speed: 1
   Vaule: 0
   horse: 0
+  deathCoins: {fileID: 0}
   i: 0
   eM: {fileID: 0}
   goalPos: {x: 0, y: 0}

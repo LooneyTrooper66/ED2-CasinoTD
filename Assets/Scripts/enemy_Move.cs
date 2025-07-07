@@ -43,7 +43,9 @@ public class enemy_Move : MonoBehaviour
     {
         if (inactive) { return; }
 
-        if (transform.position == new Vector3(goalPos.x, goalPos.y, transform.position.z))
+        //chamge to distance
+        //if ((Vector2)transform.position == new Vector2(goalPos.x, goalPos.y))
+        if (Vector2.Distance(transform.position,(Vector2)goalPos) < 0.1f)
         {
             PosDone();
             return;

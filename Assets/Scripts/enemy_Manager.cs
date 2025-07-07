@@ -34,7 +34,7 @@ public class enemy_Manager : MonoBehaviour
 
     public Wave[] wildCardWave;
 
-    [SerializeField] private List<Vector2> activeWave;
+     public List<Vector2> activeWave;
     private float timer;
     private float delay;
 
